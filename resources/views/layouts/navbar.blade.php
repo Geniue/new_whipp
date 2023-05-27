@@ -131,7 +131,7 @@
                     </li>
                     <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
-                            <a href="#">
+                            <a href="{{ route('careers') }}">
                                 <span class="wd-nav-text"> careers </span>
                             </a>
                         </div>
@@ -285,7 +285,7 @@
                 </ul>
             </li>
             </li>
-            <li><a href="#"> careers </a></li>
+            <li><a href="{{ route('careers') }}"> careers </a></li>
             <li><a href="{{ route('contact') }}"> contact </a></li>
         </ul>
     </div>

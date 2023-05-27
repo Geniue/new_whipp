@@ -366,6 +366,11 @@ img {
     background-color: transparent;
     color: #db7803;
 }
+.lets-talk-btn-bg-white:hover {
+    border: 2px solid #db7803;
+    background-color: #fff !important;
+    color: #db7803;
+}
 .toggle-menu-mob {
     display: none;
 }
@@ -1054,11 +1059,11 @@ img {
     -moz-border-radius: 8px;
     border-radius: 8px;
 }
-a {
+.con-ti-ba-section-ac-link a {
     color: #7e953e;
     transition: all 0.6s ease-in-out;
 }
-a:hover {
+.con-ti-ba-section-ac-link a:hover {
     color: #573f30;
 }
 .border-hover-blog {
@@ -1079,3 +1084,113 @@ a:hover {
     color: #a6aa97;
 }
 /* blog page style ends here */
+
+/* carrer page style starts here */
+.wp-wy-carr-container::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 85%;
+    background: #738942;
+    left: 0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    -webkit-appearance: discrete-capacity-level-indicator;
+    appearance: discrete-capacity-level-indicator;
+    display: flex;
+    bottom: 0;
+}
+.wp-wy-carr-container .col-8 {
+    position: relative;
+    z-index: 999;
+}
+
+@media screen and (max-width: 612px) {
+    .wp-wy-carr-container::after {
+        height: 100%;
+    }
+}
+
+/* carrer page style ends here */
+
+/* single blog page style starts here */
+.blg-sin-cont-p div p {
+    margin-top: 28px;
+}
+.blg-sin-cont-p div p a {
+    color: #7e953e;
+    transition: all 0.4s ease-in-out;
+}
+.blg-sin-cont-p div p a:hover {
+    color: #573f30;
+}
+
+.blg-cont-for-com-textarea {
+    resize: none;
+    outline: none;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.blg-cont-form input {
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 12px 10px;
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+}
+
+.blg-abo-auth-pic {
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    max-height: 260px;
+    max-width: 260px;
+}
+
+.blg-abo-auth-pic {
+    height: 260px;
+    width: 260px;
+}
+/* single blog page style ends here */
+
+/* contact us banner style starts here */
+.ft-logo a.svg-logo {
+    content: "";
+    background: url(https://thriveagency.com/wp-content/themes/thrive-agency/images/footer-thrive-logo-new.svg)
+        no-repeat center;
+    width: 132px;
+    height: 76px;
+    display: block;
+    margin-bottom: 6px;
+}
+.social-media li {
+    background: #db7803;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 21px;
+    height: 36px;
+    margin-right: 5px;
+    line-height: 36px;
+    text-align: center;
+    width: 36px;
+}
+.social-media li.facebook a {
+    position: relative;
+}
+.social-media li.facebook a::before {
+    height: 28px;
+    content: "";
+    background: url(https://thriveagency.com/wp-content/themes/thrive-agency/images/footer-sm-icon01.svg)
+        no-repeat center;
+}
+
+/* contact us banner style ends here */

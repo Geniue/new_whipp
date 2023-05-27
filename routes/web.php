@@ -52,6 +52,15 @@ Route::get('/blog', function () {
     return view('app.blog');
 })->name('blog');
 
+Route::get('/blog/01', function () {
+    return view('app.single_blog');
+})->name('single_blog');
+
+
+Route::get('/careers', function () {
+    return view('app.careers');
+})->name('careers');
+
 
 
 
