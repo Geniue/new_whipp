@@ -1432,7 +1432,7 @@
     <div class="px-3 text-center px-lg-2 pb-4">
       <img
         class="imporve-tech-seo-img"
-        src="https://thriveagency.com/files/awardimage2022-1-1.jpeg"
+        src="{{asset('assets/imgs/awardimage2022-1-1.jpeg')}}"
         alt=""
       />
     </div>

@@ -1,108 +1,136 @@
 .bg-grad-box-balck {
-  background-image: url("https://www.moburst.com/wp-content/themes/layer-start-theme-child/assets/images/background.png");
+    background-image: url("https://www.moburst.com/wp-content/themes/layer-start-theme-child/assets/images/background.png");
 }
 
 .bg-green-1 {
-  background-color: #4a5e2f;
+    background-color: #4a5e2f;
 }
 .tru-imags {
-  max-width: 160px;
+    max-width: 160px;
 }
 .rat-text {
-  color: #f2cd23;
+    color: #f2cd23;
 }
 .custom-text-2 {
-  color: #4a5e2f;
+    color: #4a5e2f;
 }
 .custom-text {
-  color: #49453b;
+    color: #49453b;
 }
 .custom-bg {
-  background-color: #443f35;
+    background-color: #443f35;
 }
 .custom-bg-1 {
-  background-color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 .cust-me-text-para {
-  font-size: 20px;
+    font-size: 20px;
 }
 .hidden {
-  display: none;
+    display: none;
 }
 .topbanner_anotherside-link {
-  text-transform: uppercase;
-  padding: 11px 28px 11px 29px;
-  border-radius: 8px;
-  border-top-right-radius: 0;
-  box-shadow: 0 6px 11px 0 rgba(91, 205, 255, 0.21);
-  background-color: #3bd4ff;
-  position: relative;
-  z-index: 0;
-  transition: 0.5s;
-  font-weight: 600;
-  cursor: pointer;
+    text-transform: uppercase;
+    padding: 11px 28px 11px 29px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    box-shadow: 0 6px 11px 0 rgba(91, 205, 255, 0.21);
+    background-color: #3bd4ff;
+    position: relative;
+    z-index: 0;
+    transition: 0.5s;
+    font-weight: 600;
+    cursor: pointer;
 }
 .topbanner_anotherside-link:hover {
-  background-color: #fff;
+    background-color: #fff;
 }
 .new-btn-ac {
-  color: #fff;
-  text-decoration: none;
+    color: #fff;
+    text-decoration: none;
 }
 .topbanner_anotherside-link span {
-  transition: 0.5s;
+    transition: 0.5s;
 }
 
 .topbanner_anotherside-link:hover input,
 .topbanner_anotherside-link:hover span {
-  color: #000;
+    color: #000;
 }
 @media screen and (max-width: 460px) {
-  .cust-me-text-para {
-    font-size: 15px;
-  }
+    .cust-me-text-para {
+        font-size: 15px;
+    }
 }
 
 /* ====== bootstrap accordian css start*/
 .accordion-button::after {
-  position: absolute;
+    position: absolute;
 }
 .accordion-button {
-  text-indent: 32px !important;
+    text-indent: 32px !important;
 }
 .accordion-button:focus {
-  z-index: 3;
-  border-color: transparent !important;
-  outline: 0 !important;
-  box-shadow: none !important;
+    z-index: 3;
+    border-color: transparent !important;
+    outline: 0 !important;
+    box-shadow: none !important;
 }
 .services-section-accordion-header {
-  background-color: #2baf38 !important;
-  color: #fff !important;
-  border-radius: 6px !important;
-  /* position: relative; */
-  /* z-index: 9; */
+    background-color: #2baf38 !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+    /* position: relative; */
+    /* z-index: 9; */
 }
 .accordion-item {
-  border: 1px solid #eee !important;
+    border: 1px solid #eee !important;
 }
 .accordion {
-  border: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  --bs-accordion-border-color: transparent !important;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    --bs-accordion-border-color: transparent !important;
 }
 .accordion-button {
-  background-color: #f3f3f3 !important;
-  border-radius: 8px !important;
+    background-color: #f3f3f3 !important;
+    border-radius: 8px !important;
 
-  font-weight: 600;
-  color: #443f35;
+    font-weight: 600;
+    color: #443f35;
 }
 .accordion-button:not(.collapsed) {
-  background-color: #f3f3f3 !important;
-  color: #4a5e2f !important;
+    background-color: #f3f3f3 !important;
+    color: #4a5e2f !important;
 }
 
 /* ====== bootstrap accordian css  end*/
+
+.for-cta-sub-wp div input {
+    outline: none;
+    padding: 12px 0px 12px 10px !important;
+    border-radius: 6px;
+}
+
+.fro-cta-sub-btn {
+    background: url(https://thriveagency.com/files/subscribe_icon.png) #b96200
+        no-repeat 10px 14px !important;
+    position: static;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 22px;
+    font-family: "ProximaNova-Extrabld", Arial;
+    font-weight: normal;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text-ellipsis-5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+}

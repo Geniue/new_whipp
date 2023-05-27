@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="132" viewBox="0 0 132 132">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1560" data-name="Rectangle 1560" width="72.993" height="78.916" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_5640" data-name="Group 5640" transform="translate(-1057 -4188)">
+    <rect id="Rectangle_1606" data-name="Rectangle 1606" width="132" height="132" rx="19" transform="translate(1057 4188)" fill="#f7f7f7"/>
+    <g id="Group_5444" data-name="Group 5444" transform="translate(1089.007 4213.219)">
+      <g id="Group_5443" data-name="Group 5443" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_6160" data-name="Path 6160" d="M51.389,20.106H2.451L.021,61.7A11.662,11.662,0,0,0,11.662,74.044H41.979l10.925-28Z" transform="translate(0 -2.115)" fill="#717f31"/>
+        <path id="Path_6161" data-name="Path 6161" d="M56.068,46.044,54.553,20.105H30.084V74.044H45.142Z" transform="translate(-3.164 -2.115)" fill="#717f31"/>
+        <path id="Path_6162" data-name="Path 6162" d="M42.022,28.409H37.4V13.529a8.9,8.9,0,0,0-17.809,0v14.88H14.964V13.529a13.529,13.529,0,1,1,27.058,0Z" transform="translate(-1.574 0)" fill="#434c1f"/>
+        <path id="Path_6163" data-name="Path 6163" d="M30.084,0V4.624a8.914,8.914,0,0,1,8.9,8.9V28.408h4.624V13.529A13.544,13.544,0,0,0,30.084,0Z" transform="translate(-3.164 0)" fill="#434c1f"/>
+        <path id="Path_6164" data-name="Path 6164" d="M44.641,51.274a19.007,19.007,0,1,1,0,26.88,19.007,19.007,0,0,1,0-26.88" transform="translate(-4.11 -4.808)" fill="#555f24"/>
+        <path id="Path_6165" data-name="Path 6165" d="M60.329,45.7v38.02a19.01,19.01,0,0,0,0-38.02" transform="translate(-6.345 -4.807)" fill="#555f24"/>
+        <path id="Path_6166" data-name="Path 6166" d="M56.635,74.586l-7.51-8.494,3.464-3.063,4.2,4.744,8.688-9L68.8,61.986Z" transform="translate(-5.167 -6.182)" fill="#fff"/>
+        <path id="Path_6167" data-name="Path 6167" d="M66.651,58.774l-6.322,6.548V71.98l9.649-9.994Z" transform="translate(-6.345 -6.182)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
