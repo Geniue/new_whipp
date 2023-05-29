@@ -223,45 +223,44 @@
                             Mon-Fri, 8:30am - 5:30pm CT
                         </p>
                         <p>
-                            <img decoding="async" loading="lazy" class="alignnone size-full wp-image-58657"
-                                src="https://thriveagency.com/files/clutch-top-seo-2022-231x250-1.png"
+                            <img class="con-img" src="{{ asset('assets/imgs/clutch-top-seo-2022-231x250-1.png') }}"
                                 alt="Top SEO Companies Thrive Agency" width="231" height="250"
                                 srcset="
-                https://thriveagency.com/files/clutch-top-seo-2022-231x250-1.png         231w,
-                https://thriveagency.com/files/clutch-top-seo-2022-231x250-1-172x186.png 172w,
-                https://thriveagency.com/files/clutch-top-seo-2022-231x250-1-139x150.png 139w,
-                https://thriveagency.com/files/clutch-top-seo-2022-231x250-1-150x162.png 150w
+                {{ asset('assets/imgs/clutch-top-seo-2022-231x250-1.png') }}         231w,
+                {{ asset('assets/imgs/clutch-top-seo-2022-231x250-1-172x186.png') }} 172w,
+                {{ asset('assets/imgs/clutch-top-seo-2022-231x250-1-139x150.png') }} 139w,
+                {{ asset('assets/imgs/clutch-top-seo-2022-231x250-1-150x162.png') }} 150w
               "
                                 sizes="(max-width: 231px) 100vw, 231px" />
                         </p>
                         <p>
-                            <img decoding="async" loading="lazy" class="size-full wp-image-47117 alignnone"
-                                src="https://thriveagency.com/files/IFA-Logo-placement.png"
+                            <img class="con-img" src="{{ asset('assets/imgs/IFA-Logo-placement.png') }}"
                                 alt="International Franchise Association" width="184" height="110"
                                 srcset="
-                https://thriveagency.com/files/IFA-Logo-placement.png        184w,
-                https://thriveagency.com/files/IFA-Logo-placement-125x75.png 125w,
-                https://thriveagency.com/files/IFA-Logo-placement-75x45.png   75w,
-                https://thriveagency.com/files/IFA-Logo-placement-150x90.png 150w
+                {{ asset('assets/imgs/IFA-Logo-placement.png') }} 184w,
+                {{ asset('assets/imgs/IFA-Logo-placement-125x75.png') }} 125w,
+                {{ asset('assets/imgs/IFA-Logo-placement-75x45.png') }}   75w,
+                {{ asset('assets/imgs/IFA-Logo-placement-150x90.png') }} 150w
               "
                                 sizes="(max-width: 184px) 100vw, 184px" />
                         </p>
-                        <p>
-                            <img decoding="async" loading="lazy" class="alignnone wp-image-43644 size-full"
-                                src="https://thriveagency.com/files/featured-in-1.png"
-                                alt="Featured In Forbes, Huffington Post, yahoo!, Inc., Moz, Search Engine Journal, Fast Company, Medium"
+                        <p class="text-end">
+                            <img class="con-img"
+                                src="{{ asset('assets/imgs/featured-in-1.png"') }}
+                                alt="Featured
+                                In Forbes, Huffington Post, yahoo!, Inc., Moz, Search Engine Journal, Fast Company, Medium"
                                 width="266" height="269"
                                 srcset="
-                https://thriveagency.com/files/featured-in-1.png         266w,
-                https://thriveagency.com/files/featured-in-1-247x250.png 247w,
-                https://thriveagency.com/files/featured-in-1-227x230.png 227w,
-                https://thriveagency.com/files/featured-in-1-125x125.png 125w,
-                https://thriveagency.com/files/featured-in-1-75x75.png    75w,
-                https://thriveagency.com/files/featured-in-1-184x186.png 184w,
-                https://thriveagency.com/files/featured-in-1-148x150.png 148w,
-                https://thriveagency.com/files/featured-in-1-45x45.png    45w,
-                https://thriveagency.com/files/featured-in-1-96x96.png    96w,
-                https://thriveagency.com/files/featured-in-1-150x152.png 150w
+                {{ asset('assets/imgs/featured-in-1.png') }} 266w,
+                {{ asset('assets/imgs/featured-in-1-247x250.png') }} 247w,
+                {{ asset('assets/imgs/featured-in-1-227x230.png') }} 227w,
+                {{ asset('assets/imgs/featured-in-1-125x125.png') }} 125w,
+                {{ asset('assets/imgs/featured-in-1-75x75.png') }}    75w,
+                {{ asset('assets/imgs/featured-in-1-184x186.png') }} 184w,
+                {{ asset('assets/imgs/featured-in-1-148x150.png') }} 148w,
+                {{ asset('assets/imgs/featured-in-1-45x45.png') }}    45w,
+                {{ asset('assets/imgs/featured-in-1-96x96.png') }}    96w,
+                {{ asset('assets/imgs/featured-in-1-150x152.png') }} 150w
               "
                                 sizes="(max-width: 266px) 100vw, 266px" />
                         </p>
@@ -271,4 +270,11 @@
         </div>
     </section>
     <!-- CONTACT FORM SECTION ENDS HERE -->
+
+
+
+
+    {{-- CONTACT US BANNER STARTS HERE --}}
+    @include('app.static_components.contactus_banner')
+    {{-- CONTACT US BANNER ENDS HERE --}}
 @endsection

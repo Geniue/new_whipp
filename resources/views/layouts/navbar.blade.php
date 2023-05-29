@@ -131,8 +131,8 @@
                     </li>
                     <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
-                            <a href="{{ route('careers') }}">
-                                <span class="wd-nav-text"> careers </span>
+                            <a href="{{ route('faqs') }}">
+                                <span class="wd-nav-text"> FAQ's </span>
                             </a>
                         </div>
                     </li>
@@ -148,8 +148,7 @@
             <!-- contact -->
             <div class="d-flex gap-3 ps-4 pb-2">
                 <a href="tel:909-434-4334" class="">
-                    <img width="38"
-                        src="https://thriveagency.com/wp-content/themes/thrive-agency/images/custom-phone-icon-svg-new.svg"
+                    <img width="38" src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}"
                         alt="" />
                 </a>
                 <a href="tel:909-434-4334" class="fs-4 wd-num-phone" style="color: #2f2c2c">
@@ -285,7 +284,7 @@
                 </ul>
             </li>
             </li>
-            <li><a href="{{ route('careers') }}"> careers </a></li>
+            <li><a href="{{ route('faqs') }}"> FAQ's </a></li>
             <li><a href="{{ route('contact') }}"> contact </a></li>
         </ul>
     </div>

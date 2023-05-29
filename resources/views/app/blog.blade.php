@@ -90,12 +90,11 @@
                     {{-- tags --}}
                     <footer>
 
-                        <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a
-                                href="https://thriveagency.com/tag/ai/" rel="tag">AI</a>,
-                            <a href="https://thriveagency.com/tag/ai-content/" rel="tag">ai content</a>, <a
-                                href="https://thriveagency.com/tag/ai-search/" rel="tag">ai search</a>, <a
-                                href="https://thriveagency.com/tag/sge/" rel="tag">sge</a>, <a
-                                href="https://thriveagency.com/tag/generative-ai/" rel="tag">generative ai</a></span>
+                        <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a href="/tag/ai/"
+                                rel="tag">AI</a>,
+                            <a href="/tag/ai-content/" rel="tag">ai content</a>, <a href="/tag/ai-search/"
+                                rel="tag">ai search</a>, <a href="/tag/sge/" rel="tag">sge</a>, <a
+                                href="/tag/generative-ai/" rel="tag">generative ai</a></span>
                     </footer>
                 </article>
                 <article class="col-lg-3 col-md-5 col-12 wp-si-bl-con border-hover-blog p-3">
@@ -134,12 +133,54 @@
                     {{-- tags --}}
                     <footer>
 
-                        <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a
-                                href="https://thriveagency.com/tag/ai/" rel="tag">AI</a>,
-                            <a href="https://thriveagency.com/tag/ai-content/" rel="tag">ai content</a>, <a
-                                href="https://thriveagency.com/tag/ai-search/" rel="tag">ai search</a>, <a
-                                href="https://thriveagency.com/tag/sge/" rel="tag">sge</a>, <a
-                                href="https://thriveagency.com/tag/generative-ai/" rel="tag">generative ai</a></span>
+                        <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a href="/tag/ai/"
+                                rel="tag">AI</a>,
+                            <a href="/tag/ai-content/" rel="tag">ai content</a>, <a href="/tag/ai-search/"
+                                rel="tag">ai search</a>, <a href="/tag/sge/" rel="tag">sge</a>, <a
+                                href="/tag/generative-ai/" rel="tag">generative ai</a></span>
+                    </footer>
+                </article>
+                <article class="col-lg-3 col-md-5 col-12 wp-si-bl-con border-hover-blog p-3">
+                    <header class="flex flex-column gap-2">
+                        {{-- img --}}
+                        <a href="#">
+                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                                alt="blog-1">
+                        </a>
+                        {{-- title --}}
+                        <h2 class="blg-cont-title fs-4 fw-bold">
+                            <a href="#">
+                                Google Incorporates Generative AI Into Its Search Engine
+                            </a>
+                        </h2>
+                    </header>
+                    {{-- poster details --}}
+                    <p class="blg-pos-de">
+                        {{-- date --}}
+                        <span class="blg-pos-de-info">May 26, 2023</span>
+                        {{-- poster --}}
+                        <span class="con-ti-ba-section-ac-link">
+                            <a href="#">
+                                Arrabon Toribio
+                            </a>
+                        </span>
+                    </p>
+                    {{-- description --}}
+                    <div class="custom-text text-ellipsis-4">
+
+                        <p>It has been 25 years since Google launched its search engine, revolutionizing how people access
+                            information on the web. Throughout that time, Google has continually developed new ways to
+                            improve
+                            its .</p>
+                    </div>
+                    {{-- tags --}}
+                    <footer>
+
+                        <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a href="/tag/ai/"
+                                rel="tag">AI</a>,
+                            <a href="/tag/ai-content/" rel="tag">ai content</a>, <a href="/tag/ai-search/"
+                                rel="tag">ai search</a>, <a href="/tag/sge/" rel="tag">sge</a>, <a
+                                href="/tag/generative-ai/" rel="tag">generative ai</a></span>
                     </footer>
                 </article>
                 <article class="col-lg-3 col-md-5 col-12 wp-si-bl-con border-hover-blog p-3">
@@ -179,11 +220,10 @@
                     <footer>
 
                         <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a
-                                href="https://thriveagency.com/tag/ai/" rel="tag">AI</a>,
-                            <a href="https://thriveagency.com/tag/ai-content/" rel="tag">ai content</a>, <a
-                                href="https://thriveagency.com/tag/ai-search/" rel="tag">ai search</a>, <a
-                                href="https://thriveagency.com/tag/sge/" rel="tag">sge</a>, <a
-                                href="https://thriveagency.com/tag/generative-ai/" rel="tag">generative ai</a></span>
+                                href="/tag/ai/" rel="tag">AI</a>,
+                            <a href="/tag/ai-content/" rel="tag">ai content</a>, <a href="/tag/ai-search/"
+                                rel="tag">ai search</a>, <a href="/tag/sge/" rel="tag">sge</a>, <a
+                                href="/tag/generative-ai/" rel="tag">generative ai</a></span>
                     </footer>
                 </article>
                 <article class="col-lg-3 col-md-5 col-12 wp-si-bl-con border-hover-blog p-3">
@@ -223,11 +263,10 @@
                     <footer>
 
                         <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a
-                                href="https://thriveagency.com/tag/ai/" rel="tag">AI</a>,
-                            <a href="https://thriveagency.com/tag/ai-content/" rel="tag">ai content</a>, <a
-                                href="https://thriveagency.com/tag/ai-search/" rel="tag">ai search</a>, <a
-                                href="https://thriveagency.com/tag/sge/" rel="tag">sge</a>, <a
-                                href="https://thriveagency.com/tag/generative-ai/" rel="tag">generative ai</a></span>
+                                href="/tag/ai/" rel="tag">AI</a>,
+                            <a href="/tag/ai-content/" rel="tag">ai content</a>, <a href="/tag/ai-search/"
+                                rel="tag">ai search</a>, <a href="/tag/sge/" rel="tag">sge</a>, <a
+                                href="/tag/generative-ai/" rel="tag">generative ai</a></span>
                     </footer>
                 </article>
                 <article class="col-lg-3 col-md-5 col-12 wp-si-bl-con border-hover-blog p-3">
@@ -267,55 +306,10 @@
                     <footer>
 
                         <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a
-                                href="https://thriveagency.com/tag/ai/" rel="tag">AI</a>,
-                            <a href="https://thriveagency.com/tag/ai-content/" rel="tag">ai content</a>, <a
-                                href="https://thriveagency.com/tag/ai-search/" rel="tag">ai search</a>, <a
-                                href="https://thriveagency.com/tag/sge/" rel="tag">sge</a>, <a
-                                href="https://thriveagency.com/tag/generative-ai/" rel="tag">generative ai</a></span>
-                    </footer>
-                </article>
-                <article class="col-lg-3 col-md-5 col-12 wp-si-bl-con border-hover-blog p-3">
-                    <header class="flex flex-column gap-2">
-                        {{-- img --}}
-                        <a href="#">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
-                                alt="blog-1">
-                        </a>
-                        {{-- title --}}
-                        <h2 class="blg-cont-title fs-4 fw-bold">
-                            <a href="#">
-                                Google Incorporates Generative AI Into Its Search Engine
-                            </a>
-                        </h2>
-                    </header>
-                    {{-- poster details --}}
-                    <p class="blg-pos-de">
-                        {{-- date --}}
-                        <span class="blg-pos-de-info">May 26, 2023</span>
-                        {{-- poster --}}
-                        <span class="con-ti-ba-section-ac-link">
-                            <a href="#">
-                                Arrabon Toribio
-                            </a>
-                        </span>
-                    </p>
-                    {{-- description --}}
-                    <div class="custom-text text-ellipsis-4">
-
-                        <p>It has been 25 years since Google launched its search engine, revolutionizing how people access
-                            information on the web. Throughout that time, Google has continually developed new ways to
-                            improve
-                            its .</p>
-                    </div>
-                    {{-- tags --}}
-                    <footer>
-
-                        <span class="blg-pos-de-info entry-tags  con-ti-ba-section-ac-link">Filled Under: <a
-                                href="https://thriveagency.com/tag/ai/" rel="tag">AI</a>,
-                            <a href="https://thriveagency.com/tag/ai-content/" rel="tag">ai content</a>, <a
-                                href="https://thriveagency.com/tag/ai-search/" rel="tag">ai search</a>, <a
-                                href="https://thriveagency.com/tag/sge/" rel="tag">sge</a>, <a
-                                href="https://thriveagency.com/tag/generative-ai/" rel="tag">generative ai</a></span>
+                                href="/tag/ai/" rel="tag">AI</a>,
+                            <a href="/tag/ai-content/" rel="tag">ai content</a>, <a href="/tag/ai-search/"
+                                rel="tag">ai search</a>, <a href="/tag/sge/" rel="tag">sge</a>, <a
+                                href="/tag/generative-ai/" rel="tag">generative ai</a></span>
                     </footer>
                 </article>
             </div>

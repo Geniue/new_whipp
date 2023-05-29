@@ -13,7 +13,11 @@
                     <input type="text" name="email" id="">
                 </div>
                 <button type="submit"
-                    class="fro-cta-sub-btn col-11 mx-auto mx-lg-0 col-lg-6 col-xl-4 mt-auto">subscribe</button>
+                    class="fro-cta-sub-btn col-11 mx-auto mx-lg-0 col-lg-6 col-xl-4 mt-auto d-flex align-items-center justify-content-center gap-1">
+                    <img src="{{ asset('/assets/imgs/icons/subscribe_icon.png') }}" width="28" alt="">
+                    subscribe
+
+                </button>
             </form>
         </div>
     </section>

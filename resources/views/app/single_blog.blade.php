@@ -202,17 +202,13 @@
                         updates, fresh digital marketing best practices and more!
                     </p>
                     <p>
-                        <span class="entry-categories">Filed Under: <a
-                                href="https://thriveagency.com/category/search-engine-optimization/"
-                                rel="category tag">Search Engine Optimization</a>, <a
-                                href="https://thriveagency.com/category/thrive-news/" rel="category tag">Thrive News</a>, <a
-                                href="https://thriveagency.com/category/content-creation/" rel="category tag">Content
-                                Creation</a>, <a href="https://thriveagency.com/category/website-content/"
-                                rel="category tag">Website Content</a>, <a
-                                href="https://thriveagency.com/category/online-marketing/" rel="category tag">Online
-                                Marketing</a>, <a href="https://thriveagency.com/category/mobile-marketing/"
-                                rel="category tag">Mobile Marketing</a>, <a
-                                href="https://thriveagency.com/category/internet-marketing/" rel="category tag">Internet
+                        <span class="entry-categories">Filed Under: <a href="#" rel="category tag">Search Engine
+                                Optimization</a>, <a href="#" rel="category tag">Thrive News</a>, <a href="/"
+                                rel="category tag">Content
+                                Creation</a>, <a href="/" rel="category tag">Website Content</a>, <a href="#"
+                                rel="category tag">Online
+                                Marketing</a>, <a href="#" rel="category tag">Mobile Marketing</a>, <a href="#"
+                                rel="category tag">Internet
                                 Marketing</a></span>
                     </p>
                     {{-- leave reply --}}
@@ -381,37 +377,6 @@
 
 
     {{-- CONTACT US BANNER STARTS HERE --}}
-    {{-- <section>
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 d-flex flex-column gap-3 col-md-4 text-center text-md-start">
-                    <figure class="ft-logo"><a href="/" class="svg-logo"></a></figure>
-                    <p>
-                        Thrive Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and
-                        Convert more leads online and get results with Thrive.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4 text-center"><img src="{{ asset('assets/imgs/icons/thrive_tree_new.svg') }}"
-                        alt=""></div>
-                <div class="col-12 col-md-4 text-center">
-                    <ul class="social-media">
-                        <li class="haslink facebook"><a href="https://www.facebook.com/ThriveAgency" target="_blank"
-                                aria-label="facebook"></a></li>
-                        <li class="haslink twitter"><a href="https://twitter.com/ThriveAgency" target="_blank"
-                                aria-label="twitter"></a></li>
-                        <li class="haslink linkedin"><a href="https://www.linkedin.com/company/thrive-agency"
-                                target="_blank" aria-label="linkedin"></a></li>
-                        <li class="haslink youtube"><a href="https://www.youtube.com/@thriveagency" target="_blank"
-                                aria-label="youtube"></a></li>
-                        <li class="haslink instagram"><a href="https://www.instagram.com/thriveagency/" target="_blank"
-                                aria-label="instagram"></a></li>
-                    </ul>
-                    <h3>CALL <span>866.908.4748</span></h3>
-                    <span class="contact_link"><a class="contactus" href="/contact/">Contact Us</a><a class="give-back"
-                            href="/about/thrive-gives-back/">Thrive Gives Back</a></span>
-                </div>
-            </div>
-        </div>
-    </section> --}}
+    @include('app.static_components.contactus_banner')
     {{-- CONTACT US BANNER ENDS HERE --}}
 @endsection

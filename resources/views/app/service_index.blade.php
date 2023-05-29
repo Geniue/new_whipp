@@ -35,8 +35,8 @@
                 </div>
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="https://thriveagency.com/files/Digital-Marketing-Agency-2.jpg"
-                        alt="Top Digital Marketing Services" width="506" height="281" />
+                    <img src="{{ asset('assets/imgs/Digital-Marketing-Agency-2.jpg') }}" alt="Top Digital Marketing Services"
+                        width="506" height="281" />
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                 </div>
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-2.svg"
+                    <img src="{{ asset('assets/imgs/digital-marketing-service-image-2.svg') }}"
                         alt="Internet Marketing Services" width="521" height="554" />
                 </div>
             </div>
@@ -130,8 +130,7 @@
                 </div>
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img decoding="async"
-                        src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-24.svg"
+                    <img decoding="async" src="{{ asset('assets/imgs/digital-marketing-service-image-24.svg') }}"
                         alt="Internet Marketing Services" width="565" height="390" />
                 </div>
             </div>
@@ -156,7 +155,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -200,7 +199,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -244,7 +243,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -292,7 +291,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -336,7 +335,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -380,7 +379,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -429,7 +428,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -473,7 +472,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -517,7 +516,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -564,7 +563,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -608,7 +607,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -652,7 +651,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -699,7 +698,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -743,7 +742,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -787,7 +786,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -834,7 +833,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -878,7 +877,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -922,7 +921,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1002,7 +1001,7 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img decoding="async" loading="lazy"
-                        src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-service-image-221.png"
+                        src="{{ asset('assets/imgs/digital-marketing-service-image-221.png') }}"
                         alt="Online Marketing Services Result Trend" width="450" height="327" />
                 </div>
             </div>
@@ -1049,7 +1048,7 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img decoding="async" loading="lazy"
-                        src="https://thriveagency.com/wp-content/themes/thrive-agency/images/digital-marketing-inner-custom-image0012.svg"
+                        src="{{ asset('assets/imgs/digital-marketing-inner-custom-image0012.svg') }}"
                         alt="Digital Marketing marketing techniques" width="420" height="316" />
                 </div>
             </div>
@@ -1089,19 +1088,7 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img decoding="async" loading="lazy" class="fl-photo-img wp-image-31918 size-full"
-                        src="https://thriveagency.com/files/thrive-team-2020.png" alt="Thrive Team" itemprop="image"
-                        srcset="
-            https://thriveagency.com/files/thrive-team-2020.png         688w,
-            https://thriveagency.com/files/thrive-team-2020-250x131.png 250w,
-            https://thriveagency.com/files/thrive-team-2020-438x230.png 438w,
-            https://thriveagency.com/files/thrive-team-2020-125x66.png  125w,
-            https://thriveagency.com/files/thrive-team-2020-75x39.png    75w,
-            https://thriveagency.com/files/thrive-team-2020-340x178.png 340w,
-            https://thriveagency.com/files/thrive-team-2020-337x177.png 337w,
-            https://thriveagency.com/files/thrive-team-2020-260x136.png 260w,
-            https://thriveagency.com/files/thrive-team-2020-200x105.png 200w
-          "
-                        sizes="(max-width: 688px) 100vw, 688px" title="thrive-team-2020" width="688"
+                        src="{{ asset('assets/imgs/thrive-team-2020.png') }}" alt="Thrive Team" itemprop="image"
                         height="361" />
                 </div>
             </div>
@@ -1109,7 +1096,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-4">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1133,7 +1120,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-4">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1155,7 +1142,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-4">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1179,7 +1166,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-4">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1203,7 +1190,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-4">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1225,7 +1212,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-4">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="https://whippdigital.com/img/info-box27.png" alt="" width="55"
+                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1279,7 +1266,10 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                WHAT IS DIGITAL MARKETING?
+                                <span>
+
+                                    WHAT IS DIGITAL MARKETING?
+                                </span>
                             </button>
                         </h2>
                         <div id="collapseOne" class="accordion-collapse collapse show"
@@ -1302,7 +1292,10 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                WHAT DOES A DIGITAL MARKETER DO?
+                                <span>
+
+                                    WHAT DOES A DIGITAL MARKETER DO?
+                                </span>
                             </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -1320,7 +1313,10 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                WOULD MY BUSINESS BENEFIT FROM DIGITAL MARKETING?
+                                <span>
+
+                                    WOULD MY BUSINESS BENEFIT FROM DIGITAL MARKETING?
+                                </span>
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -1337,8 +1333,11 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                HOW COST-EFFECTIVE IS DIGITAL MARKETING COMPARED WITH
-                                TRADITIONAL MARKETING?
+                                <span>
+
+                                    HOW COST-EFFECTIVE IS DIGITAL MARKETING COMPARED WITH
+                                    TRADITIONAL MARKETING?
+                                </span>
                             </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -1361,7 +1360,10 @@
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                HOW DO YOY IDENTIFY A SUCCESSFUL DIGITAL MARKETING COMPANY?
+                                <span>
+
+                                    HOW DO YOY IDENTIFY A SUCCESSFUL DIGITAL MARKETING COMPANY?
+                                </span>
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -1385,4 +1387,8 @@
         </div>
     </section>
     <!-- SERVICES FAQ'S SECTION ENDS HERE -->
+
+    {{-- CONTACT US BANNER STARTS HERE --}}
+    @include('app.static_components.contactus_banner')
+    {{-- CONTACT US BANNER ENDS HERE --}}
 @endsection

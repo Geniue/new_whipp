@@ -14,127 +14,74 @@
         </div>
     </section>
     {{-- TITLE BANNER ENDS HERE --}}
-    <section>
-        <div class="container py-5">
-            <div class="text-center">
-                <p class="pb-3">We bring innovative thinking, adaptive methodology, strong ethics and years of expertise to
-                    the SEO and web design industry. Our team has won awards for our web design expertise and accolades for
-                    our effective SEO strategies. Our clients know that when they give us a call, we'll pick up the phone
-                    and provide them with the time and information they want. Our comprehensive approach to online marketing
-                    and web design results in a strong and lucrative online presence for each of our clients. Click any
-                    project below to see the results!</p>
 
-            </div>
-            <div class="px-3 text-center px-lg-2 pb-4">
-                <img class="imporve-tech-seo-img" src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}" alt="">
-            </div>
-            <p class="text-center">View all of our <a href="#">
-                    awards & recognition
-                </a>
-            </p>
+    {{-- FILTER WEBISTE SECTION STARTS HERE --}}
+    <section>
+        <div class="container-fulid p-4 ">
+            <ul id="portfolio-cats"
+                class="filter clearfix custom-portfolio-cats d-flex gap-3 justify-content-center flex-wrap">
+                <li class="filter-link default-filter"><a href="#" class="" data-filter="*"><span>All</span></a>
+                </li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".nutrition"><span>Nutrition</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".business-by-trade"><span>Business by Trade</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".finance-and-legal"><span>Finance and Legal</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".healthcare"><span>Healthcare</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".non-profit-designs"><span>Non-Profit Designs</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".education"><span>Education</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".technology"><span>Technology</span></a></li>
+                <li class="filter-link"><a href="#" class="portfolio-category"
+                        data-filter=".entertainment"><span>Entertainment</span></a></li>
+            </ul>
         </div>
     </section>
+    {{-- FILTER WEBISTE SECTION ENDS HERE --}}
+
 
     {{-- GRID GALLARY SECTION STARTS HERE --}}
     <section>
         <div class="container">
-            {{-- options --}}
-            <div class="row col-lg-11 mx-auto ca-port-option py-4 gap-column-3    gap-lg-0  row-gap-3 ">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            All Industries
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Retail</a></li>
-                            <li><a class="dropdown-item" href="#">Home</a></li>
-                            <li><a class="dropdown-item" href="#">Technology</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            All Serivces
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            All Statuses
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            All Audiences
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
             {{-- imgs --}}
             <div class="row col-lg-11 mx-auto gap-4 gap-md-0 pb-5">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="case-study-thumbnail">
+                    <div class="case-study-thumbnail border-hover-blog">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/Softroc-Thumbnail-330x240.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
-
-                            <div class="overlay">
-                                <header>
-                                    <h3 class="post-title">Geoforce</h3>
-                                </header>
-                            </div>
                         </a>
+                        <p class="custom-text-2 fw-bold mb-0 py-2 text-center">
+                            Towny
+                        </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="case-study-thumbnail">
+                    <div class="case-study-thumbnail border-hover-blog">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/Rakkasan-Thumbnail-330x240.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
-                            <div class="overlay">
-                                <header>
-                                    <h3 class="post-title">Geoforce</h3>
-                                </header>
-                            </div>
+
                         </a>
+                        <p class="custom-text-2 fw-bold mb-0 py-2 text-center">
+                            The DriveWay Company
+                        </p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="case-study-thumbnail">
+                    <div class="case-study-thumbnail border-hover-blog">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/Joolala-Thumbnail-330x240.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
-
-                            <div class="overlay">
-                                <header>
-                                    <h3 class="post-title">Geoforce</h3>
-                                </header>
-                            </div>
                         </a>
+                        <p class="custom-text-2 fw-bold mb-0 py-2 text-center">
+                            Paddle candy
+                        </p>
                     </div>
                 </div>
 
