@@ -65,6 +65,10 @@ Route::get('/arlington', function () {
     return view('app.arlington');
 })->name('arlington');
 
+Route::get('/locations', function () {
+    return view('app.locations');
+})->name('locations');
+
 
 
 

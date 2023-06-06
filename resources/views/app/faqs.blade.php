@@ -151,10 +151,4 @@
         </div>
     </section>
     <!-- SERVICES FAQ'S SECTION ENDS HERE -->
-
-
-
-    {{-- CONTACT US BANNER STARTS HERE --}}
-    @include('app.static_components.contactus_banner')
-    {{-- CONTACT US BANNER ENDS HERE --}}
 @endsection

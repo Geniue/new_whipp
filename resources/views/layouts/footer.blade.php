@@ -120,7 +120,7 @@
             <div class="text-center">
                 <p class="copyright_sec">
                     © 2023 - Thrive Internet Marketing Agency /
-                    <a href="/locations/">Locations</a> /
+                    <a href="{{ route('locations') }}">Locations</a> /
                     <a href="/thrive-guest-blogging-guidelines/">Write For Us</a>
                     / <a href="/referral/">Refer Thrive</a> /
                     <a href="/terms-conditions/" target="_blank" rel="noopener">Terms</a>

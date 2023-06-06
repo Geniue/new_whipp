@@ -183,6 +183,179 @@
     </section>
     {{-- SERVICES GRID SECTION ENDS HERE --}}
 
+
+
+
+    {{-- TREE SECTION STARTS HERE --}}
+    <section>
+        <div class="container">
+            <div class="p-2 w-auto mx-auto ">
+
+                <div class="bg-tree-container mx-auto position-relative w-100">
+                    <div style="z-index: -999;"
+                        class="p-4 align-items-center position-absolute custom-bg-1 rounded-5 top-0 d-flex justify-content-between w-100">
+
+                        <div class=" col-3">
+
+
+                            <h3 class="custom-text-2 fw-bold">
+                                Thrive’s Core Values
+                            </h3>
+                            <p>Throughout the years, we stay committed to the ideas that founded our success:</p>
+
+                        </div>
+                        <div class="top-0 ">
+                            <img width="348" src="{{ asset('assets/imgs/growth-mission-img.svg') }}" alt="">
+                        </div>
+                    </div>
+                    <div class="position-absolute tree-grow-con">
+
+                        <div class="row">
+                            <div class="col-6 d-flex flex-column gap-4">
+                                <div class="tree-com-left-side-pare">
+
+                                    <div class="tree-com-left-side position-relative">
+                                        <div class="tree-com-sub p-3">
+                                            <div class="col-10 ms-auto tree-com-sub-content">
+
+                                                <h6 class="text-end fw-bold custom-text fs-3 z-index-for-text">
+                                                    Gratitude
+                                                </h6>
+                                                <p class="text-end">
+                                                    We lead with an attitude of thankfulness and humility and find ways to
+                                                    express
+                                                    our gratitude to those around us every day. We embrace giving back,
+                                                    impacting
+                                                    the world for a greater good.
+                                                </p>
+                                            </div>
+                                            <div class="tree-circle-box gra-box"> G</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tree-com-left-side-pare">
+
+                                    <div class="tree-com-left-side position-relative">
+                                        <div class="tree-com-sub p-3">
+                                            <div class="col-10 ms-auto tree-com-sub-content">
+
+                                                <h6 class="text-end fw-bold custom-text fs-3 z-index-for-text">
+                                                    Ownership
+                                                </h6>
+                                                <p class="text-end">
+                                                    We take personal responsibility for our actions and commit to
+                                                    responsible stewardship over company and client resources. We apologize
+                                                    when we make mistakes and work to make things right. We can do hard
+                                                    things.
+                                                </p>
+                                            </div>
+                                            <div class="tree-circle-box own-box">O</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tree-com-left-side-pare">
+
+                                    <div class="tree-com-left-side position-relative">
+                                        <div class="tree-com-sub p-3">
+                                            <div class="col-10 ms-auto tree-com-sub-content">
+
+                                                <h6 class="text-end fw-bold custom-text fs-3 z-index-for-text">
+                                                    Think Bigger
+                                                </h6>
+                                                <p class="text-end">
+                                                    We strive for continuous improvement and believe that better never
+                                                    stops! We don’t take the easy way out. We embrace change, adapt and
+                                                    overcome.
+                                                </p>
+                                            </div>
+                                            <div class="tree-circle-box thi-box"> T</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 tree-com-right-side-gran-pare d-flex flex-column gap-4">
+                                <div class="tree-com-right-side-pare">
+
+                                    <div class="tree-com-right-side position-relative">
+                                        <div class="tree-com-sub p-3">
+                                            <div class="tree-circle-box res-box">R</div>
+                                            <div class="col-10 ms-auto tree-com-sub-content">
+
+                                                <h6 class="text-start fw-bold custom-text fs-3 z-index-for-text">
+                                                    Respect
+                                                </h6>
+                                                <p class="text-start">
+                                                    We operate with positive assumptions and give the benefit of the doubt,
+                                                    choosing to see the best in ourselves and others. We will respect others
+                                                    at all times and refrain from gossip or reacting with anger.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tree-com-right-side-pare">
+
+                                    <div class="tree-com-right-side position-relative">
+                                        <div class="tree-com-sub p-3">
+                                            <div class="tree-circle-box wor-box">W</div>
+                                            <div class="col-10 ms-auto tree-com-sub-content">
+
+                                                <h6 class="text-start fw-bold custom-text fs-3 z-index-for-text">
+                                                    Work Ethic
+                                                </h6>
+                                                <p class="text-start">
+                                                    We give our best effort and have high-performance expectations. We are
+                                                    organized, proactive and work with a sense of urgency. We emphasize a
+                                                    work-life balance where we work hard during business hours but
+                                                    prioritize our time off for our own well-being.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tree-com-right-side-pare">
+
+                                    <div class="tree-com-right-side position-relative">
+                                        <div class="tree-com-sub p-3">
+                                            <div class="tree-circle-box hon-box">H</div>
+                                            <div class="col-10 ms-auto tree-com-sub-content">
+
+                                                <h6 class="text-start fw-bold custom-text fs-3 z-index-for-text">
+                                                    Honesty
+                                                </h6>
+                                                <p class="text-start">
+                                                    We seek to build trust and mutual respect by acting with integrity and
+                                                    doing the right thing no matter how difficult.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- TREE SECTION ENDS HERE --}}
+
+
+
+
+
+
+
+
+
+
+
+
     {{-- OUR HISTORY SECTION STARTS HERE --}}
     <section class="py-5">
         <div class="pt-5 container-fuild wp-our-his-cotainer">
@@ -332,9 +505,4 @@
         </div>
     </section>
     {{-- AWARD SECTION ENDS HERE --}}
-
-
-    {{-- CONTACT US BANNER STARTS HERE --}}
-    @include('app.static_components.contactus_banner')
-    {{-- CONTACT US BANNER ENDS HERE --}}
 @endsection

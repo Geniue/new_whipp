@@ -13,11 +13,23 @@
             </div>
         </div>
     </section>
+    {{-- breadcrump  --}}
+    <div class="wp-brdcb">
+        <div class="wrap d-none">
+            <div>
+                <p id="breadcrumbs"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
+                            class="breadcrumb_last" aria-current="page">Contact</span></span></p>
+            </div>
+        </div>
+    </div>
+
+
     {{-- TITLE BANNER ENDS HERE --}}
     <section>
         <div class="container py-5">
             <div class="text-center">
-                <p class="pb-3">We bring innovative thinking, adaptive methodology, strong ethics and years of expertise to
+                <p class="pb-3">We bring innovative thinking, adaptive methodology, strong ethics and years of expertise
+                    to
                     the SEO and web design industry. Our team has won awards for our web design expertise and accolades for
                     our effective SEO strategies. Our clients know that when they give us a call, we'll pick up the phone
                     and provide them with the time and information they want. Our comprehensive approach to online marketing

@@ -11,6 +11,17 @@
         </div>
     </section>
     <!-- CONTACT TITLE BANNER SECTION ENDS HERE -->
+    {{-- breadcrump  --}}
+    <div class="wp-brdcb">
+        <div class="wrap">
+            <div>
+                <p id="breadcrumbs"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
+                            class="breadcrumb_last" aria-current="page">Contact</span></span></p>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- CONTACT FORM SECTION STARTS HERE -->
     <section>
@@ -270,11 +281,4 @@
         </div>
     </section>
     <!-- CONTACT FORM SECTION ENDS HERE -->
-
-
-
-
-    {{-- CONTACT US BANNER STARTS HERE --}}
-    @include('app.static_components.contactus_banner')
-    {{-- CONTACT US BANNER ENDS HERE --}}
 @endsection
