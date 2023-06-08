@@ -138,7 +138,7 @@
     border-radius: 6px;
 }
 .fro-cta-sub-btn {
-    background: var(--btn-hover-color);
+    background: var(--primary-color);
     position: static;
     height: 48px;
     border-radius: 6px;

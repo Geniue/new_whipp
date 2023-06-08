@@ -49,7 +49,7 @@
                                 </a>
                             </li>
 
-                            <li class="mb-2 menu-item-has-children hover-ver2 sub-menu-hover">
+                            <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                 <a href="{{ route('service01') }}">
                                     <i class="seoicon-pie-graph-split"></i>
                                     Content Marketing
@@ -79,7 +79,7 @@
                                     Logo Designs
                                 </a>
                             </li>
-                            <li class="hover-ver2 sub-menu-hover mb-2">
+                            <li class="hover-ver2 sub-menu-hover">
                                 <a href="{{ route('video') }}"><i class="seoicon-chat-comment"></i>
                                     Videos
                                 </a>
@@ -95,7 +95,7 @@
                     </li>
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
-                            <a href="{{ route('services') }}">
+                            <a href="{{ route('blog') }}">
                                 <span class=""> Blog </span>
                             </a>
                         </div>
@@ -117,10 +117,10 @@
                 </ul>
             </div>
             <!-- contact -->
-            <div class="d-flex gap-3 ps-4 ">
+            <div class="d-flex gap-2 ps-4 ">
                 <a href="tel:909-434-4334" class="">
-                    <img width="38" src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}"
-                        alt="" />
+                    <img width="40" class="ek-phone-img"
+                        src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}" alt="" />
                 </a>
                 <a href="tel:909-434-4334" class="fs-4 wd-num-phone" style="color: #2f2c2c">
                     909-434-4334
@@ -229,7 +229,7 @@
             <li class="expand-serivce-area-mob">
 
 
-                <a href="#" class="mob-service-link-aco"> Blog </a>
+                <a href="{{ route('blog') }}" class="mob-service-link-aco"> Blog </a>
 
 
             </li>

@@ -387,7 +387,7 @@ img {
     background-size: 0;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
-    border-top: 12px solid var(--btn-bg-color);
+    border-top: 12px solid var(--btn-hover-color);
     position: absolute;
     content: "";
     top: 22px;
@@ -484,7 +484,7 @@ img {
     z-index: 9999;
     width: 300px;
     height: auto;
-    background-color: rgb(69, 64, 54);
+    background-color: var(--primary-color);
     border-radius: 6px;
     position: absolute;
     list-style: none;
@@ -494,7 +494,6 @@ img {
     overflow: hidden;
 }
 .sevice-hover-expand > li {
-    padding: 10px 12px;
     color: #fff;
     width: 100%;
     overflow: hidden;
@@ -530,7 +529,7 @@ img {
 
 .mobile-toggle-menu {
     position: absolute;
-    background-color: #537fe7;
+    background-color: var(--primary-color);
     width: 100%;
     top: 100%;
     max-height: 0;
@@ -623,7 +622,6 @@ img {
     overflow: hidden;
 }
 .sub-menu-service-btn {
-    border-left: 1px solid #eeeeee85;
     display: block;
     height: 54px;
     width: 60px;
@@ -823,7 +821,7 @@ img {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgb(74, 94, 47);
+    background-color: var(--primary-color);
     top: 0;
     left: 0;
     justify-content: center;
@@ -922,9 +920,9 @@ img {
 .ser-gri-link {
     display: block;
     text-decoration: underline !important;
-    color: var(--primary-color);
+    color: var(--special-color);
     padding-top: 6px;
-    text-decoration-color: var(--primary-color);
+    text-decoration-color: var(--special-color);
 }
 /* serivces gird style ends here */
 
@@ -1072,7 +1070,7 @@ img {
 }
 
 .blg-cont-title a {
-    color: var(--primary-color);
+    color: var(--special-color);
     transition: all 0.3s ease-out;
 }
 .blg-cont-title a:hover {

@@ -187,7 +187,7 @@
 
 
     {{-- TREE SECTION STARTS HERE --}}
-    <section>
+    <section class="d-none d-lg-block">
         <div class="container">
             <div class="p-2 w-auto mx-auto ">
 

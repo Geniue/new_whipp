@@ -2,9 +2,9 @@
 <section>
     <div class="container pt-5">
         <div class="row">
-            <div class="col-12 d-flex flex-column gap-3 col-lg-4 text-center text-lg-start pb-4 pb-lg-0">
-                <figure class="ft-logo m-0 d-flex justify-content-center justify-content-lg-start"><a href="/"
-                        class="svg-logo"></a></figure>
+            <div
+                class="col-12 d-flex flex-column gap-3 col-lg-4 text-center align-items-center align-items-lg-start text-lg-start pb-4 pb-lg-0">
+                <img src="{{ asset('assets/imgs/icons/whipplogo.jpeg') }}" class="mainwhipplogo " alt="">
                 <p class="mb-0">
                     Thrive Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and
                     Convert more leads online and get results with Thrive.

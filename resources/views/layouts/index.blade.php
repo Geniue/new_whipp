@@ -28,6 +28,14 @@
             --special-color: #213555;
         }
 
+        .bg-custom-1234 {
+            background: var(--special-color);
+        }
+
+        .ek-phone-img {
+            filter: invert(53%) sepia(54%) saturate(542%) hue-rotate(150deg) brightness(85%) contrast(105%);
+        }
+
         .footer-bg-color {
             background: var(--special-color)
         }
@@ -40,30 +48,57 @@
             position: relative;
         }
 
+        .sub-menu-hover>a {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            padding: 10px 14px 10px 18px;
+            position: relative;
+            -webkit-transition: all .4s ease;
+            -moz-transition: all .4s ease;
+            transition: all .4s ease;
+        }
+
+        .sub-menu-hover>a:hover {
+            margin-left: 16px;
+            background: #8ab7c787;
+        }
+
         .sub-menu-hover>a::after {
-            content: "";
-            display: block;
-            width: 0%;
-            height: 2px;
-            background: var(--primary-color);
-            margin: auto;
-            left: 0;
-            right: 0;
             position: absolute;
-            -webkit-transition: all 0.4s ease-in-out;
-            -moz-transition: all 0.4s ease-in-out;
-            -o-transition: all 0.4s ease-in-out;
-            -ms-transition: all 0.4s ease-in-out;
-            bottom: 0;
+            content: '';
+            top: 18px;
+            left: -10px;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            border-left: solid 8px var(--btn-hover-color);
+            border-bottom: solid 6px transparent;
+            border-top: solid 6px transparent;
+            width: 8px;
+            height: 8px;
+            content: "";
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: all .4s ease;
+            -moz-transition: all .4s ease;
+            transition: all .4s ease;
         }
 
         .sub-menu-hover:hover>a::after {
-            width: 100%;
+            opacity: 1;
+            left: 6px;
+            visibility: visible;
         }
 
         @media (max-width:662px) {
             .mainwhipplogo {
                 width: 180px
+            }
+        }
+
+        @media (min-width:1266px) {
+            .ek-phone-img {
+                width: 50px;
             }
 
         }

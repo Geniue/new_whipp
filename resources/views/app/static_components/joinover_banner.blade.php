@@ -1,5 +1,5 @@
     {{-- JOIN OVER CTA SECTION STARTS HERE --}}
-    <section class="bg-green-1">
+    <section class="bg-custom-1234">
         <div class="col-11 justify-content-center row py-5 text-white mx-auto">
             <div class="col-lg-6 row gap-0 align-items-end gap-3 gap-lg-0 text-center text-lg-center">
                 <h2 class="fs-1 fw-bold col-xl-7">JOIN OVER 3,000</h2>
