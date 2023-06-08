@@ -3,10 +3,10 @@
 }
 
 .bg-green-1 {
-    background-color: #4a5e2f;
+    background-color: var(--primary-color);
 }
 .bg-green-2 {
-    background-color: #7e953e;
+    background-color: var(--primary-color);
 }
 .tru-imags {
     max-width: 160px;
@@ -24,13 +24,13 @@
 }
 
 .custom-text-2 {
-    color: #4a5e2f;
+    color: var(--special-color);
 }
 .custom-text {
     color: #49453b;
 }
 .bg-custom-3 {
-    background: #6a8338;
+    background: var(--primary-color);
 }
 .custom-bg {
     background-color: #443f35;
@@ -127,7 +127,7 @@
 }
 .accordion-button:not(.collapsed) {
     background-color: #f3f3f3 !important;
-    color: #4a5e2f !important;
+    color: var(--primary-color) !important;
 }
 
 /* ====== bootstrap accordian css  end*/
@@ -138,7 +138,7 @@
     border-radius: 6px;
 }
 .fro-cta-sub-btn {
-    background: #b96200;
+    background: var(--btn-hover-color);
     position: static;
     height: 48px;
     border-radius: 6px;
@@ -264,7 +264,7 @@
 .wp-res-per {
     font-size: 54px;
 
-    color: #6a8338;
+    color: var(--primary-color);
 }
 
 .filter-link {
@@ -286,12 +286,12 @@
 .default-filter,
 .default-filter a {
     color: #fff;
-    background: #7e953e;
+    background: var(--primary-color);
 }
 
 .filter-link:hover a {
     color: #fff;
-    background: #7e953e;
+    background: var(--primary-color);
 }
 
 .logo-design-hover-eff a .overlay:hover {

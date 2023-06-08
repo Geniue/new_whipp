@@ -69,7 +69,7 @@ a {
     font-weight: 500;
 }
 .new-btn-banner:hover {
-    background: #b96200;
+    background: var(--btn-hover-color);
 }
 
 @media screen and (max-width: 900px) {
@@ -342,33 +342,33 @@ img {
 
 .lets-talk-btn {
     color: #fff;
-    background-color: #db7803;
+    background-color: var(--btn-bg-color);
     border-radius: 8px;
     transition: all 0.4s ease-in;
-    border: 2px solid #db7803;
+    border: 2px solid var(--border-color);
 }
 .re-lets-talk-btn:hover {
     color: #fff;
-    background-color: #db7803;
+    background-color: var(--btn-bg-color);
     border-radius: 8px;
     transition: all 0.4s ease-in;
-    border: 2px solid #db7803;
+    border: 2px solid var(--border-color);
 }
 
 .re-lets-talk-btn {
-    border: 2px solid #db7803;
+    border: 2px solid var(--btn-bg-color);
     background-color: transparent;
-    color: #db7803;
+    color: var(--btn-bg-color);
 }
 .lets-talk-btn:hover {
-    border: 2px solid #db7803;
+    border: 2px solid var(--btn-bg-color);
     background-color: transparent;
-    color: #db7803;
+    color: var(--btn-bg-color);
 }
 .lets-talk-btn-bg-white:hover {
-    border: 2px solid #db7803;
+    border: 2px solid var(--btn-bg-color);
     background-color: #fff !important;
-    color: #db7803;
+    color: var(--btn-bg-color);
 }
 .toggle-menu-mob {
     display: none;
@@ -387,7 +387,7 @@ img {
     background-size: 0;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
-    border-top: 12px solid #db7803;
+    border-top: 12px solid var(--btn-bg-color);
     position: absolute;
     content: "";
     top: 22px;
@@ -431,7 +431,7 @@ img {
     background-size: 0;
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
-    border-top: 7px solid #4a5e2f;
+    border-top: 7px solid var(--primary-color);
     position: absolute;
     content: "";
     top: 8px;
@@ -450,7 +450,7 @@ img {
     display: block;
     width: 0%;
     height: 2px;
-    background: #698237;
+    background: var(--primary-color);
     margin: auto;
     left: 0;
     right: 0;
@@ -504,9 +504,9 @@ img {
     display: inline-block;
     color: #fff;
 }
-.sevice-hover-expand > li:not(:first-child):hover {
+/* .sevice-hover-expand > li:not(:first-child):hover {
     background-color: #5a5346;
-}
+} */
 .new-nav-hover:hover {
     background-color: #5a5346;
 }
@@ -530,7 +530,7 @@ img {
 
 .mobile-toggle-menu {
     position: absolute;
-    background-color: #443f35;
+    background-color: #537fe7;
     width: 100%;
     top: 100%;
     max-height: 0;
@@ -609,7 +609,7 @@ img {
     padding: 12px 18px;
     color: #fff;
     font-size: 20px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #eeeeee85;
     font-weight: 500;
     position: relative;
 }
@@ -617,13 +617,13 @@ img {
     text-transform: capitalize;
     list-style: none;
     margin-bottom: 0;
-    background-color: #2a261f;
+    background-color: #4f709c;
     max-height: 0;
     transition: max-height 0.4s ease-out;
     overflow: hidden;
 }
 .sub-menu-service-btn {
-    border-left: 1px solid #000;
+    border-left: 1px solid #eeeeee85;
     display: block;
     height: 54px;
     width: 60px;
@@ -777,7 +777,7 @@ img {
 
 .gform-submit-btn {
     cursor: pointer;
-    background: #db7803;
+    background: var(--btn-bg-color);
     font-family: "ProximaNova-Extrabld", Arial;
     font-weight: normal;
     padding: 12px 20px;
@@ -790,11 +790,11 @@ img {
     font-weight: 600;
 }
 .gform-submit-btn:hover {
-    background: #b96200;
+    background: var(--btn-hover-color);
 }
 
 .fl-rich-text p a {
-    color: #4a5e2f;
+    color: var(--primary-color);
     font-weight: 600;
 }
 /* styles for contact page end */
@@ -887,7 +887,7 @@ img {
     content: "";
     width: 70%;
     height: 100%;
-    background: #738942;
+    background: var(--primary-color);
     left: 40%;
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
@@ -922,9 +922,9 @@ img {
 .ser-gri-link {
     display: block;
     text-decoration: underline !important;
-    color: #4a5e2f;
+    color: var(--primary-color);
     padding-top: 6px;
-    text-decoration-color: #4a5e2f;
+    text-decoration-color: var(--primary-color);
 }
 /* serivces gird style ends here */
 
@@ -939,7 +939,7 @@ img {
     content: "";
     width: 98%;
     height: 92%;
-    background: #738942;
+    background: var(--primary-color);
     left: 0;
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
@@ -967,7 +967,7 @@ img {
 
 .wp-hs-nu {
     background: #fff;
-    color: #738942;
+    color: var(--primary-color);
     width: 50px;
     height: 50px;
     display: flex;
@@ -1049,7 +1049,7 @@ img {
     right: 3%;
     background-size: 21px;
     background-repeat: no-repeat;
-    background-color: #698237;
+    background-color: var(--primary-color);
     background-position: center;
     border: none !important;
     padding: 8px;
@@ -1058,7 +1058,7 @@ img {
     border-radius: 8px;
 }
 .con-ti-ba-section-ac-link a {
-    color: #7e953e;
+    color: var(--primary-color);
     transition: all 0.6s ease-in-out;
 }
 .con-ti-ba-section-ac-link a:hover {
@@ -1068,11 +1068,11 @@ img {
     border: 6px solid #eee;
 }
 .border-hover-blog:hover {
-    border: 6px solid #7e953e;
+    border: 6px solid var(--primary-color);
 }
 
 .blg-cont-title a {
-    color: #7e953e;
+    color: var(--primary-color);
     transition: all 0.3s ease-out;
 }
 .blg-cont-title a:hover {
@@ -1089,7 +1089,7 @@ img {
     content: "";
     width: 100%;
     height: 85%;
-    background: #738942;
+    background: var(--primary-color);
     left: 0;
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
@@ -1116,7 +1116,7 @@ img {
     margin-top: 28px;
 }
 .blg-sin-cont-p div p a {
-    color: #7e953e;
+    color: var(--primary-color);
     transition: all 0.4s ease-in-out;
 }
 .blg-sin-cont-p div p a:hover {
@@ -1166,7 +1166,7 @@ img {
     line-height: 33px;
     padding-left: 0;
     padding-right: 12px;
-    color: #4a5e2f;
+    color: var(--special-color);
 }
 .ban-cont-link a {
     position: relative;
@@ -1193,7 +1193,7 @@ img {
     margin-bottom: 6px;
 }
 .social-media li {
-    background: #db7803;
+    background: var(--special-color);
     border-radius: 100%;
     color: #fff;
     display: inline-block;
@@ -1284,7 +1284,7 @@ img {
     pointer-events: none;
 }
 .age-con-for-get-btn:hover {
-    background: #b96200 !important;
+    background: var(--btn-hover-color) !important;
 }
 /* contact form component styles ends here */
 
@@ -1302,7 +1302,7 @@ img {
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #556c26;
+    border-top: 15px solid var(--special-color);
     position: absolute;
     content: "";
     text-align: center;
@@ -1340,14 +1340,14 @@ img {
     margin-top: 0 !important;
     font-size: 14px;
     font-weight: 400;
-    color: #7e953e;
+    color: var(--special-color);
     text-transform: uppercase;
     text-align: center;
 }
 
 .wp-brdcb a:hover {
     text-decoration: underline !important;
-    color: #7e953e;
+    color: var(--primary-color);
 }
 
 .wp-brdcb .wrap {

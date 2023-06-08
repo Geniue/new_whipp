@@ -16,6 +16,57 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
     <link rel="stylesheet" href="{{ asset('css/utiles.css') }}" />
+    {{-- navbar styles --}}
+    <style>
+        :root {
+            --primary-color: #2596be;
+            --btn-bg-color: #30A2FF;
+            --btn-hover-color: #3bd4ff;
+            --border-color: #98EECC;
+            --special-color-2: #537FE7;
+            --special-color: #213555;
+        }
+
+        .footer-bg-color {
+            background: var(--special-color)
+        }
+
+        .mainwhipplogo {
+            width: 200px
+        }
+
+        .sub-menu-hover {
+            position: relative;
+        }
+
+        .sub-menu-hover>a::after {
+            content: "";
+            display: block;
+            width: 0%;
+            height: 2px;
+            background: var(--primary-color);
+            margin: auto;
+            left: 0;
+            right: 0;
+            position: absolute;
+            -webkit-transition: all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
+            -ms-transition: all 0.4s ease-in-out;
+            bottom: 0;
+        }
+
+        .sub-menu-hover:hover>a::after {
+            width: 100%;
+        }
+
+        @media (max-width:662px) {
+            .mainwhipplogo {
+                width: 180px
+            }
+
+        }
+    </style>
 
     @yield('css')
 

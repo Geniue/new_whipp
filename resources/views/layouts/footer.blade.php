@@ -1,5 +1,5 @@
 <!-- FOOTER STARTS HERE -->
-<footer class="custom-bg">
+<footer class="footer-bg-color">
     <div class="container py-5">
         <div class="text-white text-center">
             <h2 class="fw-bold fs-1">Growing Businesses Since 2005</h2>

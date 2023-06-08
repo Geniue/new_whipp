@@ -126,7 +126,7 @@
     <!-- LET'S TALK BANNER SECTION ENDS HERE -->
 
     <!-- WHY TECH SEO IMPORTANT SECTION STARTS HERE -->
-    <section>
+    {{-- <section>
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-4 justify-content-center">
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -175,11 +175,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- WHY TECH SEO IMPORTANT SECTION ENDS HERE -->
 
     <!-- TECH SEO SEARCH EXPERIENCE SECTION STARTS HERE -->
-    <section>
+    {{-- <section>
         <div class="container py-5 custom-text">
             <h3 class="text-center pb-3 py-lg-4">
                 Technical SEO: Your First Step in Creating a Better Search Experience
@@ -232,7 +232,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- TECH SEO SEARCH EXPERIENCE SECTION ENDS HERE -->
 
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
