@@ -122,7 +122,7 @@
                     <img width="40" class="ek-phone-img"
                         src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}" alt="" />
                 </a>
-                <a href="tel:909-434-4334" class="fs-4 wd-num-phone" style="color: #2f2c2c">
+                <a href="tel:909-434-4334" class="fs-4 wd-num-phone nav-phone-num-text" style="color: #2f2c2c">
                     909-434-4334
                 </a>
                 <a href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">

@@ -18,105 +18,104 @@
             </p>
         </div>
 
-        <div class="fl-col-group fl-node-5cde650720b84 col-lg-10 px-2 mx-auto d-flex flex-wrap py-4 justify-content-between"
-            data-node="5cde650720b84">
-            <div class="fl-col fl-node-5cde650720ce3 fl-col-small" data-node="5cde650720ce3">
+        <div class=" col-lg-10 px-2 mx-auto d-flex flex-wrap py-4 justify-content-between">
+            <div class="">
                 <ul>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="{{ route('arlington') }}">ARLINGTON</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/atlanta-digital-marketing-agency/">ATLANTA</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/austin-digital-marketing-agency/">AUSTIN</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/baltimore-digital-marketing-agency/">BALTIMORE</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/chicago-digital-marketing-agency/">CHICAGO</a>
                     </li>
                 </ul>
             </div>
-            <div class="fl-col fl-node-5cde650720d27 fl-col-small" data-node="5cde650720d27">
+            <div class="">
                 <ul>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/cleveland-digital-marketing-agency/">CLEVELAND</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/dallas-digital-marketing-agency/">DALLAS</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/denver-digital-marketing/">DENVER</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/houston-digital-marketing-agency">HOUSTON</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/jacksonville-digital-marketing/">JACKSONVILLE</a>
                     </li>
                 </ul>
             </div>
-            <div class="fl-col fl-node-5cde650720d67 fl-col-small" data-node="5cde650720d67">
+            <div class="">
                 <ul>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/kansas-city-digital-marketing-agency/">KANSAS CITY</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/las-vegas-digital-marketing-agency/">LAS VEGAS</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/los-angeles-digital-marketing-agency/">LOS ANGELES</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/louisville-digital-marketing-agency/">LOUISVILLE</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/nyc-digital-marketing-agency/">NEW YORK CITY</a>
                     </li>
                 </ul>
             </div>
-            <div class="fl-col fl-node-5cde650720da7 fl-col-small" data-node="5cde650720da7">
+            <div class="">
                 <ul>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/miami-digital-marketing-agency/">MIAMI</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/minneapolis-digital-marketing-agency/">MINNEAPOLIS</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/phoenix-digital-marketing-agency/">PHOENIX</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/new-orleans-digital-marketing-agency/">NEW ORLEANS</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/internet-marketing-company-orlando/">ORLANDO</a>
                     </li>
                 </ul>
             </div>
-            <div class="fl-col fl-node-5cde650720de6 fl-col-small" data-node="5cde650720de6">
+            <div class="">
                 <ul>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/philadelphia-digital-marketing-agency/">PHILADELPHIA</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/portland-digital-marketing-agency/">PORTLAND</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/san-antonio-digital-marketing-agency/">SAN ANTONIO</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/san-diego-digital-marketing-agency/">SAN DIEGO</a>
                     </li>
-                    <li class="haslink">
+                    <li class="wd-footer-link">
                         <a href="/seattle-digital-marketing-agency/">SEATTLE</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="fl-module-content fl-node-content">
+        <div class="">
             <div class="text-center">
                 <p class="copyright_sec">
                     © 2023 - Thrive Internet Marketing Agency /

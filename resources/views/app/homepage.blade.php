@@ -85,9 +85,9 @@
     <!-- MOBILE AGENCY ENDS HERE -->
 
     <!-- GROW BUSINESS BANNER STARTS HERE -->
-    <section class="busins_grow_custom bg-green-1">
+    <section class=" bg-green-1">
         <div class="container py-5">
-            <div class="busins_grow_hdng seo-custom-hng text-center">
+            <div class="text-center">
                 <div class="text-white fs-1">
                     READY TO <strong class="white">GROW YOUR BUSINESS?</strong>
                     <p class="cust-me-text-para fw-normal">
@@ -244,7 +244,7 @@
         </div>
 
         <div class="digital_expertise_border">
-            <div class="container digital_expertise_content row mx-auto">
+            <div class="container wp-dg-ext-gird-comp row mx-auto">
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
@@ -366,7 +366,7 @@
             </div>
         </div>
         <div class="digital_expertise_border">
-            <div class="container digital_expertise_content row mx-auto">
+            <div class="container wp-dg-ext-gird-comp row mx-auto">
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
@@ -487,7 +487,7 @@
             </div>
         </div>
         <div class="digital_expertise_border">
-            <div class="container digital_expertise_content row mx-auto">
+            <div class="container wp-dg-ext-gird-comp row mx-auto">
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">

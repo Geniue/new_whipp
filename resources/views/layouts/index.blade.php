@@ -48,6 +48,14 @@
             position: relative;
         }
 
+        .nav-phone-num-text {
+            width: 160px;
+        }
+
+        .line-heig-40 {
+            line-height: 40px !important;
+        }
+
         .sub-menu-hover>a {
             display: inline-block;
             width: 100%;

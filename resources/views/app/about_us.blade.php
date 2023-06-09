@@ -187,7 +187,7 @@
 
 
     {{-- TREE SECTION STARTS HERE --}}
-    <section class="d-none d-lg-block">
+    {{-- <section class="d-none d-lg-block">
         <div class="container">
             <div class="p-2 w-auto mx-auto ">
 
@@ -342,7 +342,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     {{-- TREE SECTION ENDS HERE --}}
 
 

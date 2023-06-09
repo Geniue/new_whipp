@@ -69,7 +69,9 @@ a {
     font-weight: 500;
 }
 .new-btn-banner:hover {
-    background: var(--btn-hover-color);
+    background-color: #ffff;
+    color: var(--primary-color);
+    /* border: 2px solid #000; */
 }
 
 @media screen and (max-width: 900px) {
@@ -651,32 +653,32 @@ img {
 .digital_expertise_border {
     border-top: 1px solid #d9d9d9;
 }
-.digital_expertise_content .col-lg-4 {
+.wp-dg-ext-gird-comp .col-lg-4 {
     /* border-right: 1px solid #d9d9d9; */
     border-left: 1px solid #d9d9d9;
     position: relative;
 }
-.digital_expertise_content .col-lg-4:nth-child(3n + 1) {
+.wp-dg-ext-gird-comp .col-lg-4:nth-child(3n + 1) {
     border-left: 0;
 }
 
 @media screen and (max-width: 992px) {
-    .digital_expertise_content .col-lg-4:last-child {
+    .wp-dg-ext-gird-comp .col-lg-4:last-child {
         border-right: 1px solid #d9d9d9;
     }
-    .digital_expertise_content .col-lg-4:not(:first-child) {
+    .wp-dg-ext-gird-comp .col-lg-4:not(:first-child) {
         border-right: 1px solid #d9d9d9;
     }
-    .digital_expertise_content .col-lg-4:nth-child(2) {
+    .wp-dg-ext-gird-comp .col-lg-4:nth-child(2) {
         border-bottom: 1px solid #d9d9d9;
     }
 }
 @media screen and (max-width: 768px) {
-    .digital_expertise_content .col-lg-4 {
+    .wp-dg-ext-gird-comp .col-lg-4 {
         border-right: 0 !important;
         border-left: 0;
     }
-    .digital_expertise_content .col-lg-4:first-child {
+    .wp-dg-ext-gird-comp .col-lg-4:first-child {
         border-bottom: 1px solid #d9d9d9;
     }
 }
@@ -684,11 +686,11 @@ img {
 /* css for digital expertise end */
 
 /* =========== styles for footer start */
-.haslink {
+.wd-footer-link {
     list-style: none;
     line-height: 33px;
 }
-.haslink > a {
+.wd-footer-link > a {
     font-weight: 500;
     color: #fff;
 }

@@ -35,11 +35,11 @@
                             <p>Name </p>
                             <div class="d-flex flex-column flex-lg-row justify-content-between m-0 gap-3 w-100">
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="input_15_1_3" class="col" />
+                                    <input id="input_15_1_3" class="col line-heig-40" />
                                     <label for="input_15_1_3" class="">First</label>
                                 </div>
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="input_15_1_4" class="col" />
+                                    <input id="input_15_1_4" class="col line-heig-40" />
                                     <label for="input_15_1_4" class="">Last</label>
                                 </div>
                             </div>
@@ -216,18 +216,16 @@
                 </div>
                 <!-- contact details -->
                 <div class="col-lg-3 text-center">
-                    <div class="fl-rich-text custom-text">
+                    <div class="custom-text">
                         <p style="margin-top: 10px">
-                            <strong>Main Phone: </strong><a title="Call Now" href="tel:1-866-908-4748"
-                                data-ctm-watch-id="9" data-ctm-tracked="1">(866) 908-4748</a>
+                            <strong>Main Phone: </strong><a title="Call Now" href="tel:1-866-908-4748">(866) 908-4748</a>
                         </p>
                         <p>
                             <strong>Headquarters:</strong><br />
                             4604 Park Springs Blvd<br />
                             Suite 140<br />
                             Arlington, TX 76017<br />
-                            <a title="Call Now" href="tel:+18779599892" data-ctm-watch-id="3" data-ctm-tracked="1"
-                                data-observe="1" data-observer-id="0">(877) 959-9892</a>
+                            <a title="Call Now" href="tel:+18779599892">(877) 959-9892</a>
                         </p>
                         <p>
                             <strong>Office Hours:</strong><br />
