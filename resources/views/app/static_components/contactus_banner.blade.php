@@ -1,18 +1,19 @@
 {{-- CONTACT US BANNER STARTS HERE --}}
 <section>
-    <div class="container pt-5">
+    <div class="container py-2">
         <div class="row">
             <div
                 class="col-12 d-flex flex-column gap-3 col-lg-4 text-center align-items-center align-items-lg-start text-lg-start pb-4 pb-lg-0">
                 <img src="{{ asset('assets/imgs/icons/whipplogo.jpeg') }}" class="mainwhipplogo " alt="">
-                <p class="mb-0">
+                <p class="pb-3">
                     Thrive Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and
                     Convert more leads online and get results with Thrive.
                 </p>
             </div>
             <div class="d-flex flex-column-reverse flex-lg-row col-12 col-lg-8">
-                <div class="col-12 col-lg-6 text-center"><img width="230"
-                        src="{{ asset('assets/imgs/icons/thrive_tree_new.svg') }}" alt=""></div>
+                <div class="col-12 col-lg-6 text-center">
+                    {{-- <img width="230" src="{{ asset('assets/imgs/icons/thrive_tree_new.svg') }}" alt=""> --}}
+                </div>
                 <div class="col-12 col-lg-6 text-center d-flex justify-content-center gap-1 flex-column">
                     <ul class="social-media mb-0 ps-0">
                         <li class=" facebook"><a href="#" target="_blank" aria-label="facebook"></a>
