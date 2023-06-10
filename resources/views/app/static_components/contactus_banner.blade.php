@@ -11,8 +11,9 @@
                 </p>
             </div>
             <div class="d-flex flex-column-reverse flex-lg-row col-12 col-lg-8">
-                <div class="col-12 col-lg-6 text-center">
-                    {{-- <img width="230" src="{{ asset('assets/imgs/icons/thrive_tree_new.svg') }}" alt=""> --}}
+                <div class="col-12 col-lg-6 text-center d-flex flex-column justify-content-center ">
+                    <img width="230" class="mx-auto d-none d-lg-inline"
+                        src="{{ asset('assets/imgs/icons/wlogo.jpg') }}" alt="">
                 </div>
                 <div class="col-12 col-lg-6 text-center d-flex justify-content-center gap-1 flex-column">
                     <ul class="social-media mb-0 ps-0">
