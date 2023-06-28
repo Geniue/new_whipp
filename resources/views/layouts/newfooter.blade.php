@@ -178,10 +178,10 @@
         <div class="col-12  col-lg-2 pt-2 pt-lg-0">
 
             <div class=" col-9 col-md-5 col-lg-auto d-flex flex-column gap-2  ">
-                <p class="fs-5 fw-bold mb-0">NEWSLETTER</p>
+                <p class="fs-5 fw-bold mb-0">CONTACT</p>
                 <p class="mb-0" style="font-size: 14px">Be the first to know about existing news, special events and much more.</p>
                 {{-- form --}}
-                <form class="d-flex flex-column gap-3 gap-lg-2">
+                {{-- <form class="d-flex flex-column gap-3 gap-lg-2">
                     <div class="position-relative overflow-hidden">
                         <input class="bg-transprent w-100 py-1 rounded-3 footer-email-input custom-text-white" type="text" placeholder="Your Email address">
                         <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
@@ -191,8 +191,9 @@
                     <div class="footer-form-sub-btn">
                         <button class="" type="submit">SUBSCRIBE</button>
                     </div>
-                </form>
-            
+                </form> --}}
+            <a href="mailto:support@whippdigital.com" class="fs-5">support@whippdigital.com</a>
+            <a href="tel:909-434-4334" class="fs-5">909-434-4334</a>
             </div>
         </div>
     </div>

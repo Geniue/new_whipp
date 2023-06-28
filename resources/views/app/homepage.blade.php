@@ -87,7 +87,7 @@
     <!-- MOBILE AGENCY ENDS HERE -->
 
     <!-- GROW BUSINESS BANNER STARTS HERE -->
-    <section class=" bg-green-1">
+    {{-- <section class=" bg-green-1">
         <div class="container py-5">
             <div class="text-center">
                 <div class="text-white fs-1">
@@ -106,7 +106,7 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- GROW BUSINESS BANNER ENDS HERE -->
 
     <!-- LET'S TALK BANNER SECTION STARTS HERE -->
