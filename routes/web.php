@@ -19,6 +19,9 @@ Route::get('/', function () {
 
 
 
+Route::get("/service/{slug}", [App\Http\Controllers\ServiceController::class, 'service'])->name("service");
+
+
 Route::prefix('contact')->group(function () {
     Route::get('/', function () {
         return view('app.contact');

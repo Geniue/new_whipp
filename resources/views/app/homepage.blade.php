@@ -1,5 +1,7 @@
 @extends('layouts.index')
-
+@section('title')
+<title>Whippdigital | Home</title>
+@endsection
 @section('content')
     <!-- MAIN SECTION STARTS HERE -->
     <section>
@@ -16,7 +18,7 @@
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
                         <h3 class="">Ready to experience hypergrowth? Let's talk!</h3>
-                        <button class="topbanner_anotherside-link">I Want to grow</button>
+                        <button class="iwantgrow_btn topbanner_anotherside-link">I Want to grow</button>
                     </div>
                 </div>
             </div>
@@ -46,8 +48,8 @@
             </div>
             <div class="become-leader-section-container-3">
                 <p class="fs-2">Ready to experience hypergrowth? Let's talk!</p>
-                <div class="topbanner_anotherside-link col-12 col-lg-6 col-xl-3 mx-auto">
-                    <a href="#" class="new-btn-ac"><span>I WANT TO GROW</span></a>
+                <div class="iwantgrow_btn topbanner_anotherside-link col-12 col-lg-6 col-xl-3 mx-auto">
+                    <div class="iwantgrow_btn new-btn-ac"><span>I WANT TO GROW</span></div>
                 </div>
             </div>
         </div>
@@ -76,8 +78,8 @@
             </div>
             <div class="become-leader-section-container-3">
                 <p class="fs-2">Ready to experience hypergrowth? Let's talk!</p>
-                <div class="topbanner_anotherside-link col-12 col-lg-6 col-xl-3 mx-auto">
-                    <a href="#" class="new-btn-ac"><span>I WANT TO GROW</span></a>
+                <div class="iwantgrow_btn topbanner_anotherside-link col-12 col-lg-6 col-xl-3 mx-auto">
+                    <div class="iwantgrow_btn new-btn-ac"><span>I WANT TO GROW</span></div>
                 </div>
             </div>
         </div>
@@ -108,7 +110,7 @@
     <!-- GROW BUSINESS BANNER ENDS HERE -->
 
     <!-- LET'S TALK BANNER SECTION STARTS HERE -->
-    <section>
+    {{-- <section>
         <div class="container py-5">
             <div class="text-center">
                 <h3 class="fs-2">Choose Thrive and Improve Your Technical SEO</h3>
@@ -122,7 +124,152 @@
         <div class="px-3 text-center px-lg-5 pb-4">
             <img class="imporve-tech-seo-img" src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}" alt="" />
         </div>
+    </section> --}}
+       {{-- GRID GALLARY SECTION STARTS HERE --}}
+       <section>
+        <div class="container py-5">
+            {{-- imgs --}}
+            <div class="row col-lg-11 mx-auto gap-4 gap-md-0 pb-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="dock box" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/CarCrak-Auto-Locksmith22.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img src="{{ asset('assets/imgs/logos/CarCrak-Auto-Locksmith22.png') }}" alt="">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/Ozi foundation Logo2.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/Ozi foundation Logo2.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/panoreal.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/panoreal.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/pritinegreencleaning.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/pritinegreencleaning.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/RC-Logo.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/RC-Logo.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/luxnests.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/luxnests.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/zingdial.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/zingdial.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/surivial_bugout_gear.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/surivial_bugout_gear.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mt-4">
+                    <div class="case-study-thumbnail d-flex logo-design-hover-eff">
+                        <a  rel="bookmark" title="Geoforce" class="">
+                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/emmonsfinancial.png') }}"
+                                alt="Image-3D-Thumbnail-01-2-1-1">
+
+                            <div class="overlay">
+                                <header>
+                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/emmonsfinancial.png') }}"
+                                        alt="Image-3D-Thumbnail-01-2-1-1">
+                                </header>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </section>
+    {{-- GRID GALLARY SECTION ENDS HERE --}}
     <!-- LET'S TALK BANNER SECTION ENDS HERE -->
 
     <!-- WHY TECH SEO IMPORTANT SECTION STARTS HERE -->

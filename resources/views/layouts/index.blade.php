@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="robots" content="noindex,nofollow,nocrawl">
-    <title>Whippdigital template</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" content="noindex,nofollow,nocrawl">
+        
+        <link rel="shortcut" type="image/png" href="{{asset('assets/imgs/logos/site_icon_128x128.png')}}">
+        <link rel="icon" type="image/png" href="{{asset('assets/imgs/logos/site_icon_128x128.png')}}">
+        
+        @yield('title')
 
 
 
@@ -116,7 +120,7 @@
 
 </head>
 
-<body>
+<body class="">
     @include('layouts.navbar')
     @yield('content')
 
@@ -124,8 +128,77 @@
     {{-- CONTACT US BANNER STARTS HERE --}}
     @include('app.static_components.contactus_banner')
     {{-- CONTACT US BANNER ENDS HERE --}}
-    @include('layouts.footer')
+    @include('layouts.newfooter')
 
+    <div class="position-fixed w-100 h-100 bg-black  d-flex justify-content-center align-items-center top-0 d-none left-0" id="grow_modal"  style="z-index: 99999999">
+
+        <div class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto position-relative">
+            <div  class="position-relative overflow-hidden rounded-4 p-3 p-lg-0 col-12 col-md-10 col-lg-8 mx-auto">
+                    <span id="popup_xbtn" class="popup_xbtn"></span>
+        
+                
+                <div class="">
+                    <div class="py-4 text-center custom-text-white">
+                        <p class="fs-1 pb-0">Let's talk</p>
+                        <p class="custom-color-123">Ready to experience hypergrowth?</p>
+                    </div>
+                </div>
+                {{-- form --}}
+                <form action="" class=" custom-text-white">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 p-lg-5">
+                            <div class="position-relative overflow-hidden mb-2 mb-lg-4">
+                                <input name="yourname-footer" placeholder="Your name*" class="custom-text-white custom-color-123-placeholder fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input" type="text">
+                                <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+                                </svg>
+                            </div>
+                            <div class="position-relative overflow-hidden  mb-2 mb-lg-4 pt-1">
+                                <input class="custom-text-white fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input custom-color-123-placeholder" type="email" placeholder="Your Email address*">
+                                <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+                                </svg>
+                            </div>
+                            <div class="position-relative overflow-hidden  my-lg-4">
+                                <select  class="fs-4 pb-2 custom-color-123 footer-input-select  footer-email-input" ><option value="hidden" class="custom-color-123" hidden="hidden">Monthly budget</option><option value="Up to $50,000">Up to $50,000</option><option value="$50,000 - $250,000">$50,000 - $250,000</option><option value="$250,000 - $750,000">$250,000 - $750,000</option><option value="$750,000 - $2,500,000">$750,000 - $2,500,000</option><option value="$2,500,000 - $5,000,000">$2,500,000 - $5,000,000</option></select>                        <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
+                                </svg>
+                            </div>
+                        
+                        </div>
+                        <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
+                            <label for="oranization_goal_message" class="pb-3 fs-5 fw-medium custom-color-123">Oranization Goal</label>
+                            <textarea name="oranization_goal_message" class="custom-text-white footer-oranization_goal_message modal-oranization_goal_message" id="" cols="30" rows="7"></textarea>
+                        </div>
+                        <div class="text-center p-2 my-3">
+                            <button type="submit" class="footer-form-submit-orign px-5 py-2">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    {{-- modal --}}
+    <script >
+        document.querySelectorAll('.iwantgrow_btn').forEach((btn)=>{
+            btn.addEventListener('click',(e)=>{
+                document.getElementById('grow_modal').classList.remove("d-none")
+                document.getElementById('grow_modal').classList.add("show_popup")
+                document.body.style="overflow:hidden;"
+            })
+        })
+        document.getElementById("popup_xbtn").addEventListener("click",()=>{
+            document.getElementById('grow_modal').classList.add("hide_popup")
+            setTimeout(() => {
+                document.getElementById('grow_modal').classList.add("d-none")
+                document.getElementById('grow_modal').classList.remove("hide_popup")
+            }, 180);
+            document.body.style="overflow:auto;"
+        })
+    </script>
 
 
 
