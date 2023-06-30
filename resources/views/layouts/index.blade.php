@@ -22,6 +22,42 @@
     <link rel="stylesheet" href="{{ asset('css/utiles.css') }}" />
     {{-- navbar styles --}}
     <style>
+        /* Firefox */
+        input[type=number] {
+        -moz-appearance: textfield;
+        }
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+        .main-service-hover-cen .menu-item-has-children-main-head >a:hover {
+            background-color: #5a5346;
+        }
+        .sub-menu-hover>a::after {
+            border-left: solid 8px #db7803 !important;
+        }
+        .service-mob-menu{
+            background-color: #443f35 !important;
+        }
+        ..sub-menu-hover>a:hover {
+            margin-left: 16px;
+            background: #5a5346;
+            }
+        .sevice-hover-expand {
+            width: 300px;
+            z-index: 9999;
+            height: auto;
+            background-color: #443f35;
+            border-radius: 6px;
+            position: absolute;
+            list-style: none;
+            padding: 0;
+            max-height: 0;
+            transition: max-height 0.4s ease-out;
+            overflow: hidden;
+        }
         :root {
             --primary-color: #2596be;
             --btn-bg-color: #30A2FF;
