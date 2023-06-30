@@ -15,27 +15,30 @@
             <div class="row">
                 <div class="col-12 col-lg-6 p-3">
                     <div class="position-relative overflow-hidden">
-                        <input name="yourname-footer" placeholder="Your name*" class="custom-text-white custom-color-123-placeholder fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input" type="text">
+                        <input name="yourname-footer" placeholder="Your Name*" class="custom-text-white custom-color-123-placeholder fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input" type="text">
                         <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
                         </svg>
                     </div>
                     <div class="position-relative overflow-hidden my-4">
-                        <input class="custom-text-white fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input custom-color-123-placeholder" type="email" placeholder="Your Email address*">
+                        <input class="custom-text-white fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input custom-color-123-placeholder" type="email" placeholder="Your Email Address*">
                         <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
                         </svg>
                     </div>
-                    <div class="position-relative overflow-hidden my-5">
-                        <select  class="fs-4 pb-2 custom-color-123 footer-input-select large gfield_select" ><option value="hidden" class="custom-color-123" hidden="hidden">Monthly budget</option><option value="Up to $50,000">Up to $50,000</option><option value="$50,000 - $250,000">$50,000 - $250,000</option><option value="$250,000 - $750,000">$250,000 - $750,000</option><option value="$750,000 - $2,500,000">$750,000 - $2,500,000</option><option value="$2,500,000 - $5,000,000">$2,500,000 - $5,000,000</option></select>                        <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                    
+                    <div class="position-relative overflow-hidden my-4">
+                        <input class="custom-text-white fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input custom-color-123-placeholder" type="number" placeholder="Your Phone Number*">
+                        <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
                         </svg>
                     </div>
+                    
                 
                 </div>
                 <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
-                    <label for="oranization_goal_message" class="pb-3 fs-5 fw-medium custom-color-123">Oranization Goal</label>
-                    <textarea name="oranization_goal_message" class="custom-text-white footer-oranization_goal_message" id="" cols="30" rows="7"></textarea>
+                    <label for="project_description" class="pb-3 fs-5 fw-medium custom-color-123">Please Describe Project</label>
+                    <textarea name="project_description" class="custom-text-white footer-oranization_goal_message" id="" cols="30" rows="7"></textarea>
                 </div>
                 <div class="text-center p-2 my-3">
                     <button type="submit" class="footer-form-submit-orign px-5 py-2">SUBMIT</button>
