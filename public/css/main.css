@@ -364,6 +364,7 @@ img {
     background-color: transparent;
     color: var(--btn-bg-color);
 }
+
 .lets-talk-btn-bg-white:hover {
     border: 2px solid var(--btn-bg-color);
     background-color: #fff !important;
@@ -781,7 +782,6 @@ img {
 /* =========== styles for footer end */
 
 /* ======== styles for contact page start */
-
 
 .wp-contact-form div p {
     margin-bottom: 5px;

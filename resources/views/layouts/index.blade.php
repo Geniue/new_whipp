@@ -31,6 +31,11 @@
                 position: sticky !important;
                 top: 0 !important;
             }
+
+            .footer-oranization_goal_message{
+                height: 120px !important;
+            }
+
         }
         .footer-form-submit-orign {
             background-color: #3bd4ff;
@@ -49,6 +54,7 @@
         }
         /* lets talk button */
         .lets-talk-btn{
+            border: none !important; 
             border-radius: 7px;
             border-top-right-radius: 0;
             box-shadow: 0 5px 9px 0 rgba(59, 212, 255,.3);
@@ -56,6 +62,7 @@
             border: 1px solid #5a5346
             transition: .4s;
             font-weight: 600;
+    
         }
         .lets-talk-btn:hover{
         background-color: black !important;
