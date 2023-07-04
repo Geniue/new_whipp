@@ -364,11 +364,6 @@ img {
     background-color: transparent;
     color: var(--btn-bg-color);
 }
-.lets-talk-btn:hover {
-    border: 2px solid var(--btn-bg-color);
-    background-color: transparent;
-    color: var(--btn-bg-color);
-}
 .lets-talk-btn-bg-white:hover {
     border: 2px solid var(--btn-bg-color);
     background-color: #fff !important;
@@ -787,11 +782,6 @@ img {
 
 /* ======== styles for contact page start */
 
-.con-ti-ba-section {
-    background: url(../assets/imgs/icons/new-compressed-header-1.jpg) no-repeat
-        center bottom !important;
-    background-size: cover !important;
-}
 
 .wp-contact-form div p {
     margin-bottom: 5px;
@@ -1705,66 +1695,12 @@ color: #ededed;
     color: #fff;
 }
 
-.footer-contact-container {
-    border-radius: 23px;
-    /* border-top-right-radius: 0; */
-    padding: 35px 15px;
-    position: relative;
-    overflow: hidden;
-    -webkit-animation: bd 5s infinite linear;
-    animation: bd 5s infinite linear;
-     background-size: 308% 7px,7px 300%;
-}
 
-.footer-contact-container::after {
-    content: "";
-    height: 200px;
-    width: 1px;
-    position: absolute;
-    top: -200px;
-    right: 0;
-    background-color: #fff;
-    opacity: .5;
-    -webkit-animation: moveRight 1.5s infinite linear;
-    animation: moveRight 1.5s infinite linear;
-}
 
-.footer-contact-container:before {
-    content: "";
-    width: 200px;
-    height: 1px;
-    position: absolute;
-    top: 0;
-    left: -200px;
-    background-color: #fff;
-    opacity: .5;
-    -webkit-animation: moveTop 1.5s infinite linear;
-    animation: moveTop 1.5s infinite linear;
-}
-.left-right-anime::before{
-    content: "";
-    width: 200px;
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-    left: -200px;
-    background-color: #fff;
-    opacity: .5;
-    -webkit-animation: moveBottom 1.5s infinite linear;
-    animation: moveBottom 1.5s infinite linear;
-}
-.left-right-anime::after{
-content: "";
-height: 200px;
-width: 1px;
-position: absolute;
-top: -200px;
-left: 0;
-background-color: #fff;
-opacity: .5;
--webkit-animation: moveLeft 1.5s infinite linear;
-animation: moveLeft 1.5s infinite linear;
-}
+
+
+
+
 
 .custom-color-123{
     color: #92989e;
@@ -1940,134 +1876,3 @@ transform: translate(-50%,-50%) skewX(-45deg) scale(1,1);
 
 
 
-@-webkit-keyframes bd {
-    100% {
-        background-position: 460% 0,100% 320%,310% 100%,0 310%
-    }
-}
-
-@keyframes bd {
-    100% {
-        background-position: 460% 0,100% 320%,310% 100%,0 310%
-    }
-}
-
-@-webkit-keyframes moveTop {
-    0% {
-        left: calc(-200px - 684px);
-        opacity: .2
-    }
-
-    100% {
-        left: calc(100%);
-        opacity: .8
-    }
-}
-
-@keyframes moveTop {
-    0% {
-        left: calc(-200px - 684px);
-        opacity: .2
-    }
-
-    100% {
-        left: calc(100%);
-        opacity: .8
-    }
-}
-
-@-webkit-keyframes moveTopNewForm {
-    0% {
-        left: calc(-200px - 684px);
-        opacity: .2
-    }
-
-    100% {
-        left: calc(100%);
-        opacity: .8
-    }
-}
-
-@keyframes moveTopNewForm {
-    0% {
-        left: calc(-200px - 684px);
-        opacity: .2
-    }
-
-    100% {
-        left: calc(100%);
-        opacity: .8
-    }
-}
-
-@-webkit-keyframes moveRight {
-    0% {
-        top: calc(100% + 888px);
-        opacity: .2
-    }
-
-    100% {
-        top: -200px;
-        opacity: .8
-    }
-}
-
-@keyframes moveRight {
-    0% {
-        top: calc(100% + 888px);
-        opacity: .2
-    }
-
-    100% {
-        top: -200px;
-        opacity: .8
-    }
-}
-
-@-webkit-keyframes moveLeft {
-    0% {
-        top: 100%;
-        opacity: .2
-    }
-
-    100% {
-        top: calc(-200px - 1388px);
-        opacity: .8
-    }
-}
-
-@keyframes moveLeft {
-    0% {
-        top: 100%;
-        opacity: .2
-    }
-
-    100% {
-        top: calc(-200px - 1388px);
-        opacity: .8
-    }
-}
-
-@-webkit-keyframes moveBottom {
-    0% {
-        left: calc(-200px);
-        opacity: .2
-    }
-
-    100% {
-        left: calc(100% + 684px);
-        opacity: .8
-    }
-}
-
-@keyframes moveBottom {
-    0% {
-        left: calc(-200px);
-        opacity: .2
-    }
-
-    100% {
-        left: calc(100% + 684px);
-        opacity: .8
-    }
-}

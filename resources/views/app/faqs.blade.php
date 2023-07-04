@@ -1,8 +1,22 @@
 @extends('layouts.index')
-
+@section('pageheading')
+    <!-- CONTACT TITLE BANNER SECTION STARTS HERE -->
+    <section class="desk-con-ti-ba-section d-none d-lg-block">
+        <div class="container text-center py-4">
+            <h2 class="fs-1 fw-bold custom-text">FAQ'S</h2>
+            <p class="custom-text-2 fs-5">
+                Frequently asked questions
+            </p>
+            <div class="text-center py-4">
+                <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT TITLE BANNER SECTION ENDS HERE -->
+@endsection
 @section('content')
     <!-- BLOG TITLE BANNER SECTION STARTS HERE -->
-    <section class="con-ti-ba-section pb-4">
+    <section class="con-ti-ba-section pb-4 d-lg-none">
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text text-ellipsis-4">FAQ'S</h2>
             <p class="custom-text-2 fs-5 ">
@@ -11,7 +25,7 @@
         </div>
         <div class="text-center py-4">
 
-            <a class="lets-talk-btn px-2 px-md-4 py-1 py-md-3 fs-5 rounded-5" href="#">GET MY FREE PROPOSAL</a>
+            <a class="lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Talk</a>
         </div>
     </section>
     <!-- BLOG TITLE BANNER SECTION ENDS HERE -->

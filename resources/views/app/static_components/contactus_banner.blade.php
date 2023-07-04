@@ -1,5 +1,5 @@
 {{-- CONTACT US BANNER STARTS HERE --}}
-<section>
+{{-- <section>
     <div class="container py-2">
         <div class="row">
             <div
@@ -34,5 +34,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 {{-- CONTACT US BANNER ENDS HERE --}}

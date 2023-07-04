@@ -1,11 +1,13 @@
 <!-- NAVBAR SECTION STARTS HERE -->
-<header class="py-1 py-xl-3 position-sticky top-0 shadow " style="z-index: 99999;background-color:#ffff">
-    <nav class="wd-nav-section-container mx-auto d-flex align-items-center justify-content-between">
+<header class="py-1 py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
+    <div class="position-relative">
+    <nav class="wd-nav-section-container mx-auto d-flex align-items-center justify-content-between ">
+
         <!-- logo -->
         <div class="d-flex">
             <div class="logo">
                 <a href="/" class="main-logo">
-                    <img src="{{ asset('assets/imgs/icons/whipplogo.jpeg') }}" class="mainwhipplogo" alt="">
+                    <img src="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo" alt="">
                 </a>
             </div>
         </div>
@@ -369,11 +371,11 @@
                             </a>
                         </div>
                         <ul class="sevice-hover-expand tri-ico">
-                            <li class="hover-ver2 sub-menu-hover">
+                            {{-- <li class="hover-ver2 sub-menu-hover">
                                 <a href="{{ route('case-studies') }}"><i class="seoicon-button"></i>
                                     Case Studies
                                 </a>
-                            </li>
+                            </li> --}}
                             <li class="hover-ver2 sub-menu-hover">
                                 <a href="{{ route('web-designs') }}"><i class="seoicon-button"></i>
                                     Web Designs
@@ -384,20 +386,20 @@
                                     Logo Designs
                                 </a>
                             </li>
-                            <li class="hover-ver2 sub-menu-hover">
+                            {{-- <li class="hover-ver2 sub-menu-hover">
                                 <a href="{{ route('video') }}"><i class="seoicon-chat-comment"></i>
                                     Videos
                                 </a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </li>
-                    <li class="nav-menu-child">
+                    {{-- <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
                             <a href="{{ route('about-us') }}">
                                 <span class=""> about </span>
                             </a>
                         </div>
-                    </li>
+                    </li> --}}
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
                             <a href="{{ route('blog') }}">
@@ -427,7 +429,7 @@
                     <img width="40" class="ek-phone-img"
                         src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}" alt="" />
                 </a>
-                <a href="tel:909-434-4334" class="fs-4 wd-num-phone nav-phone-num-text" style="color: #2f2c2c">
+                <a href="tel:909-434-4334" class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
                     909-434-4334
                 </a>
                 <a href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">
@@ -458,7 +460,11 @@
                 </a>
             </div>
         </div>
+            
     </nav>
+   
+</div>
+@yield("pageheading")
     <!-- toggle on mobile -->
     <div class="mobile-toggle-menu">
         <ul class="mobile-toggle-menu-lists">
@@ -764,11 +770,11 @@
                 <a href="{{ route('services') }}" class="mob-service-link-aco"> Work </a>
 
                 <ul data-id="myitem2" class="service-mob-menu">
-                    <li class="hover-ver2 ">
+                    {{-- <li class="hover-ver2 ">
                         <a href="{{ route('case-studies') }}"><i class="seoicon-button"></i>
                             Case Studies
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="hover-ver2">
                         <a href="{{ route('web-designs') }}"><i class="seoicon-button"></i>
                             Web Designs
@@ -779,16 +785,16 @@
                             Logo Designs
                         </a>
                     </li>
-                    <li class="hover-ver2">
+                    {{-- <li class="hover-ver2">
                         <a href="{{ route('video') }}"><i class="seoicon-chat-comment"></i>
                             Videos
                         </a>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
-            <li>
+            {{-- <li>
                 <a href="{{ route('about-us') }}"> about </a>
-            </li>
+            </li> --}}
             <li class="expand-serivce-area-mob">
 
 

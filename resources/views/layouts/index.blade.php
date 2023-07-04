@@ -26,11 +26,207 @@
         input[type=number] {
         -moz-appearance: textfield;
         }
+        @media(max-width:992px){
+            .blue-box-bg-navbar{
+                position: sticky !important;
+                top: 0 !important;
+            }
+        }
+        .footer-form-submit-orign {
+            background-color: #3bd4ff;
+            border-radius: 7px;
+            border-top-right-radius: 0;
+            box-shadow: 0 5px 9px 0 rgba(59, 212, 255,.3);
+            color: #000;
+            transition: .4s;
+            font-weight: 600;
+        }
         /* Chrome, Safari, Edge, Opera */
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
         -webkit-appearance: none;
         margin: 0;
+        }
+        /* lets talk button */
+        .lets-talk-btn{
+            border-radius: 7px;
+            border-top-right-radius: 0;
+            box-shadow: 0 5px 9px 0 rgba(59, 212, 255,.3);
+            color: #000;
+            border: 1px solid #5a5346
+            transition: .4s;
+            font-weight: 600;
+        }
+        .lets-talk-btn:hover{
+        background-color: black !important;
+        color: #fff !important;
+        }
+        /* /lets talk button */
+
+        /* new form animations */
+        .anim-for-inp-comp {
+            position: relative;
+            height: 60px;
+            overflow: hidden;
+            }
+
+            .anim-for-inp-comp input {
+            width: 100%;
+            height: 100%;
+            color: #92989e;
+            padding-top: 20px;
+            border: none;
+            font-size: 22px;
+            background-color:transparent;
+            }
+            .footer-oranization_goal_message{
+                color: #92989e !important;
+            }
+            .anim-for-inp-comp label {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            border-bottom: 1px solid #92989e;
+            }
+            .anim-for-inp-comp label::after {
+            content: "";
+            position: absolute;
+            bottom: -1px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border-bottom: 3px solid #92989e;
+            transform: translateX(-100%);
+            transition: all 0.3s ease;
+            }
+
+            .anime-label-text {
+            font-size: 22px;
+            color: #92989e;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            padding-bottom: 5px;
+            transition: all 0.3s ease;
+            }
+            .anim-for-inp-comp input:focus {
+            outline: none;
+            }
+            .anim-for-inp-comp input:focus + .anime-label-wrap .anime-label-text,
+            .anim-for-inp-comp input:valid + .anime-label-wrap .anime-label-text {
+            transform: translateY(-150%);
+            font-size: 14px;
+            left: 0px;
+            color: #92989e;
+            font-weight: 600;
+            }
+            .anim-for-inp-comp input:focus + .anime-label-wrap::after,
+            .anim-for-inp-comp input:valid + .anime-label-wrap::after {
+            transform: translateX(0%);
+            }
+
+
+        /*  /new form animations */
+        
+        /* footer contact form border animation */
+        
+            @property --angle {
+            syntax: '<angle>';
+            initial-value: 90deg;
+            inherits: true;
+            }
+
+            @property --gradX {
+            syntax: '<percentage>';
+            initial-value: 50%;
+            inherits: true;
+            }
+
+            @property --gradY {
+            syntax: '<percentage>';
+            initial-value: 0%;
+            inherits: true;
+            }
+
+    
+            p {
+                margin: 0;
+            }
+
+            :root {
+                --d: 2500ms;
+                --angle: 90deg;
+                --gradX: 100%;
+                --gradY: 50%;
+                --c1: #3bd4ff;
+                --c2: rgba(168, 239, 255, 0.1);
+            }
+
+            .box {
+                border: 0.10rem solid;
+                border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+                animation: borderRotate var(--d) linear infinite forwards;
+            }
+
+            .box:nth-child(2) {
+                border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+                animation: borderRadial var(--d) linear infinite forwards;
+            }
+
+            @keyframes borderRotate {
+                100% {
+                    --angle: 420deg;
+                }
+            }
+
+            @keyframes borderRadial {
+                20% {
+                    --gradX: 100%;
+                    --gradY: 50%;
+                }
+                40% {
+                    --gradX: 100%;
+                    --gradY: 100%;
+                }
+                60% {
+                    --gradX: 50%;
+                    --gradY: 100%;
+                }
+                80% {
+                    --gradX: 0%;
+                    --gradY: 50%;
+                }
+                100% {
+                    --gradX: 50%;
+                    --gradY: 0%;
+                }
+            }
+        /* /footer contact form border animation */
+
+        .menu-icon-wrapper svg path {
+            stroke: #fff !important;
+            }
+        
+        .blue-box-bg-navbar{
+            background: url('{{asset("assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc.jpg")}}')  repeat ;
+            background-size: cover;
+            background-position:100% 67%; 
+        }
+        .desk-con-ti-ba-section  h2{
+            color: #fbfbfb !important
+        }
+        .desk-con-ti-ba-section p{
+            color: #c7c7c7 !important
+        }
+        
+        .wd-nav-link > a {
+            color: #fff !important;
+                }
+        .wd-nav-text{
+            color: #fff ;
         }
         .main-service-hover-cen .menu-item-has-children-main-head >a:hover {
             background-color: #5a5346;
@@ -182,23 +378,29 @@
                 <form action="" class=" custom-text-white">
                     <div class="row">
                         <div class="col-12 col-lg-6 p-lg-5">
-                            <div class="position-relative overflow-hidden mb-2 mb-lg-4">
-                                <input name="yourname-footer" placeholder="Your name*" class="custom-text-white custom-color-123-placeholder fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input" type="text">
-                                <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-                                </svg>
+                            <div class="anim-for-inp-comp mt-2">
+                                <input type="text" name="username" autocomplete="off" required />
+                                <label for="username" class="anime-label-wrap">
+                                <span class="anime-label-text">
+                                    Your name
+                                </span>
+                                </label>
                             </div>
-                            <div class="position-relative overflow-hidden  mb-2 mb-lg-4 pt-1">
-                                <input class="custom-text-white fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input custom-color-123-placeholder" type="email" placeholder="Your Email address*">
-                                <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-                                </svg>
+                            <div class="anim-for-inp-comp mt-2">
+                                <input type="email" name="email" autocomplete="off" required />
+                                <label for="email" class="anime-label-wrap">
+                                <span class="anime-label-text">
+                                    Your Email address
+                                </span>
+                                </label>
                             </div>
-                            <div class="position-relative overflow-hidden  my-lg-4">
-                                <input class="custom-text-white fs-4 bg-transprent w-100 py-1 rounded-3 footer-email-input custom-color-123-placeholder" type="number" placeholder="Your Phone number*">
-                                <svg class="wav-anime" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                                    <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
-                                </svg>
+                            <div class="anim-for-inp-comp mt-2">
+                                <input type="number" name="phone" autocomplete="off" required />
+                                <label for="phone" class="anime-label-wrap">
+                                <span class="anime-label-text">
+                                    Your Phone Number
+                                </span>
+                                </label>
                             </div>
                         
                         </div>

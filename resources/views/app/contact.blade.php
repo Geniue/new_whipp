@@ -1,8 +1,20 @@
 @extends('layouts.index')
 
+@section('pageheading')
+    <!-- CONTACT TITLE BANNER SECTION STARTS HERE -->
+    <section class="desk-con-ti-ba-section d-none d-lg-block">
+        <div class="container text-center py-4">
+            <h2 class="fs-1 fw-bold custom-text">Contact</h2>
+            <p class="custom-text-2 fs-5">
+                Fill out the form below to get your Free Proposal.
+            </p>
+        </div>
+    </section>
+    <!-- CONTACT TITLE BANNER SECTION ENDS HERE -->
+@endsection
 @section('content')
     <!-- CONTACT TITLE BANNER SECTION STARTS HERE -->
-    <section class="con-ti-ba-section">
+    <section class="con-ti-ba-section d-lg-none">
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Contact</h2>
             <p class="custom-text-2 fs-5">
@@ -35,12 +47,12 @@
                             <p>Name </p>
                             <div class="d-flex flex-column flex-lg-row justify-content-between m-0 gap-3 w-100">
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="input_15_1_3" class="col line-heig-40" />
-                                    <label for="input_15_1_3" class="">First</label>
+                                    <input id="name_first" class="w-100 h-100 line-heig-40" />
+                                    <label for="name_first" class="">First</label>
                                 </div>
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="input_15_1_4" class="col line-heig-40" />
-                                    <label for="input_15_1_4" class="">Last</label>
+                                    <input id="name_last" class="col line-heig-40" />
+                                    <label for="name_last" class="w-100 h-100">Last</label>
                                 </div>
                             </div>
                         </div>

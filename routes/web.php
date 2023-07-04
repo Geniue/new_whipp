@@ -28,27 +28,27 @@ Route::prefix('contact')->group(function () {
     })->name('contact');
 });
 
-Route::get('/case-studies', function () {
-    return view('app.work.case_studies');
-})->name('case-studies');
+// Route::get('/case-studies', function () {
+//     return view('app.work.case_studies');
+// })->name('case-studies');
 
 
 Route::get('/logo-designs', function () {
     return view('app.work.logo_designs');
 })->name('logo-designs');
 
-Route::get('/video', function () {
-    return view('app.work.video');
-})->name('video');
+// Route::get('/video', function () {
+//     return view('app.work.video');
+// })->name('video');
 
 
 Route::get('/web-designs', function () {
     return view('app.work.web_designs');
 })->name('web-designs');
 
-Route::get('/about-us', function () {
-    return view('app.about_us');
-})->name('about-us');
+// Route::get('/about-us', function () {
+//     return view('app.about_us');
+// })->name('about-us');
 
 
 Route::get('/blog', function () {

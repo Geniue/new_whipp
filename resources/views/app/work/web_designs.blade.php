@@ -1,15 +1,30 @@
 @extends('layouts.index')
 
-@section('content')
+@section("pageheading")
     {{-- TITLE BANNER STARTS HERE --}}
-    <section class="con-ti-ba-section">
+    <section class="desk-con-ti-ba-section d-none d-lg-block">
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Web Designs</h2>
             <p class="custom-text-2 fs-5">
                 Shiny, new, optimized websites completed by Thrive
             </p>
             <div class="text-center py-4">
-                <a class="lets-talk-btn px-4 py-3 fs-5 rounded-5" href="#">GET MY FREE PROPOSAL</a>
+                <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
+            </div>
+        </div>
+    </section>
+    {{-- TITLE BANNER ENDS HERE --}}
+@endsection
+@section('content')
+    {{-- TITLE BANNER STARTS HERE --}}
+    <section class="con-ti-ba-section d-lg-none">
+        <div class="container text-center py-4">
+            <h2 class="fs-1 fw-bold custom-text">Web Designs</h2>
+            <p class="custom-text-2 fs-5">
+                Shiny, new, optimized websites completed by Thrive
+            </p>
+            <div class="text-center py-4">
+                <a class="lets-talk-btn px-4 py-3 fs-5 rounded-5" href="#">Let's Talk</a>
             </div>
         </div>
     </section>
