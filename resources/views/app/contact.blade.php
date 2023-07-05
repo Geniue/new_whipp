@@ -47,12 +47,12 @@
                             <p>Name </p>
                             <div class="d-flex flex-column flex-lg-row justify-content-between m-0 gap-3 w-100">
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="name_first" class="w-100 h-100 line-heig-40" />
+                                    <input id="name_first" class="w-100 height-41px line-heig-40" />
                                     <label for="name_first" class="">First</label>
                                 </div>
                                 <div class="d-flex flex-column col d-block">
                                     <input id="name_last" class="col line-heig-40" />
-                                    <label for="name_last" class="w-100 h-100">Last</label>
+                                    <label for="name_last" class="w-100 height-41px">Last</label>
                                 </div>
                             </div>
                         </div>

@@ -8,7 +8,13 @@
  <!-- SERIVCES TITLE BANNER SECTION STARTS HERE -->
  <section class="desk-con-ti-ba-section d-none d-lg-block">
     <div class="container text-center py-4">
-        <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">{{$heading}}</h2>
+        <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
+    @if (!request()->routeIs('virtual-assistant'))
+           {{$heading}}
+        @else
+           24/7 Virtual assistant
+        @endif
+        </h2>
         <p class="custom-text-2 fs-5">
             Create a Strong Digital Foundation and Rank High on Search Results
         </p>
@@ -25,7 +31,13 @@
     <!-- SERIVCES TITLE BANNER SECTION STARTS HERE -->
     <section class="con-ti-ba-section d-lg-none">
         <div class="container text-center py-4">
-            <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">{{$heading}}</h2>
+            <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
+                @if (request()->routeIs('24-7-virtual-assistant'))
+                24/7 Virtual assistant
+                @else
+                {{$heading}}
+                @endif
+            </h2>
             <p class="custom-text-2 fs-5">
                 Create a Strong Digital Foundation and Rank High on Search Results
             </p>

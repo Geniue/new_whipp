@@ -234,7 +234,32 @@
                                             <a href="{{  route('service', ['slug' => 'social-media-reputation-management'])  }}"><i class="seoicon-chat-comment"></i>
                                                 Social Media Reputation Management
                                             </a>
-                                        </li>  
+                                        </li> 
+                                  
+
+                                        <li class="menu-item-has-children hover-ver2  menu-item-has-children-main-head">
+                                                <a href="{{  route('service', ['slug' => 'virtual-assistant-service'])  }}">
+                                                    <i class="seoicon-search"></i>
+                                                    Virtual Assistant Service
+                                                </a>
+                                        </li>
+                
+                                        <li class="hover-ver2 sub-menu-hover">
+                                                <a href="{{  route('service', ['slug' => 'virtual-personal-assistant'])  }}"><i class="seoicon-button"></i>
+                                                    Virtual Personal Assistant
+                                                </a>
+                                        </li>
+                                        <li class="hover-ver2 sub-menu-hover">
+                                                <a href="{{  route('service', ['slug' => 'real-estate-virtual-assistant'])  }}"><i class="seoicon-mail-send"></i>
+                                                    Real Estate Virtual Assistant
+                                                </a>
+                                        </li>
+                                        <li class="hover-ver2 sub-menu-hover">
+                                                <a href="{{  route('service', ['slug' => 'virtual-assistant'])  }}"><i class="seoicon-chat-comment"></i>
+                                                    24/7 Virtual Assistant
+                                                </a>
+                                        </li>
+                                        
                                     </ul>
                                     <ul class="col-3">
 
@@ -672,6 +697,28 @@
                             Social Media Reputation Management
                         </a>
                     </li>
+                    <li class="menu-item-has-children hover-ver2 mov-main-service-head">
+                        <a href="{{  route('service', ['slug' => 'virtual-assistant-service'])  }}">
+                            <i class="seoicon-search"></i>
+                            Virtual Assistant Service
+                        </a>
+                </li>
+
+                <li class="menu-item-has-children hover-ver2">
+                        <a href="{{  route('service', ['slug' => 'virtual-personal-assistant'])  }}"><i class="seoicon-button"></i>
+                            Virtual Personal Assistant
+                        </a>
+                </li>
+                <li class="menu-item-has-children hover-ver2">
+                        <a href="{{  route('service', ['slug' => 'real-estate-virtual-assistant'])  }}"><i class="seoicon-mail-send"></i>
+                            Real Estate Virtual Assistant
+                        </a>
+                </li>
+                <li class="menu-item-has-children hover-ver2">
+                        <a href="{{  route('service', ['slug' => 'virtual-assistant'])  }}"><i class="seoicon-chat-comment"></i>
+                            24/7 Virtual Assistant
+                        </a>
+                </li>
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
                         <a href="{{ route('service', ['slug' => 'ecommerce-marketing']) }}">
                             <i class="seoicon-pie-graph-split"></i>

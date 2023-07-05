@@ -239,7 +239,7 @@
             background-color: #5a5346;
         }
         .sub-menu-hover>a::after {
-            border-left: solid 8px #db7803 !important;
+            border-left: solid 8px #3bd4ff !important;
         }
         .service-mob-menu{
             background-color: #443f35 !important;
@@ -257,6 +257,7 @@
             position: absolute;
             list-style: none;
             padding: 0;
+            margin: 13px 0 0 0 !important;
             max-height: 0;
             transition: max-height 0.4s ease-out;
             overflow: hidden;
@@ -351,6 +352,16 @@
                 width: 50px;
             }
 
+        }
+        .wp-brdcb:before{
+            border-top: 15px solid #3bd4ff !important;
+        }
+        .height-41px{
+            height: 41px !important;
+        }
+        .wd-nav-link > a:after {
+        height: 3px;
+        margin: 4px 0 !important;
         }
     </style>
 
