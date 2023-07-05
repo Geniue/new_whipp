@@ -404,7 +404,7 @@
                                 </span>
                                 </label>
                             </div>
-                            <div class="anim-for-inp-comp mt-2">
+                            <div class="anim-for-inp-comp mt-3">
                                 <input type="email" name="email" autocomplete="off" required />
                                 <label for="email" class="anime-label-wrap">
                                 <span class="anime-label-text">
@@ -412,7 +412,7 @@
                                 </span>
                                 </label>
                             </div>
-                            <div class="anim-for-inp-comp mt-2">
+                            <div class="anim-for-inp-comp mt-3">
                                 <input type="number" name="phone" autocomplete="off" required />
                                 <label for="phone" class="anime-label-wrap">
                                 <span class="anime-label-text">
