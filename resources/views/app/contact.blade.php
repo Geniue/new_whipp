@@ -51,8 +51,8 @@
                                     <label for="name_first" class="">First</label>
                                 </div>
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="name_last" class="col line-heig-40" />
-                                    <label for="name_last" class="w-100 height-41px">Last</label>
+                                    <input id="name_last" class="w-100 line-heig-40 height-41px" />
+                                    <label for="name_last" class=" ">Last</label>
                                 </div>
                             </div>
                         </div>
