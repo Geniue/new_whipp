@@ -24,7 +24,7 @@
     <style>
         /* Firefox */
         .wd-nav-links{
-            justify-content: end !important; 
+            justify-content: start !important; 
         }
         .custom-boder-left{
             border-left: 1px solid #e1e1e17d;

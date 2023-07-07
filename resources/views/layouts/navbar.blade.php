@@ -16,7 +16,7 @@
         <div class="wd-menu-li-row d-flex align-items-center ">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center ">
-                <ul class="wd-nav-links d-flex align-items-center gap-4">
+                <ul class="wd-nav-links d-flex align-items-center gap-5">
            
                     {{-- <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
