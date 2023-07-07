@@ -44,15 +44,14 @@
                     <form class="wp-contact-form custom-bg-1 rounded-2 p-3 d-flex flex-column gap-4" action="/">
                         <!-- first name and last name -->
                         <div>
-                            <p>Name </p>
                             <div class="d-flex flex-column flex-lg-row justify-content-between m-0 gap-3 w-100">
                                 <div class="d-flex flex-column col d-block">
+                                    <p  class="">First Name</p>
                                     <input id="name_first" class="w-100 height-41px line-heig-40" />
-                                    <label for="name_first" class="">First</label>
                                 </div>
                                 <div class="d-flex flex-column col d-block">
+                                    <p  class=" ">Last Name</p>
                                     <input id="name_last" class="w-100 line-heig-40 height-41px" />
-                                    <label for="name_last" class=" ">Last</label>
                                 </div>
                             </div>
                         </div>
@@ -229,19 +228,12 @@
                 <!-- contact details -->
                 <div class="col-lg-3 text-center">
                     <div class="custom-text">
-                        <p style="margin-top: 10px">
-                            <strong>Main Phone: </strong><a title="Call Now" href="tel:1-866-908-4748">(866) 908-4748</a>
+                        <p>
+                            <a title="Call Now" href="tel:909-434-4334">909-434-4334</a>
                         </p>
                         <p>
-                            <strong>Headquarters:</strong><br />
-                            4604 Park Springs Blvd<br />
-                            Suite 140<br />
-                            Arlington, TX 76017<br />
-                            <a title="Call Now" href="tel:+18779599892">(877) 959-9892</a>
-                        </p>
-                        <p>
-                            <strong>Office Hours:</strong><br />
-                            Mon-Fri, 8:30am - 5:30pm CT
+                            <a href="mailto:support@whippdigital.com" class="">support@whippdigital.com</a>
+
                         </p>
 
                     </div>
