@@ -32,7 +32,7 @@
                             </a>
                         </div>
                     </li>
-                    <li class="nav-menu-child">
+                    <li class="nav-menu-child ms-2">
                         <div class="wd-nav-link position-relative">
                             <a href="{{ route('contact') }}">
                                 <span class=""> contact</span>

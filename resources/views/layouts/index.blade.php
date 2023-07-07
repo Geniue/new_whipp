@@ -23,6 +23,9 @@
     {{-- navbar styles --}}
     <style>
         /* Firefox */
+        .wd-nav-link > a:after{
+            background: #fff !important;
+        }
         .wd-nav-links{
             justify-content: start !important; 
         }
