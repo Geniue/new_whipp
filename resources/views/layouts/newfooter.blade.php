@@ -108,7 +108,7 @@
     </div>
     {{-- Links --}}
     <div class="col row  gap-lg-0 d-flex footer-con-links px-1 flex-grow-1">
-        <div class="col-6  col-lg-2 px-0">
+        {{-- <div class="col-6  col-lg-2 px-0">
         <ul class=" d-flex flex-column gap-3 custom-boder-right">
             <li><a href="#">Market Strategy</a></li>
             <li><a href="#">Mobile Strategy</a></li>
@@ -156,8 +156,8 @@
                 <li><a href="#">Website Development</a></li>
                 <li><a href="#">Digital Transformation</a></li>
             </ul>
-        </div >
-        <div class="col-12  col-lg-2 pt-2 pt-lg-0">
+        </div > --}}
+        <div class="col-12  col-lg-2 py-3 pt-lg-0 custom-boder-left ms-lg-auto">
 
             <div class=" col-9 col-md-5 col-lg-auto d-flex flex-column gap-2  ">
                 <p class="fs-5 fw-bold mb-0">CONTACT</p>

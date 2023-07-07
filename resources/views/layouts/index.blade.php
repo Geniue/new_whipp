@@ -23,6 +23,18 @@
     {{-- navbar styles --}}
     <style>
         /* Firefox */
+        .wd-nav-links{
+            justify-content: end !important; 
+        }
+        .custom-boder-left{
+            border-left: 1px solid #e1e1e17d;
+        }
+        @media (max-width:992px){
+                .custom-boder-left{
+                    border-left:none;
+                }
+                
+        }
         input[type=number] {
         -moz-appearance: textfield;
         }
