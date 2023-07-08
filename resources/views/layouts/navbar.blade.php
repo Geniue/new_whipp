@@ -43,12 +43,12 @@
             </div>
             <!-- contact -->
             <div class="d-flex gap-2 ps-4 ">
-                <a href="tel:909-434-4334" class="">
+                <a href="tel:212-951-0651" class="">
                     <img width="40" class="ek-phone-img"
                         src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}" alt="" />
                 </a>
-                <a href="tel:909-434-4334" class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
-                    909-434-4334
+                <a href="tel:212-951-0651" class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
+                    212-951-0651
                 </a>
                 <a href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">
                     <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">

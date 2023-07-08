@@ -74,7 +74,7 @@
                         <br>
                         York
                     </p>
-                    <a href="tel:909-434-4334">909-434-4334</a>
+                    <a href="tel:212-951-0651">212-951-0651</a>
                 </div>
             </div>
             <div class="d-flex footer-loc-det flex-md-column flex-xl-row gap-3">
@@ -85,7 +85,7 @@
                         <br>
                         Street
                     </p>
-                    <a href="tel:909-434-4334">909-434-4334</a>
+                    <a href="tel:212-951-0651">212-951-0651</a>
                 </div>
             </div>
             <div class="d-flex footer-loc-det flex-md-column flex-xl-row gap-3">
@@ -96,7 +96,7 @@
                         <br>
                         York
                     </p>
-                    <a href="tel:909-434-4334">909-434-4334</a>
+                    <a href="tel:212-951-0651">212-951-0651</a>
                 </div>
             </div>
         </div> --}}
@@ -175,7 +175,7 @@
                     </div>
                 </form> --}}
             <a href="mailto:support@whippdigital.com" class="">support@whippdigital.com</a>
-            <a href="tel:909-434-4334" class="">909-434-4334</a>
+            <a href="tel:212-951-0651" class="">212-951-0651</a>
             <div class="d-flex align-items-center mt-2">
                 <div class="footer-loc-soc-link ms-1 d-flex gap-3 gap-lg-2 gap-xl-3 ">
                     <a  href="#">

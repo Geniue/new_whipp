@@ -229,7 +229,7 @@
                 <div class="col-lg-3 text-center">
                     <div class="custom-text">
                         <p>
-                            <a title="Call Now" href="tel:909-434-4334">909-434-4334</a>
+                            <a title="Call Now" href="tel:212-951-0651">212-951-0651</a>
                         </p>
                         <p>
                             <a href="mailto:support@whippdigital.com" class="">support@whippdigital.com</a>
