@@ -86,12 +86,12 @@
                                                Conversion Rate Optimization Services
                                             </a>
                                         </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'white-label-services'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 White Label Services
                                             </a>
-                                        </li>   
+                                        </li>    --}}
                                         <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'franchise-seo'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
@@ -130,12 +130,12 @@
                                             </a>
                                         </li>
             
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'ada-compliance-services'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 ADA Compliance Services
                                             </a>
-                                        </li>   
+                                        </li>    --}}
             
                                         <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'video-production'])  }}">
@@ -144,19 +144,19 @@
                                             </a>
                                         </li>   
             
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'product-photography-services'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Product Photography Services
                                             </a>
-                                        </li>   
-            
+                                        </li>    --}}
+{{--             
                                         <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'drone-video-and-photography-services'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Drone Video and Photography Services
                                             </a>
-                                        </li>   
+                                        </li>    --}}
             
                                         <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'email-marketing-services'])  }}">
@@ -304,12 +304,12 @@
                                                 Walmart Marketplace
                                             </a>
                                         </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'target-plus-marketplace'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Target Plus Marketplace
                                             </a>
-                                        </li>   
+                                        </li>    --}}
                                         <li class="menu-item-has-children hover-ver2 menu-item-has-children-main-head">
                                             <a href="{{  route('service', ['slug' => 'amazon-marketing'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
@@ -322,36 +322,36 @@
                                                 Amazon SEO
                                             </a>
                                         </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'amazon-adverstising-ppc'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Amazon Adverstising/PPC
                                             </a>
-                                        </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        </li>    --}}
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'amazon-storefront-branding'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Amazon Storefront & Branding
                                             </a>
-                                        </li>   
+                                        </li>    --}}
                                         <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'amazon-seller-consulting'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Amazon Seller Consulting
                                             </a>
                                         </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'amazon-posts-management'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Amazon Posts Management
                                             </a>
-                                        </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
+                                        </li>    --}}
+                                        {{-- <li class="menu-item-has-children hover-ver2 sub-menu-hover">
                                             <a href="{{  route('service', ['slug' => 'amazon-dsp-advertising-management'])  }}">
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 Amazon DSP Advertising Management
                                             </a>
-                                        </li>   
+                                        </li>    --}}
                                     </ul>
                          
                                 </li>
@@ -559,12 +559,12 @@
                             Conversion Rate Optimization Services
                         </a>
                     </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'white-label_services']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             White Label Services
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'franchise-seo']) }}">
                             <i class="seoicon-pie-graph-split"></i>
@@ -594,31 +594,31 @@
                             <i class="seoicon-pie-graph-split"></i>
                             eCommerce Web Design
                         </a>
-                    </li>
+                    {{-- </li>
                     <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'ada-compliance-services']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             ADA Compliance Services
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'video-production']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Video Production
                         </a>
                     </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'product-photography-services']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Product Photography Services
                         </a>
-                    </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    </li> --}}
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'drone-video-and-photography-services']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Drone Video and Photography Services
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'email-marketing-services']) }}">
                             <i class="seoicon-pie-graph-split"></i>
@@ -761,12 +761,12 @@
                             Walmart Marketplace
                         </a>
                     </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'target-plus-marketplace']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                                 Target Plus Marketplace
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
                         <a href="{{ route('service', ['slug' => 'amazon-marketing']) }}">
                             <i class="seoicon-pie-graph-split"></i>
@@ -779,36 +779,36 @@
                             Amazon SEO
                         </a>
                     </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'amazon-advertising-ppc']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Amazon Advertising/PPC
                         </a>
-                    </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    </li> --}}
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'amazon-storefront-branding']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Amazon Storefront & Branding
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'amazon-seller-consulting']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Amazon Seller Consulting
                         </a>
                     </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'amazon-posts-management']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                             Amazon Posts Management
                         </a>
-                    </li>
-                    <li class="menu-item-has-children hover-ver2">
+                    </li> --}}
+                    {{-- <li class="menu-item-has-children hover-ver2">
                         <a href="{{ route('service', ['slug' => 'amazon-dsp-adverstising-management']) }}">
                             <i class="seoicon-pie-graph-split"></i>
                                 Amazon DSP Adverstising Management
                         </a>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
             <li class="expand-serivce-area-mob">
