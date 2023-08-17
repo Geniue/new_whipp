@@ -166,9 +166,7 @@
                 <p class="mb-0 fw-semibold">
                     46 Howard St 6th fl,
                     <br>
-                     New York
-                     <br>
-                      NY 10013</p>
+                     New York, NY 10013</p>
                 {{-- form --}}
                 {{-- <form class="d-flex flex-column gap-3 gap-lg-2">
                     <div class="position-relative overflow-hidden">
