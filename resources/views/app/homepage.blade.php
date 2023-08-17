@@ -28,7 +28,7 @@
     <!-- MAIN SECTION ENDS HERE -->
 
     <!-- BECOME LEADER SECTION STARTS HERE -->
-    <section class="become-leader-section bg-grad-box-balck">
+    {{-- <section class="become-leader-section bg-grad-box-balck">
         <div class="become-leader-section-container">
             <div class="become-leader-section-container-1">
                 <h2 class="fs-1">How to become your category leader</h2>
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- MOBILE AGENCY ENDS HERE -->
 
     <!-- GROW BUSINESS BANNER STARTS HERE -->
