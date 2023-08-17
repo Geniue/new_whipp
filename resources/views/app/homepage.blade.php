@@ -9,11 +9,11 @@
             <div class="topbannerF_wrapper">
                 <video autoplay="" muted="" loop="" id="myVideo" playsinline=""
                     aria-label="HomePage_Header_Texts Resize 1920 x 950" style="display: none">
-                    <source src="{{ asset('assets/imgs/whippintro.mp4') }}" type="video/mp4" />
+                    <source src="{{ asset('assets/imgs/newwhipp_intro.mp4') }}" type="video/mp4" />
                 </video>
                 <video autoplay="" muted="" loop="" id="myVideoMobile" playsinline=""
                     aria-label="Header_Mobile">
-                    <source src="{{ asset('assets/imgs/whippintro.mp4') }}" type="video/mp4" />
+                    <source src="{{ asset('assets/imgs/newwhipp_intro.mp4') }}" type="video/mp4" />
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
