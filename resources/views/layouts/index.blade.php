@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="robots" content="noindex,nofollow,nocrawl">
         <link rel="shortcut" type="image/png" href="{{asset('assets/imgs/logos/site_icon_128x128.png')}}">
         <link rel="icon" type="image/png" href="{{asset('assets/imgs/logos/site_icon_128x128.png')}}">
         
@@ -23,6 +22,21 @@
     {{-- navbar styles --}}
     <style>
         /* Firefox */
+        .wd-nav-link > a:after{
+            background: #fff !important;
+        }
+        .wd-nav-links{
+            justify-content: start !important; 
+        }
+        .custom-boder-left{
+            border-left: 1px solid #e1e1e17d;
+        }
+        @media (max-width:992px){
+                .custom-boder-left{
+                    border-left:none;
+                }
+                
+        }
         input[type=number] {
         -moz-appearance: textfield;
         }
@@ -69,6 +83,24 @@
         color: #fff !important;
         }
         /* /lets talk button */
+
+        .cta-btn-btn{
+          
+          border-radius: 7px;
+          border-top-right-radius: 0;
+          box-shadow: 0 5px 9px 0 rgba(59, 212, 255,.3);
+          color: #fff;
+       background-color: #30A2FF;
+          transition: .4s;
+          font-weight: 600;
+          border: 1px solid transparent;
+          
+      }
+      .cta-btn-btn:hover{
+          background-color: transparent !important;
+          border: 1px solid #30A2FF;
+      color: #30A2FF !important;
+      }
 
         /* new form animations */
         .anim-for-inp-comp {
@@ -237,6 +269,19 @@
         }
         .main-service-hover-cen .menu-item-has-children-main-head >a:hover {
             background-color: #5a5346;
+        }
+        .sevice-hover-expand.main-service-hover-cen.tri-ico{
+            left: 272px;
+            width: 1100px !important;
+        
+        }
+        .main-service-hover-cen .menu-item-has-children-main-head > a{
+            text-transform: uppercase !important;
+            font-weight: 700;
+        }
+        .service-mob-menu .mov-main-service-head {
+            font-weight: 700;
+            text-transform: uppercase;
         }
         .sub-menu-hover>a::after {
             border-left: solid 8px #3bd4ff !important;

@@ -9,15 +9,15 @@
             <div class="topbannerF_wrapper">
                 <video autoplay="" muted="" loop="" id="myVideo" playsinline=""
                     aria-label="HomePage_Header_Texts Resize 1920 x 950" style="display: none">
-                    <source src="{{ asset('assets/imgs/whippintro.mp4') }}" type="video/mp4" />
+                    <source src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video>
                 <video autoplay="" muted="" loop="" id="myVideoMobile" playsinline=""
                     aria-label="Header_Mobile">
-                    <source src="{{ asset('assets/imgs/whippintro.mp4') }}" type="video/mp4" />
+                    <source src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
-                        <h3 class="">Ready to experience hypergrowth? Let's talk!</h3>
+                        <h3 class="">Eager for a taste of hypergrowth? Let's Connect!?</h3>
                         <button class="iwantgrow_btn topbanner_anotherside-link">I Want to grow</button>
                     </div>
                 </div>
@@ -28,7 +28,7 @@
     <!-- MAIN SECTION ENDS HERE -->
 
     <!-- BECOME LEADER SECTION STARTS HERE -->
-    <section class="become-leader-section bg-grad-box-balck">
+    {{-- <section class="become-leader-section bg-grad-box-balck">
         <div class="become-leader-section-container">
             <div class="become-leader-section-container-1">
                 <h2 class="fs-1">How to become your category leader</h2>
@@ -83,7 +83,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- MOBILE AGENCY ENDS HERE -->
 
     <!-- GROW BUSINESS BANNER STARTS HERE -->
@@ -242,7 +242,7 @@
     <section class="py-4">
         <div class="py-5">
             <h3 class="custom-text fs-1 text-center">
-                Our <strong> Digital Marketing Expertise </strong>
+                Expertise in  <strong> Digital Marketing Expertise </strong>
             </h3>
         </div>
 
@@ -256,45 +256,7 @@
                         </div>
 
                         <div>
-                            <p class="fs-5 fw-medium custom-text">
-                                SEARCH ENGINE OPTIMIZATION – SEO
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </p>
-                            <p>
-                                Through careful keyword research and white hat practices, we
-                                can help you achieve high rankings in the major search
-                                engines.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-1 gap-md-0">
-                        <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
-                                alt="" />
-                        </div>
 
-                        <div>
                             <p class="fs-5 fw-medium custom-text">
                                 WEBSITE DESIGN & DEVELOPMENT
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -319,10 +281,13 @@
                                 </svg>
                             </p>
                             <p>
-                                With millions of websites on the internet you want to be sure
-                                your website stands out, represents you well, and most
-                                importantly, helps your organization grow.
+                                In a vast online landscape teeming with countless websites, it is imperative that 
+                                your own site not only distinguishes itself but also serves as a compelling reflection of your identity, all the while playing a pivotal role in fostering your organization's expansion.
                             </p>
+
+                         
+
+                          
                         </div>
                     </div>
                 </div>
@@ -335,7 +300,7 @@
 
                         <div>
                             <p class="fs-5 fw-medium custom-text">
-                                SOCIAL MEDIA MARKETING
+                                SOCIAL MEDIA MARKETING 
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     version="1.1" id="Layer_1" x="0px" y="0px"
                                     viewBox="0 0 492.004 492.004"
@@ -358,54 +323,9 @@
                                 </svg>
                             </p>
                             <p>
-                                Social media marketing is a critical element in staying
-                                connected with your audience. Working independently of, or
-                                side-by-side with you, we help keep your social community
-                                engaged.
+                                Encompassing a pivotal role in maintaining a seamless connection with your audience, social media marketing operates either in tandem with your efforts or autonomously, actively engaging and nurturing your social community.
                             </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="digital_expertise_border">
-            <div class="container wp-dg-ext-gird-comp row mx-auto">
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-1 gap-md-0">
-                        <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
-                                alt="" />
-                        </div>
-
-                        <div>
-                            <p class="fs-5 fw-medium custom-text">
-                                PAY PER CLICK – PPC
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </p>
-                            <p>
-                                While SEO offers long-term growth, sometimes you need an
-                                immediate boost. Thrive’s PPC campaign ensures that the money
-                                you spend is put to the very best possible use.
-                            </p>
+                          
                         </div>
                     </div>
                 </div>
@@ -417,91 +337,10 @@
                         </div>
 
                         <div>
-                            <p class="fs-5 fw-medium custom-text">
-                                VIDEO PRODUCTION
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </p>
-                            <p>
-                                There is no more powerful way to get your message across than
-                                through video. Engage your audience by telling your story and
-                                sharing your mission.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-1 gap-md-0">
-                        <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
-                                alt="" />
-                        </div>
 
-                        <div>
-                            <p class="fs-5 fw-medium custom-text">
-                                CONTENT WRITING
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </p>
-                            <p>
-                                Our content writers know Search Engine Optimization and create
-                                great marketing copy, designed to be informative and
-                                compelling, pushing your business objectives.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="digital_expertise_border">
-            <div class="container wp-dg-ext-gird-comp row mx-auto">
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-1 gap-md-0">
-                        <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
-                                alt="" />
-                        </div>
-
-                        <div>
                             <p class="fs-5 fw-medium custom-text">
                                 REPUTATION MANAGEMENT
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     version="1.1" id="Layer_1" x="0px" y="0px"
                                     viewBox="0 0 492.004 492.004"
                                     style="
@@ -523,10 +362,54 @@
                                 </svg>
                             </p>
                             <p>
-                                Your reputation is everything. Our team of experts can help
-                                protect and enhance your reputation online for tangible,
-                                long-term results.
+                                In the realm of the digital landscape, your reputation reigns supreme. Our proficient team of specialists is adept at safeguarding and augmenting your online standing, yielding substantial and enduring outcomes.
                             </p>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="digital_expertise_border">
+            <div class="container wp-dg-ext-gird-comp row mx-auto">
+                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
+                    <div class="d-flex gap-1 gap-md-0">
+                        <div class="col-2 col-md-3">
+                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                                alt="" />
+                        </div>
+
+                        <div>
+
+                            <p class="fs-5 fw-medium custom-text">
+                                CONVERSION OPTIMIZATION
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" id="Layer_1" x="0px" y="0px"
+                                    viewBox="0 0 492.004 492.004"
+                                    style="
+                  margin-bottom: 3px;
+                  transform: scale(1.2);
+                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
+                "
+                                    xml:space="preserve" width="13px" height="13px">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                                                    data-original="#000000" class="active-path" data-old_color="#000000"
+                                                    fill="#576C2C"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </p>
+                            <p>
+                       
+                                Transform a higher proportion of your website visitors into valuable customers! Our adept professionals employ cutting-edge Conversion Optimization methodologies to elevate the rate at which casual website browsers transition into engaged and active users.
+                            </p>
+                            
+                           
                         </div>
                     </div>
                 </div>
@@ -539,7 +422,7 @@
 
                         <div>
                             <p class="fs-5 fw-medium custom-text">
-                                CONVERSION OPTIMIZATION
+                              VIDEO PRODUCTION
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     version="1.1" id="Layer_1" x="0px" y="0px"
                                     viewBox="0 0 492.004 492.004"
@@ -562,9 +445,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Turn more site visitors into customers! Our experts utilize
-                                the latest Conversion Optimization techniques to help increase
-                                the percentage of passive website visitors into active users.
+                                No avenue holds greater potency for conveying your message than the medium of video. Captivate your audience by narrating your story and disseminating your mission.
                             </p>
                         </div>
                     </div>
@@ -577,6 +458,7 @@
                         </div>
 
                         <div>
+
                             <p class="fs-5 fw-medium custom-text">
                                 AMAZON MARKETING
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -601,9 +483,129 @@
                                 </svg>
                             </p>
                             <p>
-                                Getting found on Amazon is not easy! Competition is fierce and
-                                thick. We'll help your products get found in this massive
-                                marketplace.
+                                Getting your products found on Amazon can be challenging. The competition is fierce and the marketplace is massive. But we can help you rise above the noise and get your products in front of the right buyers. We'll do this by optimizing your product listings, running targeted advertising, and helping you build a strong brand presence.
+                            </p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="digital_expertise_border">
+            <div class="container wp-dg-ext-gird-comp row mx-auto">
+                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
+                    <div class="d-flex gap-1 gap-md-0">
+                        <div class="col-2 col-md-3">
+                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                                alt="" />
+                        </div>
+
+                        <div>
+                            <p class="fs-5 fw-medium custom-text">
+                                
+                                SEARCH ENGINE OPTIMIZATION – SEO
+                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                    version="1.1" id="Layer_1" x="0px" y="0px"
+                                                                    viewBox="0 0 492.004 492.004"
+                                                                    style="
+                                                  margin-bottom: 3px;
+                                                  transform: scale(1.2);
+                                                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
+                                                "
+                                                                    xml:space="preserve" width="13px" height="13px">
+                                                                    <g>
+                                                                        <g>
+                                                                            <g>
+                                                                                <path
+                                                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                                                                                    data-original="#000000" class="active-path" data-old_color="#000000"
+                                                                                    fill="#576C2C"></path>
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </svg>
+                                                            </p>
+                                                            <p>
+                                                                By conducting meticulous analysis of keywords and employing ethical strategies, we are equipped 
+                                                                to assist you in attaining prominent positions within the leading search platforms.
+                                                            </p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
+                    <div class="d-flex gap-1 gap-md-0">
+                        <div class="col-2 col-md-3">
+                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                                alt="" />
+                        </div>
+
+                        <div>
+                            <p class="fs-5 fw-medium custom-text">
+                                PAY PER CLICK – PPC
+                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     version="1.1" id="Layer_1" x="0px" y="0px"
+                                     viewBox="0 0 492.004 492.004"
+                                     style="
+                   margin-bottom: 3px;
+                   transform: scale(1.2);
+                   enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
+                 "
+                                     xml:space="preserve" width="13px" height="13px">
+                                     <g>
+                                         <g>
+                                             <g>
+                                                 <path
+                                                     d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                                                     data-original="#000000" class="active-path" data-old_color="#000000"
+                                                     fill="#576C2C"></path>
+                                             </g>
+                                         </g>
+                                     </g>
+                                 </svg>
+                             </p>
+                             <p>
+                                 While search engine optimization (SEO) provides sustained and gradual growth, there are instances 
+                                 when an instant surge is necessary. Thrive's pay-per-click (PPC)
+                                  campaign guarantees optimal utilization of your funds, delivering immediate and impactful results.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
+                    <div class="d-flex gap-1 gap-md-0">
+                        <div class="col-2 col-md-3">
+                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                                alt="" />
+                        </div>
+
+                        <div>
+
+                       <p class="fs-5 fw-medium custom-text">
+                                CONTENT WRITING
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    version="1.1" id="Layer_1" x="0px" y="0px"
+                                    viewBox="0 0 492.004 492.004"
+                                    style="
+                  margin-bottom: 3px;
+                  transform: scale(1.2);
+                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
+                "
+                                    xml:space="preserve" width="13px" height="13px">
+                                    <g>
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
+                                                    data-original="#000000" class="active-path" data-old_color="#000000"
+                                                    fill="#576C2C"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </p>
+                            <p>
+                                Our team of content creators is well-versed in the intricacies of Search Engine Optimization (SEO), meticulously crafting marketing copy that not only imparts valuable information but also captivates, effectively propelling your business goals forward.
                             </p>
                         </div>
                     </div>
