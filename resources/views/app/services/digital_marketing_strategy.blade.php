@@ -73,11 +73,11 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                         Digital Marketing Strategy
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -115,11 +115,11 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                     Competitive PPC Analysis
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/banknotes-wireless-keyboard-and-black-board-with-t-2023-05-18-23-10-48-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -149,12 +149,12 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                        Online Content Marketing
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/content-marketing-2022-11-11-21-07-06-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -193,12 +193,12 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                       SEO Marketing    
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/seo-process-information-2022-10-25-19-27-30-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>

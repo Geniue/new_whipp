@@ -82,7 +82,7 @@
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-home-page-2021-08-26-22-39-48-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -135,7 +135,7 @@
 
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-on-a-computer-2022-12-15-23-22-36-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -173,7 +173,7 @@
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/business-partners-working-in-team-at-office-2022-11-16-14-40-12-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -230,7 +230,7 @@
 
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/selective-focus-of-magnifying-glass-seo-2023-05-09-08-40-11-utc(1).jpg') }}" alt="" />
             </div>
             </div>
         </div>

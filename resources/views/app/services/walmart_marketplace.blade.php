@@ -73,13 +73,13 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                         Walmart Seller Services at Whipp Digital
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -120,12 +120,12 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                     Walmart Marketplace Mastery with Whipp Digital
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/digital-marketing-media-2022-10-31-23-48-47-utc-5.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -155,13 +155,13 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                        Shopify-Walmart Integration with Whipp Digital
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/online-shopping-concept-2022-10-31-23-53-51-utc-6.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -205,14 +205,14 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                     Expertise in Shopify-Walmart Integration at Whipp Digital
 
     
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc(1)-9.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -222,13 +222,13 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                       Mastering Walmart Marketplace Integration at Whipp Digital
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/preparing-to-ship-for-e-commerce-sellers-2023-08-15-02-28-29-utc-7.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">

@@ -73,7 +73,7 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                      E-Mail Advertising with Whipp Digital
 
@@ -82,7 +82,7 @@
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/E-Mail Marketing Serivces/v1/email-marketing-concept-on-wooden-background-27-2022-10-26-04-41-17-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                  Whipp Digital Email Marketing Services
 
@@ -138,7 +138,7 @@
 
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/E-Mail Marketing Serivces/v1/cropped-image-of-man-holding-speech-bubble-with-em-2022-12-16-20-57-08-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                         Whipp Digital: Your Premier Email Marketing Agency
 
@@ -177,7 +177,7 @@
 
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/E-Mail Marketing Serivces/v1/email-marketing-7-2022-10-26-06-14-26-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -226,7 +226,7 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                    Direct Email Marketing with Whipp Digital
 
@@ -235,7 +235,7 @@
 
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/E-Mail Marketing Serivces/v1/email-notification-woman-hand-on-the-computer-lap-2022-12-16-12-10-43-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>

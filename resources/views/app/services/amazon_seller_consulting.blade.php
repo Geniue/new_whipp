@@ -73,11 +73,11 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                         Amazon Seller Consulting
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -114,11 +114,11 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                     Amazon Listing Consultant
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/medical-prescription-2021-08-26-15-34-39-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -148,12 +148,12 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                         Amazon Suspension Consulting
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/office-hands-laptop-and-business-people-teamwork-2023-03-29-21-34-32-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -191,12 +191,12 @@
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
                     Amazon Product Consulting
 
                 </h3>
-                <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                <img width="600" src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/podium-products-to-simulate-the-factory-system-2022-12-16-11-54-19-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -205,12 +205,12 @@
         <div class="container py-5 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
                         Amazon Brand Consulting
 
                     </h3>
-                    <img width="450" src="{{ asset('assets/imgs/Group-166@2x-min.png') }}" alt="" />
+                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/real-estate-insurance-agents-are-using-tablet-to-r-2021-08-27-16-15-41-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">

@@ -28,7 +28,7 @@
                                     <ul class="col-3">
 
                                         <li class="menu-item-has-children hover-ver2 menu-item-has-children-main-head">
-                                            <a href="#}}">
+                                            <a>
                                                 <i class="seoicon-search"></i>
                                                 Digital Marketing
                                             </a>
@@ -121,20 +121,7 @@
                                                 <i class="seoicon-pie-graph-split"></i>
                                                 SEO Content Writing Serivces </a>
                                         </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
-                                            <a href="#">
-                                                <i class="seoicon-pie-graph-split"></i>
-                                                Shopify SEO
-                                            </a>
-                                        </li>   
-                                        <li class="menu-item-has-children hover-ver2 sub-menu-hover">
-                                            <a href="#">
-                                                <i class="seoicon-pie-graph-split"></i>
-                                                Walmart Marketplace
-                                            </a>
-                                        </li>   
-                                  
-                                        <li class="menu-item-has-children hover-ver2  menu-item-has-children-main-head">
+                                       <li class="menu-item-has-children hover-ver2  menu-item-has-children-main-head">
                                             <a href="#">
                                                 <i class="seoicon-search"></i>
                                                 Virtual Assistant Service
@@ -211,12 +198,17 @@
                                     <ul class="col-3">
 
                                         <li class="menu-item-has-children hover-ver2 menu-item-has-children-main-head ">
-                                            <a href="{{  route("amazon_marketing") }}">
+                                            <a>
                                                 <i class="seoicon-search"></i>
                                                 Amazon Marketing
                                             </a>
                                         </li>
             
+                                        <li class="hover-ver2 sub-menu-hover">
+                                            <a href="{{  route("amazon_marketing") }}"><i class="seoicon-button"></i>
+                                                Amazon Marketing
+                                            </a>
+                                        </li>
                                         <li class="hover-ver2 sub-menu-hover">
                                             <a href="{{  route("amazon_seller_consulting") }}"><i class="seoicon-button"></i>
                                                 Amazon Seller Consulting
@@ -419,7 +411,7 @@
                 <ul data-id="myitem1" class="service-mob-menu">
 
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
-                        <a href="#">
+                        <a >
                             
                             Digital Marketing
                         </a>
@@ -498,18 +490,6 @@
                         <a href="{{route('seo_content_writing')}}">
                             SEO Content Writing Serivces </a>
                     </li>
-                    <li class="hover-ver2">
-                        <a href="#">
-                            Shopify SEO
-                        </a>
-                    </li>
-                    <li class="hover-ver2">
-                        <a href="#">
-                            Walmart Marketplace
-                        </a>
-                    </li>
-                  
-
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
                         <a href="#">
                             Virtual Assistant Service

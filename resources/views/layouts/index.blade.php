@@ -270,11 +270,7 @@
         .main-service-hover-cen .menu-item-has-children-main-head >a:hover {
             background-color: #5a5346;
         }
-        .sevice-hover-expand.main-service-hover-cen.tri-ico{
-            left: 272px;
-            width: 1100px !important;
-        
-        }
+      
         .main-service-hover-cen .menu-item-has-children-main-head > a{
             text-transform: uppercase !important;
             font-weight: 700;
