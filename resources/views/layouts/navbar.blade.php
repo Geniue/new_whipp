@@ -342,13 +342,13 @@
                             </a>
                         </div>
                     </li> --}}
-                    <li class="nav-menu-child">
+                    {{-- <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
                             <a href="{{ route('faqs') }}">
                                 <span class=""> FAQ's </span>
                             </a>
                         </div>
-                    </li>
+                    </li> --}}
                     <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
                             <a href="{{ route('contact') }}">
@@ -621,7 +621,7 @@
                 </ul>
             </li>
         
-            <li><a href="{{ route('faqs') }}"> FAQ's </a></li>
+            {{-- <li><a href="{{ route('faqs') }}"> FAQ's </a></li> --}}
             <li><a href="{{ route('contact') }}"> contact </a></li>
         </ul>
     </div>

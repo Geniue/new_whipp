@@ -68,6 +68,6 @@ Route::prefix('contact')->group(function () {
 });
 
 
-Route::get('/faqs', function () {
-    return view('app.faqs');
-})->name('faqs');
+// Route::get('/faqs', function () {
+//     return view('app.faqs');
+// })->name('faqs');
