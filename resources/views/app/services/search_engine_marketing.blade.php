@@ -78,6 +78,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-home-page-2021-08-26-22-39-48-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -90,6 +93,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -115,6 +121,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -131,6 +140,9 @@
 
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-on-a-computer-2022-12-15-23-22-36-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -169,6 +181,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/business-partners-working-in-team-at-office-2022-11-16-14-40-12-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -180,6 +195,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -208,6 +226,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -226,6 +247,9 @@
 
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/selective-focus-of-magnifying-glass-seo-2023-05-09-08-40-11-utc(1).jpg') }}" alt="" />
             </div>
             </div>

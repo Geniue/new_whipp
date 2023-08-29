@@ -75,6 +75,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -84,6 +87,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -109,6 +115,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -124,6 +133,9 @@
 
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-addiction-2021-09-24-02-56-43-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -161,6 +173,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/marketing-product-manager-2021-08-29-18-05-21-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -170,6 +185,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -198,6 +216,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -217,6 +238,9 @@
     
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/marketing-product-manager-2021-08-29-18-05-21-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -234,6 +258,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/young-man-in-city-taking-photo-on-digital-camera-t-2021-12-09-17-02-03-utc.jpg ') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -243,6 +270,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -272,6 +302,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -291,6 +324,9 @@
     
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/manager-looking-at-many-different-cv-resume-and-ch-2021-12-14-19-30-12-utc.jpeg') }}" alt="" />
             </div>
             </div>

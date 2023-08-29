@@ -73,6 +73,9 @@
                     <h3 class=" d-lg-none feture-head mb-2">
                         Digital Marketing Strategy
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -80,6 +83,9 @@
                         <h3 class="d-none d-lg-block feture-head">
                             Digital Marketing Strategy
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -102,6 +108,9 @@
                             Competitive PPC Analysis
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -115,6 +124,9 @@
                 <h3 class=" d-lg-none feture-head">
                     Competitive PPC Analysis
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/banknotes-wireless-keyboard-and-black-board-with-t-2023-05-18-23-10-48-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -150,6 +162,9 @@
                        Online Content Marketing
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/content-marketing-2022-11-11-21-07-06-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -157,6 +172,9 @@
                         <h3 class="d-none d-lg-block feture-head">
                            Online Content Marketing
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -180,6 +198,9 @@
 
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -194,6 +215,9 @@
                       SEO Marketing    
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/seo-process-information-2022-10-25-19-27-30-utc.jpg') }}" alt="" />
             </div>
             </div>

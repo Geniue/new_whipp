@@ -77,6 +77,9 @@
                         Local SEO with Whipp Digital
  
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -85,6 +88,9 @@
                             Local SEO with Whipp Digital
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -107,6 +113,9 @@
                             Local SEO Services at Whipp Digital
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -120,6 +129,9 @@
                 <h3 class=" d-lg-none feture-head">
                     Local SEO Services at Whipp Digital
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/local-coffeshop-delivery-2021-08-28-15-43-31-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -156,6 +168,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/gen-z-using-google-map-app-during-road-trip-in-con-2022-11-11-16-52-23-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -164,6 +179,9 @@
                            Google Maps Ranking with Whipp Digital
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -189,6 +207,9 @@
 
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -205,6 +226,9 @@
     
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/back-view-of-developer-using-laptop-with-seo-perfo-2022-12-16-18-58-51-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -221,6 +245,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/hand-holding-white-puzzle-with-text-inbound-link-o-2023-05-19-23-28-44-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -230,6 +257,9 @@
 
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">

@@ -73,6 +73,9 @@
                     <h3 class=" d-lg-none feture-head mb-2">
                         Amazon Seller Consulting
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600"  class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -80,6 +83,9 @@
                         <h3 class="d-none d-lg-block feture-head">
                             Amazon Seller Consulting
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -101,6 +107,9 @@
                         <h3 class="d-none d-lg-block feture-head">
                             Amazon Listing Consultant
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -114,6 +123,9 @@
                 <h3 class=" d-lg-none feture-head">
                     Amazon Listing Consultant
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600"  class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/medical-prescription-2021-08-26-15-34-39-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -149,6 +161,9 @@
                         Amazon Suspension Consulting
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600"  class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/office-hands-laptop-and-business-people-teamwork-2023-03-29-21-34-32-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -156,6 +171,9 @@
                         <h3 class="d-none d-lg-block feture-head">
                             Amazon Suspension Consulting
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -178,6 +196,9 @@
                             Amazon Product Consulting
 
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -192,6 +213,9 @@
                     Amazon Product Consulting
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600"  class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/podium-products-to-simulate-the-factory-system-2022-12-16-11-54-19-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -206,6 +230,9 @@
                         Amazon Brand Consulting
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600"  class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/real-estate-insurance-agents-are-using-tablet-to-r-2021-08-27-16-15-41-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -213,6 +240,9 @@
                         <h3 class="d-none d-lg-block feture-head">
                             Amazon Brand Consulting
                         </h3>
+                              <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">

@@ -76,6 +76,9 @@
                     Shopify SEO with Whipp Digital
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -85,6 +88,9 @@
                         Shopify SEO with Whipp Digital
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -109,6 +115,9 @@
 
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -125,6 +134,9 @@
 
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-search-engine-optimization-2023-05-08-23-44-00-utc.jpg') }}" alt="" />
             </div>
         </div>
@@ -163,6 +175,9 @@
 
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/sales-consultant-using-e-commerce-statistics-on-co-2022-05-18-23-29-26-utc.jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -172,6 +187,9 @@
                         Ecommerce SEO Consultant Services at Whipp Digital
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -195,6 +213,9 @@
                         Ecommerce SEO Strategy at Whipp Digital
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -209,6 +230,9 @@
                     Ecommerce SEO Strategy at Whipp Digital
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/ecommerce-drop-shipping-shipment-service-concept-2023-04-25-00-37-42-utc.jpg') }}" alt="" />
             </div>
         </div>

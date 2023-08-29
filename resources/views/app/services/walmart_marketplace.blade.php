@@ -75,6 +75,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -83,6 +86,9 @@
                             Walmart Seller Services at Whipp Digital
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -107,6 +113,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -121,6 +130,9 @@
                     Walmart Marketplace Mastery with Whipp Digital
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/digital-marketing-media-2022-10-31-23-48-47-utc-5.jpg') }}" alt="" />
             </div>
             </div>
@@ -157,6 +169,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/online-shopping-concept-2022-10-31-23-53-51-utc-6.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -165,6 +180,9 @@
                            Shopify-Walmart Integration with Whipp Digital
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -191,6 +209,9 @@
 
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -208,6 +229,9 @@
     
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc(1)-9.jpg') }}" alt="" />
             </div>
             </div>
@@ -224,6 +248,9 @@
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/preparing-to-ship-for-e-commerce-sellers-2023-08-15-02-28-29-utc-7.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -232,6 +259,9 @@
                           Mastering Walmart Marketplace Integration at Whipp Digital
 
                         </h3>
+                               <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">

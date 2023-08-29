@@ -74,6 +74,9 @@
                 <h3 class=" d-lg-none feture-head mb-2">
                     Ecommerce PPC Management 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce PPC Management/v1/seo-search-engine-optimization-2023-05-08-23-41-46-utc.jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -81,6 +84,9 @@
                     <h3 class="d-none d-lg-block feture-head">
                         Ecommerce PPC Management 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -103,6 +109,9 @@
                         Ecommerce PPC Strategy with Whipp Digital
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -117,6 +126,9 @@
                     Ecommerce PPC Strategy with Whipp Digital
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce PPC Management/v1/online-strategy-media-marketing-icons-2022-12-16-00-33-13-utc.jpg') }}" alt="" />
             </div>
         </div>
@@ -154,6 +166,9 @@
 
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce PPC Management/v1/online-business-e-commerce-2022-04-06-04-45-40-utc.jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -164,6 +179,9 @@
 
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -187,6 +205,9 @@
                         Shopify PPC Management at Whipp Digital
 
                     </h3>
+                          <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                 </div>
                 <div>
                     <p class="feture-pare">
@@ -201,6 +222,9 @@
                     Shopify PPC Management at Whipp Digital
 
                 </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce PPC Management/v1/calculator-pen-and-paper-money-with-the-word-cost-2023-04-11-01-21-15-utc(1).jpg') }}" alt="" />
             </div>
         </div>

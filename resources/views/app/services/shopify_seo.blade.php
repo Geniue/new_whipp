@@ -76,6 +76,9 @@
 
 
                     </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/empty-desk-laptop-and-coffee-shop-with-notebook-2022-12-08-21-41-20-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -86,6 +89,9 @@
 
 
                         </h3>
+                        <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -111,6 +117,9 @@
 
 
                         </h3>
+                        <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -127,6 +136,9 @@
 
 
                 </h3>
+                <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                    <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/shopping-cart-with-magnifying-icon-block-and-lapto-2023-01-04-00-01-12-utc(1).jpg') }}" alt="" />
             </div>
             </div>
@@ -163,6 +175,9 @@ Shopify Store SEO at Whipp Digital
 
 
                     </h3>
+                    <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/tablet-search-and-serious-with-black-woman-in-off-2023-02-25-00-26-20-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -171,6 +186,9 @@ Shopify Store SEO at Whipp Digital
     Shopify Store SEO at Whipp Digital
 
                         </h3>
+                        <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">

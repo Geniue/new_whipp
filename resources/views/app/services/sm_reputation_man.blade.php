@@ -73,6 +73,9 @@
                     <h3 class=" d-lg-none feture-head mb-2">
 Online Reputation Managers at Whipp Digital
 </h3>
+<div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+    <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+</div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/notebook-written-build-trust-in-your-brand-2022-11-08-08-37-19-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -80,6 +83,9 @@ Online Reputation Managers at Whipp Digital
                         <h3 class="d-none d-lg-block feture-head">
     Online Reputation Managers at Whipp Digital
 </h3>
+<div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+    <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+</div>
                     </div>
                     <div>
                         <p class="feture-pare">
@@ -110,8 +116,12 @@ Online Reputation Managers at Whipp Digital
 
 
                         </h3>
+                        <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
+                        
                         <p class="feture-pare">
                             Navigating the tumultuous seas of social media can be a daunting task for any brand. With every like, share, and comment, a story unfolds, influencing your brand's image and credibility. At Whipp Digital, we’re not just about keeping up appearances. Our social media reputation management is about crafting genuine connections and safeguarding your brand's narrative. Recognizing that every tweet or Instagram story can ripple into broader public perception, our seasoned experts dive deep into the nuances of each platform. We not only monitor conversations but actively steer them, transforming potential pitfalls into opportunities for engagement. With Whipp Digital by your side, you're not just in the social media game; you're mastering it, building a reputation that resonates and endures.
                         </p>
@@ -130,6 +140,9 @@ Online Reputation Managers at Whipp Digital
 
 
                 </h3>
+                <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                    <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                </div>
                 <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/caucasian-people-happy-friendly-customer-repu-2022-11-16-17-05-44-utc.jpg') }}" alt="" />
             </div>
             </div>
@@ -143,6 +156,9 @@ Online Reputation Managers at Whipp Digital
 
                 <div class="text-center">
                     <h3 class="feture-head mb-3">How we Keep You Updated</h3>
+                    <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                        <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                 <p class="feture-pare">
                     As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
                     <br>
@@ -171,6 +187,9 @@ Online Reputation Managers at Whipp Digital
 
 
                     </h3>
+                        <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
+                        <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                    </div>
                     <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/social-media-2022-11-08-07-16-59-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -185,6 +204,9 @@ Online Reputation Managers at Whipp Digital
 
 
                         </h3>
+                        <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
+                            <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
+                        </div>
                     </div>
                     <div>
                         <p class="feture-pare">
