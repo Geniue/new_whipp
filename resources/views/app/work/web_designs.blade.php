@@ -67,7 +67,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail border-hover-blog">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Softroc-Thumbnail-330x240.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/Softroc-Thumbnail-330x240.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
                         </a>
                         <p class="custom-text-2 fw-bold mb-0 py-2 text-center">
@@ -78,7 +78,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail border-hover-blog">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Rakkasan-Thumbnail-330x240.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/Rakkasan-Thumbnail-330x240.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
 
@@ -91,7 +91,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail border-hover-blog">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Joolala-Thumbnail-330x240.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/Joolala-Thumbnail-330x240.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
                         </a>
                         <p class="custom-text-2 fw-bold mb-0 py-2 text-center">

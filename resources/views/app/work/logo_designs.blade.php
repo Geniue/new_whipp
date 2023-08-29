@@ -38,7 +38,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="dock box" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/CarCrak-Auto-Locksmith22.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/CarCrak-Auto-Locksmith22.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
@@ -52,12 +52,12 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/Ozi foundation Logo2.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/Ozi foundation Logo2.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/Ozi foundation Logo2.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/Ozi foundation Logo2.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
 
                                 </header>
@@ -68,12 +68,12 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/panoreal.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/panoreal.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/panoreal.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/panoreal.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>
@@ -83,12 +83,12 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/pritinegreencleaning.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/pritinegreencleaning.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/pritinegreencleaning.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/pritinegreencleaning.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>
@@ -98,12 +98,12 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/RC-Logo.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/RC-Logo.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/RC-Logo.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/RC-Logo.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>
@@ -113,12 +113,12 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/luxnests.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/luxnests.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/luxnests.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/luxnests.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>
@@ -128,12 +128,12 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/zingdial.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/zingdial.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/zingdial.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/zingdial.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>
@@ -143,12 +143,12 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/surivial_bugout_gear.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/surivial_bugout_gear.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/surivial_bugout_gear.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/surivial_bugout_gear.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>
@@ -158,12 +158,12 @@
                 <div class="col-12 col-md-6 col-lg-4 mt-4">
                     <div class="case-study-thumbnail d-flex logo-design-hover-eff">
                         <a  rel="bookmark" title="Geoforce" class="">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/logos/bg/emmonsfinancial.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/bg/emmonsfinancial.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
                                 <header>
-                                    <img class="portfolio-img" src="{{ asset('assets/imgs/logos/emmonsfinancial.png') }}"
+                                    <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/logos/emmonsfinancial.png') }}"
                                         alt="Image-3D-Thumbnail-01-2-1-1">
                                 </header>
                             </div>

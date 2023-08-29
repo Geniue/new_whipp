@@ -26,16 +26,16 @@
             </div>
             <div class="d-flex flex-column flex-md-row justify-content-between col-lg-8 mx-auto">
                 <div class="gap-2 text-center d-flex flex-column justify-content-center align-items-center">
-                    <img width="125" src="{{ asset('assets/imgs/icons/career-path-icon1.svg') }}" alt="">
+                    <img width="125" class="lozad" data-src="{{ asset('assets/imgs/icons/career-path-icon1.svg') }}" alt="">
                     <h3 class="mb-0 fs-6 fw-bold">Long-Term Career Paths</h3>
 
                 </div>
                 <div class=" gap-2 d-flex flex-column justify-content-center align-items-center text-center">
-                    <img width="125" src="{{ asset('assets/imgs/icons/career-path-icon2.svg') }}" alt="">
+                    <img width="125" class="lozad" data-src="{{ asset('assets/imgs/icons/career-path-icon2.svg') }}" alt="">
                     <h3 class="mb-0 fs-6 fw-bold">People-Oriented Leadership</h3>
                 </div>
                 <div class=" gap-2 d-flex flex-column justify-content-center align-items-center text-center">
-                    <img width="125" src="{{ asset('assets/imgs/icons/career-path-icon3.svg') }}" alt="">
+                    <img width="125" class="lozad" data-src="{{ asset('assets/imgs/icons/career-path-icon3.svg') }}" alt="">
                     <h3 class="mb-0 fs-6 fw-bold">Positive Work Culture</h3>
                 </div>
             </div>
@@ -48,7 +48,7 @@
         <div class="cotainer-fulid py-4 wp-wy-carr-container position-relative row ">
             <div class="col-10  col-md-8 mx-auto text-white  position-relative z-3 gap-4">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/Group-5648.png') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/Group-5648.png') }}" alt="">
                 </div>
                 <div class="text-center pt-4">
                     <h3 class="fs-3 fw-bold">
@@ -81,7 +81,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-4 justify-content-center align-items-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{ asset('assets/imgs/award-white.png') }}" alt="Internet Marketing Services">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/award-white.png') }}" alt="Internet Marketing Services">
                 </div>
                 <div
                     class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center">
@@ -120,7 +120,7 @@
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
                     <a href="#">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-5.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-5.svg') }}" alt="">
                     </a>
                     <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Social Media Marketing</a>
                 </div>
@@ -129,7 +129,7 @@
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
                     <a href="#">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
                     </a>
                     <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Digital Marketing</a>
                 </div>
@@ -137,7 +137,7 @@
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
                     <a href="#">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
                     </a>
                     <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">eCommerce Marketing</a>
                 </div>
@@ -145,7 +145,7 @@
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
                     <a href="#">
-                        <img src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                     </a>
                     <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Amazon Marketing</a>
                 </div>
@@ -155,7 +155,7 @@
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
                     <a href="#">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-6.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-6.svg') }}" alt="">
                     </a>
                     <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Online Reputation
                         Management</a>
@@ -164,7 +164,7 @@
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
                     <a href="#">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-2.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-2.svg') }}" alt="">
                     </a>
                     <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Search Engine Optimization
                         (SEO)</a>
@@ -172,7 +172,7 @@
                 <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                     <div class="text-center">
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/icons/we-agency-3.svg') }}" alt="">
+                            <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-3.svg') }}" alt="">
                         </a>
                         <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Pay-Per-Click (PPC)
                             Marketing</a>
@@ -182,7 +182,7 @@
                     <div class="text-center">
                         <a href="#">
 
-                            <img src="{{ asset('assets/imgs/icons/we-agency-4.svg') }}" alt="">
+                            <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-4.svg') }}" alt="">
                         </a>
                         <a href="#" class="ser-gri-link text-decoration-none fs-5 fw-bold">Web Design and
                             Development</a>

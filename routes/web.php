@@ -71,3 +71,10 @@ Route::prefix('contact')->group(function () {
 Route::get('/faqs', function () {
     return view('app.faqs');
 })->name('faqs');
+
+Route::get('/blogs', function () {
+    return view('app.blog');
+})->name('blog');
+Route::get('/google-incorporates-generativeai-search-engine', function () {
+    return view('app.single_blog');
+})->name('single_blog');

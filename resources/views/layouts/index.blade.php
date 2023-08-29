@@ -404,6 +404,47 @@
         height: 3px;
         margin: 4px 0 !important;
         }
+        .footer-conat-conta{
+                background-color: rgb(52, 58, 64,08);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+        linear-gradient(
+            to right top,
+            #000,
+            #000,
+            #000,
+            #000,
+            #000000
+        );
+        }
+
+        .footer-container a:hover {
+    opacity: 1 !important;
+}
+        
+        .footer-loc-soc-link a:hover #fb{
+            transition: all .7s ease-in;
+    transform: unset !important;
+    fill:  #3b5998 !important;
+}
+        .footer-loc-soc-link a:hover #twitter{
+            transition: all .7s ease-in;
+    transform: unset !important;
+    fill:  #00acee  !important;
+}
+        .footer-loc-soc-link a:hover #linkedin{
+            transition: all .7s ease-in;
+    transform: unset !important;
+    fill:  #0072b1  !important;
+}
+        .footer-loc-soc-link a:hover #insta{
+            transition: all .7s ease-in;
+    fill:  #E1306C;
+}
+
+        .footer-container a {
+    color: #ffffff;
+    font-weight: 500 !important;
+}
     </style>
 
     @yield('css')
@@ -429,8 +470,8 @@
                 
                 <div class="">
                     <div class="py-4 text-center custom-text-white">
-                        <p class="fs-1 pb-0">Let's talk</p>
-                        <p class="custom-color-123">Ready to experience hypergrowth?</p>
+                        <p class="fs-1 pb-0 fw-bold">Let's talk</p>
+                        <p class="custom-color-123 fs-5">Ready to experience hypergrowth?</p>
                     </div>
                 </div>
                 {{-- form --}}
@@ -504,6 +545,29 @@
         integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+
+    {{-- lazy loading packages --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"
+        integrity="sha512-21jyjW5+RJGAZ563i/Ug7e0AUkY7QiZ53LA4DWE5eNu5hvjW6KUf9LqquJ/ziLKWhecyvvojG7StycLj7bT39Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", async function() {
+        
+
+        const observer = await lozad('.lozad', {
+            rootMargin: '100px 0px', // Apply a 100px margin around the viewport
+    threshold: 0.1, // Load images when they are 10% visible
+    loaded: function(el) {
+        // Add a class to mark the image as loaded
+        el.classList.add('loaded');
+    }
+});
+observer.observe();
+
+    });
+</script>
 
     @yield('js')
 </body>

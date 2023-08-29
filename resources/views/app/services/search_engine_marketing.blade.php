@@ -35,9 +35,7 @@
         <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
           Search Engine Marketing 
         </h2>
-        <p class="custom-text-2 fs-5">
-            Create a Strong Digital Foundation and Rank High on Search Results
-        </p>
+         
         <div class="text-center py-4">
             <button  class="iwantgrow_btn lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Talk</button>
         </div>
@@ -54,9 +52,7 @@
             <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
               Search Engine Marketing 
             </h2>
-            <p class="custom-text-2 fs-5">
-                Create a Strong Digital Foundation and Rank High on Search Results
-            </p>
+           
                  <div class="text-center py-4">
                 <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
             </div>
@@ -70,7 +66,7 @@
 
     <!-- WHY SERVICE STARTS HERE -->
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -82,7 +78,7 @@
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-home-page-2021-08-26-22-39-48-utc.jpg') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-home-page-2021-08-26-22-39-48-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -108,7 +104,7 @@
         </div>
     </section>
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -135,7 +131,7 @@
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-on-a-computer-2022-12-15-23-22-36-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-on-a-computer-2022-12-15-23-22-36-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -162,7 +158,7 @@
         </div>
     </section>
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -173,7 +169,7 @@
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/business-partners-working-in-team-at-office-2022-11-16-14-40-12-utc.jpg') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/business-partners-working-in-team-at-office-2022-11-16-14-40-12-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -198,7 +194,7 @@
         </div>
     </section>
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -230,7 +226,7 @@
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/selective-focus-of-magnifying-glass-seo-2023-05-09-08-40-11-utc(1).jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/selective-focus-of-magnifying-glass-seo-2023-05-09-08-40-11-utc(1).jpg') }}" alt="" />
             </div>
             </div>
         </div>

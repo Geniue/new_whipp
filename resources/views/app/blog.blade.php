@@ -39,7 +39,7 @@
     <!-- BLOG TITLE BANNER SECTION ENDS HERE -->
 
     {{-- JOIN OVER CTA SECTION STARTS HERE --}}
-    @include('app.static_components.joinover_banner')
+    {{-- @include('app.static_components.joinover_banner') --}}
     {{-- JOIN OVER CTA SECTION ENDS HERE --}}
 
     {{--  BLOG SEARCH SECTION STARTS HERE --}}
@@ -79,7 +79,7 @@
                     <header class="flex flex-column gap-2">
                         {{-- img --}}
                         <a href="{{ route('single_blog') }}">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
                                 alt="blog-1">
                         </a>
                         {{-- title --}}
@@ -122,7 +122,7 @@
                     <header class="flex flex-column gap-2">
                         {{-- img --}}
                         <a href="{{ route('single_blog') }}">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
                                 alt="blog-1">
                         </a>
                         {{-- title --}}
@@ -165,7 +165,7 @@
                     <header class="flex flex-column gap-2">
                         {{-- img --}}
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
                                 alt="blog-1">
                         </a>
                         {{-- title --}}
@@ -208,7 +208,7 @@
                     <header class="flex flex-column gap-2">
                         {{-- img --}}
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
                                 alt="blog-1">
                         </a>
                         {{-- title --}}
@@ -251,7 +251,7 @@
                     <header class="flex flex-column gap-2">
                         {{-- img --}}
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
                                 alt="blog-1">
                         </a>
                         {{-- title --}}
@@ -294,7 +294,7 @@
                     <header class="flex flex-column gap-2">
                         {{-- img --}}
                         <a href="#">
-                            <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720-761x428.png') }}"
                                 alt="blog-1">
                         </a>
                         {{-- title --}}

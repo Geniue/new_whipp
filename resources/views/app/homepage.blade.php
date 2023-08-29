@@ -7,13 +7,13 @@
     <section>
         <div class="topbannerF">
             <div class="topbannerF_wrapper">
-                <video autoplay="" muted="" loop="" id="myVideo" playsinline=""
+                <video autoplay="" muted="" loop="" class="lozad" id="myVideo" playsinline=""
                     aria-label="HomePage_Header_Texts Resize 1920 x 950" style="display: none">
-                    <source src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
+                    <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video>
                 <video autoplay="" muted="" loop="" id="myVideoMobile" playsinline=""
                     aria-label="Header_Mobile">
-                    <source src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
+                    <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
@@ -42,7 +42,7 @@
                 <div class="video text-center">
                     <video autoplay="" muted="" loop="" playsinline=""
                         style="max-width: 100%; width: 700px; border-radius: 10px">
-                        <source src="{{ asset('assets/imgs/MOBURST-category-leader-web-1.mp4') }}" type="video/mp4" />
+                        <source class="lozad" data-src="{{ asset('assets/imgs/MOBURST-category-leader-web-1.mp4') }}" type="video/mp4" />
                     </video>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                 <div class="video text-center">
                     <video autoplay="" muted="" loop="" playsinline=""
                         style="max-width: 100%; width: 700px; border-radius: 10px">
-                        <source src="{{ asset('assets/imgs/Infinty-Loop-Desktop-2.mp4') }}" type="video/mp4" />
+                        <source class="lozad" data-src="{{ asset('assets/imgs/Infinty-Loop-Desktop-2.mp4') }}" type="video/mp4" />
                     </video>
                 </div>
             </div>
@@ -122,7 +122,7 @@
             </div>
         </div>
         <div class="px-3 text-center px-lg-5 pb-4">
-            <img class="imporve-tech-seo-img" src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}" alt="" />
+            <img class="imporve-tech-seo-img" class="lozad" data-src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}" alt="" />
         </div>
     </section> --}}
 
@@ -174,7 +174,7 @@
                     <h3 class="pb-5 text-center d-lg-none">
                         What is Technical SEO and Why is it Important?
                     </h3>
-                    <img src="{{ asset('assets/imgs/technical-seo-banner.svg') }}" alt="" />
+                    <img class="lozad" data-src="{{ asset('assets/imgs/technical-seo-banner.svg') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
                 </div>
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{ asset('assets/imgs/technical-seo-inner-image.svg') }}" alt="" />
+                    <img class="lozad" data-src="{{ asset('assets/imgs/technical-seo-inner-image.svg') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -251,7 +251,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -294,7 +294,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -332,7 +332,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -375,7 +375,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -416,7 +416,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -453,7 +453,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -496,7 +496,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -536,7 +536,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 
@@ -575,7 +575,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img width="55" height="55" src="{{ asset('assets/imgs/info-box27.png') }}"
+                            <img width="55" height="55" class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}"
                                 alt="" />
                         </div>
 

@@ -21,7 +21,7 @@
             </h3>
             <div class="row py-4 gap-5 gap-lg-0">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <img src="{{ asset('assets/imgs/thrive-logo-color-print-260x141.png') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/thrive-logo-color-print-260x141.png') }}" alt="">
                 </div>
                 <div class="col-lg-6 wp-con-map-address text-center text-lg-start">
                     <p>Thrive Internet Marketing Agency</p>
@@ -47,7 +47,7 @@
             </h3>
             <div class="row py-4 gap-5 gap-lg-0">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <img src="{{ asset('assets/imgs/atlanta-dwt-626x162-panorama.jpg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/atlanta-dwt-626x162-panorama.jpg') }}" alt="">
                 </div>
                 <div class="col-lg-6 wp-con-map-address text-center text-lg-start">
 

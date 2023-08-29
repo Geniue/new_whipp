@@ -7,7 +7,7 @@
             <div class="col-xl-7 col-md-8 mx-auto p-3 p-md-5">
                 <div>
                     {{-- img --}}
-                    <img src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720.png') }}"
+                    <img class="lozad" data-src="{{ asset('assets/imgs/Google-Incorporates-Generative-AI-Into-Its-Search-Engine_1280x720.png') }}"
                         alt="">
                 </div>
                 <div>
@@ -21,39 +21,7 @@
     </section>
     {{-- BLOG IMG AND TITLE SECTION ENDS HERE --}}
 
-    {{-- JOIN OVER CTA SECTION STARTS HERE --}}
-    @include('app.static_components.joinover_banner')
-    {{-- JOIN OVER CTA SECTION ENDS HERE --}}
-
-
-    {{--  BLOG SEARCH SECTION STARTS HERE --}}
-    <section class="border border-1 border-end">
-        <div class="container border-b col-lg-11">
-            <div class="row justify-content-between gap-4  py-4 align-items-center">
-                <div class="col-lg-3 col-md-5 col-12">
-                    <div class="w-100 d-flex gap-1 sea-blog-con position-relative">
-                        <input class="bl-sea-bar-input w-100" type="text" placeholder="Search...">
-                        <input class="bl-sea-bar-input-btn" type="text">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-5 col-12 ca-port-option">
-                    <div class="dropdown">
-                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            All Industries
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Retail</a></li>
-                            <li><a class="dropdown-item" href="#">Home</a></li>
-                            <li><a class="dropdown-item" href="#">Technology</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {{--  BLOG SEARCH SECTION ENDS HERE --}}
-
+   
     {{-- BLOG CONTENT SECTION STARTS HERE --}}
     <section class="overflow-hidden">
         <div class="row p-3">
@@ -105,7 +73,7 @@
 
                     <div class="py-2">
 
-                        <img src="{{ asset('assets/imgs/Google-search-asking-for-a-comparison.png') }}" alt="blog">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/Google-search-asking-for-a-comparison.png') }}" alt="blog">
                     </div>
                     <p>
                         In the new Search, Google collates information it finds from the web and gives you its own insights
@@ -166,7 +134,7 @@
                         images so you can dig deeper into these products and websites yourself.
                     </p>
                     <div>
-                        <img src="{{ asset('assets/imgs/SGE-Bluetooth-Speakers-GIF.gif') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/SGE-Bluetooth-Speakers-GIF.gif') }}" alt="">
                     </div>
                     <p>
                         Ads will still be part of your search experience with “dedicated slots throughout the page.” You’ll
@@ -254,7 +222,7 @@
             <div class="d-flex flex-column align-items-center
              flex-md-row col-lg-11 mx-auto gap-4 text-white">
                 <div class=" col-4 blg-abo-auth-pic text-center text-md-start">
-                    <img src="{{ asset('assets/imgs/cropped-Arrabon-Toribio.png') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/cropped-Arrabon-Toribio.png') }}" alt="">
                 </div>
                 <div class="text-center text-md-start d-flex flex-column justify-content-center">
                     <h3 class="fs-1 fw-bold text-shadow-black">

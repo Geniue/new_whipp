@@ -35,9 +35,7 @@
         <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
            SEO Content Writing Serivces
         </h2>
-        <p class="custom-text-2 fs-5">
-            Create a Strong Digital Foundation and Rank High on Search Results
-        </p>
+         
         <div class="text-center py-4">
             <button  class="iwantgrow_btn lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Talk</button>
         </div>
@@ -54,9 +52,7 @@
             <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
                SEO Content Writing Serivces
             </h2>
-            <p class="custom-text-2 fs-5">
-                Create a Strong Digital Foundation and Rank High on Search Results
-            </p>
+            
                  <div class="text-center py-4">
                 <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
             </div>
@@ -70,7 +66,7 @@
 
     <!-- WHY SERVICE STARTS HERE -->
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -83,7 +79,7 @@ Content Writing for SEO at Whipp Digital
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -110,7 +106,7 @@ Content Writing for SEO at Whipp Digital
         </div>
     </section>
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -142,7 +138,7 @@ Content Writing for SEO at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/mixed-alphabet-letters-with-the-word-content-in-th-2023-01-07-01-58-58-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/mixed-alphabet-letters-with-the-word-content-in-th-2023-01-07-01-58-58-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -169,7 +165,7 @@ Content Writing for SEO at Whipp Digital
         </div>
     </section>
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -182,7 +178,7 @@ Content Writing for SEO at Whipp Digital
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/top-view-of-man-hand-holding-pen-writing-with-text-2022-11-02-16-34-08-utc.jpg') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/top-view-of-man-hand-holding-pen-writing-with-text-2022-11-02-16-34-08-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -209,7 +205,7 @@ Content Writing for SEO at Whipp Digital
         </div>
     </section>
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -241,7 +237,7 @@ Content Writing for SEO at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/hands-laptop-and-keyboard-with-man-typing-workin-2023-01-31-23-35-16-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/hands-laptop-and-keyboard-with-man-typing-workin-2023-01-31-23-35-16-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>

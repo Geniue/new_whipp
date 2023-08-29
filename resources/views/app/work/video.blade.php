@@ -26,7 +26,7 @@
 
             </div>
             <div class="px-3 text-center px-lg-2 pb-4">
-                <img class="imporve-tech-seo-img" src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}" alt="">
+                <img class="imporve-tech-seo-img lozad" data-src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}" alt="">
             </div>
             <p class="text-center">View all of our <a href="#">
                     awards & recognition
@@ -98,7 +98,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
@@ -112,7 +112,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">
@@ -126,7 +126,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="case-study-thumbnail">
                         <a href="#" rel="bookmark" title="Geoforce">
-                            <img class="portfolio-img" src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
+                            <img class="portfolio-img lozad" data-src="{{ asset('assets/imgs/Image-3D-Thumbnail-01-2-1-1.png') }}"
                                 alt="Image-3D-Thumbnail-01-2-1-1">
 
                             <div class="overlay">

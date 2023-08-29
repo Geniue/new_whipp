@@ -112,7 +112,7 @@
                     <h3 class="pb-5 text-center d-lg-none">
                         What is Technical SEO and Why is it Important?
                     </h3>
-                    <img src="{{ asset('assets/imgs/technical-seo-banner.svg') }}" alt="" />
+                    <img class="lozad" data-src="{{ asset('assets/imgs/technical-seo-banner.svg') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -169,7 +169,7 @@
                 </div>
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{ asset('assets/imgs/technical-seo-inner-image.svg') }}" alt="" />
+                    <img class="lozad" data-src="{{ asset('assets/imgs/technical-seo-inner-image.svg') }}" alt="" />
                 </div>
             </div>
         </div>
@@ -193,7 +193,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -237,7 +237,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -281,7 +281,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -329,7 +329,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -373,7 +373,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -417,7 +417,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -466,7 +466,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -510,7 +510,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -554,7 +554,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -601,7 +601,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -645,7 +645,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -689,7 +689,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -736,7 +736,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -780,7 +780,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -824,7 +824,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -871,7 +871,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -915,7 +915,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -959,7 +959,7 @@
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-1 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
+                            <img class="lozad" data-src="{{ asset('assets/imgs/info-box27.png') }}" alt="" width="55"
                                 height="55" />
                         </div>
 
@@ -1090,7 +1090,7 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img decoding="async" loading="lazy"
-                        src="{{ asset('assets/imgs/digital-marketing-inner-custom-image0012.svg') }}"
+                        class="lozad" data-src="{{ asset('assets/imgs/digital-marketing-inner-custom-image0012.svg') }}"
                         alt="Digital Marketing marketing techniques" width="420" height="316" />
                 </div>
             </div>
@@ -1102,7 +1102,7 @@
     <section>
         <div class="container py-5">
             <div class="px-3 text-center px-lg-2 pb-4">
-                <img class="imporve-tech-seo-img" src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}"
+                <img class="imporve-tech-seo-img" class="lozad" data-src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}"
                     alt="" />
             </div>
             <div class="text-center">

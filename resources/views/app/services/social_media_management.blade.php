@@ -35,9 +35,7 @@
         <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
           Social Media Management 
         </h2>
-        <p class="custom-text-2 fs-5">
-            Create a Strong Digital Foundation and Rank High on Search Results
-        </p>
+         
         <div class="text-center py-4">
             <button  class="iwantgrow_btn lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Talk</button>
         </div>
@@ -54,9 +52,7 @@
             <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
               Social Media Management 
             </h2>
-            <p class="custom-text-2 fs-5">
-                Create a Strong Digital Foundation and Rank High on Search Results
-            </p>
+          
                  <div class="text-center py-4">
                 <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
             </div>
@@ -70,7 +66,7 @@
 
     <!-- WHY SERVICE STARTS HERE -->
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -79,7 +75,7 @@
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -102,7 +98,7 @@
         </div>
     </section>
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -128,7 +124,7 @@
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-addiction-2021-09-24-02-56-43-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-addiction-2021-09-24-02-56-43-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
@@ -155,7 +151,7 @@
         </div>
     </section>
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -165,7 +161,7 @@
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/marketing-product-manager-2021-08-29-18-05-21-utc.jpg') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/marketing-product-manager-2021-08-29-18-05-21-utc.jpg') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -188,7 +184,7 @@
         </div>
     </section>
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -221,14 +217,14 @@
     
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/marketing-product-manager-2021-08-29-18-05-21-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/marketing-product-manager-2021-08-29-18-05-21-utc.jpg') }}" alt="" />
             </div>
             </div>
         </div>
     </section>
     
     <section class="border ">
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
@@ -238,7 +234,7 @@
 
 
                     </h3>
-                    <img width="600" src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/young-man-in-city-taking-photo-on-digital-camera-t-2021-12-09-17-02-03-utc.jpg ') }}" alt="" />
+                    <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/young-man-in-city-taking-photo-on-digital-camera-t-2021-12-09-17-02-03-utc.jpg ') }}" alt="" />
                 </div>
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
@@ -262,7 +258,7 @@
     </section>
 
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container py-1 custom-text">
             <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -295,7 +291,7 @@
     
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/manager-looking-at-many-different-cv-resume-and-ch-2021-12-14-19-30-12-utc.jpeg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/manager-looking-at-many-different-cv-resume-and-ch-2021-12-14-19-30-12-utc.jpeg') }}" alt="" />
             </div>
             </div>
         </div>

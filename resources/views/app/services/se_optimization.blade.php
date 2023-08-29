@@ -37,9 +37,7 @@
         <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
             Search Engine Optimization 
         </h2>
-        <p class="custom-text-2 fs-5">
-            Create a Strong Digital Foundation and Rank High on Search Results
-        </p>
+         
         <div class="text-center py-4">
             <button class="iwantgrow_btn lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Talk</button>
         </div>
@@ -56,9 +54,7 @@
         <h2 class="fs-1 fw-bold custom-text" style="text-transform: capitalize">
             Search Engine Optimization 
         </h2>
-        <p class="custom-text-2 fs-5">
-            Create a Strong Digital Foundation and Rank High on Search Results
-        </p>
+         
         <div class="text-center py-4">
             <button class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5">Let's Talk</button>
         </div>
@@ -72,14 +68,14 @@
 
 <!-- WHY SERVICE STARTS HERE -->
 <section class="border ">
-    <div class="container py-5 custom-text">
+    <div class="container py-1 custom-text">
         <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head mb-2">
 Search Engine Optimization at Whipp Digital
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                 <div class="pb-lg-3">
@@ -101,7 +97,7 @@ Search Engine Optimization at Whipp Digital
     </div>
 </section>
 <section>
-    <div class="container py-5 custom-text">
+    <div class="container py-1 custom-text">
         <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
 
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -127,7 +123,7 @@ Search Engine Optimization at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/cropped-view-of-developer-in-suit-holding-business-2022-12-16-19-45-59-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/cropped-view-of-developer-in-suit-holding-business-2022-12-16-19-45-59-utc.jpg') }}" alt="" />
             </div>
         </div>
     </div>
@@ -154,7 +150,7 @@ Search Engine Optimization at Whipp Digital
     </div>
 </section>
 <section class="border ">
-    <div class="container py-5 custom-text">
+    <div class="container py-1 custom-text">
         <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head mb-2">
@@ -167,7 +163,7 @@ Search Engine Optimization at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/seo-search-engine-organization-2022-11-07-22-10-14-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/seo-search-engine-organization-2022-11-07-22-10-14-utc.jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                 <div class="pb-lg-3">
@@ -194,7 +190,7 @@ Search Engine Optimization at Whipp Digital
     </div>
 </section>
 <section>
-    <div class="container py-5 custom-text">
+    <div class="container py-1 custom-text">
         <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
 
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -219,13 +215,13 @@ Search Engine Optimization at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/search-engine-optimization-2022-11-07-22-10-22-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/search-engine-optimization-2022-11-07-22-10-22-utc.jpg') }}" alt="" />
             </div>
         </div>
     </div>
 </section>
 <section class="border ">
-    <div class="container py-5 custom-text">
+    <div class="container py-1 custom-text">
         <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head mb-2">
@@ -239,7 +235,7 @@ Search Engine Optimization at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/seo-process-information-2022-10-25-19-27-30-utc(1).jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/seo-process-information-2022-10-25-19-27-30-utc(1).jpg') }}" alt="" />
             </div>
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                 <div class="pb-lg-3">
@@ -267,7 +263,7 @@ Search Engine Optimization at Whipp Digital
     </div>
 </section>
 <section>
-    <div class="container py-5 custom-text">
+    <div class="container py-1 custom-text">
         <div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
 
             <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
@@ -292,7 +288,7 @@ Search Engine Optimization at Whipp Digital
 
 
                 </h3>
-                <img width="600" src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/red-location-pin-and-residential-buildings-realto-2022-09-21-21-20-54-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/red-location-pin-and-residential-buildings-realto-2022-09-21-21-20-54-utc.jpg') }}" alt="" />
             </div>
         </div>
     </div>

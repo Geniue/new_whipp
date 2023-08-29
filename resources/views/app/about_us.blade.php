@@ -10,17 +10,17 @@
             </p>
             <div class="d-flex flex-column flex-md-row justify-content-between col-lg-8 mx-auto">
                 <div class="gap-2 text-center d-flex flex-column justify-content-center align-items-center">
-                    <img width="125" src="{{ asset('assets/imgs/icons/we-image1.svg') }}" alt="">
+                    <img width="125" class="lozad" data-src="{{ asset('assets/imgs/icons/we-image1.svg') }}" alt="">
                     <h3 class="mb-0">OPTIMIZE</h3>
                     <p>Marketing Processes</p>
                 </div>
                 <div class=" gap-2 d-flex flex-column justify-content-center align-items-center text-center">
-                    <img width="125" src="{{ asset('assets/imgs/icons/we-image2.svg') }}" alt="">
+                    <img width="125" class="lozad" data-src="{{ asset('assets/imgs/icons/we-image2.svg') }}" alt="">
                     <h3 class="mb-0">GENERATE</h3>
                     <p>Targeted Results</p>
                 </div>
                 <div class=" gap-2 d-flex flex-column justify-content-center align-items-center text-center">
-                    <img width="125" src="{{ asset('assets/imgs/icons/we-image1.svg') }}" alt="">
+                    <img width="125" class="lozad" data-src="{{ asset('assets/imgs/icons/we-image1.svg') }}" alt="">
                     <h3 class="mb-0">GROW</h3>
                     <p>Your Brand Online</p>
                 </div>
@@ -62,7 +62,7 @@
                 </div>
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{ asset('assets/imgs/updated-results-desk-image.svg') }}" alt="SEO Company" width="506"
+                    <img class="lozad" data-src="{{ asset('assets/imgs/updated-results-desk-image.svg') }}" alt="SEO Company" width="506"
                         height="281">
                 </div>
             </div>
@@ -80,7 +80,7 @@
             <div class=" row ab-sev-n-img px-4 gap-4">
                 {{-- img --}}
                 <div class="col-12 col-lg-6">
-                    <img class="dig-ab-img" src="{{ asset('assets/imgs/DSC03177.png') }}" alt="Thrive Team">
+                    <img class="dig-ab-img" class="lozad" data-src="{{ asset('assets/imgs/DSC03177.png') }}" alt="Thrive Team">
                 </div>
                 {{-- content --}}
                 <div class="ab-sev-n-content  col-12 col-lg-5">
@@ -115,7 +115,7 @@
         <div class="container col-lg-10 mx-auto row justify-content-center pt-5">
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-5.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-5.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Social Media Marketing</a>
                 </div>
                 <p>Bring your brand closer to your target audience and gain better customer engagement with social media
@@ -124,7 +124,7 @@
 
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Digital Marketing</a>
                 </div>
                 <p>Gain complete control of your digital real estate with holistic online marketing services tailored to
@@ -132,7 +132,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">eCommerce Marketing</a>
                 </div>
                 <p>Facilitate a smooth buying process for your customers and reduce operational costs with strategic
@@ -140,7 +140,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Amazon Marketing</a>
                 </div>
                 <p>We help you optimize your Amazon product listings and improve your pricing strategy to increase your
@@ -150,7 +150,7 @@
         <div class="container col-lg-9 mx-auto row justify-content-center">
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-6.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-6.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Online Reputation Management</a>
                 </div>
                 <p>What does your reputation say about your brand? Build and maintain your desired brand image to attract
@@ -158,14 +158,14 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-2.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-2.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Search Engine Optimization (SEO)</a>
                 </div>
                 <p>Get white-hat SEO solutions that improve your organic search rankings and increase brand recognition.</p>
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-3.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-3.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Pay-Per-Click (PPC) Marketing</a>
                 </div>
                 <p>Position your brand in front of the right people at the right time and platform with a targeted paid ads
@@ -173,7 +173,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-3 d-flex gap-4 flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-4.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-4.svg') }}" alt="">
                     <a href="#" class="ser-gri-link fs-5 fw-bold">Web Design and Development</a>
                 </div>
                 <p>Improve your website accessibility and attract lifetime clients to your business.</p>
@@ -205,7 +205,7 @@
 
                         </div>
                         <div class="top-0 ">
-                            <img width="348" src="{{ asset('assets/imgs/growth-mission-img.svg') }}" alt="">
+                            <img width="348" class="lozad" data-src="{{ asset('assets/imgs/growth-mission-img.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="position-absolute tree-grow-con">
@@ -376,7 +376,7 @@
                 </div>
                 <div class="col-lg-6">
                     <img class="hs-photo-img" width="943" height="790"
-                        src="{{ asset('assets/imgs/about-weare-image-new.png') }}">
+                        class="lozad" data-src="{{ asset('assets/imgs/about-weare-image-new.png') }}">
                 </div>
             </div>
             <div class="wp-his-main-con pt-5 mt-4 col-lg-12 justify-content-center mx-auto row position-relative z-3">
@@ -439,7 +439,7 @@
         <div class="cotainer-fulid py-4 wp-wy-carr-container position-relative row ">
             <div class="col-10  col-md-8 mx-auto text-white  position-relative z-3 gap-4">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/Group-5648.png') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/Group-5648.png') }}" alt="">
                 </div>
                 <div class="text-center pt-4">
                     <h3 class="fs-3 fw-bold">
@@ -473,7 +473,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-4 justify-content-center align-items-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <img src="{{ asset('assets/imgs/award-white.png') }}" alt="Internet Marketing Services">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/award-white.png') }}" alt="Internet Marketing Services">
                 </div>
                 <div
                     class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center">

@@ -7,7 +7,7 @@
         <div class="d-flex">
             <div class="logo">
                 <a href="/" class="main-logo">
-                    <img src="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo" alt="">
+                    <img data-src ="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad" alt="">
                 </a>
             </div>
         </div>
@@ -344,6 +344,13 @@
                     </li> --}}
                     <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
+                            <a href="{{ route('blog') }}">
+                                <span class=""> BLOGS </span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-menu-child">
+                        <div class="wd-nav-link position-relative">
                             <a href="{{ route('faqs') }}">
                                 <span class=""> FAQ's </span>
                             </a>
@@ -360,12 +367,12 @@
             </div>
             <!-- contact -->
             <div class="d-flex gap-2 ps-4 ">
-                <a href="tel:909-434-4334" class="">
-                    <img width="40" class="ek-phone-img"
-                        src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}" alt="" />
+                <a href="tel:212-951-0651 " class="">
+                    <img width="40" class="ek-phone-img lozad"
+                        data-src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}"  alt="" />
                 </a>
-                <a href="tel:909-434-4334" class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
-                    909-434-4334
+                <a href="tel:212-951-0651 " class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
+212-951-0651 
                 </a>
                 <a href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">
                     <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
@@ -569,16 +576,6 @@
                     <li class="hover-ver2">
                         <a href="{{  route('amazon_seo')  }}">
                             Amazon SEO
-                        </a>
-                    </li>
-                    <li class="hover-ver2">
-                          <a href="{{  route('amazon_seo')  }}">
-                                                Amazon SEO
-                                            </a>
-                    </li>
-                    <li class="hover-ver2">
-                        <a href="{{route('sm_reputation_man')}}">
-                            Social Media Reputation Management
                         </a>
                     </li>
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">

@@ -22,7 +22,7 @@
                     {{-- img & description --}}
                     <div class="d-flex flex-column ">
                         <div class="">
-                            <img src="{{ asset('assets/imgs/Arlington-Digital-Marketing_1200.jpg') }}" alt="">
+                            <img class="lozad" data-src="{{ asset('assets/imgs/Arlington-Digital-Marketing_1200.jpg') }}" alt="">
                         </div>
                         <div class="age-con-des-k">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia tempore voluptas a
@@ -99,7 +99,7 @@
                     {{-- img --}}
                     <div class="text-center text-lg-start">
 
-                        <img src="{{ asset('assets/imgs/Arlington-Digital-Marketing_1200.jpg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/Arlington-Digital-Marketing_1200.jpg') }}" alt="">
 
                     </div>
                     {{-- result --}}
@@ -131,7 +131,7 @@
                     {{-- img --}}
                     <div class="text-center text-lg-start">
 
-                        <img src="{{ asset('assets/imgs/Arlington-Digital-Marketing_1200.jpg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/Arlington-Digital-Marketing_1200.jpg') }}" alt="">
 
                     </div>
                     {{-- result --}}
@@ -180,7 +180,7 @@
             <div class="col-lg-10 mx-auto row justify-content-center pt-5">
                 <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                     <div class="text-center ">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
                         <p class="ser-gri-link fs-5 custom-text  fw-bold underline-none mb-0">Marci Wiersma</p>
                         <p class="mb-0 ">Broker - About Roatan Real Estate</p>
                         <p class="some-big-gne-quote fw-bold mb-0 mt-1">
@@ -193,7 +193,7 @@
                 </div>
                 <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                     <div class="text-center">
-                        <img src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
                         <p class="mb-0 ser-gri-link fs-5 fw-bold underline-none custom-text">Whitney Wells Lewis</p>
                         <p class="mb-0">Practice Manager - PARC Urology</p>
                         <p class="some-big-gne-quote fw-bold  mt-1">
@@ -206,7 +206,7 @@
                 </div>
                 <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                     <div class="text-center">
-                        <img src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
+                        <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                         <p class="mb-0 ser-gri-link fs-5 fw-bold underline-none custom-text">Chad Montgomery</p>
                         <p class="mb-0">CEO - Accurate Leak and Line</p>
                         <p class="some-big-gne-quote fw-bold  mt-1">
@@ -230,7 +230,7 @@
         <div class="container col-lg-10 mx-auto row justify-content-center pt-5">
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">We Value Ethics and Integrity</p>
                 </div>
                 <p>Our culture and work ethic are the biggest factors for Thrive’s success and growth over the years. At
@@ -242,7 +242,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Proven Track Record
                     </p>
                 </div>
@@ -256,7 +256,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Digital Marketing Experts</p>
                 </div>
                 <p>Thrive Internet Marketing Agency has a proactive team of digital marketing professionals who are experts
@@ -270,7 +270,7 @@
         <div class="container col-lg-10 mx-auto row justify-content-center pt-5">
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Complete Reporting</p>
                 </div>
                 <p>We believe clients deserve to know the progress of their campaigns and measure the efforts. This is why
@@ -282,7 +282,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-7.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Prompt Delivery
                     </p>
                 </div>
@@ -295,7 +295,7 @@
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                 <div class="text-center">
-                    <img src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Tailored Solutions</p>
                 </div>
                 <p>At Thrive, we believe every business is unique with specific requirements to reach the business goals. In
@@ -550,7 +550,7 @@
                 {{-- img --}}
                 <div class="px-5">
                     <img width="660"
-                        src="{{ asset('assets/imgs/Top-Digital-Marketing-Agencies-2021-by-Clutch.png') }}"
+                        class="lozad" data-src="{{ asset('assets/imgs/Top-Digital-Marketing-Agencies-2021-by-Clutch.png') }}"
                         alt="">
                 </div>
                 <div class="px-3">
@@ -586,7 +586,7 @@
                 {{-- img --}}
                 <div class="px-5">
                     <img width="660"
-                        src="{{ asset('assets/imgs/Thrive-National-Excellence-Awards-2021-in-United-States.png') }}"
+                        class="lozad" data-src="{{ asset('assets/imgs/Thrive-National-Excellence-Awards-2021-in-United-States.png') }}"
                         alt="">
                 </div>
                 <div class="px-3">
@@ -615,7 +615,7 @@
                 </div>
             </div>
             <div class=" text-center pb-2">
-                <img class="imporve-tech-seo-img" src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}"
+                <img class="imporve-tech-seo-img" class="lozad" data-src="{{ asset('assets/imgs/awardimage2022-1-1.jpeg') }}"
                     alt="">
             </div>
         </div>
@@ -631,7 +631,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <img src="{{ asset('assets/imgs/Arlington-office-location.png') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/Arlington-office-location.png') }}" alt="">
                 </div>
                 <div class="col-lg-4 wp-con-map-address">
                     <div class="">
