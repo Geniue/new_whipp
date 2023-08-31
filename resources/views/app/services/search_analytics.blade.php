@@ -71,7 +71,7 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
-                       Paid Search Analytics at Whipp Digital
+                      Unlocking Insights: Paid Search Analytics
 
                     </h3>
                         <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -82,7 +82,7 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
                         <h3 class="d-none d-lg-block feture-head">
-                           Paid Search Analytics at Whipp Digital
+                          Unlocking Insights: Paid Search Analytics
 
                         </h3>
                                <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
@@ -91,7 +91,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            At Whipp Digital, we understand that today's digital marketplace is a complex tapestry of opportunities. Diving deep into paid search analytics isn't just about numbers and charts; it's about uncovering the story behind your campaigns. How do your customers behave? What drives them to convert? With each click and keyword, there's a narrative waiting to be decoded. Our expert team employs cutting-edge tools and data-driven strategies to not only interpret this story, but also to craft it. By seamlessly integrating your brand's goals with insightful analytics, we aim to enhance your ROI, optimize ad spend, and fine-tune your campaigns for unparalleled success. Step into the future of advertising with Whipp Digital, where data meets human intuition.
+                            In the digital landscape, opportunities intertwine intricately. Delving into paid search analytics transcends data points; it reveals the essence behind campaigns. How do customers navigate? What fuels conversions? Each click and keyword weaves a narrative awaiting deciphering. Our adept team deploys cutting-edge tools and data-driven tactics. Beyond decoding, we shape this narrative. We seamlessly blend your brand's objectives with insightful analytics to enrich ROI, streamline ad spend, and optimize campaigns. Step into advertising's future, where data converges with human insight, and uncover the potential beyond the pixels.
                         </p>
                        
                     </div>
@@ -107,7 +107,7 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
                         <h3 class="d-none d-lg-block feture-head">
-                          Google Analytics Service at Whipp Digital
+                        Guiding Your Online Voyage: Google Analytics Expertise
 
 
                         </h3>
@@ -117,7 +117,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Navigating the digital realm without a compass is as daunting as sailing an uncharted sea. That's where Whipp Digital's Google Analytics Service comes into play. We don't just present you with numbers and charts; we translate them into meaningful insights that can guide your business's online journey. Whether you're curious about where your traffic comes from, which products are catching your visitors' eyes, or how long they're staying engaged on your site, our seasoned experts dig deep into the data. We reveal patterns, offer actionable strategies, and ensure you're fully equipped to make informed decisions. Dive into the digital world with confidence, understanding every ripple and wave of your online presence with Whipp Digital by your side.
+                            Sailing the digital seas blind is like navigating uncharted waters. Beyond figures and charts, we translate insights that steer your online journey. Whether tracking traffic origins, eye-catching products, or visitor engagement, our seasoned experts delve deep. Unveiling patterns, providing actionable strategies, we empower informed decisions. Plunge into the digital realm with assurance, comprehending every online ripple and wave as your ally. Your compass to data-driven clarity awaits.
                         </p>
                        
                     </div>
@@ -125,7 +125,7 @@
                 <div
                 class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
-                  Google Analytics Service at Whipp Digital
+                Guiding Your Online Voyage: Google Analytics Expertise
 
                 </h3>
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -143,16 +143,16 @@
             <div class="col-lg-10 mx-auto">
 
                 <div class="text-center">
-                    <h3 class="feture-head mb-3">How we Keep You Updated</h3>
+                    <h3 class="feture-head mb-3">Unveiling Audience Insights</h3>
                 <p class="feture-pare">
-                    As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
+                    Google Analytics Mastery Embark on a journey through data's intricate maze with Whipp Digital's Google Analytics Mastery. Beyond bar graphs lies a goldmine of insights—68% of businesses use analytics to steer growth (Forrester). Our experts decode user behavior, enhance engagement, and amplify ROI.                    <br>
                     <br>
-                    <br>
-                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you thrive or not on Amazon.
+                    Sail confidently as 82% see improved conversions with data-driven strategies (Econsultancy). Unearth your site's narrative; discover where, why, and how visitors engage. Don't fathom the depths alone. Partner with Whipp Digital for strategic guidance, transforming analytics into action. Your website's untold story is waiting—navigate, optimize, thrive. The compass to data-driven success is here.
+
                 </p>
             </div>
             <div class="d-flex  py-3">
-                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2 fs-5 rounded-5" href="#">TALK WITH ONE OF OUR AMAZON EXPERTS</button>
+                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2  rounded-5 text-uppercase fw-bold" href="#">TALK WITH ONE OF OUR Search Analytics EXPERTS</button>
             </div>
         </div>
         </div>
@@ -163,7 +163,8 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
-                       Google Analytics Expertise at Whipp Digital
+                       Interpreting Insights: Google Analytics Expertise
+
 
                     </h3>
                         <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -174,7 +175,8 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
                         <h3 class="d-none d-lg-block feture-head">
-                           Google Analytics Expertise at Whipp Digital
+                           Interpreting Insights: Google Analytics Expertise
+
                         </h3>
                                <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
                             <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
@@ -182,7 +184,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            At Whipp Digital, we don't just read data; we interpret stories. Our team boasts some of the industry's finest Google Analytics experts who delve deep into the heart of your data, revealing insights many might miss. Google Analytics is a treasure trove of information, yet without the right expertise, its true potential can go untapped. From identifying user behavior patterns to pinpointing conversion roadblocks, our expertise lies in not just understanding the numbers but translating them into actionable business strategies. Whether you're a startup hoping to understand your audience better or an established brand aiming for exponential growth, let Whipp Digital's human touch and analytical acumen guide your journey. Discover the story your data is waiting to tell.
+                            Data isn't mere numbers; it's narratives waiting to unfold. Our adept Google Analytics experts explore your data's core, revealing hidden insights. Google Analytics is a goldmine, but its treasures remain concealed without expertise. From unraveling behavior patterns to pinpointing conversion obstacles, our strength lies in translating figures into actionable strategies. Whether you're a startup seeking audience clarity or an established brand pursuing exponential growth, allow Whipp Digital's human touch and analytical acumen to steer your path. Unearth the untold tale within your data and let it guide your journey toward success.
 
                         </p>
                        
@@ -199,7 +201,7 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
                         <h3 class="d-none d-lg-block feture-head">
-                          Google Analytics Consulting at Whipp Digital
+                  Decoding Insights: Google Analytics Consulting
 
 
 
@@ -210,7 +212,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Navigating the vast seas of data provided by Google Analytics can sometimes feel overwhelming, akin to decoding a foreign language. That's where Whipp Digital's Google Analytics consulting services step in. Our team of dedicated experts doesn't just read charts; we dive deep into the granular details, uncovering hidden insights and growth opportunities unique to your business. We believe that the difference between data and actionable intelligence lies in interpretation. Our consulting ensures you not only understand your online audience but also empowers you to make data-driven decisions that resonate. Don't let the potential of Google Analytics go untapped. Partner with Whipp Digital and unlock the stories your numbers are eager to tell.
+                            Navigating the ocean of Google Analytics data can be like deciphering a foreign language. Our devoted experts don't merely skim charts; they plunge into details, unveiling concealed insights and business-specific growth openings. We believe in bridging the gap between data and actionable wisdom. Our consultancy not only enhances audience comprehension but also empowers data-driven decisions resonating with impact. Don't leave Google Analytics' potential untapped. Your numbers hold tales—let us help you tell them.
 
                         </p>
                        
@@ -219,7 +221,7 @@
                 <div
                 class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
-                    Google Analytics Consulting at Whipp Digital
+            Decoding Insights: Google Analytics Consulting
     
 
                 </h3>

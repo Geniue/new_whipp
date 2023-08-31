@@ -71,7 +71,8 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <h3 class=" d-lg-none feture-head mb-2">
-                        Real Estate Virtual Assistant Services at Whipp Digital
+                       Revolutionize Your Realty Approach with Virtual Assistants
+
 
                     </h3>
                         <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -82,7 +83,8 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
                         <h3 class="d-none d-lg-block feture-head">
-                            Real Estate Virtual Assistant Services at Whipp Digital
+                           Revolutionize Your Realty Approach with Virtual Assistants
+
 
                         </h3>
                                <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
@@ -91,7 +93,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Navigating the real estate market can be both exciting and overwhelming, whether you're a seasoned agent or a bustling brokerage. At Whipp Digital, our dedicated Real Estate Virtual Assistants are here to streamline that journey for you. We recognize that every property listing, client interaction, and administrative task plays a critical role in closing a successful deal. Our assistants, backed by cutting-edge digital tools, offer a unique blend of industry insight and technical expertise. From updating listings, managing appointments, to ensuring timely follow-ups, they ensure no detail is overlooked. Dive into a seamless real estate experience where you can focus on what truly matters – building relationships and growing your business. With Whipp Digital by your side, you're not just leveraging a service; you're embracing a partnership that's set on your success.
+                            The dynamic real estate landscape presents both exhilarating possibilities and overwhelming challenges, catering to veterans and bustling brokerages alike. Our committed Real Estate Virtual Assistants are primed to streamline this voyage. Recognizing the pivotal role each property listing, client interaction, and administrative chore plays in sealing triumph, they're armed with avant-garde digital tools. A distinctive fusion of industry acumen and technical finesse defines them. From updating listings and managing appointments to ensuring punctual follow-ups, no detail escapes their attention. Plunge into a seamless real estate expedition where the spotlight is on meaningful connections and business expansion. As your ally, you're not merely embracing a service; you're forging a partnership engineered for your triumph.
                         </p>
                        
                     </div>
@@ -107,7 +109,8 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
                         <h3 class="d-none d-lg-block feture-head">
-                          Realtor Virtual Receptionist Service
+                        Elevate Realty Engagement with Our Virtual Receptionist Service
+
 
 
                         </h3>
@@ -117,7 +120,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            At Whipp Digital, we understand that the real estate sector thrives on timely responses and impeccable client service. Missing a call or an inquiry can mean missing out on a potential deal. Enter our "Realtor Virtual Receptionist" service. It's not just a digital answering machine; it's a dynamic blend of cutting-edge AI technology and human touch, specially tailored for real estate professionals. Imagine having a diligent assistant that's available around the clock, smartly handling calls, scheduling appointments, and answering client queries, all while conveying the warmth and professionalism your clients expect. Stay ahead in the fast-paced realty world by ensuring every potential buyer or seller feels valued and attended to, without overburdening your in-house team. Let's redefine what's possible in client engagement together.
+                            In the realm of real estate, prompt responses and flawless client service are paramount. A missed call or inquiry could translate to a lost opportunity. Introducing our "Realtor Virtual Receptionist" service—an innovation transcending mere digital answering. It's a harmonious marriage of cutting-edge AI technology and the human touch, meticulously designed for real estate professionals. Envision an attentive assistant available 24/7, deftly managing calls, appointments, and inquiries, all while exuding the warmth and professionalism your clients anticipate. Stay at the forefront of the fast-paced realty sphere by ensuring every potential client feels esteemed and catered to, sans burdening your internal team. Let's collectively redefine the horizons of client engagement.
                         </p>
                        
                     </div>
@@ -125,7 +128,8 @@
                 <div
                 class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head">
-                  Realtor Virtual Receptionist Service
+                Elevate Realty Engagement with Our Virtual Receptionist Service
+
 
                 </h3>
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -143,16 +147,16 @@
             <div class="col-lg-10 mx-auto">
 
                 <div class="text-center">
-                    <h3 class="feture-head mb-3">How we Keep You Updated</h3>
+                    <h3 class="feture-head mb-3"> Elevate Your Realty Game with Whipp Digital's Real Estate Virtual Assistants
+                    </h3>
                 <p class="feture-pare">
-                    As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
+                    In the competitive real estate realm, seizing opportunities is paramount. Whipp Digital presents Real Estate Virtual Assistants, bolstering your journey with a fusion of expertise and innovation. Backed by tech prowess, our assistants meticulously handle listings, appointments, and follow-ups.                     <br>
                     <br>
-                    <br>
-                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you thrive or not on Amazon.
+                    Statistics reveal that streamlined processes increase deal closure rates by up to 18%. Embrace a partnership that amplifies success. Focus on relationships and growth while we master the operational dance. Unleash your potential with Whipp Digital. Your triumph is our commitment.
                 </p>
             </div>
             <div class="d-flex  py-3">
-                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2 fs-5 rounded-5" href="#">TALK WITH ONE OF OUR AMAZON EXPERTS</button>
+                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2  rounded-5 text-uppercase fw-bold" href="#">TALK WITH ONE OF OUR Real Estate Virtual Assistant EXPERTS</button>
             </div>
         </div>
         </div>

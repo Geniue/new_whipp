@@ -69,11 +69,12 @@
 <!-- WHY SERVICE STARTS HERE -->
 <section class="border ">
     <div class="container py-1 custom-text">
-        <div class="d-flex flex-column flex-lg-row gap-3 pt-5 justify-content-center">
+        <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                 <h3 class=" d-lg-none feture-head mb-2">
 
-Franchise Reputation Management at Whipp Digital
+Elevate Franchise Trust with Advanced Reputation Management
+
 
                 </h3>
                 <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -85,7 +86,8 @@ Franchise Reputation Management at Whipp Digital
                 <div class="pb-lg-3">
                     <h3 class="d-none d-lg-block feture-head">
 
-    Franchise Reputation Management at Whipp Digital
+    Elevate Franchise Trust with Advanced Reputation Management
+
 
                     </h3>
                     <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
@@ -94,23 +96,14 @@ Franchise Reputation Management at Whipp Digital
                 </div>
                 <div>
                     <p class="feture-pare">
-                        In the digital age, reputation isn’t just about word-of-mouth or a storefront sign; it's intricately woven through every 
-                        online interaction, review, and social media mention. At Whipp Digital, we understand that franchises face unique challenges
-                         in this arena. It’s not just one reputation you're managing, but many, across diverse locations and cultures.
-                          Our franchise reputation management service delves deep into the digital ecosystem to ensure consistency, address concerns swiftly,
-                           and promote the positive experiences that define your brand. 
+                        In the modern era, reputation extends beyond word-of-mouth and physical signage. It's interwoven within digital interactions, reviews, and social media mentions. Franchises confront distinct challenges, managing multiple reputations across diverse locations. Our franchise reputation management delves deep into the digital ecosystem for consistency, swift issue resolution, and promotion of defining positive experiences. By utilizing cutting-edge tools and insightful analytics, we customize strategies per franchise location while upholding the hard-forged brand image. Collaborate with us to secure impeccable online reputations for each franchisee. Statistics: Over 90% of consumers place trust in online reviews; our approach ensures a unified brand voice, enhancing credibility across the franchise network.
+
 
                     </p>
 
                 </div>
             </div>
         </div>
-<div class="col-lg-10 px-md-3 px-2  mx-auto">
-
-    <p class="feture-pare">By leveraging cutting-edge tools and insightful analytics,
-        we tailor strategies for each franchise location while maintaining the cohesive brand image you've worked so hard to build.
-        Partner with us, and let's ensure every franchisee benefits from an impeccable online reputation.</p>
-    </div>
     </div>
 </section>
 
@@ -120,16 +113,16 @@ Franchise Reputation Management at Whipp Digital
         <div class="col-lg-10 mx-auto">
 
             <div class="text-center">
-                <h3 class="feture-head mb-3">How we Keep You Updated</h3>
+                <h3 class="feture-head mb-3"> Elevate Franchise Trust with Advanced Reputation Management
+                </h3>
                 <p class="feture-pare">
-                    As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
+                    In the modern era, reputation intertwines with every online interaction. Franchises tackle unique challenges, overseeing multiple reputations across diverse locations. At Whipp Digital, our franchise reputation management penetrates the digital realm, ensuring coherence, prompt issue resolution, and amplification of positive experiences.                    <br>
                     <br>
-                    <br>
-                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you thrive or not on Amazon.
+                    Armed with cutting-edge tools and analytics, we customize strategies for each franchise, safeguarding the unified brand you've painstakingly crafted. Partner with us to secure impeccable online reputations for every franchisee. Statistics: Over 90% of consumers trust online reviews; our approach guarantees a unified brand voice while enhancing credibility across your franchise network.
                 </p>
             </div>
             <div class="d-flex  py-3">
-                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2 fs-5 rounded-5" href="#">TALK WITH ONE OF OUR AMAZON EXPERTS</button>
+                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2  rounded-5 text-uppercase fw-bold" href="#">TALK WITH ONE OF OUR  Franchise Reputation Management EXPERTS</button>
             </div>
         </div>
     </div>

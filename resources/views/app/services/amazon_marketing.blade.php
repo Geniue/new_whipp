@@ -89,7 +89,8 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            At Whipp Digital, we don't just understand the ins and outs of Amazon PPC – we breathe it. As an industry-leading Amazon PPC agency, we've meticulously crafted and optimized campaigns that have propelled brands into Amazon's limelight. Pay-per-click advertising on Amazon is not just about getting your products in front of potential customers; it's about curating an experience that resonates with their needs and desires. With our data-driven strategies, deep knowledge of Amazon's algorithm, and a passionate team of PPC aficionados, we're here to ensure your products don’t just appear but truly stand out amidst a sea of competitors. 
+                            Understanding the intricacies of Amazon PPC is just the tip of the iceberg. Meticulously crafted and optimized campaigns can propel brands into Amazon's limelight. Pay-per-click advertising on Amazon goes beyond merely showcasing your products to potential customers; it's about crafting an experience that resonates with their needs and desires. Leveraging data-driven strategies, in-depth knowledge of Amazon's algorithm, and a team of passionate PPC experts, the goal is to ensure your products don't merely appear but truly stand out amidst a sea of competitors.
+
                         </p>
                        
                     </div>
@@ -113,7 +114,8 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Embarking on an Amazon FBA journey is exciting, but without the right marketing strategy, even the best products can get lost in the vast Amazon marketplace. That's where Whipp Digital steps in. Specializing in Amazon FBA marketing, our seasoned team understands the unique challenges and opportunities presented by Fulfillment by Amazon. We don’t just help you navigate the complexities of FBA; we craft compelling narratives for your products, optimize listings for maximum visibility, and deploy strategic advertising campaigns to amplify sales. By harnessing data analytics and tapping into the pulse of consumer trends, we ensure your FBA business doesn't just survive, but thrives and leaves a lasting impression. 
+                            Setting out on an Amazon FBA venture can be thrilling, yet even top-quality products can vanish in the marketplace without an effective marketing strategy. Specialization in Amazon FBA marketing entails understanding the unique challenges and opportunities presented by Fulfillment by Amazon. It's not just about navigating the complexities of FBA; it involves crafting compelling narratives for your products, optimizing listings for peak visibility, and launching strategic advertising campaigns to boost sales. Utilizing data analytics and keenly observing consumer trends, the aim is to ensure your FBA business doesn't merely survive but thrives and leaves a lasting impact.
+
                         </p>
                        
                     </div>
@@ -138,16 +140,18 @@
             <div class="col-lg-10 mx-auto">
 
                 <div class="text-center">
-                    <h3 class="feture-head mb-3">How we Keep You Updated</h3>
+                    <h3 class="feture-head mb-3">Don't Let Your Brand Become a Needle in Amazon's Haystack</h3>
                 <p class="feture-pare">
-                    As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
+                    Statistics indicate that as of 2021, Amazon boasted over 3.4 million active sellers globally. While this makes Amazon a land of boundless opportunity, it's also a marketplace where your products could easily be overshadowed. 
+                    More alarmingly, only 10% of Amazon sellers make over $100,000 in sales. 
+                    It's not enough to just exist on Amazon; your brand needs to resonate, stand out, and, most importantly, sell.
                     <br>
                     <br>
-                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you thrive or not on Amazon.
+                    Success is determined not just by the quality of your product, but by how strategically you position it. Mastering Amazon PPC and FBA marketing, while also leveraging the power of social media, isn't just an option—it's a necessity. Don't become a mere statistic; let's redefine what success looks like for your brand.
                 </p>
             </div>
             <div class="d-flex  py-3">
-                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8  col-xl-6  d-inline-block py-2 fs-5 rounded-5" href="#">TALK WITH ONE OF OUR AMAZON EXPERTS</button>
+                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8 fw-bold col-xl-6  d-inline-block py-2 rounded-5 text-uppercase " href="#">TALK WITH ONE OF OUR Amazon Marketing EXPERTS</button>
             </div>
         </div>
         </div>
@@ -177,7 +181,8 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            In today's digital age, the bridge between Amazon and social media is not only beneficial, but essential. At Whipp Digital, we have mastered the art of Amazon social media marketing, creating synergies that amplify brand visibility like never before. While Amazon offers a colossal platform for sales, it's through strategic social media integration that products truly gain momentum. Our approach intertwines compelling storytelling with the dynamic energy of platforms like Instagram, Facebook, and TikTok, driving targeted traffic directly to your Amazon listings. Leveraging the virality of social media content and the trustworthiness of Amazon, we create a holistic marketing strategy that not only engages and captivates but also converts. With Whipp Digital, your Amazon journey becomes a shared story across the social landscape, sparking conversations and igniting sales.
+                            In the current digital landscape, fusing Amazon with social media is not just beneficial—it's crucial. Mastering the art of Amazon social media marketing allows for the creation of synergies that amplify brand visibility like never before. Although Amazon serves as a massive sales platform, products gain real traction when integrated strategically with social media. This methodology combines impactful storytelling with the kinetic energy of platforms such as Instagram, Facebook, and TikTok, channeling targeted traffic directly to your Amazon listings. By capitalizing on the virality of social media and Amazon's trustworthiness, a comprehensive marketing strategy can be formed—one that not only draws attention but also converts. This makes your Amazon journey a narrative that resonates across the social sphere, inspiring conversations and sparking sales.
+
                         </p>
                        
                     </div>
