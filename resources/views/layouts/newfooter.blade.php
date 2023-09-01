@@ -2,6 +2,8 @@
     {{-- contact us form --}}
     @if (!request()->routeIs('contact'))
     <div class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto ">
+        <div >
+
         <div class="box rounded-4 bg-light col-12 col-md-10 col-lg-8 mx-auto ">
         <div  class="footer-contact-container position-relative overflow-hidden p-3 p-lg-0 ">
 
@@ -13,7 +15,7 @@
             </div>
         </div>
         {{-- form --}}
-        <form action="" class="w-100 custom-text-white p-lg-5 p-3">
+        <form action="" class="w-100 custom-text-white p-lg-5 p-3 rounded-3">
       
             <div class="row">
                 <div class="col-12 col-lg-6 p-3">
@@ -56,6 +58,8 @@
         </div>
          </div>
     </div>
+</div>
+
     @endif
 <footer class="pt-5 px-4  footer-conat-conta">
     {{-- footer logos and links --}}

@@ -208,12 +208,14 @@
                 border: 0.22rem solid;
                 border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
                 animation: borderRotate var(--d) linear infinite forwards;
+                border-radius: 35px;
+                overflow: hidden;
             }
 
-            .box:nth-child(2) {
+            /* .box:nth-child(2) {
                 border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
                 animation: borderRadial var(--d) linear infinite forwards;
-            }
+            } */
 
             @keyframes borderRotate {
                 100% {
@@ -245,6 +247,7 @@
             }
         /* /footer contact form border animation */
 
+        
         .menu-icon-wrapper svg path {
             stroke: #fff !important;
             }
