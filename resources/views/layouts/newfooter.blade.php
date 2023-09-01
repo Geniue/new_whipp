@@ -303,7 +303,6 @@
 
             <div class=" col-9 col-md-5 col-lg-auto d-flex flex-column gap-2  ">
                 <p class="fs-5 fw-bold mb-0">CONTACT</p>
-                <p class="mb-0" style="font-size: 14px">Be the first to know about existing news, special events and much more.</p>
                 {{-- form --}}
                 {{-- <form class="d-flex flex-column gap-3 gap-lg-2">
                     <div class="position-relative overflow-hidden">

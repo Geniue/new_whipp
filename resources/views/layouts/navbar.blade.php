@@ -16,7 +16,7 @@
         <div class="wd-menu-li-row d-flex align-items-center ">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center ">
-                <ul class="wd-nav-links d-flex align-items-center gap-lg-5">
+                <ul style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center">
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
                             <a href="#">
@@ -345,7 +345,7 @@
                     <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
                             <a href="{{ route('blog') }}">
-                                <span class=""> BLOGS </span>
+                                <span class=""> BLOG </span>
                             </a>
                         </div>
                     </li>
@@ -618,6 +618,7 @@
                 </ul>
             </li>
         
+            <li><a href="{{ route('blog') }}"> BLOG </a></li>
             <li><a href="{{ route('faqs') }}"> FAQ's </a></li>
             <li><a href="{{ route('contact') }}"> contact </a></li>
         </ul>

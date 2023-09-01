@@ -190,12 +190,12 @@
                         <div>
                             <p>Message</p>
                             <textarea class="gform-textarea" name="" id="" cols="30" rows="10"></textarea>
-                            <div class="gchoice gchoice_15_35_1 py-2">
+                            {{-- <div class="gchoice gchoice_15_35_1 py-2">
                                 <input class="gfield-choice-input" name="input_35.1" type="checkbox"
                                     value="Were you referred to Thrive?" id="choice_15_35_1" tabindex="126" />
                                 <label for="choice_15_35_1" id="label_15_35_1" class="ms-1">Were you referred to
                                     Thrive?</label>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <!-- join email list -->
@@ -228,20 +228,18 @@
                 </div>
                 <!-- contact details -->
                 <div class="col-lg-3 text-center">
-                    <div class="custom-text">
+                    <div class="custom-text fs-6">
                         <p style="margin-top: 10px">
-                            <strong>Main Phone: </strong><a title="Call Now" href="tel:1-866-908-4748">(866) 908-4748</a>
+                            <strong>Main Phone: </strong><a title="Call Now" href="tel:1-212-951-0651">212-951-0651 </a>
                         </p>
-                        <p>
-                            <strong>Headquarters:</strong><br />
-                            4604 Park Springs Blvd<br />
-                            Suite 140<br />
-                            Arlington, TX 76017<br />
-                            <a title="Call Now" href="tel:+18779599892">(877) 959-9892</a>
+                        <p style="margin-top: 10px">
+                            <strong>Mail: </strong><a title="Mail Now" href="mailto:support@whippdigital.com">support@whippdigital.com</a>
                         </p>
-                        <p>
-                            <strong>Office Hours:</strong><br />
-                            Mon-Fri, 8:30am - 5:30pm CT
+          
+                        <p style="margin-top: 10px">
+                            <strong>Office Hours:</strong>
+                    
+                            7 days, 9am - 9pm EST
                         </p>
 
                     </div>
