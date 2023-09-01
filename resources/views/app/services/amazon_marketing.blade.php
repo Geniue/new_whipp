@@ -68,7 +68,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                         Your Premier Amazon PPC Agency
                     </h3>
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
@@ -161,7 +161,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                         The Nexus of Amazon and Social Media Marketing
                     </h3>
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">

@@ -70,7 +70,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                       Social Media Advertising Redefined
 
 
@@ -167,7 +167,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                        Unlocking Pinterest's Potential with Whipp Digital
 
 
@@ -258,7 +258,7 @@ Maximizing Your Facebook Advertising Potential
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                        Strategic Facebook Business Advertising Unveiled
 
 

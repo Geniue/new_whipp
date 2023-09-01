@@ -71,7 +71,7 @@
     <div class="container py-1 custom-text">
         <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                <h3 class=" d-lg-none feture-head mb-2">
+                <h3 class=" d-lg-none feture-head mb-0">
 Elevate Your SEO Strategy with Narrative Mastery
 
 
@@ -168,7 +168,7 @@ Elevate Your SEO Strategy with Narrative Mastery
     <div class="container py-1 custom-text">
         <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                <h3 class=" d-lg-none feture-head mb-2">
+                <h3 class=" d-lg-none feture-head mb-0">
 
                   Captivate Audiences with Whipp Digital's SEO Mastery
 
@@ -253,7 +253,7 @@ Elevate Your SEO Strategy with Narrative Mastery
     <div class="container py-1 custom-text">
         <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
             <div class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                <h3 class=" d-lg-none feture-head mb-2">
+                <h3 class=" d-lg-none feture-head mb-0">
 
                  Elevate Your Brand with SEO Search Mastery
 

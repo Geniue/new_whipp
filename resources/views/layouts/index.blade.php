@@ -112,7 +112,7 @@
             .anim-for-inp-comp input {
             width: 100%;
             height: 100%;
-            color: #443f35;
+            color: #eeeeee;
             padding-top: 20px;
             border: none;
             font-size: 22px;
@@ -144,7 +144,7 @@
 
             .anime-label-text {
             font-size: 22px;
-            color: #7b7f84;
+            color: #c4c4c4;
             position: absolute;
             bottom: 0px;
             left: 0px;
@@ -159,7 +159,7 @@
             transform: translateY(-150%);
             font-size: 14px;
             left: 0px;
-            color: #92989e;
+            color: #ffffff;
             font-weight: 600;
             }
             .anim-for-inp-comp input:focus + .anime-label-wrap::after,
@@ -205,7 +205,7 @@
             }
 
             .box {
-                border: 0.10rem solid;
+                border: 0.22rem solid;
                 border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
                 animation: borderRotate var(--d) linear infinite forwards;
             }
@@ -408,6 +408,10 @@
 background: #0e2332;
         }
 
+        .bg-newblue{
+            background-color:  #3bd4ff;
+        }
+
         .footer-container a:hover {
     opacity: 1 !important;
 }
@@ -458,10 +462,10 @@ background: #0e2332;
 }
 
 .footer-contact-container{
-    background-color:  #e6f4f1 !important;
+    background-color: #5c5c5c !important;
 }
 .footer-contact-container{
-    color: #213555;
+    color: #d3d3d3;
 }
 
     </style>

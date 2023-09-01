@@ -8,8 +8,8 @@
         
         <div class="">
             <div class="py-4 text-center">
-                <p class="fs-1 pb-0 fw-bold feture-head">Let's talk</p>
-                <p class="fs-5 feture-pare">Ready to experience hypergrowth?</p>
+                <p class="fs-1 pb-0 fw-bold feture-head text-white">Let's talk</p>
+                <p class="fs-5 feture-pare text-white">Ready to experience hypergrowth?</p>
             </div>
         </div>
         {{-- form --}}
@@ -43,7 +43,7 @@
                       </div>             
                 </div>
                 <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
-                    <label for="project_description" class="pb-3 fs-5 fw-medium custom-color-123">Please Describe Project</label>
+                    <label for="project_description" class="pb-3 fs-5 fw-medium " style="color: #c4c4c4">Please Describe Project</label>
                     <textarea name="project_description" class="custom-text-white footer-oranization_goal_message" id="" cols="30" rows="7"></textarea>
                 </div>
                 <div class="text-center p-2 my-3">
@@ -108,7 +108,7 @@
     </div>
     {{-- Links --}}
     <div class="col row  gap-lg-0 d-flex footer-con-links px-1 flex-grow-1 ">
-        <div class="col-6  col-lg-2 px-0">
+        <div class="col-12  col-lg-2 px-0">
         <ul class=" d-flex flex-column gap-3 custom-boder-right">
             <li >
                 <a>
@@ -146,7 +146,7 @@
             
             </ul>
         </div>
-        <div class="col-6  col-lg-2 px-0">  
+        <div class="col-12  col-lg-2 px-0">  
 
             <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
                 <li>
@@ -181,7 +181,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-6  col-lg-2 px-0">
+        <div class="col-12  col-lg-2 px-0">
             <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
                 <li>
                     <a >
@@ -211,7 +211,7 @@
                 </li>
 </ul>
         </div>
-        <div class="col-6  col-lg-2 px-0">
+        <div class="col-12  col-lg-2 px-0">
             <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
                 <li>
                     <a >
@@ -253,7 +253,7 @@
          
             </ul>
         </div>
-        <div class="col-6  col-lg-2 px-0">
+        <div class="col-12  col-lg-2 px-0">
             <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
 
 

@@ -70,7 +70,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                        Elevate Efficiency with Virtual Assistant Services 
 
 
@@ -166,7 +166,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                         Global Assistance Redefined with Remote Personal Assistants
 
 
@@ -247,7 +247,7 @@
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
                     class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                    <h3 class=" d-lg-none feture-head mb-2">
+                    <h3 class=" d-lg-none feture-head mb-0">
                       Elevate Customer Experience with Virtual Customer Service Assistants 
 
 
