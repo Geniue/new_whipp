@@ -59,13 +59,36 @@
         </div>
     </section>
 
+    <div class="wp-brdcb">
+        <div class="wrap">
+            <div>
+                <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
+                            class="breadcrumb_last" aria-current="page">Virtual Personal Assistant</span></span></p>
+                <div class="d-flex align-items-center mt-3">
+                    <span class="w-100" style="height: 1px;
+                    background: #b1b1b1;
+                    margin-right: 12px;"></span>
+                    <div class="d-flex align-items-center" style="gap: 10px">
+                        <span class="ren-tign-clip"></span>
+                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
+                        <span class="ren-tign-clip" ></span>
+                    </div>
+                    <span class="w-100" style="height: 1px;
+                    background: #b1b1b1;
+                    margin-left: 12px;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- TRUSTED BY BANNER STARTS HERE -->
     @include('app.static_components.trusted_banner')
     <!-- TRUSTED BY BANNER ENDS HERE -->
 
     <!-- WHY SERVICE STARTS HERE -->
-    <section class="border ">
+    <section class="border-bottom ">
         <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
@@ -161,7 +184,7 @@
         </div>
         </div>
     </section>
-    <section class="border ">
+    <section class="border-bottom ">
         <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div
@@ -242,7 +265,7 @@
         </div>
     </section>
     
-    <section class="border ">
+    <section class="border-bottom ">
         <div class="container py-1 custom-text">
             <div class="d-flex flex-column flex-lg-row gap-3 py-5 justify-content-center">
                 <div

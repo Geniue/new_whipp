@@ -2,7 +2,7 @@
 <html lang="en">
 
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="shortcut" type="image/png" href="{{asset('assets/imgs/logos/site_icon_128x128.png')}}">
@@ -208,8 +208,17 @@
                 border: 0.22rem solid;
                 border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
                 animation: borderRotate var(--d) linear infinite forwards;
-                border-radius: 35px;
-                overflow: hidden;
+            }
+
+            @media (min-width:986px){
+                
+                .min-lg-text-nowrap{
+                    white-space: nowrap;
+                }
+                .max-he-mv{
+                    line-height: 60px;
+                    font-size: 45px !important;
+                }
             }
 
             /* .box:nth-child(2) {
@@ -414,6 +423,9 @@ background: #0e2332;
         .bg-newblue{
             background-color:  #3bd4ff;
         }
+        .color-newblue{
+            color:  #3bd4ff;
+        }
 
         .footer-container a:hover {
     opacity: 1 !important;
@@ -469,6 +481,13 @@ background: #0e2332;
 }
 .footer-contact-container{
     color: #d3d3d3;
+}
+.ren-tign-clip{
+    display: inline-block;
+    width:12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background-color: deepskyblue;
 }
 
     </style>

@@ -1,11 +1,11 @@
 <div class="footer-container">
     {{-- contact us form --}}
     @if (!request()->routeIs('contact'))
-    <div class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto ">
+    <div style="background-color: #5c5c5c !important;" class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto ">
         <div >
 
-        <div class="box rounded-4 bg-light col-12 col-md-10 col-lg-8 mx-auto ">
-        <div  class="footer-contact-container position-relative overflow-hidden p-3 p-lg-0 ">
+        <div class="box  bg-light col-12 col-md-10 col-lg-8 mx-auto ">
+        <div   class="footer-contact-container position-relative  p-3 p-lg-0 ">
 
         
         <div class="">
@@ -49,7 +49,7 @@
                     <textarea name="project_description" class="custom-text-white footer-oranization_goal_message" id="" cols="30" rows="7"></textarea>
                 </div>
                 <div class="text-center p-2 my-3">
-                    <button class="mx-auto  px-3 cta-btn-btn col-10 col-md-4  col-xl-3  d-inline-block py-2 fs-5 rounded-5" href="#">SUBMIT</button>
+                    <button class="mx-auto  px-3 cta-btn-btn col-10 col-md-4  col-xl-3  d-inline-block py-2 fs-5 rounded-5" href="#" aria-label="submit">SUBMIT</button>
                 </div>
           
             </div>
@@ -368,7 +368,7 @@
         </div>
         <div class="d-lg-none">
             <div class="d-flex gap-3  pb-3 fs-14px">
-                <a href="#" class="custom-boder-right">Privacy Policy</a>
+                <a href="#"  class="custom-boder-right">Privacy Policy</a>
                 <a href="#" class="custom-boder-right">Terms Of Serivce</a>
 
             </div>

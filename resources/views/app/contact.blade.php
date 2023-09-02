@@ -27,8 +27,21 @@
     <div class="wp-brdcb">
         <div class="wrap">
             <div>
-                <p id="breadcrumbs"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
+                <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Contact</span></span></p>
+                <div class="d-flex align-items-center mt-3">
+                    <span class="w-100" style="height: 1px;
+                    background: #b1b1b1;
+                    margin-right: 12px;"></span>
+                    <div class="d-flex align-items-center" style="gap: 10px">
+                        <span class="ren-tign-clip"></span>
+                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
+                        <span class="ren-tign-clip" ></span>
+                    </div>
+                    <span class="w-100" style="height: 1px;
+                    background: #b1b1b1;
+                    margin-left: 12px;"></span>
+                </div>
             </div>
         </div>
     </div>
@@ -229,17 +242,32 @@
                 <!-- contact details -->
                 <div class="col-lg-3 text-center">
                     <div class="custom-text fs-6">
+                        <p class="fs-4 fw-semibold " style="color: #213555">Contact Info</p>
+                       
                         <p style="margin-top: 10px">
-                            <strong>Main Phone: </strong><a title="Call Now" href="tel:1-212-951-0651">212-951-0651 </a>
+                            <a title="Call Now" class="fs-5 fw-semibold" href="tel:1-212-951-0651">(212)951-0651 </a>
                         </p>
-                        <p style="margin-top: 10px">
-                            <strong>Mail: </strong><a title="Mail Now" href="mailto:support@whippdigital.com">support@whippdigital.com</a>
+                        <p style="margin-top: 6px">
+                            <a title="Mail Now" class="fs-5 fw-semibold" href="mailto:support@whippdigital.com">support@whippdigital.com</a>
                         </p>
           
-                        <p style="margin-top: 10px">
+                        <p style="margin-top: 6px" class="fs-5">
                             <strong>Office Hours:</strong>
                     
                             7 days, 9am - 9pm EST
+                        </p>
+                        <div class="border-top mt-3">
+
+                            <p style="margin-top: 10px" class="fs-5">
+                                <strong>Address:</strong>
+                                <br>
+                                <em>
+                                    46 Howard St 6th fl,
+                                    <br>
+                                    New York, NY 10013
+                                </em>
+                            </div>
+
                         </p>
 
                     </div>

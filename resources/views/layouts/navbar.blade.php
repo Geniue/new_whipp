@@ -1,5 +1,5 @@
 <!-- NAVBAR SECTION STARTS HERE -->
-<header class="py-1 py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
+<header role="banner" class="py-1 py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
     <div class="position-relative">
     <nav class="wd-nav-section-container mx-auto d-flex align-items-center justify-content-between ">
 
@@ -7,7 +7,7 @@
         <div class="d-flex">
             <div class="logo">
                 <a href="/" class="main-logo">
-                    <img data-src ="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad" alt="">
+                    <img data-src ="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad " alt="">
                 </a>
             </div>
         </div>
@@ -16,7 +16,7 @@
         <div class="wd-menu-li-row d-flex align-items-center ">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center ">
-                <ul style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center">
+                <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center mb-0">
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
                             <a href="#">
