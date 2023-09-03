@@ -58,7 +58,7 @@ class ContactController extends Controller
 
         // EMAIL ADMIN
         Mail::send('app.emails.contact_us', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-            $message->to('vinitdevadiga7@gmail.com', 'Whippdigital')
+            $message->to('stuart.emmons@gmail.com', 'Whippdigital')
                 ->cc(['support@whippdigital.com'])
                 ->subject("Whippdigital Contact Information");
             $message->from("support@whippdigital.com", 'Whippdigital');
@@ -109,7 +109,7 @@ class ContactController extends Controller
 
         // //EMAIL ADMIN
         Mail::send('app.emails.letstalk', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-            $message->to('vinitdevadiga7@gmail.com', 'Whippdigital')
+            $message->to('stuart.emmons@gmail.com', 'Whippdigital')
                 ->cc(['support@whippdigital.com'])
                 ->subject("Whippdigital Contact Information");
             $message->from("support@whippdigital.com", 'Whippdigital');
