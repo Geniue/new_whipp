@@ -36,8 +36,11 @@
     width: 40px;
     margin-right: 7px;
 }
-.mainwhipplogo{
-    width: 100%;
+@media (min-width:1240px){
+    .mainwhipplogo{
+        width: 230px;
+        max-width: unset !important;
+    }
 }
 .wd-pg-link{
     border-radius: 50%;
