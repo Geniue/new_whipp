@@ -27,8 +27,7 @@
     <link rel="stylesheet" href="{{asset('css/new.css')}}">
     <style>
         .blue-box-bg-navbar {
-    background: url('{{asset("assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc.jpg")}}')
-        repeat;
+background-repeat: repeat;
     background-size: cover;
     background-position: 100% 67%;
 }
@@ -77,13 +76,16 @@
     background: #dfdedeee !important;
 }
 .bacsrpre-sp{
-    background: url('{{asset('assets/imgs/backspread.png')}}');
+
     background-repeat: no-repeat;
     background-size: contain;
     
 }
 .swal-overlay.swal-overlay--show-modal{
  z-index: 99999 !important;
+}
+.footer-loc-soc-link a:hover #insta {
+    transition: unset !important;
 }
     </style>
     @yield('css')
@@ -130,7 +132,7 @@ $lastSegment = end($segments);
                     <div class="row">
                         <div class="col-12 col-lg-6 p-lg-5">
                             <div class="anim-for-inp-comp">
-                                <input type="text" name="name" autocomplete="off" required />
+                                <input  aria-label="name" type="text" name="name" autocomplete="off" required />
                                 <label for="name" class="anime-label-wrap">
                                   <span class="anime-label-text">
                                     Your Name
@@ -138,7 +140,7 @@ $lastSegment = end($segments);
                                 </label>
                               </div>
                             <div class="anim-for-inp-comp mt-3">
-                                <input type="text" name="email" autocomplete="off" required />
+                                <input  aria-label="email" type="text" name="email" autocomplete="off" required />
                                 <label for="email" class="anime-label-wrap">
                                   <span class="anime-label-text">
                                     Your Email Address
@@ -146,7 +148,7 @@ $lastSegment = end($segments);
                                 </label>
                               </div>
                               <div class="anim-for-inp-comp mt-3">
-                                <input name="phone" autocomplete="off" required />
+                                <input  aria-label="phone" name="phone" autocomplete="off" required />
                                 <label for="phone" class="anime-label-wrap">
                                   <span class="anime-label-text">
                                     Your Phone Number
@@ -154,12 +156,12 @@ $lastSegment = end($segments);
                                 </label>
                               </div> 
                               {{-- to get the service page title from url  --}}
-                              <input type="hidden" name="user_specific_service" value="{{$lastSegment}}">
+                              <input  aria-label="current page" type="hidden" name="user_specific_service" value="{{$lastSegment}}">
                         
                         </div>
                         <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
                             <label for="message_" class="pb-3 fs-5 fw-medium custom-color-123">Please Describe Project</label>
-                            <textarea name="message_" class="custom-text-white footer-oranization_goal_message modal-oranization_goal_message text-white fs-5" id="" cols="30" rows="7"></textarea>
+                            <textarea  aria-label="message" name="message_" class="custom-text-white footer-oranization_goal_message modal-oranization_goal_message text-white fs-5" id="" cols="30" rows="7"></textarea>
                         </div>
                         <div class="text-center p-2 my-3">
                             <button type="submit" class="footer-form-submit-orign px-5 py-2">SUBMIT</button>

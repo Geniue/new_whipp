@@ -383,10 +383,6 @@ p {
     height: 3px;
     margin: 4px 0 !important;
 }
-.footer-conat-conta {
-    /* background: #0e2332; */
-    background-image: url("../assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc1.jpg") !important;
-}
 
 .bg-newblue {
     background-color: #3bd4ff;
@@ -414,7 +410,6 @@ p {
     fill: #0072b1 !important;
 }
 .footer-loc-soc-link a:hover #insta {
-    transition: all 0.7s ease-in;
     fill: #e1306c;
 }
 

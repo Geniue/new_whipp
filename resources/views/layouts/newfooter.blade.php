@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 p-3">
                     <div class="anim-for-inp-comp">
-                        <input type="text" name="name" autocomplete="off" required />
+                        <input type="text"  aria-label="name" name="name" autocomplete="off" required />
                         <label for="name" class="anime-label-wrap">
                           <span class="anime-label-text">
                             Your Name
@@ -28,7 +28,7 @@
                         </label>
                       </div>
                     <div class="anim-for-inp-comp mt-3">
-                        <input type="text" name="email" autocomplete="off" required />
+                        <input type="text"  aria-label="email" name="email" autocomplete="off" required />
                         <label for="email" class="anime-label-wrap">
                           <span class="anime-label-text">
                             Your Email Address
@@ -36,7 +36,7 @@
                         </label>
                       </div>
                       <div class="anim-for-inp-comp mt-3">
-                        <input type="phone" name="phone" autocomplete="off" required />
+                        <input type="phone" name="phone"  aria-label="phone" autocomplete="off" required />
                         <label for="phone" class="anime-label-wrap">
                           <span class="anime-label-text">
                             Your Phone Number
@@ -46,9 +46,9 @@
                 </div>
                 <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
                     <label for="message_" class="pb-3 fs-5 fw-medium " style="color: #c4c4c4">Please Describe Project</label>
-                    <textarea name="message_" class="custom-text-white footer-oranization_goal_message text-white fs-5" id="" cols="30" rows="7"></textarea>
+                    <textarea  aria-label="message" name="message_" class="custom-text-white footer-oranization_goal_message text-white fs-5" id="" cols="30" rows="7"></textarea>
                 </div>
-                <input type="hidden" name="user_specific_service" value="{{$lastSegment}}">
+                <input type="hidden"  aria-label="current page" name="user_specific_service" value="{{$lastSegment}}">
                 <div class="text-center p-2 my-3">
                     <button class="mx-auto  px-3 cta-btn-btn col-10 col-md-4  col-xl-3  d-inline-block py-2 fs-5 rounded-5" href="#" aria-label="submit">SUBMIT</button>
                 </div>
@@ -62,7 +62,7 @@
 </div>
 
     @endif
-<footer class="pt-5 px-4  footer-conat-conta">
+<footer data-background-image="{{asset('assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc1.jpg')}}" class="lozad pt-5 px-4  footer-conat-conta">
     {{-- footer logos and links --}}
     <div class="d-flex pb-5 flex-column flex-md-row gap-2">
         {{-- sitelog --}}

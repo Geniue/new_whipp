@@ -1,12 +1,12 @@
 <!-- NAVBAR SECTION STARTS HERE -->
-<header role="banner" class="py-1 py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
+<header data-background-image="{{asset("assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc.jpg")}}" role="banner" class="py-1 lozad py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
     <div class="position-relative">
     <nav class="wd-nav-section-container mx-auto d-flex align-items-center justify-content-between ">
 
         <!-- logo -->
         <div class="d-flex">
             <div class="logo">
-                <a href="/" class="main-logo">
+                <a href="/" aria-label="logo" class="main-logo">
                     <img data-src="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad " alt="">
                 </a>
             </div>
@@ -19,7 +19,7 @@
                 <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center mb-0">
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
-                            <a href="#">
+                            <a aria-label="service"     href="#">
                                 <span class="wd-nav-text"> services </span>
                             </a>
                         </div>
@@ -28,7 +28,7 @@
                                     <ul class="col-3">
 
                                         <li class="menu-item-has-children hover-ver2 menu-item-has-children-main-head">
-                                            <a>
+                                            <a href="#">
                                                 <i class="seoicon-search"></i>
                                                 Digital Marketing
                                             </a>
@@ -198,7 +198,7 @@
                                     <ul class="col-3">
 
                                         <li class="menu-item-has-children hover-ver2 menu-item-has-children-main-head ">
-                                            <a>
+                                            <a href="#">
                                                 <i class="seoicon-search"></i>
                                                 Amazon Marketing
                                             </a>
@@ -344,7 +344,7 @@
                     </li> --}}
                     <li class="nav-menu-child">
                         <div class="wd-nav-link position-relative">
-                            <a href="{{ route('blog') }}">
+                            <a aria-label="blog" href="{{ route('blog') }}">
                                 <span class=""> BLOG </span>
                             </a>
                         </div>
@@ -367,14 +367,14 @@
             </div>
             <!-- contact -->
             <div class="d-flex gap-2 ps-4 ">
-                <a href="tel:212-951-0651 " class="">
+                <a href="tel:212-951-0651 " aria-label="callus"   class="">
                     <img width="40" class="ek-phone-img lozad"
                         data-src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}"  alt="" />
                 </a>
                 <a href="tel:212-951-0651 " class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
 212-951-0651 
                 </a>
-                <a href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">
+                <a aria-label="toggle"  href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">
                     <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
                         <svg width="1000px" height="1000px">
                             <path id="pathD"
@@ -413,7 +413,7 @@
             <li class="expand-serivce-area-mob">
                 <span class="custom-arrow sub-menu-service-btn" id="myitem1"></span>
 
-                <a href="#" class="mob-service-link-aco"> Serivces </a>
+                <a href="#" aria-label="services"  class="mob-service-link-aco"> Serivces </a>
 
                 <ul data-id="myitem1" class="service-mob-menu">
 
@@ -472,7 +472,7 @@
                     </li>
 
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
-                        <a href="#">
+                        <a aria-label="webdesign"  href="#">
                             
                             Web Design / Development
                                                 </a>
@@ -563,11 +563,16 @@
                         </a>
                     </li>
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
-                        <a href="{{  route("amazon_marketing") }}">
+                        <a href="#">
                             Amazon Marketing
                         </a>
                     </li>
                   
+                    <li class="hover-ver2">
+                        <a href="{{  route("amazon_marketing") }}">
+                            Amazon Marketing
+                        </a>
+                    </li>
                     <li class="hover-ver2">
                         <a href="{{  route("amazon_seller_consulting") }}">
                             Amazon Seller Consulting

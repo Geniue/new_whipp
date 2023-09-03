@@ -56,7 +56,8 @@ Whippdigital | Home
                     </div>
                 </div>
                 <div
-                    class="bacsrpre-sp   mx-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                data-background-image="{{asset('assets/imgs/backspread.png')}}"
+                    class="bacsrpre-sp lozad  mx-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img class="lozad" width="430" data-src="{{ asset('assets/imgs/new_cool.png') }}" alt="" />
                 </div>
             </div>
