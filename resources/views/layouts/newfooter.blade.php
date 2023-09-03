@@ -15,13 +15,13 @@
             </div>
         </div>
         {{-- form --}}
-        <form action="" class="w-100 custom-text-white p-lg-5 p-3 rounded-3">
-      
+        <form  action="{{route('letstalk_form')}}" method="POST" class="w-100 custom-text-white p-lg-5 p-3 rounded-3">
+      @csrf
             <div class="row">
                 <div class="col-12 col-lg-6 p-3">
                     <div class="anim-for-inp-comp">
-                        <input type="text" name="username" autocomplete="off" required />
-                        <label for="username" class="anime-label-wrap">
+                        <input type="text" name="name" autocomplete="off" required />
+                        <label for="name" class="anime-label-wrap">
                           <span class="anime-label-text">
                             Your Name
                           </span>
@@ -36,7 +36,7 @@
                         </label>
                       </div>
                       <div class="anim-for-inp-comp mt-3">
-                        <input type="phone" name="number" autocomplete="off" required />
+                        <input type="phone" name="phone" autocomplete="off" required />
                         <label for="phone" class="anime-label-wrap">
                           <span class="anime-label-text">
                             Your Phone Number
@@ -45,9 +45,10 @@
                       </div>             
                 </div>
                 <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
-                    <label for="project_description" class="pb-3 fs-5 fw-medium " style="color: #c4c4c4">Please Describe Project</label>
-                    <textarea name="project_description" class="custom-text-white footer-oranization_goal_message" id="" cols="30" rows="7"></textarea>
+                    <label for="message_" class="pb-3 fs-5 fw-medium " style="color: #c4c4c4">Please Describe Project</label>
+                    <textarea name="message_" class="custom-text-white footer-oranization_goal_message text-white fs-5" id="" cols="30" rows="7"></textarea>
                 </div>
+                <input type="hidden" name="user_specific_service" value="{{$lastSegment}}">
                 <div class="text-center p-2 my-3">
                     <button class="mx-auto  px-3 cta-btn-btn col-10 col-md-4  col-xl-3  d-inline-block py-2 fs-5 rounded-5" href="#" aria-label="submit">SUBMIT</button>
                 </div>
@@ -190,7 +191,7 @@
                 <li>
                     <p class="wd-footer-header mb-0" >
                         
-                        Web Development
+                        Web Design / Development
                     </p>
                 </li>
 

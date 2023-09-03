@@ -91,9 +91,7 @@ input::-webkit-inner-spin-button {
     font-size: 22px;
     background-color: transparent;
 }
-.footer-oranization_goal_message {
-    color: #443f35 !important;
-}
+
 .anim-for-inp-comp label {
     position: absolute;
     bottom: 0px;
@@ -326,7 +324,7 @@ p {
     display: inline-block;
     width: 100%;
     height: 100%;
-    padding: 10px 14px 10px 25px;
+    padding: 10px 14px 10px 30px;
     position: relative;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;

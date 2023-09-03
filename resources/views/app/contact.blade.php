@@ -57,24 +57,24 @@
     </div>
 
 
-
     <!-- CONTACT FORM SECTION STARTS HERE -->
     <section>
         <div class="container py-5">
             <div class="row gap-5 gap-lg-0 justify-content-center">
                 <!-- contact form -->
                 <div class="col-lg-8 px-4">
-                    <form class="wp-contact-form custom-bg-1 rounded-2 p-3 d-flex flex-column gap-4" action="/">
+                    <form class="wp-contact-form custom-bg-1 rounded-2 p-3 d-flex flex-column gap-4" action="{{ route('submit_contact_us') }}" method="POST">
+                        @csrf
                         <!-- first name and last name -->
                         <div>
                             <p>Name </p>
                             <div class="d-flex flex-column flex-lg-row justify-content-between m-0 gap-3 w-100">
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="name_first" class="w-100 height-41px line-heig-40" />
+                                    <input id="name_first" name="firstname" class="w-100 height-41px line-heig-40" />
                                     <label for="name_first" class="">First</label>
                                 </div>
                                 <div class="d-flex flex-column col d-block">
-                                    <input id="name_last" class="w-100 line-heig-40 height-41px" />
+                                    <input id="name_last" name="lastname" class="w-100 line-heig-40 height-41px" />
                                     <label for="name_last" class=" ">Last</label>
                                 </div>
                             </div>
@@ -83,11 +83,11 @@
                         <div class="d-flex flex-column flex-lg-row gap-3">
                             <div class="col">
                                 <p>Email Adress <span class="required-ico"> * </span></p>
-                                <input type="text" class="w-100" />
+                                <input name="email" type="text" class="w-100" />
                             </div>
                             <div class="col">
                                 <p>Phone <span class="required-ico"> * </span></p>
-                                <input type="text" class="w-100" />
+                                <input name="phone" type="text" class="w-100" />
                             </div>
                         </div>
 
@@ -95,11 +95,11 @@
                         <div class="d-flex flex-column flex-lg-row gap-3">
                             <div class="col">
                                 <p>Company/Organization</p>
-                                <input type="text" class="w-100" />
+                                <input name="company" type="text" class="w-100" />
                             </div>
                             <div class="col">
                                 <p>Website</p>
-                                <input type="text" class="w-100" />
+                                <input name="website" type="text" class="w-100" />
                             </div>
                         </div>
 
@@ -111,96 +111,96 @@
                             </p>
                             <ul class="gfield_checkbox row" id="input_15_8">
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_1">
-                                    <input class="gfield-choice-input" name="input_8.1" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="Optimization (SEO)" id="choice_15_8_1" tabindex="107" />
                                     <label for="choice_15_8_1" id="label_15_8_1"
                                         class="gform-field-label gform-field-label--type-inline">Optimization (SEO)</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_2">
-                                    <input class="gfield-choice-input" name="input_8.2" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="Pay Per Click (PPC)" id="choice_15_8_2" tabindex="108" />
                                     <label for="choice_15_8_2" id="label_15_8_2"
                                         class="gform-field-label gform-field-label--type-inline">Pay Per Click (PPC)</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_3">
-                                    <input class="gfield-choice-input" name="input_8.3" type="checkbox" value="Social Media"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox" value="Social Media"
                                         id="choice_15_8_3" tabindex="109" />
                                     <label for="choice_15_8_3" id="label_15_8_3"
                                         class="gform-field-label gform-field-label--type-inline">Social Media</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_4">
-                                    <input class="gfield-choice-input" name="input_8.4" type="checkbox" value="Web Design"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox" value="Web Design"
                                         id="choice_15_8_4" tabindex="110" />
                                     <label for="choice_15_8_4" id="label_15_8_4"
                                         class="gform-field-label gform-field-label--type-inline">Web Design</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_5">
-                                    <input class="gfield-choice-input" name="input_8.5" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="eCommerce Optimization" id="choice_15_8_5" tabindex="111" />
                                     <label for="choice_15_8_5" id="label_15_8_5"
                                         class="gform-field-label gform-field-label--type-inline">eCommerce
                                         Optimization</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_6">
-                                    <input class="gfield-choice-input" name="input_8.6" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="Conversion Rate Optimization (CRO)" id="choice_15_8_6" tabindex="112" />
                                     <label for="choice_15_8_6" id="label_15_8_6"
                                         class="gform-field-label gform-field-label--type-inline">Conversion Rate
                                         Optimization (CRO)</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_7">
-                                    <input class="gfield-choice-input" name="input_8.7" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="Reputation / Reviews Management" id="choice_15_8_7" tabindex="113" />
                                     <label for="choice_15_8_7" id="label_15_8_7"
                                         class="gform-field-label gform-field-label--type-inline">Reputation / Reviews
                                         Management</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_8">
-                                    <input class="gfield-choice-input" name="input_8.8" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="Content Writing" id="choice_15_8_8" tabindex="114" />
                                     <label for="choice_15_8_8" id="label_15_8_8"
                                         class="gform-field-label gform-field-label--type-inline">Content Writing</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_9">
-                                    <input class="gfield-choice-input" name="input_8.9" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]" type="checkbox"
                                         value="Photography / Video" id="choice_15_8_9" tabindex="115" />
                                     <label for="choice_15_8_9" id="label_15_8_9"
                                         class="gform-field-label gform-field-label--type-inline">Photography /
                                         Video</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_11">
-                                    <input class="gfield-choice-input" name="input_8.11" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]"  type="checkbox"
                                         value="Web Hosting / Maintenance" id="choice_15_8_11" tabindex="116" />
                                     <label for="choice_15_8_11" id="label_15_8_11"
                                         class="gform-field-label gform-field-label--type-inline">Web Hosting /
                                         Maintenance</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_12">
-                                    <input class="gfield-choice-input" name="input_8.12" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]"  type="checkbox"
                                         value="Amazon Marketing" id="choice_15_8_12" tabindex="117" />
                                     <label for="choice_15_8_12" id="label_15_8_12"
                                         class="gform-field-label gform-field-label--type-inline">Amazon Marketing</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_13">
-                                    <input class="gfield-choice-input" name="input_8.13" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]"  type="checkbox"
                                         value="Email Marketing" id="choice_15_8_13" tabindex="118" />
                                     <label for="choice_15_8_13" id="label_15_8_13"
                                         class="gform-field-label gform-field-label--type-inline">Email Marketing</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_14">
-                                    <input class="gfield-choice-input" name="input_8.14" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]"  type="checkbox"
                                         value="ADA Compliance" id="choice_15_8_14" tabindex="119" />
                                     <label for="choice_15_8_14" id="label_15_8_14"
                                         class="gform-field-label gform-field-label--type-inline">ADA Compliance</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_15">
-                                    <input class="gfield-choice-input" name="input_8.15" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]"  type="checkbox"
                                         value="Link Building" id="choice_15_8_15" tabindex="120" />
                                     <label for="choice_15_8_15" id="label_15_8_15"
                                         class="gform-field-label gform-field-label--type-inline">Link Building</label>
                                 </li>
                                 <li class="col-12 col-sm-6 col-lg-4 gchoice gchoice_15_8_16">
-                                    <input class="gfield-choice-input" name="input_8.16" type="checkbox"
+                                    <input class="gfield-choice-input"  name="services[]"  type="checkbox"
                                         value="Search Engine Marketing" id="choice_15_8_16" tabindex="121" />
                                     <label for="choice_15_8_16" id="label_15_8_16"
                                         class="gform-field-label gform-field-label--type-inline">Search Engine
@@ -212,7 +212,7 @@
                         <!-- message -->
                         <div>
                             <p>Message</p>
-                            <textarea class="gform-textarea" name="" id="" cols="30" rows="10"></textarea>
+                            <textarea class="gform-textarea" name="message_" id="" cols="30" rows="10"></textarea>
                             {{-- <div class="gchoice gchoice_15_35_1 py-2">
                                 <input class="gfield-choice-input" name="input_35.1" type="checkbox"
                                     value="Were you referred to Whippdigital?" id="choice_15_35_1" tabindex="126" />
@@ -226,13 +226,13 @@
                             <p>Join our email list?</p>
                             <ul class="gfield_radio" id="input_15_14">
                                 <li class="gchoice gchoice_15_14_0">
-                                    <input name="input_14" type="radio" value="Yes, Please!" id="choice_15_14_0"
+                                    <input name="wantemaillist" type="radio" value="Yes, Please!" id="choice_15_14_0"
                                         tabindex="128" />
                                     <label for="choice_15_14_0" id="label_15_14_0"
                                         class="gform-field-label gform-field-label--type-inline">Yes, Please!</label>
                                 </li>
                                 <li class="gchoice gchoice_15_14_1">
-                                    <input name="input_14" type="radio" value="Not yet, thanks" checked="checked"
+                                    <input name="wantemaillist" type="radio" value="Not yet, thanks" checked="checked"
                                         id="choice_15_14_1" tabindex="129" />
                                     <label for="choice_15_14_1" id="label_15_14_1"
                                         class="gform-field-label gform-field-label--type-inline">Not yet, thanks</label>
@@ -272,15 +272,15 @@
 
                             <div id="map" class="mx-auto mt-3"></div>
                         
-                            <p  class="fs-5">
+                            <a target="_blank" href="https://goo.gl/maps/cWYhgMfHtZoW2fDw9"  class="fs-5">
                                
                               46 Howard St 6th fl,
                                     <br>
                                     New York, NY 10013
-                              
+                                    
+                                </a>
                             </div>
 
-                        </p>
 
                     </div>
                 </div>

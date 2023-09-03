@@ -7,7 +7,7 @@
         <div class="d-flex">
             <div class="logo">
                 <a href="/" class="main-logo">
-                    <img data-src ="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad " alt="">
+                    <img data-src="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad " alt="">
                 </a>
             </div>
         </div>
@@ -96,7 +96,7 @@
                                         <li class="menu-item-has-children hover-ver2 menu-item-has-children-main-head">
                                             <a href="#">
                                                 <i class="seoicon-search"></i>
-                                                Web Development
+                                                Web Design / Development
                                             </a>
                                         </li>
             
@@ -474,8 +474,8 @@
                     <li class="menu-item-has-children hover-ver2 mov-main-service-head">
                         <a href="#">
                             
-                            Web Development
-                        </a>
+                            Web Design / Development
+                                                </a>
                     </li>
 
                     <li class="hover-ver2">

@@ -33,8 +33,8 @@
     background-position: 100% 67%;
 }
 .ek-phone-img{
-    width: 40px;
-    margin-right: 7px;
+    width: 42px;
+    margin-right: 0px;
 }
 @media (min-width:1240px){
     .mainwhipplogo{
@@ -82,15 +82,28 @@
     background-size: contain;
     
 }
-
+.swal-overlay.swal-overlay--show-modal{
+ z-index: 99999 !important;
+}
     </style>
     @yield('css')
 
 </head>
 
+
+@php
+$segments = explode('/', request()->path());
+$lastSegment = end($segments);
+@endphp
+
+{{-- @dd($lastSegment) --}}
+
+
 <body class="">
     @include('layouts.navbar')
     @yield('content')
+
+
 
 
     {{-- CONTACT US BANNER STARTS HERE --}}
@@ -112,38 +125,41 @@
                     </div>
                 </div>
                 {{-- form --}}
-                <form action="" class=" custom-text-white">
+                <form action="{{route('letstalk_form')}}" method="POST" class=" custom-text-white">
+                    @csrf
                     <div class="row">
                         <div class="col-12 col-lg-6 p-lg-5">
-                            <div class="anim-for-inp-comp mt-2">
-                                <input type="text" name="username" autocomplete="off" required />
-                                <label for="username" class="anime-label-wrap">
-                                <span class="anime-label-text">
-                                    Your name
-                                </span>
+                            <div class="anim-for-inp-comp">
+                                <input type="text" name="name" autocomplete="off" required />
+                                <label for="name" class="anime-label-wrap">
+                                  <span class="anime-label-text">
+                                    Your Name
+                                  </span>
                                 </label>
-                            </div>
+                              </div>
                             <div class="anim-for-inp-comp mt-3">
-                                <input type="email" name="email" autocomplete="off" required />
+                                <input type="text" name="email" autocomplete="off" required />
                                 <label for="email" class="anime-label-wrap">
-                                <span class="anime-label-text">
-                                    Your Email address
-                                </span>
+                                  <span class="anime-label-text">
+                                    Your Email Address
+                                  </span>
                                 </label>
-                            </div>
-                            <div class="anim-for-inp-comp mt-3">
-                                <input type="number" name="phone" autocomplete="off" required />
+                              </div>
+                              <div class="anim-for-inp-comp mt-3">
+                                <input name="phone" autocomplete="off" required />
                                 <label for="phone" class="anime-label-wrap">
-                                <span class="anime-label-text">
+                                  <span class="anime-label-text">
                                     Your Phone Number
-                                </span>
+                                  </span>
                                 </label>
-                            </div>
+                              </div> 
+                              {{-- to get the service page title from url  --}}
+                              <input type="hidden" name="user_specific_service" value="{{$lastSegment}}">
                         
                         </div>
                         <div class="col-12 col-lg-6 p-3 d-flex flex-column ">
-                            <label for="project_description" class="pb-3 fs-5 fw-medium custom-color-123">Please Describe Project</label>
-                            <textarea name="project_description" class="custom-text-white footer-oranization_goal_message modal-oranization_goal_message" id="" cols="30" rows="7"></textarea>
+                            <label for="message_" class="pb-3 fs-5 fw-medium custom-color-123">Please Describe Project</label>
+                            <textarea name="message_" class="custom-text-white footer-oranization_goal_message modal-oranization_goal_message text-white fs-5" id="" cols="30" rows="7"></textarea>
                         </div>
                         <div class="text-center p-2 my-3">
                             <button type="submit" class="footer-form-submit-orign px-5 py-2">SUBMIT</button>
@@ -207,6 +223,62 @@ observer.observe();
 
     });
 </script>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript">
+    function showAlert(title /*, text*/ ) {
+        let error = "{!! implode(' ', $errors->all()) !!}";
+        swal({
+            title: title,
+            text: "{!! implode(' ', $errors->all()) !!}",
+            icon: "error"
+        });
+
+
+        if (error == "You need to provide your correct phone number for coupons And seasonal deals.") {
+            document.cookie = "newUser= ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
+        }
+    }
+
+    function toggleSlide(elementSelector, height) {
+        const element = $(elementSelector);
+
+        if (element.height() === 50) {
+            element.animate({
+                height: height
+            });
+        } else {
+            element.animate({
+                height: 50
+            });
+        }
+    }
+
+
+</script>
+
+@if ($errors->any())
+    <script type="text/javascript">
+        showAlert("Error");
+    </script>
+@endif
+
+<script type="text/javascript">
+    function showAlertSuccess(title) {
+        swal({
+            title: title,
+            text: "{{ session()->get('message') }}",
+            icon: "success"
+        });
+    }
+</script>
+@if (session()->has('message'))
+    <script type="text/javascript">
+        showAlertSuccess("Success");
+    </script>
+
+   
+@endif
 
    
 </body>
