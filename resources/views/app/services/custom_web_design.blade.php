@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-     Custom Website Design | Whippdigital 
+<title> Custom Website Design | Whippdigital </title>
 
 @endsection
 
@@ -76,8 +76,7 @@
                                 <span class="w-100" style="height: 1px;
                                 background: #b1b1b1;
                                 margin-left: 5px;"></span>
-                            </div>eft: 12px;"></span>
-                </div>
+                            </div>
             </div>
         </div>
     </div>
