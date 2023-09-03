@@ -374,7 +374,7 @@
                 <a href="tel:212-951-0651 " class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
 212-951-0651 
                 </a>
-                <span aria-label="toggle" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide " style="cursor: pointer">
+                <span  id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide " style="cursor: pointer">
                     <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
                         <svg width="1000px" height="1000px">
                             <path id="pathD"
