@@ -215,9 +215,9 @@
                             <textarea class="gform-textarea" name="" id="" cols="30" rows="10"></textarea>
                             {{-- <div class="gchoice gchoice_15_35_1 py-2">
                                 <input class="gfield-choice-input" name="input_35.1" type="checkbox"
-                                    value="Were you referred to Thrive?" id="choice_15_35_1" tabindex="126" />
+                                    value="Were you referred to Whippdigital?" id="choice_15_35_1" tabindex="126" />
                                 <label for="choice_15_35_1" id="label_15_35_1" class="ms-1">Were you referred to
-                                    Thrive?</label>
+                                    Whippdigital?</label>
                             </div> --}}
                         </div>
 

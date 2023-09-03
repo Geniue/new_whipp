@@ -4,7 +4,7 @@
     <!-- SERIVCES TITLE BANNER SECTION STARTS HERE -->
     <section class="con-ti-ba-section">
         <div class="container text-center py-4">
-            <h2 class="fs-1 fw-bold custom-text">Thrive Locations</h2>
+            <h2 class="fs-1 fw-bold custom-text">Whippdigital Locations</h2>
             <div class="text-center py-4">
 
                 <a class="lets-talk-btn px-2 px-md-4 py-1 py-md-3 fs-5 rounded-5" href="#">GET MY FREE PROPOSAL</a>
@@ -21,10 +21,10 @@
             </h3>
             <div class="row py-4 gap-5 gap-lg-0">
                 <div class="col-lg-6 text-center text-lg-start">
-                    <img class="lozad" data-src="{{ asset('assets/imgs/thrive-logo-color-print-260x141.png') }}" alt="">
+                    <img class="lozad" data-src="{{ asset('assets/imgs/Whippdigital-logo-color-print-260x141.png') }}" alt="">
                 </div>
                 <div class="col-lg-6 wp-con-map-address text-center text-lg-start">
-                    <p>Thrive Internet Marketing Agency</p>
+                    <p>Whippdigital Internet Marketing Agency</p>
                     <p>
                         <strong> <a href="tel:908-3434-345" class="custom-text-2">
                                 908-3434-345</a></strong>

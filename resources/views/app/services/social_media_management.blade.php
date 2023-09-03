@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Social Media Management | Whippdigital </title>
+    Social Media Management | Whippdigital 
 
 @endsection
 
@@ -65,19 +65,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Social Media Management </span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -118,7 +116,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Navigating the ever-evolving social media landscape can challenge any business. We specialize in cutting-edge management, ensuring your brand thrives in today's digital age. We craft narratives, spark genuine engagement, and convert followers into advocates. With shifting algorithms and trends, our hands-on approach keeps your brand's voice consistent, yet adaptable. Dive into the digital realm with us, and watch your online community flourish.
+                            Navigating the ever-evolving social media landscape can challenge any business. We specialize in cutting-edge management, ensuring your brand whippdigital in today's digital age. We craft narratives, spark genuine engagement, and convert followers into advocates. With shifting algorithms and trends, our hands-on approach keeps your brand's voice consistent, yet adaptable. Dive into the digital realm with us, and watch your online community flourish.
 
                         </p>
                        

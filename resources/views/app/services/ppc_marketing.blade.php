@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Pay-Per-Click Marketing | Whippdigital </title>
+     Pay-Per-Click Marketing | Whippdigital 
 
 @endsection
 
@@ -64,19 +64,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Pay-Per-Click Marketing</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>

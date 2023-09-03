@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title>{{$heading}} | Whippdigital </title>
+{{$heading}} | Whippdigital 
 
 @endsection
 @section('pageheading')
@@ -54,7 +54,7 @@
             <p class="text-center">
                 For every second of delay in your page load time, your bounce rate
                 increases and you’re losing valuable leads. Improve your website
-                performance and capture high-quality leads and traffic with Thrive
+                performance and capture high-quality leads and traffic with Whippdigital
                 Internet Marketing Agency’s technical search engine optimization (SEO)
                 services.
             </p>
@@ -180,7 +180,7 @@
     <section class="py-4 custom-bg-1">
         <div class="pt-5">
             <div class="text-center py-3">
-                <h3 class="custom-text fs-2">Thrive’s Digital Marketing Services</h3>
+                <h3 class="custom-text fs-2">Whippdigital’s Digital Marketing Services</h3>
                 <p class="fs-5 custom-text-2">
                     Build Brand Recognition as an Industry Leader and Increase
                     Profitability
@@ -267,7 +267,7 @@
                             </p>
                             <p>
                                 Amplify your market reach and improve your brand reputation
-                                with Thrive’s franchise SEO services. Our team creates a
+                                with Whippdigital’s franchise SEO services. Our team creates a
                                 franchise marketing plan around your ideal prospects and
                                 service location. We claim and optimize your business
                                 listings, publish geo-modified service pages and blog posts,
@@ -361,7 +361,7 @@
                                 Statistics show that 88 percent of consumers searching for
                                 local businesses online will call or visit a store within 24
                                 hours. Attract your ideal customers and generate more leads
-                                and sales with Thrive’s internet marketing services. Our
+                                and sales with Whippdigital’s internet marketing services. Our
                                 internet marketing company ensures your name, address and
                                 phone number (NAP) consistency, enhances your location pages
                                 and conducts local link building. We also leverage social
@@ -495,7 +495,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -630,7 +630,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -765,7 +765,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -900,7 +900,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -1060,7 +1060,7 @@
                         Does your website’s technical on page SEO functionality hinder
                         your organic search performance? Let our technical SEO company do
                         the hard work for you. Entrust your SEO technical audit and
-                        optimization with Thrive and realize your growth potential.
+                        optimization with Whippdigital and realize your growth potential.
                     </p>
                 </div>
                 <div class="text-center py-4">
@@ -1081,7 +1081,7 @@
                         </p>
                         <p>
                             Don’t waste your investment in marketing techniques that do not
-                            deliver measurable results. Partner with Thrive Internet
+                            deliver measurable results. Partner with Whippdigital Internet
                             Marketing Agency today and establish your market dominance with
                             our targeted digital marketing solutions.
                         </p>

@@ -4,7 +4,7 @@
     <section>
         <div class="container col-lg-8 mx-auto py-5">
             <p class="text-center">
-                Thrive Internet Marketing Agency is an award-winning digital marketing company that offers a full spectrum
+                Whippdigital Internet Marketing Agency is an award-winning digital marketing company that offers a full spectrum
                 of data-driven web marketing services. We develop growth-oriented online marketing campaigns that make a
                 positive impact on businesses.
             </p>
@@ -43,7 +43,7 @@
                         <h3>We’re All About
                             Relationships and Results</h3>
                         <p>
-                            Established in 2005, Thrive is committed to helping businesses across industries augment their
+                            Established in 2005, Whippdigital is committed to helping businesses across industries augment their
                             marketing efforts and gain a competitive edge through comprehensive digital marketing solutions.
                         </p>
                         <p>
@@ -80,14 +80,14 @@
             <div class=" row ab-sev-n-img px-4 gap-4">
                 {{-- img --}}
                 <div class="col-12 col-lg-6">
-                    <img class="dig-ab-img" class="lozad" data-src="{{ asset('assets/imgs/DSC03177.png') }}" alt="Thrive Team">
+                    <img class="dig-ab-img" class="lozad" data-src="{{ asset('assets/imgs/DSC03177.png') }}" alt="Whippdigital Team">
                 </div>
                 {{-- content --}}
                 <div class="ab-sev-n-content  col-12 col-lg-5">
                     <h3 class="text-center text-lg-start">We Are Digital Marketing Experts</h3>
-                    <p>Thrive boasts a unique, close-knit team with experts in all facets of web marketing: strategic,
+                    <p>Whippdigital boasts a unique, close-knit team with experts in all facets of web marketing: strategic,
                         creative and technical.</p>
-                    <p>As a recognized leader in digital marketing, Thrive has more than 220 employees across 34 states and
+                    <p>As a recognized leader in digital marketing, Whippdigital has more than 220 employees across 34 states and
                         located in 10 different countries. We work closely together to ensure smooth campaign development
                         and execution for all of our clients.</p>
                     <p>From the United States and South Africa to the Philippines and India, our digital marketing
@@ -104,7 +104,7 @@
         <h3>
             We’re a Results-Driven Digital Marketing Agency
         </h3>
-        <p>At Thrive, we take a strategy-first approach to show you real results. Our digital marketing team goes
+        <p>At Whippdigital, we take a strategy-first approach to show you real results. Our digital marketing team goes
             above and beyond to ensure our web marketing campaigns do not just drum up new business for our clients
             but also support sustainable success.
         </p>
@@ -199,7 +199,7 @@
 
 
                             <h3 class="custom-text-2 fw-bold">
-                                Thrive’s Core Values
+                                Whippdigital’s Core Values
                             </h3>
                             <p>Throughout the years, we stay committed to the ideas that founded our success:</p>
 
@@ -362,17 +362,17 @@
             <div class="wp-our-his-content-cotainer  mx-auto row gap-4 justify-content-center">
                 <div class=" col-lg-5 d-flex flex-column justify-content-center p-3 ">
                     <p class="fw-bold fs-4">Our History</p>
-                    <p>Thrive Internet Marketing Agency is the brainchild of Matt Bowman, Thrive’s president and founder.
+                    <p>Whippdigital Internet Marketing Agency is the brainchild of Matt Bowman, Whippdigital’s president and founder.
                         Bowman grew up in an entrepreneurial family and was inspired to continue his grandparents’ legacy of
                         running a business. He saw how his grandparents took care of their customers and employees and gave
                         back to the community and wanted to adopt this culture.
                     </p>
-                    <p>In 2005, Bowman ventured into digital marketing and established MLB Web Design (now called Thrive).
+                    <p>In 2005, Bowman ventured into digital marketing and established MLB Web Design (now called Whippdigital).
                         Don't think baseball with the original name. MLB are are the initials of Bowman's full name. The
                         team started expanding as the company grew in its early years and in 2012, MLB Web Design was
-                        renamed Thrive Internet Marketing Agency.</p>
+                        renamed Whippdigital Internet Marketing Agency.</p>
                     <p>What started as a small team has now grown into a full-service digital marketing company with more
-                        than 220 employees across the globe. Thrive now has employees in 34 U.S. states.</p>
+                        than 220 employees across the globe. Whippdigital now has employees in 34 U.S. states.</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="hs-photo-img" width="943" height="790"
@@ -396,7 +396,7 @@
                             2012
                         </span>
                         <p>
-                            In 2012, MLB Web Design rebranded to Thrive Internet Marketing Agency. </p>
+                            In 2012, MLB Web Design rebranded to Whippdigital Internet Marketing Agency. </p>
                     </div>
                 </div>
                 <div class="col-8 col-sm-7 col-md-2">
@@ -405,7 +405,7 @@
                             2016
                         </span>
                         <p>
-                            Matt Bowman partnered with Kurt Knapton, a strategic investor, to support Thrive’s growth. </p>
+                            Matt Bowman partnered with Kurt Knapton, a strategic investor, to support Whippdigital’s growth. </p>
                     </div>
                 </div>
                 <div class="col-8 col-sm-7 col-md-2">
@@ -414,7 +414,7 @@
                             2020
                         </span>
                         <p>
-                            Thrive reached 15 years in business, establishing itself as one of the nation’s leading internet
+                            Whippdigital reached 15 years in business, establishing itself as one of the nation’s leading internet
                             marketing agencies </p>
                     </div>
                 </div>
@@ -424,7 +424,7 @@
                             2021
                         </span>
                         <p>
-                            For the fifth consecutive year, Thrive was named to the Inc. 5000 list of fastest-growing
+                            For the fifth consecutive year, Whippdigital was named to the Inc. 5000 list of fastest-growing
                             companies in America. </p>
                     </div>
                 </div>
@@ -448,7 +448,7 @@
                     <p class="fs-6">
                         Driving Individual and Business Transformations Since 2005
                     </p>
-                    <p>Thrive Internet Marketing Agency is a recognized leader in the digital marketing realm. For more than
+                    <p>Whippdigital Internet Marketing Agency is a recognized leader in the digital marketing realm. For more than
                         17 years, we have actively built and sustained our commitment to improving the lives of our
                         employees, partner agencies and local communities through our people-centric company programs and
                         services.</p>
@@ -482,7 +482,7 @@
                             Inc. 5000 Fastest-Growing Company 6 Years in a Row!
                         </h2>
                         <p>
-                            Thrive is proud to rank among the <strong> <a href="#">
+                            Whippdigital is proud to rank among the <strong> <a href="#">
                                     Inc. 5000 fastest-growing companies in the United States
                                 </a>
                             </strong>

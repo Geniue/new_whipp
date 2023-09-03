@@ -6,8 +6,8 @@
                 class="col-12 d-flex flex-column gap-3 col-lg-4 text-center align-items-center align-items-lg-start text-lg-start pb-4 pb-lg-0">
                 <img src="{{ asset('assets/imgs/icons/whipplogo.jpeg') }}" class="mainwhipplogo " alt="">
                 <p class="pb-3">
-                    Thrive Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and
-                    Convert more leads online and get results with Thrive.
+                    Whippdigital Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and
+                    Convert more leads online and get results with Whippdigital.
                 </p>
             </div>
             <div class="d-flex flex-column-reverse flex-lg-row col-12 col-lg-8">
@@ -28,7 +28,7 @@
                     </ul>
                     <h3 class="mb-0 ">CALL <span>866.908.4748</span></h3>
                     <span class="ban-cont-link d-flex gap-1 justify-content-center"><a class="contactus"
-                            href="/contact/">Contact Us</a><a class="give-back" href="/about/thrive-gives-back/">Thrive
+                            href="/contact/">Contact Us</a><a class="give-back" href="/about/whippdigital-gives-back/">Whippdigital
                             Gives Back</a></span>
                 </div>
             </div>

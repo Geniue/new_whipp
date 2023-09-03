@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title>  Online Reputation Repair | Whippdigital </title>
+  Online Reputation Repair | Whippdigital
 
 @endsection
 
@@ -65,19 +65,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Online Reputation Repair</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -196,7 +194,7 @@ Elevate Your Online Presence with Reputation Repair
                     As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
                     <br>
                     <br>
-                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you thrive or not on Amazon.
+                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you whippdigital or not on Amazon.
                 </p>
             </div>
             <div class="d-flex  py-3">

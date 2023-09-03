@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Search Analytics Services    | Whippdigital </title>
+    Search Analytics Services    | Whippdigital 
 
 @endsection
 
@@ -65,19 +65,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Search Analytics Services</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -171,7 +169,7 @@
                 <p class="feture-pare">
                     Google Analytics Mastery Embark on a journey through data's intricate maze with Whipp Digital's Google Analytics Mastery. Beyond bar graphs lies a goldmine of insights—68% of businesses use analytics to steer growth (Forrester). Our experts decode user behavior, enhance engagement, and amplify ROI.                    <br>
                     <br>
-                    Sail confidently as 82% see improved conversions with data-driven strategies (Econsultancy). Unearth your site's narrative; discover where, why, and how visitors engage. Don't fathom the depths alone. Partner with Whipp Digital for strategic guidance, transforming analytics into action. Your website's untold story is waiting—navigate, optimize, thrive. The compass to data-driven success is here.
+                    Sail confidently as 82% see improved conversions with data-driven strategies (Econsultancy). Unearth your site's narrative; discover where, why, and how visitors engage. Don't fathom the depths alone. Partner with Whipp Digital for strategic guidance, transforming analytics into action. Your website's untold story is waiting—navigate, optimize, whippdigital. The compass to data-driven success is here.
 
                 </p>
             </div>

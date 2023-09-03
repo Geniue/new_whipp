@@ -6,7 +6,7 @@
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Case Studies</h2>
             <p class="custom-text-2 fs-5">
-                Team up with Thrive - the next amazing case study could be yours!
+                Team up with Whippdigital - the next amazing case study could be yours!
             </p>
             <div class="text-center py-4">
                 <a class="lets-talk-btn px-4 py-3 fs-5 rounded-5" href="#">GET MY FREE PROPOSAL</a>

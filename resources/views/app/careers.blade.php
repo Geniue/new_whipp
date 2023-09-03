@@ -15,7 +15,7 @@
     <section>
         <div class="container col-lg-8 mx-auto py-5">
             <p class="text-center">
-                Thrive Internet Marketing Agency is an award-winning digital marketing company that offers a full spectrum
+                Whippdigital Internet Marketing Agency is an award-winning digital marketing company that offers a full spectrum
                 of data-driven web marketing services. We develop growth-oriented online marketing campaigns that make a
                 positive impact on businesses.
             </p>
@@ -57,7 +57,7 @@
                     <p class="fs-6">
                         Driving Individual and Business Transformations Since 2005
                     </p>
-                    <p>Thrive Internet Marketing Agency is a recognized leader in the digital marketing realm. For more than
+                    <p>Whippdigital Internet Marketing Agency is a recognized leader in the digital marketing realm. For more than
                         17 years, we have actively built and sustained our commitment to improving the lives of our
                         employees, partner agencies and local communities through our people-centric company programs and
                         services.</p>
@@ -90,7 +90,7 @@
                             Inc. 5000 Fastest-Growing Company 6 Years in a Row!
                         </h2>
                         <p>
-                            Thrive is proud to rank among the <strong> <a href="#">
+                            Whippdigital is proud to rank among the <strong> <a href="#">
                                     Inc. 5000 fastest-growing companies in the United States
                                 </a>
                             </strong>

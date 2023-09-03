@@ -58,7 +58,7 @@
                         blog post.</p>
                     <p>“Search Generative Experience is the new generative AI created by Google that helps improve users’
                         search experience by providing concise, easy-to-understand answers to users’ queries, using
-                        corroborated information from reliable web sources,” said Ken Romero, Thrive’s SEO Strategist.</p>
+                        corroborated information from reliable web sources,” said Ken Romero, Whippdigital’s SEO Strategist.</p>
 
                     <p>
                         Basically, Google Search scours the web to help you:
@@ -160,7 +160,7 @@
                         and trends.
                     </p>
                     <p>
-                        Thrive is a leading digital marketing company with a team of experts, thought leaders and highly
+                        Whippdigital is a leading digital marketing company with a team of experts, thought leaders and highly
                         experienced strategists. We’re here to help you stay ahead of the competition and develop effective
                         marketing strategies for your business
                     </p>
@@ -171,7 +171,7 @@
                     </p>
                     <p>
                         <span class="entry-categories">Filed Under: <a href="#" rel="category tag">Search Engine
-                                Optimization</a>, <a href="#" rel="category tag">Thrive News</a>, <a href="/"
+                                Optimization</a>, <a href="#" rel="category tag">Whippdigital News</a>, <a href="/"
                                 rel="category tag">Content
                                 Creation</a>, <a href="/" rel="category tag">Website Content</a>, <a href="#"
                                 rel="category tag">Online
@@ -229,7 +229,7 @@
                         About Arrabon Toribio
                     </h3>
                     <p>
-                        Arrabon is a demand generation content writer at Thrive. He loves to bounce around the digital
+                        Arrabon is a demand generation content writer at Whippdigital. He loves to bounce around the digital
                         space, looking for new marketing topics to explore. Beyond writing, Arrabon is a self-proclaimed
                         potato enthusiast with a soft spot for their house pet, Sparklets.
                     </p>

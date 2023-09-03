@@ -21,7 +21,7 @@
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
             <p class="custom-text-2 fs-5 ">
-                News From Thrive And Around The World Of Web Design
+                News From Whippdigital And Around The World Of Web Design
                 And Online Marketing.
             </p>
         </div>
@@ -40,7 +40,7 @@
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
             <p class="custom-text-2 fs-5 ">
-                News From Thrive And Around The World Of Web Design
+                News From Whippdigital And Around The World Of Web Design
                 And Online Marketing.
             </p>
             <div class="text-center py-4">

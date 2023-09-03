@@ -137,7 +137,7 @@
                     {{-- result --}}
                     <div class="some-big-gne-quote fs-5 fw-bold w-100 mt-1 text-center">
                         <p class="mb-0 py-1">
-                            "Thrive goes above and beyond"
+                            "Whippdigital goes above and beyond"
                         </p>
                     </div>
                     <div class="row">
@@ -187,7 +187,7 @@
                             “They do everything they say...no BS”
                         </p>
                     </div>
-                    <p>“Thrive is a much-needed blessing and exceeded our expectations in every way. They are honest,
+                    <p>“Whippdigital is a much-needed blessing and exceeded our expectations in every way. They are honest,
                         straightforward, they take care of ALL your needs quickly, they are reliable, you can count on them
                         and most of all, they do everything they say they will do, no BS.”</p>
                 </div>
@@ -202,7 +202,7 @@
                     </div>
                     <p>“These guys are incredible. They've helped us to grow our business and now the biggest problem we
                         seem to come across is having too much business - which is the ideal problem to have. We are right
-                        where we wanted to be and Thrive made that possible. Thanks guys!”</p>
+                        where we wanted to be and Whippdigital made that possible. Thanks guys!”</p>
                 </div>
                 <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
                     <div class="text-center">
@@ -213,7 +213,7 @@
                             “Unrivaled customer support”
                         </p>
                     </div>
-                    <p>“Working with the Thrive team has been a most pleasant experience! Their dedication and passion for
+                    <p>“Working with the Whippdigital team has been a most pleasant experience! Their dedication and passion for
                         what they do is exemplified by their unrivaled customer support and attentiveness to the specific
                         needs of our business. We look forward to a long-lasting and prosperous relationship!”</p>
                 </div>
@@ -233,11 +233,11 @@
                     <img class="lozad" data-src="{{ asset('assets/imgs/icons/we-agency-1.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">We Value Ethics and Integrity</p>
                 </div>
-                <p>Our culture and work ethic are the biggest factors for Thrive’s success and growth over the years. At
-                    Thrive, we are extremely focused on our client’s needs and work with a client-first attitude. We do our
+                <p>Our culture and work ethic are the biggest factors for Whippdigital’s success and growth over the years. At
+                    Whippdigital, we are extremely focused on our client’s needs and work with a client-first attitude. We do our
                     best to provide honest and ethical services to our clients while continuing to meet the business needs
                     and goals. We make sure everyone on our team understands and respects the goals and interests of our
-                    clients. Thrive teams focus on creating solid, results-oriented digital marketing solutions to help our
+                    clients. Whippdigital teams focus on creating solid, results-oriented digital marketing solutions to help our
                     clients’ businesses achieve their sales and marketing goals.</p>
             </div>
             <div class="text-center col-12 pb-5 pb-md-0 col-md-5  col-lg-4 d-flex  flex-column ">
@@ -247,7 +247,7 @@
                     </p>
                 </div>
                 <p>Why throw away your hard-earned money and efforts on solutions that don’t deliver results? When you
-                    partner with Thrive, you’re choosing an agency with a proven track record of success. Your business will
+                    partner with Whippdigital, you’re choosing an agency with a proven track record of success. Your business will
                     gain a competitive advantage through the work we do for and with you. We have helped thousands of
                     clients grow their leads, increase conversions and positively impact profits by boosting their digital
                     presence. Our digital marketing experts in Arlington use proven, data-driven solutions and follow the
@@ -259,10 +259,10 @@
                     <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Digital Marketing Experts</p>
                 </div>
-                <p>Thrive Internet Marketing Agency has a proactive team of digital marketing professionals who are experts
+                <p>Whippdigital Internet Marketing Agency has a proactive team of digital marketing professionals who are experts
                     in their field. From our diligent account managers and brand strategists to our SEO professionals, PPC
                     specialists and social media consultants, our team is dedicated to providing high-quality projects to
-                    our clients. At Thrive, we don’t just focus on initial results but rather on continuous impact - our
+                    our clients. At Whippdigital, we don’t just focus on initial results but rather on continuous impact - our
                     team goes beyond the clients’ expectations by always seeking out growth opportunities for the brand and
                     the business.p>
             </div>
@@ -274,7 +274,7 @@
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Complete Reporting</p>
                 </div>
                 <p>We believe clients deserve to know the progress of their campaigns and measure the efforts. This is why
-                    Thrive puts together customized reports to make sure our clients understand the results of our efforts
+                    Whippdigital puts together customized reports to make sure our clients understand the results of our efforts
                     and methodologies. We also provide an easy-access online portal so you can obtain reports anytime you
                     need it. As such, our clients can ask about their campaigns, for deeper insight into the impact of our
                     strategies. The client portal covers all current information and details regarding the outcomes and
@@ -289,7 +289,7 @@
                 <p>We understand how delays can put your business operations at risk and lost time is never won back again.
                     This is why our Arlington digital marketing team takes the time to assess your requirements and then
                     provide you with a realistic set of deadlines. Our team will do their very best to keep to the deadline
-                    and comply with all aspects of our agreement. Thrive also assigns a dedicated project manager to keep
+                    and comply with all aspects of our agreement. Whippdigital also assigns a dedicated project manager to keep
                     you in the loop with each and every update. Our team is always ready to communicate any progress
                     concerning your campaigns. </p>
             </div>
@@ -298,7 +298,7 @@
                     <img class="lozad" data-src="{{ asset('assets/imgs/icons/amazon-we-icon.svg') }}" alt="">
                     <p class="ser-gri-link fs-5 fw-bold underline-none">Tailored Solutions</p>
                 </div>
-                <p>At Thrive, we believe every business is unique with specific requirements to reach the business goals. In
+                <p>At Whippdigital, we believe every business is unique with specific requirements to reach the business goals. In
                     line with this, our Arlington digital marketing experts will take the time to understand your business
                     needs and map out ways to achieve your goals. They make sure every solution is aligned with the bigger
                     picture so you can be guaranteed of success.</p>
@@ -500,9 +500,9 @@
                         <textarea class="gform-textarea" name="" id="" cols="30" rows="10"></textarea>
                         <div class="gchoice gchoice_15_35_1 py-2">
                             <input class="gfield-choice-input" name="input_35.1" type="checkbox"
-                                value="Were you referred to Thrive?" id="choice_15_35_1" tabindex="126" />
+                                value="Were you referred to Whippdigital?" id="choice_15_35_1" tabindex="126" />
                             <label for="choice_15_35_1" id="label_15_35_1" class="ms-1">Were you referred to
-                                Thrive?</label>
+                                Whippdigital?</label>
                         </div>
                     </div>
 
@@ -555,14 +555,14 @@
                 </div>
                 <div class="px-3">
                     <h2 class="fs-1 custom-text">
-                        Thrive Named <span class="custom-text-2">
+                        Whippdigital Named <span class="custom-text-2">
                             2021 Top Digital Marketing Agency
                         </span>
                         in Arlington by Clutch
 
                     </h2>
                     <p>
-                        Clutch, a leading B2B market research and reviews company, named Thrive a 2021 top agency in
+                        Clutch, a leading B2B market research and reviews company, named Whippdigital a 2021 top agency in
                         Arlington in the following categories:
                     </p>
                     <ul class="list-style-none">
@@ -574,7 +574,7 @@
                     </ul>
                     <p>
                         Agencies are chosen for this distinction based off of several factors, including overall market
-                        presence and, most importantly, client feedback. Thrive has a 5.0 rating on Clutch. Check out the
+                        presence and, most importantly, client feedback. Whippdigital has a 5.0 rating on Clutch. Check out the
                         <a href="#" class="custom-text-2">
 
                             reviews.
@@ -586,27 +586,27 @@
                 {{-- img --}}
                 <div class="px-5">
                     <img width="660"
-                        class="lozad" data-src="{{ asset('assets/imgs/Thrive-National-Excellence-Awards-2021-in-United-States.png') }}"
+                        class="lozad" data-src="{{ asset('assets/imgs/Whippdigital-National-Excellence-Awards-2021-in-United-States.png') }}"
                         alt="">
                 </div>
                 <div class="px-3">
                     <h2 class="fs-1 custom-text">
 
-                        Thrive Named <span class="custom-text-2"> 2021 National Excellence Award Winner </span> in
+                        Whippdigital Named <span class="custom-text-2"> 2021 National Excellence Award Winner </span> in
                         Arlington by UpCity
 
                     </h2>
                     <p>
-                        Clutch, a leading B2B market research and reviews company, named Thrive a 2021 top agency in
+                        Clutch, a leading B2B market research and reviews company, named Whippdigital a 2021 top agency in
                         Arlington in the following categories:
                     </p>
                     <p>
                         “The strength of our marketplace is built on the credibility of truly excellent providers like
-                        Thrive Internet Marketing,” said Dan Olson, CEO of UpCity. “We are pleased to honor Thrive with a
+                        Whippdigital Internet Marketing,” said Dan Olson, CEO of UpCity. “We are pleased to honor Whippdigital with a
                         National Excellence Award in Arlington.”
                     </p>
                     <p>
-                        Thrive has a 5.0 rating on UpCity. Check out the
+                        Whippdigital has a 5.0 rating on UpCity. Check out the
                         <a href="#" class="custom-text-2">
 
                             reviews.
@@ -647,7 +647,7 @@
                             </svg>
                         </a>
                     </div>
-                    <p>Thrive Internet Marketing Agency</p>
+                    <p>Whippdigital Internet Marketing Agency</p>
                     <p>
                         <strong> <a href="tel:908-3434-345" class="custom-text-2">
                                 908-3434-345</a></strong>

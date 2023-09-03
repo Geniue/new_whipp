@@ -37,15 +37,15 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div>
                         <p>
-                            Thrive Internet Marketing Agency is a dynamic, versatile and
+                            Whippdigital Internet Marketing Agency is a dynamic, versatile and
                             full-service digital marketing agency that doesn’t rely on smoke
-                            and mirrors to attract new clients. Instead, Thrive trusts its
+                            and mirrors to attract new clients. Instead, Whippdigital trusts its
                             own search engine optimization (SEO) and marketing skills to
                             drive new customers to our website.
                         </p>
                         <p>
                             We’re not a static company. We don’t limit ourselves to specific
-                            industries. Thrive has the experience and professionals to build
+                            industries. Whippdigital has the experience and professionals to build
                             a custom website and use multiple digital marketing services to
                             assist any size company in any industry.
                         </p>
@@ -73,7 +73,7 @@
                             website as your competitor down the street.
                         </p>
                         <p>
-                            Thrive works with you to produce customized internet marketing
+                            Whippdigital works with you to produce customized internet marketing
                             services and a plan that aligns with your unique business needs.
                             We become an extension of your team, a partner that understands
                             your market and goals, rather than just an agency that executes
@@ -81,7 +81,7 @@
                         </p>
                         <p>
                             Unlike so many other agencies that use glitz and glamor to close
-                            sales and then fail to execute, Thrive focuses on client
+                            sales and then fail to execute, Whippdigital focuses on client
                             relationships and results. We always deliver substance, not
                             false promises, ensuring we maximize your budget, so you get the
                             most return on investment (ROI).
@@ -92,7 +92,7 @@
                         </p>
                         <p>
                             Take a look below at the wide variety of digital marketing
-                            services Thrive offers. Contact us today to learn more about how
+                            services Whippdigital offers. Contact us today to learn more about how
                             we can help your business!
                         </p>
                     </div>
@@ -160,7 +160,7 @@
     <section class="py-4 custom-bg-1">
         <div class="pt-5">
             <div class="text-center py-3">
-                <h3 class="custom-text fs-2">Thrive’s Digital Marketing Services</h3>
+                <h3 class="custom-text fs-2">Whippdigital’s Digital Marketing Services</h3>
                 <p class="fs-5 custom-text-2">
                     Build Brand Recognition as an Industry Leader and Increase
                     Profitability
@@ -247,7 +247,7 @@
                             </p>
                             <p>
                                 Amplify your market reach and improve your brand reputation
-                                with Thrive’s franchise SEO services. Our team creates a
+                                with Whippdigital’s franchise SEO services. Our team creates a
                                 franchise marketing plan around your ideal prospects and
                                 service location. We claim and optimize your business
                                 listings, publish geo-modified service pages and blog posts,
@@ -341,7 +341,7 @@
                                 Statistics show that 88 percent of consumers searching for
                                 local businesses online will call or visit a store within 24
                                 hours. Attract your ideal customers and generate more leads
-                                and sales with Thrive’s internet marketing services. Our
+                                and sales with Whippdigital’s internet marketing services. Our
                                 internet marketing company ensures your name, address and
                                 phone number (NAP) consistency, enhances your location pages
                                 and conducts local link building. We also leverage social
@@ -475,7 +475,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -610,7 +610,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -745,7 +745,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -880,7 +880,7 @@
                                 </svg>
                             </p>
                             <p>
-                                Thrive builds custom, mobile-ready and search engine optimized
+                                Whippdigital builds custom, mobile-ready and search engine optimized
                                 websites that help you meet your business objectives and
                                 support your digital marketing campaigns. We create a visual
                                 hierarchy to highlight your important site elements and
@@ -1057,7 +1057,7 @@
                         </p>
                         <p>
                             Don’t waste your investment in marketing techniques that do not
-                            deliver measurable results. Partner with Thrive Internet
+                            deliver measurable results. Partner with Whippdigital Internet
                             Marketing Agency today and establish your market dominance with
                             our targeted digital marketing solutions.
                         </p>
@@ -1079,7 +1079,7 @@
         <div class="container py-5 custom-text">
             <div class="text-center pt-2">
                 <h3 class="">
-                    Why Choose Thrive As Your Digital Marketing Services Agency
+                    Why Choose Whippdigital As Your Digital Marketing Services Agency
                 </h3>
                 <p class="fs-5 custom-text-2">
                     Boost Your Revenue Growth Rate and Achieve Online Success
@@ -1089,7 +1089,7 @@
                 <div class="m-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div>
                         <p>
-                            Thrive Internet Marketing Agency is an award-winning internet
+                            Whippdigital Internet Marketing Agency is an award-winning internet
                             marketing company that provides goal-oriented advertising
                             solutions. Our primary focus is to help businesses increase
                             their client retention rate and maximize conversion
@@ -1098,7 +1098,7 @@
 
                         <p>
                             Trust us to give our full commitment to your brand’s digital
-                            success. Choose Thrive and gain the following advantages (and so
+                            success. Choose Whippdigital and gain the following advantages (and so
                             many more digital marketing solutions):
                         </p>
                     </div>
@@ -1106,7 +1106,7 @@
                 <div
                     class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img decoding="async" loading="lazy" class="fl-photo-img wp-image-31918 size-full"
-                        class="lozad" data-src="{{ asset('assets/imgs/thrive-team-2020.png') }}" alt="Thrive Team" itemprop="image"
+                        class="lozad" data-src="{{ asset('assets/imgs/Whippdigital-team-2020.png') }}" alt="Whippdigital Team" itemprop="image"
                         height="361" />
                 </div>
             </div>
@@ -1146,7 +1146,7 @@
                             <p class="fs-5 fw-medium custom-text">Franchise SEO</p>
                             <p>
                                 Amplify your market reach and improve your brand reputation
-                                with Thrive’s franchise SEO services. Our team creates a
+                                with Whippdigital’s franchise SEO services. Our team creates a
                                 franchise marketing plan around your ideal prospects and
                                 service location. We claim and optimize your business
                                 listings, publish geo-modified service pages and blog posts,
@@ -1216,7 +1216,7 @@
                             <p class="fs-5 fw-medium custom-text">Franchise SEO</p>
                             <p>
                                 Amplify your market reach and improve your brand reputation
-                                with Thrive’s franchise SEO services. Our team creates a
+                                with Whippdigital’s franchise SEO services. Our team creates a
                                 franchise marketing plan around your ideal prospects and
                                 service location. We claim and optimize your business
                                 listings, publish geo-modified service pages and blog posts,

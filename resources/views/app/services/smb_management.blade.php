@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Social Media Brand Management    | Whippdigital </title>
+    Social Media Brand Management    | Whippdigital
 
 @endsection
 
@@ -64,19 +64,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Social Media Brand Management</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -174,7 +172,7 @@
                 <div class="text-center">
                     <h3 class="feture-head mb-3">Maximize Your Digital Influence</h3>
                 <p class="feture-pare">
-                    Harness the power of social media! In today's digital landscape, your brand's online presence is pivotal, shaping perceptions. At Whipp Digital, we sculpt captivating brand stories that resonate deeply. Our adept team wields cutting-edge tools, aligning each interaction with your brand's essence. As the digital realm evolves, we adapt to ensure your brand doesn't just survive but thrives.                    <br>
+                    Harness the power of social media! In today's digital landscape, your brand's online presence is pivotal, shaping perceptions. At Whipp Digital, we sculpt captivating brand stories that resonate deeply. Our adept team wields cutting-edge tools, aligning each interaction with your brand's essence. As the digital realm evolves, we adapt to ensure your brand doesn't just survive but whippdigital.                    <br>
                     <br>
                     Whether you're a startup or an enterprise, our tailored approach transforms your online identity. Dive into the digital sphere with Whipp Whether you're a startup or an enterprise, our tailored approach transforms your online identity. Dive into the digital sphere with Whipp Digital and see your brand narrative unfurl like never before. Take control of your digital destiny!
 

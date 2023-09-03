@@ -1,7 +1,8 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Shopify SEO  | Whippdigital </title>
+     Shopify SEO  | Whippdigital 
+
 
 @endsection
 
@@ -64,19 +65,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Shopify SEO</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -217,7 +216,7 @@ Elevate Your Shopify Store with Expert Store SEO
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Unveiling captivating digital spaces is merely the start for us; we plunge into the depths of e-commerce visibility through our specialized Shopify Store SEO services. Recognizing that a remarkable store's worth is measured by its drawn traffic, our team deploys cutting-edge strategies to ensure your Shopify storefront thrives in the vast digital marketplace. Every product title, description, and concealed meta tag is optimized to communicate directly with search engines, ushering in unprecedented organic traffic. If you're aiming to enhance your e-commerce prowess, remember that contemporary SEO extends beyond keywords; it involves seamless synergy between content, technology, and user experience. Allow Whipp Digital to be the architect behind your Shopify Store's SEO masterpiece, guaranteeing your products not only impress but are also easily discovered by enthusiastic customers.
+                            Unveiling captivating digital spaces is merely the start for us; we plunge into the depths of e-commerce visibility through our specialized Shopify Store SEO services. Recognizing that a remarkable store's worth is measured by its drawn traffic, our team deploys cutting-edge strategies to ensure your Shopify storefront whippdigital in the vast digital marketplace. Every product title, description, and concealed meta tag is optimized to communicate directly with search engines, ushering in unprecedented organic traffic. If you're aiming to enhance your e-commerce prowess, remember that contemporary SEO extends beyond keywords; it involves seamless synergy between content, technology, and user experience. Allow Whipp Digital to be the architect behind your Shopify Store's SEO masterpiece, guaranteeing your products not only impress but are also easily discovered by enthusiastic customers.
 
                         </p>
                        

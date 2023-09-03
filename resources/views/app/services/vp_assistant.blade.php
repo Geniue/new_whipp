@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Virtual Personal Assistant | Whippdigital </title>
+    Virtual Personal Assistant | Whippdigital 
 
 @endsection
 
@@ -64,19 +64,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Virtual Personal Assistant</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -213,7 +211,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            In an interconnected world, where boundaries blur and digital collaboration thrives, our premier Remote Personal Assistant service emerges. It's beyond remote task management; it's about embedding profound global understanding into your needs. Flexibility and adaptability define our remote assistants, keeping you ahead regardless of your location. Navigating the digital realm skillfully, they bridge time zones, cultures, and industries for unparalleled support. Yet, what truly distinguishes us is the fusion of human empathy with digital prowess. With Whipp Digital, you don't just access remote capabilities; you engage with a dedicated partner tailored for our interconnected era. Experience redefined digital agility through Whipp Digital's remote brilliance.
+                            In an interconnected world, where boundaries blur and digital collaboration whippdigital, our premier Remote Personal Assistant service emerges. It's beyond remote task management; it's about embedding profound global understanding into your needs. Flexibility and adaptability define our remote assistants, keeping you ahead regardless of your location. Navigating the digital realm skillfully, they bridge time zones, cultures, and industries for unparalleled support. Yet, what truly distinguishes us is the fusion of human empathy with digital prowess. With Whipp Digital, you don't just access remote capabilities; you engage with a dedicated partner tailored for our interconnected era. Experience redefined digital agility through Whipp Digital's remote brilliance.
 
                         </p>
                        

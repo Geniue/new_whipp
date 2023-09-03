@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Amazon Seller Consulting | Whippdigital </title>
+Amazon Seller Consulting | Whippdigital 
 
 @endsection
 
@@ -64,19 +64,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page"> Amazon Seller Consulting</span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -133,7 +131,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Crafting the perfect product listing on Amazon involves more than just adding images and descriptions; it's a nuanced blend of art and science. This service ensures your product not only survives but thrives amidst the vast Amazon marketplace. Armed with expertise in keyword optimization, high-quality imagery, and compelling content creation, this approach guarantees that your listings are tailored to both attract buyers and rank well in Amazon's search algorithms. Tapping into this reservoir of knowledge means transforming from just another seller into a standout brand on Amazon. Dive in and let's craft listings that don't just catch the eye, but also drive conversions.
+                            Crafting the perfect product listing on Amazon involves more than just adding images and descriptions; it's a nuanced blend of art and science. This service ensures your product not only survives but whippdigital amidst the vast Amazon marketplace. Armed with expertise in keyword optimization, high-quality imagery, and compelling content creation, this approach guarantees that your listings are tailored to both attract buyers and rank well in Amazon's search algorithms. Tapping into this reservoir of knowledge means transforming from just another seller into a standout brand on Amazon. Dive in and let's craft listings that don't just catch the eye, but also drive conversions.
                         </p>
                        
                     </div>

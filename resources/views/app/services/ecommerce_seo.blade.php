@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Ecommerce SEO Services | Whippdigital </title>
+    Ecommerce SEO Services | Whippdigital
 
 @endsection
 
@@ -67,19 +67,17 @@
         <div>
             <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                         class="breadcrumb_last" aria-current="page"> Ecommerce SEO Services</span></span></p>
-            <div class="d-flex align-items-center mt-3">
-                <span class="w-100" style="height: 1px;
-                background: #b1b1b1;
-                margin-right: 12px;"></span>
-                <div class="d-flex align-items-center" style="gap: 10px">
-                    <span class="ren-tign-clip"></span>
-                    <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                    <span class="ren-tign-clip" ></span>
-                </div>
-                <span class="w-100" style="height: 1px;
-                background: #b1b1b1;
-                margin-left: 12px;"></span>
-            </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <span class="w-100" style="height: 1px;
+                            background: #b1b1b1;
+                            margin-right: 5px;"></span>
+                            <div class="d-flex align-items-center" style="gap: 10px">
+                                <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                            </div>
+                            <span class="w-100" style="height: 1px;
+                            background: #b1b1b1;
+                            margin-left: 5px;"></span>
+                        </div>
         </div>
     </div>
 </div>
@@ -221,7 +219,7 @@
                 </div>
                 <div>
                     <p class="feture-pare">
-                        Navigating the intricate maze of e-commerce can feel overwhelming, especially when the goal is to rise above a sea of digital competitors. Seasoned e-commerce SEO consultants offer a blend of expertise and intuitive understanding of the ever-evolving digital marketplace. The focus isn't solely on keywords and backlinks; it extends to a deep understanding of your unique brand and products. Strategies are crafted to drive genuine engagement, increase organic visibility, and ultimately boost sales. By taking this approach, you're not merely gaining an SEO expert, but a dedicated ally committed to ensuring your e-commerce venture thrives. Step confidently into the world of e-commerce, knowing that a well-crafted SEO strategy paves your path to success.
+                        Navigating the intricate maze of e-commerce can feel overwhelming, especially when the goal is to rise above a sea of digital competitors. Seasoned e-commerce SEO consultants offer a blend of expertise and intuitive understanding of the ever-evolving digital marketplace. The focus isn't solely on keywords and backlinks; it extends to a deep understanding of your unique brand and products. Strategies are crafted to drive genuine engagement, increase organic visibility, and ultimately boost sales. By taking this approach, you're not merely gaining an SEO expert, but a dedicated ally committed to ensuring your e-commerce venture WhippDigital. Step confidently into the world of e-commerce, knowing that a well-crafted SEO strategy paves your path to success.
 
                     </p>
 

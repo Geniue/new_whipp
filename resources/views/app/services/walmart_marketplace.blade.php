@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Walmart Marketplace  | Whippdigital </title>
+    Walmart Marketplace  | Whippdigital
 
 @endsection
 
@@ -66,19 +66,17 @@
             <div>
                 <p id="breadcrumbs" class="fs-5"><span><span><a class="fw-medium custom-text-2" href="/">Home</a></span> » <span
                             class="breadcrumb_last" aria-current="page">Walmart Marketplace </span></span></p>
-                <div class="d-flex align-items-center mt-3">
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-right: 12px;"></span>
-                    <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
-                    </div>
-                    <span class="w-100" style="height: 1px;
-                    background: #b1b1b1;
-                    margin-left: 12px;"></span>
-                </div>
+                            <div class="d-flex align-items-center mt-3">
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-right: 5px;"></span>
+                                <div class="d-flex align-items-center" style="gap: 10px">
+                                    <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
+                                </div>
+                                <span class="w-100" style="height: 1px;
+                                background: #b1b1b1;
+                                margin-left: 5px;"></span>
+                            </div>
             </div>
         </div>
     </div>
@@ -144,7 +142,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            The Walmart Marketplace is more than an e-commerce platform; it's a dynamic digital frontier where brands thrive or falter. Here, businesses tap into Walmart's massive audience. But success surpasses listing a product—it demands deep insights into algorithms, behavior, and strategies that set you apart. Our seasoned experts guide you to dominate. Through analytics and trend-driven insights, we craft strategies propelling your brand to the forefront. Partner with us to transform your Walmart Marketplace journey into unparalleled success.
+                            The Walmart Marketplace is more than an e-commerce platform; it's a dynamic digital frontier where brands whippdigital or falter. Here, businesses tap into Walmart's massive audience. But success surpasses listing a product—it demands deep insights into algorithms, behavior, and strategies that set you apart. Our seasoned experts guide you to dominate. Through analytics and trend-driven insights, we craft strategies propelling your brand to the forefront. Partner with us to transform your Walmart Marketplace journey into unparalleled success.
                         </p>
                        
                     </div>
@@ -246,7 +244,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Merging e-commerce titans, Shopify-Walmart integration propels brand growth. Beyond connecting platforms, success lies in optimizing every facet. We've mastered this integration, drawing insights from both ecosystems. Your brand doesn't just exist here—it thrives. From inventory sync to dynamic pricing, we delve into details, ensuring powerful cohesion. Experience Shopify's design prowess with Walmart's vast reach, guided by Whipp Digital. Unlock your e-commerce journey's next chapter with us, where seamless integration fuels exponential growth.
+                            Merging e-commerce titans, Shopify-Walmart integration propels brand growth. Beyond connecting platforms, success lies in optimizing every facet. We've mastered this integration, drawing insights from both ecosystems. Your brand doesn't just exist here—it whippdigital. From inventory sync to dynamic pricing, we delve into details, ensuring powerful cohesion. Experience Shopify's design prowess with Walmart's vast reach, guided by Whipp Digital. Unlock your e-commerce journey's next chapter with us, where seamless integration fuels exponential growth.
 
                         </p>
                        

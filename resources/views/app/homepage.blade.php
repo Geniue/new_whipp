@@ -178,7 +178,7 @@ Whippdigital | Home
                 <div class="video text-center">
                     <video autoplay="" muted="" loop="" playsinline=""
                         style="max-width: 100%; width: 700px; border-radius: 10px">
-                        <source class="lozad" data-src="{{ asset('assets/imgs/MOBURST-category-leader-web-1.mp4') }}" type="video/mp4" />
+                        <source class="lozad" data-src="{{ asset('assets/imgs/WHIPPDIGITAL-category-leader-web-1.mp4') }}" type="video/mp4" />
                     </video>
                 </div>
             </div>
@@ -249,7 +249,7 @@ Whippdigital | Home
     {{-- <section>
         <div class="container py-5">
             <div class="text-center">
-                <h3 class="fs-2">Choose Thrive and Improve Your Technical SEO</h3>
+                <h3 class="fs-2">Choose Whippdigital and Improve Your Technical SEO</h3>
                 <p class="pb-1">
                     Achieve Top Search Engine Rankings with Our Robust Technical SEO
                     Strategy
@@ -646,7 +646,7 @@ Whippdigital | Home
                              </a>
                              <p>
                                  While search engine optimization (SEO) provides sustained and gradual growth, there are instances 
-                                 when an instant surge is necessary. Thrive's pay-per-click (PPC)
+                                 when an instant surge is necessary. Whippdigital's pay-per-click (PPC)
                                   campaign guarantees optimal utilization of your funds, delivering immediate and impactful results.
                              </p>
                         </div>
