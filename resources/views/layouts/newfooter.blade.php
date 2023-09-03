@@ -62,12 +62,12 @@
 </div>
 
     @endif
-<footer data-background-image="{{asset('assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc1.jpg')}}" class="lozad pt-5 px-4  footer-conat-conta">
+<footer data-background-image="{{asset('assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc1-min.webp')}}" class="lozad pt-5 px-4  footer-conat-conta">
     {{-- footer logos and links --}}
     <div class="d-flex pb-5 flex-column flex-md-row gap-2">
         {{-- sitelog --}}
         <div class="mb-4 mb-md-0 mx-auto">
-            <img width="280" class="lozad" data-src="{{asset("assets/imgs/icons/whipplogo_white.png")}}" alt="whipp digital">
+            <img width="280" class="lozad" data-src="{{asset("assets/imgs/icons/whipplogo_white_1.webp")}}" alt="whipp digital">
         </div>
         {{-- location --}}
         {{-- <div class="mb-4 mb-md-0 d-flex flex-column flex-md-row footer-loc-wrapper gap-3 w-100 justify-content-around">
@@ -322,7 +322,7 @@
             <a href="tel:212-951-0651 " class="">212-951-0651 </a>
             <div class="d-flex align-items-center mt-2">
                 <div class="footer-loc-soc-link ms-1 d-flex gap-3 gap-lg-2 gap-xl-3 ">
-                    <a  href="#">
+                    <a aria-label="fb" href="#">
                         <svg width="30" height="30" viewBox="0 0 26 26" xmlns="http://www.w3.org/2000/svg">
                             <g fill="none" fill-rule="evenodd">
                             <path id="fb" d="M25 13c0 6.628-5.372 12-12 12S1 19.628 1 13 6.372 1 13 1s12 5.372 12 12z" stroke="#FFF" stroke-width="1.978"></path>
@@ -330,7 +330,7 @@
                             </g>
                             </svg>
                         </a>
-                        <a  href="#">
+                        <a  aria-label="twitter" href="#">
                             <svg width="30" height="28" viewBox="0 0 28 24" xmlns="http://www.w3.org/2000/svg">
                                 <g fill="none" fill-rule="evenodd">
                                 <path  d="M27.812 3.17a.676.676 0 0 0-.758-.14l-.11.049a9.136 9.136 0 0 1-.278.125c.27-.426.487-.88.635-1.352a.65.65 0 0 0-.226-.713.672.672 0 0 0-.756-.043c-1.049.628-2.038 1.018-3.117 1.23l-.523.088c1.404 1.016 2.32 2.65 2.32 4.497 0 .085-.005.172-.005.257l.099-.08c2.083-1.711 2.805-3.11 2.836-3.165a.647.647 0 0 0-.117-.752z" fill="#FFF" fill-rule="nonzero"></path>
@@ -338,12 +338,12 @@
                                 </g>
                             </svg>
                         </a>
-                    <a  href="#">
+                    <a  aria-label="insta" href="#">
                         <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0">
                             </g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier"> <path  id="insta" d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM12 15.88C9.86 15.88 8.12 14.14 8.12 12C8.12 9.86 9.86 8.12 12 8.12C14.14 8.12 15.88 9.86 15.88 12C15.88 14.14 14.14 15.88 12 15.88ZM17.92 6.88C17.87 7 17.8 7.11 17.71 7.21C17.61 7.3 17.5 7.37 17.38 7.42C17.26 7.47 17.13 7.5 17 7.5C16.73 7.5 16.48 7.4 16.29 7.21C16.2 7.11 16.13 7 16.08 6.88C16.03 6.76 16 6.63 16 6.5C16 6.37 16.03 6.24 16.08 6.12C16.13 5.99 16.2 5.89 16.29 5.79C16.52 5.56 16.87 5.45 17.19 5.52C17.26 5.53 17.32 5.55 17.38 5.58C17.44 5.6 17.5 5.63 17.56 5.67C17.61 5.7 17.66 5.75 17.71 5.79C17.8 5.89 17.87 5.99 17.92 6.12C17.97 6.24 18 6.37 18 6.5C18 6.63 17.97 6.76 17.92 6.88Z" fill="#ffffff"></path> </g></svg>
                     </a>
-                    <a  href="#">
+                    <a  aria-label="linkedin" href="#">
                         <svg width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <g fill="none" fill-rule="evenodd">
                             <path id="linkedin" d="M20.333 23H3.667A2.665 2.665 0 0 1 1 20.333V3.667A2.665 2.665 0 0 1 3.667 1h16.666A2.665 2.665 0 0 1 23 3.667v16.666A2.665 2.665 0 0 1 20.333 23z" stroke="#FFF" stroke-width="1.978"></path>

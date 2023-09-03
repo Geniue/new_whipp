@@ -1,5 +1,5 @@
 <!-- NAVBAR SECTION STARTS HERE -->
-<header data-background-image="{{asset("assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc.jpg")}}" role="banner" class="py-1 lozad py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
+<header data-background-image="{{asset("assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc.webp")}}" role="banner" class="py-1 lozad py-xl-3 shadow blue-box-bg-navbar  position-relative" style="z-index: 99999;">
     <div class="position-relative">
     <nav class="wd-nav-section-container mx-auto d-flex align-items-center justify-content-between ">
 
@@ -7,7 +7,7 @@
         <div class="d-flex">
             <div class="logo">
                 <a href="/" aria-label="logo" class="main-logo">
-                    <img data-src="{{ asset('assets/imgs/icons/whipplogo_white.png') }}" class="mainwhipplogo lozad " alt="">
+                    <img data-src="{{ asset('assets/imgs/icons/whipplogo_white.webp') }}" class="mainwhipplogo lozad " alt="">
                 </a>
             </div>
         </div>
@@ -374,7 +374,7 @@
                 <a href="tel:212-951-0651 " class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
 212-951-0651 
                 </a>
-                <a aria-label="toggle"  href="javascript:void(0)" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide">
+                <span aria-label="toggle" id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide " style="cursor: pointer">
                     <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
                         <svg width="1000px" height="1000px">
                             <path id="pathD"
@@ -399,7 +399,7 @@
                             </path>
                         </svg>
                     </span>
-                </a>
+                </span>
             </div>
         </div>
             
