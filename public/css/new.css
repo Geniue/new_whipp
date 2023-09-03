@@ -1,0 +1,466 @@
+/* Firefox */
+.wd-nav-link > a:after {
+    background: #fff !important;
+}
+.wd-nav-links {
+    justify-content: start !important;
+}
+.custom-boder-left {
+    border-left: 1px solid #e1e1e17d;
+}
+@media (max-width: 992px) {
+    .custom-boder-left {
+        border-left: none;
+    }
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+@media (max-width: 992px) {
+    .blue-box-bg-navbar {
+        position: sticky !important;
+        top: 0 !important;
+    }
+
+    .footer-oranization_goal_message {
+        height: 120px !important;
+    }
+}
+.footer-form-submit-orign {
+    background-color: #3bd4ff;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    box-shadow: 0 5px 9px 0 rgba(59, 212, 255, 0.3);
+    color: #000;
+    transition: 0.4s;
+    font-weight: 600;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* lets talk button */
+.lets-talk-btn {
+    border: none !important;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    box-shadow: 0 5px 9px 0 rgba(59, 212, 255, 0.3);
+    color: #000;
+    border: 1px solid #5a5346;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.lets-talk-btn:hover {
+    background-color: black !important;
+    color: #fff !important;
+}
+/* /lets talk button */
+
+.cta-btn-btn {
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    box-shadow: 0 5px 9px 0 rgba(59, 212, 255, 0.3);
+    color: #fff;
+    background-color: #30a2ff;
+    transition: 0.4s;
+    font-weight: 600;
+    border: 1px solid transparent;
+}
+.cta-btn-btn:hover {
+    background-color: transparent !important;
+    border: 1px solid #30a2ff;
+    color: #30a2ff !important;
+}
+
+/* new form animations */
+.anim-for-inp-comp {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+}
+
+.anim-for-inp-comp input {
+    width: 100%;
+    height: 100%;
+    color: #eeeeee;
+    padding-top: 20px;
+    border: none;
+    font-size: 22px;
+    background-color: transparent;
+}
+.footer-oranization_goal_message {
+    color: #443f35 !important;
+}
+.anim-for-inp-comp label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #92989e;
+}
+.anim-for-inp-comp label::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #92989e;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+}
+
+.anime-label-text {
+    font-size: 22px;
+    color: #c4c4c4;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+.anim-for-inp-comp input:focus {
+    outline: none;
+}
+.anim-for-inp-comp input:focus + .anime-label-wrap .anime-label-text,
+.anim-for-inp-comp input:valid + .anime-label-wrap .anime-label-text {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.anim-for-inp-comp input:focus + .anime-label-wrap::after,
+.anim-for-inp-comp input:valid + .anime-label-wrap::after {
+    transform: translateX(0%);
+}
+
+/*  /new form animations */
+
+/* footer contact form border animation */
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 90deg;
+    inherits: true;
+}
+
+@property --gradX {
+    syntax: "<percentage>";
+    initial-value: 50%;
+    inherits: true;
+}
+
+@property --gradY {
+    syntax: "<percentage>";
+    initial-value: 0%;
+    inherits: true;
+}
+
+p {
+    margin: 0;
+}
+
+:root {
+    --d: 2500ms;
+    --angle: 90deg;
+    --gradX: 100%;
+    --gradY: 50%;
+    --c1: #3bd4ff;
+    --c2: rgba(168, 239, 255, 0.1);
+}
+
+.box {
+    border: 0.22rem solid;
+    border-image: conic-gradient(
+            from var(--angle),
+            var(--c2),
+            var(--c1) 0.1turn,
+            var(--c1) 0.15turn,
+            var(--c2) 0.25turn
+        )
+        30;
+    animation: borderRotate var(--d) linear infinite forwards;
+}
+
+@media (min-width: 986px) {
+    .min-lg-text-nowrap {
+        white-space: nowrap;
+    }
+    .max-he-mv {
+        line-height: 60px;
+        font-size: 45px !important;
+    }
+}
+
+/* .box:nth-child(2) {
+        border-image: radial-gradient(ellipse at var(--gradX) var(--gradY), var(--c1), var(--c1) 10%, var(--c2) 40%) 30;
+        animation: borderRadial var(--d) linear infinite forwards;
+    } */
+
+@keyframes borderRotate {
+    100% {
+        --angle: 420deg;
+    }
+}
+
+@keyframes borderRadial {
+    20% {
+        --gradX: 100%;
+        --gradY: 50%;
+    }
+    40% {
+        --gradX: 100%;
+        --gradY: 100%;
+    }
+    60% {
+        --gradX: 50%;
+        --gradY: 100%;
+    }
+    80% {
+        --gradX: 0%;
+        --gradY: 50%;
+    }
+    100% {
+        --gradX: 50%;
+        --gradY: 0%;
+    }
+}
+/* /footer contact form border animation */
+
+.menu-icon-wrapper svg path {
+    stroke: #fff !important;
+}
+
+.desk-con-ti-ba-section h2 {
+    color: #fbfbfb !important;
+}
+.desk-con-ti-ba-section p {
+    color: #c7c7c7 !important;
+}
+
+.wd-nav-link > a {
+    color: #fff !important;
+}
+.wd-nav-text {
+    color: #fff;
+}
+.main-service-hover-cen .menu-item-has-children-main-head > a:hover {
+    background-color: #5a5346;
+}
+
+.main-service-hover-cen .menu-item-has-children-main-head > a {
+    text-transform: uppercase !important;
+    font-weight: 700;
+}
+.service-mob-menu .mov-main-service-head {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.service-mob-menu {
+    background-color: #443f35 !important;
+}
+.sub-menu-hover > a:hover {
+    margin-left: 16px;
+    background: #5a5346;
+}
+.sevice-hover-expand {
+    width: 300px;
+    z-index: 9999;
+    height: auto;
+    background-color: #443f35;
+    border-radius: 6px;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 13px 0 0 0 !important;
+    max-height: 0;
+    transition: max-height 0.4s ease-out;
+    overflow: hidden;
+}
+:root {
+    --primary-color: #2596be;
+    --btn-bg-color: #30a2ff;
+    --btn-hover-color: #3bd4ff;
+    --border-color: #98eecc;
+    --special-color-2: #537fe7;
+    --special-color: #213555;
+}
+
+.bg-custom-1234 {
+    background: var(--special-color);
+}
+
+.ek-phone-img {
+    filter: invert(53%) sepia(54%) saturate(542%) hue-rotate(150deg)
+        brightness(85%) contrast(105%);
+}
+
+.footer-bg-color {
+    background: var(--special-color);
+}
+
+.mainwhipplogo {
+    width: 200px;
+}
+
+.sub-menu-hover {
+    position: relative;
+}
+
+.nav-phone-num-text {
+    width: 160px;
+}
+
+.line-heig-40 {
+    line-height: 40px !important;
+}
+
+.sub-menu-hover > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 14px 10px 25px;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.sub-menu-hover > a:hover {
+    margin-left: 16px;
+    background: #5a5346;
+}
+
+.sub-menu-hover > a::after {
+    position: absolute;
+    content: "";
+    top: 12px;
+    left: -10px;
+    line-height: 1;
+    background-image: url(../assets/imgs/right-arrow-next-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-font-smoothing: antialiased;
+    width: 15px;
+    height: 15px;
+    content: "";
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.sub-menu-hover:hover > a::after {
+    opacity: 1;
+    left: 6px;
+    visibility: visible;
+}
+
+@media (max-width: 662px) {
+    .mainwhipplogo {
+        width: 180px;
+    }
+}
+
+@media (min-width: 1266px) {
+    .ek-phone-img {
+        width: 50px;
+    }
+}
+.wp-brdcb:before {
+    border-top: 15px solid #3bd4ff !important;
+}
+.height-41px {
+    height: 41px !important;
+}
+.wd-nav-link > a:after {
+    height: 3px;
+    margin: 4px 0 !important;
+}
+.footer-conat-conta {
+    /* background: #0e2332; */
+    background-image: url("../assets/imgs/blue-mosaic-tile-pattern-background-in-technology-2022-12-16-04-28-39-utc1.jpg") !important;
+}
+
+.bg-newblue {
+    background-color: #3bd4ff;
+}
+.color-newblue {
+    color: #3bd4ff;
+}
+
+.footer-container a:hover {
+    opacity: 1 !important;
+}
+
+.footer-loc-soc-link a:hover #fb {
+    transform: unset !important;
+    fill: #3b5998 !important;
+}
+.footer-loc-soc-link a:hover #twitter {
+    transition: all 0.7s ease-in;
+    transform: unset !important;
+    fill: #00acee !important;
+}
+.footer-loc-soc-link a:hover #linkedin {
+    transition: all 0.7s ease-in;
+    transform: unset !important;
+    fill: #0072b1 !important;
+}
+.footer-loc-soc-link a:hover #insta {
+    transition: all 0.7s ease-in;
+    fill: #e1306c;
+}
+
+.footer-container a {
+    color: #ffffff;
+    font-weight: 500 !important;
+}
+
+.outline-none {
+    outline: none !important;
+}
+
+.border-color-primary {
+    border-color: #30a2ff42 !important;
+}
+
+.lettalkbtn_hasarrow:hover #arrow {
+    fill: #30a2ff !important;
+    stroke: #30a2ff !important;
+    transform: translateX(8px);
+    transition: all 0.4s ease-in-out;
+}
+
+#arrow {
+    transition: all 0.4s ease-in-out;
+}
+
+.footer-contact-container {
+    background-color: #5c5c5c !important;
+}
+.footer-contact-container {
+    color: #d3d3d3;
+}
+.ren-tign-clip {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background-color: deepskyblue;
+}
+
+.wd-footer-header {
+    text-transform: uppercase;
+    color: deepskyblue;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}

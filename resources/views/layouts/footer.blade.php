@@ -1,4 +1,4 @@
-<!-- FOOTER STARTS HERE -->
+{{-- <!-- FOOTER STARTS HERE -->
 <footer class="footer-bg-color">
     <div class="container py-5">
         <div class="text-white text-center">
@@ -133,4 +133,4 @@
         </div>
     </div>
 </footer>
-<!-- FOOTER ENDS HERE -->
+<!-- FOOTER ENDS HERE --> --}}

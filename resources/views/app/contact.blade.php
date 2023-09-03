@@ -1,12 +1,24 @@
 @extends('layouts.index')
 
+
+@section('css')
+<style>
+
+    #map {
+        height: 200px;
+        width: 200px;
+    }
+    </style>
+    
+@endsection
+
 @section('pageheading')
     <!-- CONTACT TITLE BANNER SECTION STARTS HERE -->
     <section class="desk-con-ti-ba-section d-none d-lg-block">
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Contact</h2>
             <p class="custom-text-2 fs-5">
-                Fill out the form below to get your Free Proposal.
+                Fill out this form and we will contact you shortly!
             </p>
         </div>
     </section>
@@ -18,7 +30,7 @@
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Contact</h2>
             <p class="custom-text-2 fs-5">
-                Fill out the form below to get your Free Proposal.
+                Fill out this form and we will contact you shortly!
             </p>
         </div>
     </section>
@@ -32,15 +44,13 @@
                 <div class="d-flex align-items-center mt-3">
                     <span class="w-100" style="height: 1px;
                     background: #b1b1b1;
-                    margin-right: 12px;"></span>
+                    margin-right: 5px;"></span>
                     <div class="d-flex align-items-center" style="gap: 10px">
-                        <span class="ren-tign-clip"></span>
-                        <span class="ren-tign-clip" style="background-color: #0e2332;"></span>
-                        <span class="ren-tign-clip" ></span>
+                        <div><img width="220" src="{{asset('assets/imgs/brea-rmro.png')}}" alt=""></div>
                     </div>
                     <span class="w-100" style="height: 1px;
                     background: #b1b1b1;
-                    margin-left: 12px;"></span>
+                    margin-left: 5px;"></span>
                 </div>
             </div>
         </div>
@@ -245,7 +255,7 @@
                         <p class="fs-4 fw-semibold " style="color: #213555">Contact Info</p>
                        
                         <p style="margin-top: 10px">
-                            <a title="Call Now" class="fs-5 fw-semibold" href="tel:1-212-951-0651">(212)951-0651 </a>
+                            <a title="Call Now" class="fs-5 fw-semibold" href="tel:1-212-951-0651">(212) 951-0651 </a>
                         </p>
                         <p style="margin-top: 6px">
                             <a title="Mail Now" class="fs-5 fw-semibold" href="mailto:support@whippdigital.com">support@whippdigital.com</a>
@@ -253,19 +263,21 @@
           
                         <p style="margin-top: 6px" class="fs-5">
                             <strong>Office Hours:</strong>
-                    
+                    <br>
                             7 days, 9am - 9pm EST
                         </p>
                         <div class="border-top mt-3">
 
-                            <p style="margin-top: 10px" class="fs-5">
-                                <strong>Address:</strong>
-                                <br>
-                                <em>
-                                    46 Howard St 6th fl,
+                            <strong>Address:</strong>
+
+                            <div id="map" class="mx-auto mt-3"></div>
+                        
+                            <p  class="fs-5">
+                               
+                              46 Howard St 6th fl,
                                     <br>
                                     New York, NY 10013
-                                </em>
+                              
                             </div>
 
                         </p>
@@ -275,5 +287,68 @@
             </div>
         </div>
     </section>
+
+    <div class="red-container"></div>
+
+
     <!-- CONTACT FORM SECTION ENDS HERE -->
+@endsection
+
+
+@section('js')
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB_zev3AUlvTv9UGwZGPnUCSnM1aMsPLo"></script>
+<script type="text/javascript">
+     function initMap() {
+
+        // Specify the center location as an address, dynamically applicable
+        var centerLocation_1 = "46 Howard St 6th fl, New York, NY 10013";
+
+
+        // Create a geocoder object
+        var geocoder = new google.maps.Geocoder();
+        // var geocoder_2 = new google.maps.Geocoder();
+
+        // Convert the center location to coordinates
+        geocoder.geocode({
+            address: centerLocation_1
+        }, function(results, status) {
+            if (status === google.maps.GeocoderStatus.OK) {
+                // Retrieve the first result's geometry (location)
+                var location = results[0].geometry.location;
+
+                // Create a map object
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: location,
+                    zoom: 18,
+                    mapTypeControl: false, // Remove satellite view control
+                    streetViewControl: false, // Remove person (street view) control
+                    zoomControl: false // Remove zoom controls
+                });
+
+                // Create a marker for the location
+                var locationMarker = new google.maps.Marker({
+                    position: location,
+                    map: map,
+                    title: centerLocation_1
+                });
+                // Create an info window
+                var infoWindow = new google.maps.InfoWindow({
+                    content: "Pristinegreen Cleaning"
+                });
+
+                // Add click event listener to open the info window
+                locationMarker.addListener('click', function() {
+                    infoWindow.open(map, locationMarker);
+                });
+            } else {
+                // Geocoding was not successful
+                alert("Geocode was not successful for the following reason: " + status);
+            }
+        });
+
+    }
+
+    // Load the map after the Google Maps API is loaded
+    google.maps.event.addDomListener(window, 'load', initMap);
+</script>
 @endsection

@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use Symfony\Component\VarDumper\VarDumper;
+use Illuminate\Http\RedirectResponse;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -72,9 +76,49 @@ Route::get('/faqs', function () {
     return view('app.faqs');
 })->name('faqs');
 
-Route::get('/blogs', function () {
-    return view('app.blog');
-})->name('blog');
-Route::get('/google-incorporates-generativeai-search-engine', function () {
-    return view('app.single_blog');
-})->name('single_blog');
+// Route::get('/blogs', function () {
+//     return view('app.blog');
+// })->name('blog');
+// Route::get('/google-incorporates-generativeai-search-engine', function () {
+//     return view('app.single_blog');
+// })->name('single_blog');
+
+
+// blogs
+
+
+Route::get("/blog", [App\Http\Controllers\ShowBlogController::class, 'index'])->name("blog");
+
+
+
+
+Route::get("/blog/{slug}", [App\Http\Controllers\ShowBlogController::class, 'blog'])->name("blog01");
+
+
+// ROUTES FOR AUTHINTECATED USERS
+Route::middleware(['auth'])->group(function () {
+
+    //DASHBOARD ROUTES
+    Route::prefix('dashboard')->group(function () {
+        $main_c = App\Http\Controllers\Dashboard\DashboardController::class;
+
+        Route::get('/', [$main_c, 'index'])->name('dashboard');
+
+        Route::prefix('blog')->group(function () {
+            $blog_controller = App\Http\Controllers\Dashboard\BlogController::class;
+
+            Route::get('/', [$blog_controller, 'index'])->name('blog.list');
+
+            Route::get('/create', [$blog_controller, 'create'])->name('blog.create');
+            Route::post('/create', [$blog_controller, 'store'])->name('blog.create');
+
+            Route::get('/edit/{id}', [$blog_controller, 'edit'])->name('blog.update');
+            Route::put('/edit/{id}', [$blog_controller, 'update'])->name('blog.update');
+
+            Route::get('/delete/{id}', [$blog_controller, 'delete'])->name('blog.delete');
+        });
+    });
+});
+
+
+Auth::routes();

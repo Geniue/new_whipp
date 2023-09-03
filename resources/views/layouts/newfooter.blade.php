@@ -113,11 +113,11 @@
     {{-- Links --}}
     <div class="col row  gap-lg-0 d-flex footer-con-links px-1 flex-grow-1 ">
         <div class="col-12  col-lg-2 px-0">
-        <ul class=" d-flex flex-column gap-3 custom-boder-right">
+        <ul class=" d-flex flex-column gap-3 custom-boder-right px-3">
             <li >
-                <a>
+                <p class="wd-footer-header mb-0" >
                     Digital Marketing 
-                </a>
+                </p>
             </li>
             <li >
                 <a href="{{route('digital_marketing_strategy')}}">
@@ -152,11 +152,11 @@
         </div>
         <div class="col-12  col-lg-2 px-0">  
 
-            <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
+            <ul class=" d-flex flex-column gap-3 custom-boder-right px-3">
                 <li>
-                    <a>
+                    <p class="wd-footer-header mb-0" >
                         Ecommerce 
-                    </a>
+                    </p>
                 </li>
                 <li >
                     <a href="{{route('ecommerce_optim')}}">
@@ -186,12 +186,12 @@
             </ul>
         </div>
         <div class="col-12  col-lg-2 px-0">
-            <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
+            <ul class=" d-flex flex-column gap-3 custom-boder-right px-3">
                 <li>
-                    <a >
+                    <p class="wd-footer-header mb-0" >
                         
                         Web Development
-                    </a>
+                    </p>
                 </li>
 
                 <li>
@@ -216,11 +216,11 @@
 </ul>
         </div>
         <div class="col-12  col-lg-2 px-0">
-            <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
+            <ul class=" d-flex flex-column gap-3 custom-boder-right px-3">
                 <li>
-                    <a >
+                    <p class="wd-footer-header mb-0">
                         Virtual Assistant Service
-                    </a>
+                    </p>
                 </li>
 
                 <li >
@@ -236,10 +236,9 @@
                 </li>
                 
                 <li >
-                    <a style="font-size: 18px;
-                    font-weight: 700;">
+                    <p class="wd-footer-header mb-0">
                         Social Media Marketing
-                    </a>
+                    </p>
                 </li>
               
          
@@ -258,13 +257,13 @@
             </ul>
         </div>
         <div class="col-12  col-lg-2 px-0">
-            <ul class=" d-flex flex-column gap-3 custom-boder-right ps-0">
+            <ul class=" d-flex flex-column gap-3 custom-boder-right px-3">
 
 
                 <li>
-                    <a  >
+                    <p  class="wd-footer-header mb-0" >
                         Amazon Marketing
-                    </a>
+                    </p>
                 </li>
               
                 <li>
@@ -281,10 +280,9 @@
 
 
                 <li>
-                    <a style="font-size: 18px;
-                    font-weight: 700;">           
+                    <p class="wd-footer-header mb-0" >           
                         Reputation Management
-                    </a>
+                    </p>
                 </li>
                 <li>
                     <a href="{{route('online_reputation_repair')}}">

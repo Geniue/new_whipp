@@ -1,6 +1,6 @@
 @extends('layouts.index')
 @section('title')
-<title>Whippdigital | Home</title>
+Whippdigital | Home
 @endsection
 @section('content')
     <!-- MAIN SECTION STARTS HERE -->
@@ -34,10 +34,10 @@
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex align-items-center">
                     <div>
 
-                        <h2 class="fs-1 fw-bold min-lg-text-nowrap">
+                        <h2 class="fs-1 fw-bold min-lg-text-nowrap position-relative z-9">
                             Your Search for Digital Marketing
                             <br>
-                            Excellence Ends Here
+                            Excellence Ends Here.
                         </h2>
                         <h3 class="fs-2 fw-medium pt-4">
                             Achieve Results-Driven Marketing Today
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div
-                    class="mx-sm-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="bacsrpre-sp   mx-auto mx-lg-0 col-11 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <img class="lozad" width="430" data-src="{{ asset('assets/imgs/new_cool.png') }}" alt="" />
                 </div>
             </div>
@@ -115,39 +115,41 @@
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
                         <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
                     </div>
-                <img width="420" class="lozad" data-src="{{ asset('assets/imgs/pin_close.jpg') }}" alt="" />
+                <img width="800" class="lozad" data-src="{{ asset('assets/imgs/tech_whipp.png') }}" alt="" />
             </div>
             </div>
             <div class="row col-lg-12 mx-auto">
                 
                 <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-fit fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Are Experts in Digital Marketing</span>
+                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Are Experts in Digital Marketing</span>
                     <p>
                         Choosing a digital marketing agency that truly understands the nuances of digital marketing may seem like a given, but many firms fall short. Our methods have a proven track record of success.       
                     </p>
-                                     <a class="fw-bold" href="#">Read More +</a>
+                                     
                 </div>
                 <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-fit fs-5  mx-auto   fw-bold  bg-newblue text-white
+                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white
                      rounded-2">We Operate with Integrity & Ethics</span>
                     <p>
                         At Whipp Digital, we hold the principles of honesty, integrity, and client respect in high regard. We don't believe in offering services that you don't need or applying a one-size-fits-all strategy to our diverse clientele.                    </p>
-                    <a class="fw-bold" href="#">Read More +</a>
+                    
                 </div>
             
                 <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-fit fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Prioritize Our Customers</span>
+                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Prioritize Our Customers</span>
                     <p>
                         While many agencies claim a customer-centric approach, few genuinely implement it. As a leading SEO agency, Whipp Digital stands out by actually putting our customers first.           
                         
                     </p>
-                        <a class="fw-bold" href="#">Read More +</a>
+                        
                 </div>
                 <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-fit fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Deliver Proven Results</span>
+                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Deliver Proven 
+                        <br>
+                        Results</span>
                     <p>
                         Why engage with an SEO firm that fails to deliver the outcomes you desire? Stop wasting valuable resources on a strategy that isn't yielding results.                    </p>
-                    <a class="fw-bold" href="#">Read More +</a>
+                    
                 </div>
             </div>
         </div>
