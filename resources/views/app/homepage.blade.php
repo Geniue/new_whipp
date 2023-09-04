@@ -57,7 +57,7 @@ Whippdigital | Home
             <div class="topbannerF_wrapper">
              
 
-                <video preload="auto" disablePictureInPicture='true' class="lozad" autoplay muted loop
+                <video preload="auto" id="mainvideo" disablePictureInPicture='true' class="lozad" autoplay muted loop
                 data-poster="{{ asset('assets/imgs/thumb.png') }}">
                 <source media="(orientation: landscape)" class="lozad"
                     data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}"
@@ -779,4 +779,12 @@ Whippdigital | Home
    
 
 
+@endsection
+
+@section('js')
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('mainvideo').play()
+});
+    </script>
 @endsection
