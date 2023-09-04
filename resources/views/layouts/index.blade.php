@@ -95,9 +95,14 @@ background-repeat: repeat;
 
 @php
 $segments = explode('/', request()->path());
-$lastSegment = end($segments);
-@endphp
 
+// Check if the last segment is empty (i.e., the URL is "/")
+if (empty(end($segments))) {
+    $lastSegment = 'home page';
+} else {
+    $lastSegment = end($segments);
+}
+@endphp
 {{-- @dd($lastSegment) --}}
 
 
@@ -116,7 +121,7 @@ $lastSegment = end($segments);
     <div class="position-fixed w-100 h-100 bg-black  d-flex justify-content-center align-items-center top-0 d-none left-0" id="grow_modal"  style="z-index: 99999999">
 
         <div class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto position-relative">
-            <div  class="position-relative overflow-hidden rounded-4 p-3 p-lg-0 col-12 col-md-10 col-lg-8 mx-auto">
+            <div  class="position-relative overflow-hidden rounded-4 p-3 p-lg-0 col-10 col-md-10 col-lg-8 mx-auto">
                     <span id="popup_xbtn" class="popup_xbtn"></span>
         
                 
@@ -174,7 +179,6 @@ $lastSegment = end($segments);
 
 
 
-@yield('js')
 
     {{-- modal --}}
     <script >
@@ -202,6 +206,9 @@ $lastSegment = end($segments);
         integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="{{ asset('js/main.js') }}"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer" type="67e05d953e68514bd24df7ee-text/javascript"></script>
+
 
     {{-- lazy loading packages --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"
@@ -282,7 +289,8 @@ observer.observe();
    
 @endif
 
-   
+@yield('js')
+
 </body>
 
 </html>

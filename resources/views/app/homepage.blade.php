@@ -57,13 +57,25 @@ Whippdigital | Home
     <section>
         <div role="main" class="topbannerF">
             <div class="topbannerF_wrapper">
-                <video autoplay="" muted="" loop="" class="lozad" id="myVideo" playsinline=""
+                {{-- <video autoplay="" muted="" loop="" class="lozad" id="myVideo" playsinline=""
                     aria-label="HomePage_Header_Texts Resize 1920 x 950" style="display: none">
                     <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
-                </video>
-                <video autoplay="" muted="" loop="" id="myVideoMobile" playsinline=""
-                    aria-label="Header_Mobile">
-                    <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
+                </video> --}}
+                <video autoplay="" muted="" loop="" id="" playsinline=""
+                    aria-label="Header_Mobile" class="lozad">
+                    <source media="(orientation: landscape)" 
+                src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
+                sizes="(min-width: 60rem) 80vw,
+                (min-width: 40rem) 90vw,
+                100vw"
+                type="video/mp4">
+            <source media="(orientation: portrait)" 
+                src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
+                sizes="(min-width: 60rem) 80vw,
+                (min-width: 40rem) 90vw,
+                100vw"
+                type="video/webm">
+                    {{-- <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" /> --}}
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">

@@ -75,9 +75,9 @@ Route::prefix('/')->group(function () {
 
 
 
-Route::get('/faqs', function () {
-    return view('app.faqs');
-})->name('faqs');
+// Route::get('/faqs', function () {
+//     return view('app.faqs');
+// })->name('faqs');
 
 // Route::get('/blogs', function () {
 //     return view('app.blog');

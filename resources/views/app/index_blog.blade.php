@@ -54,12 +54,24 @@
 
 @endsection
 
+@section('css')
+
+<style>
+    #blogs article{
+        max-height: fit-content !important;
+    }
+    #blogs{
+        height: auto !important; 
+    }
+</style>
+    
+@endsection
 
 @section("pageheading")
     <!-- BLOG TITLE BANNER SECTION STARTS HERE -->
     <section class="desk-con-ti-ba-section pb-4 d-none d-lg-block">
         <div class="container text-center py-4">
-            <h2 class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
+            <h2 id="st" class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
             
         </div>
         <div class="text-center py-4">
@@ -75,7 +87,7 @@
     <!-- blog section -->
     <section class="con-ti-ba-section pb-4 d-lg-none">
         <div class="container text-center py-4">
-            <h2 class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
+            <h2 id="st" class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
             
             <div class="text-center py-4">
                 <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
@@ -136,9 +148,9 @@
             </div>
         </div>
     </section> --}}
-    <section>
-        <div  class="container-fluid col-12 py-5">
-            <div id="blogs" class="row justify-content-center  col-12 mx-auto gap-3">
+    <section >
+        <div   class="container-fluid col-12 py-5">
+            <div id="blogs"  class="row justify-content-center  col-12 mx-auto gap-3">
                 @include('app.pagination.blogs.index')
             </div>
         </div>
@@ -146,42 +158,45 @@
 @endsection
 
 @section('js')
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(document).on('click', '.pagination a', function(event) {
-                event.preventDefault();
-                var containerH = $('#blogs').height();
-                $.ajax({
-                    url: $(this).attr('href'),
-                    method: 'GET',
-                    dataType: 'html',
-                    beforeSend: function() {
-                        // showLoader();
-                        $('#blogs').height(containerH)
-                    },
-                    success: function(response) {
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(document).on('click', '.pagination a', function(event) {
+            event.preventDefault();
+            var containerH = $('#blogs').height();
+            $.ajax({
+                url: $(this).attr('href'),
+                method: 'GET',
+                dataType: 'html',
+                beforeSend: function() {
+                    // showLoader();
+                    $('#blogs').height(containerH)
+                },
+                success: function(response) {
 
-                        $('#blogs').html(response);
-                    },
-                    complete: function() {
-                        // hideLoader();
-                        var target = $("#st");
-                        $('html, body').animate({
-                            scrollTop: target.offset().top
-                        }, 1000);
-                        // Reload Lozad
-                        const observer = lozad('.lozad', {
-                            loaded: function(el) {
-                                el.classList.add('fade-in');
-                            }
-                        });
-                        observer.observe();
+                    $('#blogs').html(response);
+                },
+                complete: function() {
+                    // hideLoader();
+                    var target = $("#st");
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    // Reload Lozad
+                    const observer = lozad('.lozad', {
+                        loaded: function(el) {
+                            el.classList.add('fade-in');
+                        }
+                    });
+                    observer.observe();
 
-                        // Reload AOS
-                        AOS.refresh();
-                    }
-                });
+                    // Reload AOS
+                    AOS.refresh();
+                }
             });
-        })
-    </script>
+        });
+    })
+</script>
 @endsection
