@@ -60,7 +60,7 @@ Whippdigital | Home
                     <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video> --}}
               
-                <video autoplay="" muted="" loop="" class="lozad"  playsinline=""
+                <video autoplay muted loop class="lozad"  
                     aria-label="Header_Mobile">
                     <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video>
@@ -123,16 +123,16 @@ Whippdigital | Home
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-10 px-3 px-lg-0  mx-auto">
 
-                <h2 class="max-he-mv text-center mb-4  p-2" >
+                <h2 class="max-he-mv text-center mb-4  p-2 animate-charcter" >
                     
                     Why Choose WhippDigital For Your
  
                     <br>
- <span class="animate-charcter">
+ 
      <b>
          Digital Marketing Agency?
         </b>
-    </span>
+
 
 </h2>
 <p class="mt-2">
@@ -144,9 +144,9 @@ Whippdigital | Home
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
-                        <h3 class="d-none d-lg-block feture-head p-2 ">
+                        <h3 class="d-none d-lg-block feture-head p-2  animate-charcter">
                             Meet Our Team of 
-                            <span class="animate-charcter" style="text-transform: capitalize">
+                            <span class="animate-charcter" >
                                 <b>
                                     Digital Marketing
                                    </b>
@@ -391,11 +391,10 @@ Whippdigital | Home
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
     <section class="py-5 px-3">
         <div class="py-5">
-            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto" >
+            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto animate-charcter" >
                 Expertise in 
-                <span style="text-transform: capitalize" class="animate-charcter">
+             
                         <strong> Digital Marketing Expertise </strong>
-                </span>
             </h3>
         </div>
 
