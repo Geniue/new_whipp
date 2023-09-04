@@ -64,7 +64,7 @@ Whippdigital | Home
                     aria-label="Header_Mobile">
                     <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video>
-                </video>
+             
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
                         <h3 class="" >Excited about experiencing rapid expansion? Ready to connect?</h3>
@@ -123,7 +123,7 @@ Whippdigital | Home
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-10 px-3 px-lg-0  mx-auto">
 
-                <h2 class="max-he-mv text-center mb-4  p-2 animate-charcter" >
+                <h2 class="max-he-mv text-center mb-4  p-2 animate-charcter fs-1 w-100 mx-auto" >
                     
                     Why Choose WhippDigital For Your
  
@@ -144,17 +144,20 @@ Whippdigital | Home
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
-                        <h3 class="d-none d-lg-block feture-head p-2  animate-charcter">
-                            Meet Our Team of 
+                        <div class="">
+
+                            <h3 class="d-none d-lg-block  feture-head p-2  animate-charcter ">
+                                Meet Our Team of 
                             <span class="animate-charcter" >
                                 <b>
                                     Digital Marketing
                                    </b>
                                </span>
-                            Specialists
+                               Specialists
 
 
-                        </h3>
+                            </h3>
+                        </div>
                                <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
                             <span style="width: 25%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
                         </div>
@@ -391,7 +394,7 @@ Whippdigital | Home
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
     <section class="py-5 px-3">
         <div class="py-5">
-            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto animate-charcter" >
+            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto animate-charcter mx-auto w-100" >
                 Expertise in 
              
                         <strong> Digital Marketing Expertise </strong>
