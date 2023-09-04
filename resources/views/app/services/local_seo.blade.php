@@ -1,10 +1,54 @@
 @extends('layouts.index')
 
 @section('title')
-Local SEO
-   | Whippdigital 
-
+Local SEO | Whippdigital 
 @endsection
+
+
+@section('meta')
+
+
+<meta name="title" content="Local SEO | Whippdigital  ">
+<meta name="description" content="Unlock unparalleled opportunities with Whipp Digital's Local SEO expertise. Rank high in local search results, foster authentic local bonds, and emerge as a community cornerstone. Connect with us to become a local legend.">
+<meta name="keywords" content="Local SEO, local search results, authentic local bonds, geo-targeted content, online reviews, community cornerstone, local algorithms, brand visibility, local legend">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Local SEO | Whippdigital ">
+<meta property="og:title" content="Local SEO | Whippdigital ">
+<meta property="og:description" content="Unlock unparalleled opportunities with Whipp Digital's Local SEO expertise. Rank high in local search results, foster authentic local bonds, and emerge as a community cornerstone. Connect with us to become a local legend.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Local SEO | Whippdigital ">
+<meta name="twitter:description" content="Unlock unparalleled opportunities with Whipp Digital's Local SEO expertise. Rank high in local search results, foster authentic local bonds, and emerge as a community cornerstone. Connect with us to become a local legend.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Local SEO | Whippdigital ">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
+
 
 @section('css')
 <style>

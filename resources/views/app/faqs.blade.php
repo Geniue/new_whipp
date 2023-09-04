@@ -1,4 +1,60 @@
 @extends('layouts.index')
+
+
+
+
+@section('title')
+    FAQ's | Whippdigital  
+@endsection
+
+@section('meta')
+
+
+<meta name="title" content="FAQ's | Whippdigital ">
+<meta name="description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
+<meta name="keywords" content="Comprehensive Services, Online Presence, SEO Transformation, Social Media Management, Digital Landscape, Transformative Experiences, Meaningful Connections">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="FAQ's | Whippdigital">
+<meta property="og:title" content="FAQ's | Whippdigital">
+<meta property="og:description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Whippdigital | Home">
+<meta name="twitter:description"
+    content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/tech_whipp.png') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="FAQ's | Whippdigital">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/tech_whipp.png') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/tech_whipp.png') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
+
+
+
+
 @section('pageheading')
     <!-- CONTACT TITLE BANNER SECTION STARTS HERE -->
     <section class="desk-con-ti-ba-section d-none d-lg-block">

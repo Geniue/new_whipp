@@ -2,8 +2,51 @@
 
 @section('title')
     Virtual Personal Assistant | Whippdigital 
-
 @endsection
+
+@section('meta')
+
+
+<meta name="title" content="Virtual Personal Assistant | Whippdigital  ">
+<meta name="description" content="Elevate efficiency with Virtual Assistant Services. Streamline operations, delegate tasks, and achieve more in less time with cutting-edge digital tools. Unearth the transformative impact of Whipp Digital.">
+<meta name="keywords" content="Virtual Assistant Services, digital pace, efficiency, expertise, innovation, task delegation, cutting-edge digital tools, calendar management, customer outreach, tailored solutions">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Virtual Personal Assistant | Whippdigital ">
+<meta property="og:title" content="Virtual Personal Assistant | Whippdigital ">
+<meta property="og:description" content="Elevate efficiency with Virtual Assistant Services. Streamline operations, delegate tasks, and achieve more in less time with cutting-edge digital tools. Unearth the transformative impact of Whipp Digital.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Virtual Personal Assistant | Whippdigital ">
+<meta name="twitter:description" content="Elevate efficiency with Virtual Assistant Services. Streamline operations, delegate tasks, and achieve more in less time with cutting-edge digital tools. Unearth the transformative impact of Whipp Digital.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Virtual Personal Assistant | Whippdigital ">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
 
 @section('css')
 <style>

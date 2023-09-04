@@ -26,8 +26,7 @@
     <meta itemprop="image" content="{{Storage::disk('public')->url($blog->image)}}">
     <link rel="image_src" href="{{Storage::disk('public')->url($blog->image)}}">
 
-    <link rel="shortcut" type="image/png" href="assets/icons/site_icon_128x128.png">
-    <link rel="icon" type="image/png" href="assets/icons/site_icon_128x128.png">
+   
     <meta name="abstract" content="Whipp Digital">
     <meta name="author" content="admin">
     <meta name="classification" content="Blog">

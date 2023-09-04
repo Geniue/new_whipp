@@ -1,9 +1,55 @@
 @extends('layouts.index')
 
 @section('title')
-    Search Analytics Services    | Whippdigital 
+    Search Analytics Services | Whippdigital 
 
 @endsection
+
+
+@section('meta')
+
+
+<meta name="title" content="Search Analytics Services | Whippdigital ">
+<meta name="description" content="Unlock the potential of paid search analytics. Decode customer behavior, fuel conversions, and shape campaign narratives. Enrich ROI, optimize ad spend, and step into advertising's future where data converges with human insight.">
+<meta name="keywords" content="Paid Search Analytics, digital landscape, customer behavior, conversions, data-driven tactics, campaign narratives, ROI enrichment, ad spend optimization, advertising future, human insight">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Search Analytics Services | Whippdigital">
+<meta property="og:title" content="Search Analytics Services | Whippdigital">
+<meta property="og:description" content="Unlock the potential of paid search analytics. Decode customer behavior, fuel conversions, and shape campaign narratives. Enrich ROI, optimize ad spend, and step into advertising's future where data converges with human insight.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Search Analytics Services | Whippdigital">
+<meta name="twitter:description" content="Unlock the potential of paid search analytics. Decode customer behavior, fuel conversions, and shape campaign narratives. Enrich ROI, optimize ad spend, and step into advertising's future where data converges with human insight.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Search Analytics Services | Whippdigital">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
+
 
 @section('css')
 <style>

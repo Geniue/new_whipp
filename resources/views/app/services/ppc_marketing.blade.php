@@ -1,9 +1,52 @@
 @extends('layouts.index')
 
 @section('title')
-     Pay-Per-Click Marketing | Whippdigital 
-
+Pay-Per-Click Marketing | Whippdigital 
 @endsection
+
+@section('meta')
+
+
+<meta name="title" content="Pay-Per-Click Marketing | Whippdigital ">
+<meta name="description" content="Elevate your brand with PPC marketing that shapes resonant digital narratives. Forge connections, merge data-driven insights with human ingenuity, and achieve tangible results. Collaborate with us for concrete success in the dynamic PPC realm.">
+<meta name="keywords" content="PPC Marketing, digital narrative, audience engagement, meaningful outcomes, brand voice, data-driven insights, human ingenuity, tangible results, digital stories, concrete success">
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Pay-Per-Click Marketing | Whippdigital">
+<meta property="og:title" content="Pay-Per-Click Marketing | Whippdigital">
+<meta property="og:description" content="Elevate your brand with PPC marketing that shapes resonant digital narratives. Forge connections, merge data-driven insights with human ingenuity, and achieve tangible results. Collaborate with us for concrete success in the dynamic PPC realm.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Pay-Per-Click Marketing | Whippdigital  ">
+<meta name="twitter:description"
+    content="Elevate your brand with PPC marketing that shapes resonant digital narratives. Forge connections, merge data-driven insights with human ingenuity, and achieve tangible results. Collaborate with us for concrete success in the dynamic PPC realm.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Pay-Per-Click Marketing | Whippdigital">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
 
 @section('css')
 <style>

@@ -1,9 +1,56 @@
 @extends('layouts.index')
 
 @section('title')
-    Digital Marketing Strategy   | Whippdigital 
+    Digital Marketing Strategy | Whippdigital 
 
 @endsection
+
+
+@section('meta')
+
+
+<meta name="title" content="Digital Marketing Strategy | Whippdigital  ">
+<meta name="description" content="Craft a winning digital marketing strategy to shine in the competitive online landscape. Align with your brand's core, engage your audience, and adapt to evolving digital trends for sustainable growth and lasting influence.">
+<meta name="keywords" content="Digital Marketing Strategy, online landscape, brand's core, target audience, digital trends, sustainable growth, enduring influence">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Digital Marketing Strategy | Whippdigital ">
+<meta property="og:title" content="Digital Marketing Strategy | Whippdigital ">
+<meta property="og:description" content="Craft a winning digital marketing strategy to shine in the competitive online landscape. Align with your brand's core, engage your audience, and adapt to evolving digital trends for sustainable growth and lasting influence.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Digital Marketing Strategy | Whippdigital">
+<meta name="twitter:description"
+    content="Craft a winning digital marketing strategy to shine in the competitive online landscape. Align with your brand's core, engage your audience, and adapt to evolving digital trends for sustainable growth and lasting influence.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Digital Marketing Strategy | Whippdigital ">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
+
 
 @section('css')
 <style>

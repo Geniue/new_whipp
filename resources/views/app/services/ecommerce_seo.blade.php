@@ -5,6 +5,53 @@
 
 @endsection
 
+
+
+@section('meta')
+
+
+<meta name="title" content="Ecommerce SEO Services | Whippdigital ">
+<meta name="description" content="Boost your online store's visibility with specialized ecommerce SEO consultant services. We tailor strategies to understand your market and use product-related keywords to attract qualified traffic. Turn clicks into loyal customers and watch your business flourish.">
+<meta name="keywords" content="Ecommerce SEO Consultant Services, online shopping, search results, website visibility, target market, product-related keywords, qualified traffic, loyal customers, specialized SEO strategies">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Ecommerce SEO Services | Whippdigital">
+<meta property="og:title" content="Ecommerce SEO Services | Whippdigital">
+<meta property="og:description" content="Boost your online store's visibility with specialized ecommerce SEO consultant services. We tailor strategies to understand your market and use product-related keywords to attract qualified traffic. Turn clicks into loyal customers and watch your business flourish.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Ecommerce SEO Services | Whippdigital">
+<meta name="twitter:description" content="Boost your online store's visibility with specialized ecommerce SEO consultant services. We tailor strategies to understand your market and use product-related keywords to attract qualified traffic. Turn clicks into loyal customers and watch your business flourish.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Ecommerce SEO Services | Whippdigital">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
+
+
 @section('css')
 <style>
     .feture-pare {

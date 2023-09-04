@@ -2,8 +2,51 @@
 
 @section('title')
     Social Media Management | Whippdigital 
-
 @endsection
+
+@section('meta')
+
+
+<meta name="title" content="Social Media Management | Whippdigital">
+<meta name="description" content="Specializing in cutting-edge social media management, we ensure your brand thrives in today's digital age. Craft narratives, spark genuine engagement, and convert followers into advocates. Dive into the digital realm with us and watch your online community flourish.">
+<meta name="keywords" content="Social Media Management, social media landscape, cutting-edge management, brand visibility, narratives, genuine engagement, online community">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Social Media Management | Whippdigital">
+<meta property="og:title" content="Social Media Management | Whippdigital">
+<meta property="og:description" content="Specializing in cutting-edge social media management, we ensure your brand thrives in today's digital age. Craft narratives, spark genuine engagement, and convert followers into advocates. Dive into the digital realm with us and watch your online community flourish.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Social Media Management | Whippdigital ">
+<meta name="twitter:description" content="Specializing in cutting-edge social media management, we ensure your brand thrives in today's digital age. Craft narratives, spark genuine engagement, and convert followers into advocates. Dive into the digital realm with us and watch your online community flourish.">
+<meta name="twitter:image"
+    content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Social Media Management | Whippdigital">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
 
 @section('css')
 <style>

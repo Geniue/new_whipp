@@ -1,9 +1,53 @@
 @extends('layouts.index')
 
 @section('title')
-<title> Custom Website Design | Whippdigital </title>
+Custom Website Design | Whippdigital 
 
 @endsection
+
+@section('meta')
+
+
+<meta name="title" content="Custom Website Design | Whippdigital  ">
+<meta name="description" content="Build a compelling ecommerce website that turns visitors into customers. Blend market intelligence and cutting-edge technology for an engaging shopping experience. Shape the digital future of your store with us.">
+<meta name="keywords" content="ecommerce website, online shopping, market intelligence, cutting-edge technology, brand narrative, digital journey, engaging shopping experience, ecommerce platform">
+
+<link rel="canonical" href="{{ url()->current() }}">
+
+<meta property="og:site_name" content="Custom Website Design | Whippdigital ">
+<meta property="og:title" content="Custom Website Design | Whippdigital ">
+<meta property="og:description" content="Build a compelling ecommerce website that turns visitors into customers. Blend market intelligence and cutting-edge technology for an engaging shopping experience. Shape the digital future of your store with us.">
+<meta property="og:url" content="{{ url()->current() }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
+<meta property="fb:admins" content="admin">
+<meta name="twitter:title" content="Custom Website Design | Whippdigital ">
+<meta name="twitter:description" content="Build a compelling ecommerce website that turns visitors into customers. Blend market intelligence and cutting-edge technology for an engaging shopping experience. Shape the digital future of your store with us.">
+<meta name="twitter:image" 
+    content="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
+<meta name="twitter:url" content="{{ url()->current() }}">
+<meta name="twitter:card" content="summary">
+
+<meta itemprop="name" content="Custom Website Design | Whippdigital ">
+<meta itemprop="url" content="{{ url()->current() }}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
+
+
+<meta name="abstract" content="Whippdigital">
+<meta name="author" content="admin">
+<meta name="classification" content="Blog">
+<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="distribution" content="Global">
+<meta name="language" content="en-GB">
+<meta name="publisher" content="Whippdigital">
+<meta name="rating" content="General">
+<meta name="resource-type" content="Document">
+<meta name="revisit-after" content="3">
+<meta name="subject" content="Blog">
+@endsection
+
 
 @section('css')
 <style>
