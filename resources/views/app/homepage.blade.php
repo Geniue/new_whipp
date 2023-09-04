@@ -55,10 +55,7 @@ Whippdigital | Home
     <section>
         <div role="main" class="topbannerF">
             <div class="topbannerF_wrapper">
-                {{-- <video autoplay="" muted="" loop="" class="lozad" id="myVideo" playsinline=""
-                    aria-label="HomePage_Header_Texts Resize 1920 x 950" style="display: none">
-                    <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
-                </video> --}}
+             
               
                 <video autoplay muted loop class="lozad"  
                     aria-label="Header_Mobile">
