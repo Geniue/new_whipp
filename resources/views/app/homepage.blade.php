@@ -79,7 +79,7 @@ Whippdigital | Home
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
-                        <h3 class="">Excited about experiencing rapid expansion? Ready to connect?</h3>
+                        <h3 class="" >Excited about experiencing rapid expansion? Ready to connect?</h3>
                         <button class="iwantgrow_btn topbanner_anotherside-link fs-5">I'm ready</button>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ Whippdigital | Home
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex align-items-center">
                     <div>
 
-                        <h2 class="fs-1 fw-bold min-lg-text-nowrap position-relative z-9">
+                        <h2 class="fs-1 fw-bold min-lg-text-nowrap position-relative z-9 p-2 " >
                             Your Search for Digital Marketing
                             <br>
                             Excellence Ends Here.
@@ -174,7 +174,7 @@ Whippdigital | Home
                 </div>
                 <div
                 class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                <h3 class=" d-lg-none feture-head">
+                <h3 class=" d-lg-none feture-head" style="background: #d3e0ffc7;">
                     Meet Our Team of Digital Marketing Specialists
 
 
