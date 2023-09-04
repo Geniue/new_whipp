@@ -87,10 +87,33 @@ background-repeat: repeat;
 .footer-loc-soc-link a:hover #insta {
     transition: unset !important;
 }
+
+
+.font-42px{
+    font-size: 42px !important;
+}
+.font-40px{
+    font-size: 40px !important;
+}
+.font-30px{
+    font-size: 30px !important;
+}
+
+
+
 @media (max-width:300px){
     .mx-f-16px{
         font-size: 15px !important;
     }
+    .font-42px{
+    font-size: 28px !important;
+}
+.font-40px{
+    font-size: 28px !important;
+}
+.font-30px{
+    font-size: 28px !important;
+}
 }
 
 
@@ -125,15 +148,6 @@ background-repeat: repeat;
 }
 
 
-.font-42px{
-    font-size: 42px !important;
-}
-.font-40px{
-    font-size: 40px !important;
-}
-.font-30px{
-    font-size: 30px !important;
-}
 
 
 .logo img {
