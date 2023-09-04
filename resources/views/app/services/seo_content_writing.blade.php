@@ -25,8 +25,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="SEO Content Writing Serivces | Whippdigital ">
 <meta name="twitter:description" content="Transform your online presence with SEO-centric content. Elevate search rankings with captivating narratives that resonate with your audience. Join us to unite storytelling artistry with SEO science.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

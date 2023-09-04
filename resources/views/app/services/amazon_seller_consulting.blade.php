@@ -23,8 +23,7 @@ Amazon Seller Consulting | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Amazon Seller Consulting">
 <meta name="twitter:description" content="Unlock success on Amazon with expert guidance. Navigate the vast Amazon marketplace with seasoned professionals, optimize listings, boost brand presence, and unravel Amazon's algorithm. Tailored strategies for new launches or sales growth. Transform your Amazon journey today!">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

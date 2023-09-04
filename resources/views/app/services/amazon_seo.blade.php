@@ -23,8 +23,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Amazon SEO | Whippdigital ">
 <meta name="twitter:description" content="Stand out on Amazon with tailored strategies for success. Our experts specialize in Amazon's unique A9 algorithm, crafting customized approaches to boost your product listings and engage your target audience. Unlock the power of targeted keywords, compelling content, and data-driven methods to convert browsers into buyers.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon SEO/v1/seo-or-search-engine-optimization-concept-2022-12-16-11-13-43-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon SEO/v1/seo-or-search-engine-optimization-concept-2022-12-16-11-13-43-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

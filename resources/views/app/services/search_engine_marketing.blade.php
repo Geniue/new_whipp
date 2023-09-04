@@ -23,8 +23,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Search Engine Marketing | Whippdigital ">
 <meta name="twitter:description" content="Elevate your SEO experience with Whipp Digital. We specialize in human-centric SEO, tailoring strategies to your unique business objectives. Join us for impactful connections and profound growth in the dynamic digital landscape.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-home-page-2021-08-26-22-39-48-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Marketing/v1/search-engine-home-page-2021-08-26-22-39-48-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

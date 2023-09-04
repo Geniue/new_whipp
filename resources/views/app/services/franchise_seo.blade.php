@@ -26,8 +26,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Franchise SEO | Whippdigital">
 <meta name="twitter:description" content="Elevate franchise websites with specialized SEO. Unify global brand consistency with local optimization, addressing duplicate content and refining local citations. Transform franchisee sites into digital local leaders.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

@@ -22,8 +22,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Website Hosting | Whippdigital ">
 <meta name="twitter:description" content="Build a strong online presence with reliable website hosting. Lightning-fast load times, unbeatable uptime, and top-tier security for seamless visitor experiences. Discover how quality hosting transforms your online footprint.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

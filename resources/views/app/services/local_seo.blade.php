@@ -23,8 +23,7 @@ Local SEO | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Local SEO | Whippdigital ">
 <meta name="twitter:description" content="Unlock unparalleled opportunities with Whipp Digital's Local SEO expertise. Rank high in local search results, foster authentic local bonds, and emerge as a community cornerstone. Connect with us to become a local legend.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Local SEO/v1/magnifying-glass-with-local-seo-alphabet-words-2023-03-15-08-30-33-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

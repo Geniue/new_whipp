@@ -24,10 +24,8 @@
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content=" Search Engine Optimization | Whippdigital">
-<meta name="twitter:description"
-    content="Elevate your SEO strategy with narrative mastery. Craft authentic, sustainable digital brand presence. Delve into website architecture, audience insights, and evolving search dynamics. Join us to illuminate pathways to your audience's heart.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
+<meta name="twitter:description" content="Elevate your SEO strategy with narrative mastery. Craft authentic, sustainable digital brand presence. Delve into website architecture, audience insights, and evolving search dynamics. Join us to illuminate pathways to your audience's heart.">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

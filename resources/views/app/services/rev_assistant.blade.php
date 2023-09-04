@@ -21,8 +21,7 @@ Real Estate Virtual Assistant | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Real Estate Virtual Assistant | Whippdigital  ">
 <meta name="twitter:description" content="Revolutionize your real estate approach with dedicated Virtual Assistants. Seamlessly manage listings, appointments, and client interactions with industry expertise and technical finesse. Forge a partnership for your real estate triumph.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

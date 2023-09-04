@@ -23,8 +23,7 @@ Custom Website Design | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Custom Website Design | Whippdigital ">
 <meta name="twitter:description" content="Build a compelling ecommerce website that turns visitors into customers. Blend market intelligence and cutting-edge technology for an engaging shopping experience. Shape the digital future of your store with us.">
-<meta name="twitter:image" 
-    content="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
+<meta name="twitter:image"  content="{{ asset('assets/imgs/whipp_images/web development/Custom Website Design/v1/online-shopping-website-2021-08-26-22-39-43-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

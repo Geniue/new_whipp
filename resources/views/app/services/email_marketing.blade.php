@@ -24,8 +24,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="E-Mail Marketing Serivces  | Whippdigital ">
 <meta name="twitter:description" content="Maximize your brand's impact with powerful email advertising strategies. Craft narratives, spark dialogues, and foster authentic relationships with personalized campaigns. Immerse yourself in the transformative influence of email advertising.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/web development/E-Mail Marketing Serivces/v1/email-marketing-concept-on-wooden-background-27-2022-10-26-04-41-17-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/web development/E-Mail Marketing Serivces/v1/email-marketing-concept-on-wooden-background-27-2022-10-26-04-41-17-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

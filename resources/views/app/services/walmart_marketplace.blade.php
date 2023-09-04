@@ -22,8 +22,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Walmart Marketplace | Whippdigital ">
 <meta name="twitter:description" content="Conquer the Walmart Marketplace challenge with data-driven strategies and deep market insights. Position your brand for success on Walmart's platform with our cutting-edge tactics. Partner with us for a transformative brand journey.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

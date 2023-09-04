@@ -23,8 +23,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Conversion Rate Optimization | Whippdigital ">
 <meta name="twitter:description" content="Elevate your website's conversion rates. Delve into visitor psychology, apply artistry and science with data analysis and user experience design. Prioritize meaningful engagement over mere traffic. Captivate your audience online.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Conversion Rate Optimization/v1/climb-to-higher-interest-rates-high-income-on-dep-2023-07-22-02-19-05-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Conversion Rate Optimization/v1/climb-to-higher-interest-rates-high-income-on-dep-2023-07-22-02-19-05-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

@@ -25,8 +25,7 @@ Ecommerce PPC Management  | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Ecommerce PPC Management  | Whippdigital ">
 <meta name="twitter:description" content="Elevate your e-commerce success with customized PPC management. We blend data-driven techniques and a human-centric approach to create ads that foster genuine connections and drive conversions. Step into the e-commerce future with us.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce PPC Management/v1/seo-search-engine-optimization-2023-05-08-23-41-46-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce PPC Management/v1/seo-search-engine-optimization-2023-05-08-23-41-46-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

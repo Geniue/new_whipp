@@ -22,8 +22,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Social Media Advertising | Whippdigital">
 <meta name="twitter:description" content="Redefined social media advertising for meaningful connections. Craft resonant campaigns that deeply resonate with your ideal audience. Join the conversational advertising revolution with Whipp Digital.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Advertising/v1/social-media-marketing-2022-11-01-00-05-34-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Advertising/v1/social-media-marketing-2022-11-01-00-05-34-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

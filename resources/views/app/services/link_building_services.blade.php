@@ -24,8 +24,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Link Building Services | Whippdigital  ">
 <meta name="twitter:description" content="Unlock the art of effective link building. Prioritize quality over quantity, curate valuable connections, and boost online presence and brand credibility. Join us in building digital bridges that tell stories of credibility and relevance.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Link Building Services/v1/link-building-2022-11-01-00-05-27-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Link Building Services/v1/link-building-2022-11-01-00-05-27-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

@@ -25,8 +25,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Ecommerce SEO Services | Whippdigital">
 <meta name="twitter:description" content="Boost your online store's visibility with specialized ecommerce SEO consultant services. We tailor strategies to understand your market and use product-related keywords to attract qualified traffic. Turn clicks into loyal customers and watch your business flourish.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce SEO Services/v1/seo-text-on-wooden-cube-search-engine-optimizatio-2023-06-02-23-13-23-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

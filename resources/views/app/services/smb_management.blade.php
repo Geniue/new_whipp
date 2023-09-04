@@ -23,8 +23,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Social Media Brand Management | Whippdigital">
 <meta name="twitter:description" content="Revolutionize your brand's social media presence with dynamic narratives that resonate. Align every post, comment, and interaction with your brand's voice. Our tailored social media management delivers transformative insights for startups and enterprises alike.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

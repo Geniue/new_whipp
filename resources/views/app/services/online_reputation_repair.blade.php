@@ -23,8 +23,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Online Reputation Repair | Whippdigital ">
 <meta name="twitter:description" content="Reputation Repair, online presence, digital landscape, digital identity, unfavorable review, inaccurate article, public perception, advanced tools, human insight, digital narrative">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

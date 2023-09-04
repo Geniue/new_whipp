@@ -22,8 +22,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Carpet Cleaners NYC, Brooklyn, and Queens | PristineGreen Cleaning ">
 <meta name="twitter:description" content="Elevate your Shopify presence with effective SEO. Optimize product listings, enhance site architecture, and attract organic traffic that converts to sales. Experience the difference with Whipp Digital's tailored Shopify SEO services.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/empty-desk-laptop-and-coffee-shop-with-notebook-2022-12-08-21-41-20-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/empty-desk-laptop-and-coffee-shop-with-notebook-2022-12-08-21-41-20-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

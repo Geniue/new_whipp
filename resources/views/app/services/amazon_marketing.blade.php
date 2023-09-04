@@ -24,8 +24,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Amazon Marketing | Whippdigital">
 <meta name="twitter:description" content="Elevate your PPC marketing with our expert team, merging data-driven insights and human ingenuity to create engaging digital narratives that convert clicks into meaningful outcomes. Join us in crafting success stories in the dynamic realm of PPC.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

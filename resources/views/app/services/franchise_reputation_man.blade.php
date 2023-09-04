@@ -23,8 +23,7 @@ Franchise Reputation Management | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Franchise Reputation Management | Whippdigital">
 <meta name="twitter:description" content="Elevate franchise trust with advanced reputation management. We craft unified brand voices, resolve issues swiftly, and promote positive experiences across diverse franchise locations. Secure impeccable online reputations for each franchisee with our cutting-edge strategies.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

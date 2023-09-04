@@ -22,8 +22,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Virtual Personal Assistant | Whippdigital ">
 <meta name="twitter:description" content="Elevate efficiency with Virtual Assistant Services. Streamline operations, delegate tasks, and achieve more in less time with cutting-edge digital tools. Unearth the transformative impact of Whipp Digital.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

@@ -22,8 +22,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Social Media Management | Whippdigital ">
 <meta name="twitter:description" content="Specializing in cutting-edge social media management, we ensure your brand thrives in today's digital age. Craft narratives, spark genuine engagement, and convert followers into advocates. Dive into the digital realm with us and watch your online community flourish.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Management/v1/social-media-marketing-2022-12-15-21-32-50-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

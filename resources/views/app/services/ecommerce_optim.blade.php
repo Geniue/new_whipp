@@ -24,8 +24,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Ecommerce Optimization | Whippdigital ">
 <meta name="twitter:description" content="Optimize your ecommerce store for the digital age. From pixels to bytes, we fine-tune your digital storefront to captivate your audience. Data-driven strategies streamline checkout processes and cultivate engagement for loyal customers.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

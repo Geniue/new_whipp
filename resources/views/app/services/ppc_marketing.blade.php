@@ -20,8 +20,7 @@ Pay-Per-Click Marketing | Whippdigital
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Pay-Per-Click Marketing | Whippdigital  ">
-<meta name="twitter:description"
-    content="Elevate your brand with PPC marketing that shapes resonant digital narratives. Forge connections, merge data-driven insights with human ingenuity, and achieve tangible results. Collaborate with us for concrete success in the dynamic PPC realm.">
+<meta name="twitter:description" content="Elevate your brand with PPC marketing that shapes resonant digital narratives. Forge connections, merge data-driven insights with human ingenuity, and achieve tangible results. Collaborate with us for concrete success in the dynamic PPC realm.">
 <meta name="twitter:image"
     content="{{ asset('assets/imgs/whipp_images/digital_marketing/Pay-Per-Click Marketing/v1/white-paper-speech-bubble-with-inscription-pay-per-2022-11-11-21-37-34-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">

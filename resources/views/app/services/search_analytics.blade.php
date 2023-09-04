@@ -24,8 +24,7 @@
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Search Analytics Services | Whippdigital">
 <meta name="twitter:description" content="Unlock the potential of paid search analytics. Decode customer behavior, fuel conversions, and shape campaign narratives. Enrich ROI, optimize ad spend, and step into advertising's future where data converges with human insight.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Analytics Services/v1/business-graphs-and-magnifying-glass-on-table-2022-01-18-23-38-04-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

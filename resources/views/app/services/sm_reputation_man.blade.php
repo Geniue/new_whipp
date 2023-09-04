@@ -19,20 +19,19 @@
 <meta property="og:description" content="Empower your brand's online presence with proactive reputation management. Craft your digital narrative, amplify positive feedback, and strategically position your brand for success. Safeguard your excellence with us.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{asset('assets/imgs/brea-rmro.png')}}">
+<meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/notebook-written-build-trust-in-your-brand-2022-11-08-08-37-19-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Social Media Reputation Management | Whippdigital ">
 <meta name="twitter:description" content="Empower your brand's online presence with proactive reputation management. Craft your digital narrative, amplify positive feedback, and strategically position your brand for success. Safeguard your excellence with us.">
-<meta name="twitter:image"
-    content="{{asset('assets/imgs/brea-rmro.png')}}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/notebook-written-build-trust-in-your-brand-2022-11-08-08-37-19-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
 <meta itemprop="name" content="Social Media Reputation Management | Whippdigital">
 <meta itemprop="url" content="{{ url()->current() }}">
-<meta itemprop="thumbnailUrl" content="{{asset('assets/imgs/brea-rmro.png')}}">
-<meta itemprop="image" content="{{asset('assets/imgs/brea-rmro.png')}}">
-<link rel="image_src"   href="{{asset('assets/imgs/brea-rmro.png')}}">
+<meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/notebook-written-build-trust-in-your-brand-2022-11-08-08-37-19-utc.jpg') }}">
+<meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/notebook-written-build-trust-in-your-brand-2022-11-08-08-37-19-utc.jpg') }}">
+<link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Social Media Reputation Management/v1/notebook-written-build-trust-in-your-brand-2022-11-08-08-37-19-utc.jpg') }}">
 
 
 <meta name="abstract" content="Whippdigital">

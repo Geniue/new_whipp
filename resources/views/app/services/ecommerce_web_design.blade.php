@@ -24,8 +24,7 @@ Ecommerce Website Design | Whippdigital
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Ecommerce Website Design | Whippdigital  ">
 <meta name="twitter:description" content="Trust Ecommerce Website Design | Whippdigital  for top-rated carpet shampooing, stain removal, and odor elimination. We specialize in non-toxic deep cleaning to maintain your carpets and upholstery. We use advanced machines and eco-friendly products to deliver a superior clean. Call us for regular carpet maintenance and experience a hygienic living space.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Website Design/v1/website-development-2022-12-15-23-25-34-utc.jpg') }}">
+<meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Website Design/v1/website-development-2022-12-15-23-25-34-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 

@@ -20,10 +20,8 @@ Whippdigital | Home
 <meta property="og:image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Whippdigital | Home">
-<meta name="twitter:description"
-    content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
-<meta name="twitter:image"
-    content="{{ asset('assets/imgs/tech_whipp.png') }}">
+<meta name="twitter:description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
+<meta name="twitter:image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
@@ -63,14 +61,13 @@ Whippdigital | Home
                 </video> --}}
                 <video autoplay="" muted="" loop="" id="" playsinline=""
                     aria-label="Header_Mobile" class="lozad">
-                    <source media="(orientation: landscape)" 
-                src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
+                    <source media="(orientation: landscape)" data-src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
                 sizes="(min-width: 60rem) 80vw,
                 (min-width: 40rem) 90vw,
                 100vw"
                 type="video/mp4">
             <source media="(orientation: portrait)" 
-                src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
+                data-src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
                 sizes="(min-width: 60rem) 80vw,
                 (min-width: 40rem) 90vw,
                 100vw"

@@ -23,8 +23,7 @@
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
 <meta name="twitter:title" content="Digital Marketing Strategy | Whippdigital">
-<meta name="twitter:description"
-    content="Craft a winning digital marketing strategy to shine in the competitive online landscape. Align with your brand's core, engage your audience, and adapt to evolving digital trends for sustainable growth and lasting influence.">
+<meta name="twitter:description" content="Craft a winning digital marketing strategy to shine in the competitive online landscape. Align with your brand's core, engage your audience, and adapt to evolving digital trends for sustainable growth and lasting influence.">
 <meta name="twitter:image"
     content="{{ asset('assets/imgs/whipp_images/digital_marketing/Digital Marketing Strategy/v1/digital-marketing-strategy-2021-08-28-05-58-19-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
