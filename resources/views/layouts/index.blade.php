@@ -100,10 +100,10 @@ background-repeat: repeat;
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #30a2ff 0%,
-    #3e4756 29%,
+    #94a7c9 0%,
+    #3e4756 0%,
     #94a7c9 67%,
-    #f5719e 100%
+    #3e4756 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -127,6 +127,12 @@ background-repeat: repeat;
 
 .font-42px{
     font-size: 42px !important;
+}
+.font-40px{
+    font-size: 40px !important;
+}
+.font-30px{
+    font-size: 30px !important;
 }
 
 
