@@ -87,6 +87,54 @@ background-repeat: repeat;
 .footer-loc-soc-link a:hover #insta {
     transition: unset !important;
 }
+@media (max-width:300px){
+    .mx-f-16px{
+        font-size: 15px !important;
+    }
+}
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #30a2ff 0%,
+    #3e4756 29%,
+    #94a7c9 67%,
+    #f5719e 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.font-42px{
+    font-size: 42px !important;
+}
+
+
+.logo img {
+  float: unset !important;
+  margin-right: unset !important;
+}
+
     </style>
     @yield('css')
 
@@ -121,7 +169,7 @@ if (empty(end($segments))) {
     <div class="position-fixed w-100 h-100 bg-black  d-flex justify-content-center align-items-center top-0 d-none left-0" id="grow_modal"  style="z-index: 99999999">
 
         <div class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto position-relative">
-            <div  class="position-relative overflow-hidden rounded-4 p-3 p-lg-0 col-10 col-md-10 col-lg-8 mx-auto">
+            <div  class="position-relative overflow-hidden rounded-4 p-3 p-lg-0 col-9 col-sm-10 col-lg-8 mx-auto">
                     <span id="popup_xbtn" class="popup_xbtn"></span>
         
                 
@@ -132,7 +180,7 @@ if (empty(end($segments))) {
                     </div>
                 </div>
                 {{-- form --}}
-                <form action="{{route('letstalk_form')}}" method="POST" class=" custom-text-white">
+                <form action="{{route('letstalk_form')}}" method="POST" class=" custom-text-white ">
                     @csrf
                     <div class="row">
                         <div class="col-12 col-lg-6 p-lg-5">

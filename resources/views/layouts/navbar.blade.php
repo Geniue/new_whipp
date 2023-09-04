@@ -13,7 +13,7 @@
         </div>
 
         <!-- links & contact -->
-        <div class="wd-menu-li-row d-flex align-items-center ">
+        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-3">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center ">
                 <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center mb-0">
@@ -366,8 +366,8 @@
                 </ul>
             </div>
             <!-- contact -->
-            <div class="d-flex gap-2 ps-4 ">
-                <a href="tel:212-951-0651 " aria-label="callus"   class="">
+            <div class="d-flex gap-2 ps-0 ps-sm-4 ">
+                <a href="tel:212-951-0651 " aria-label="callus"   class="d-flex justify-content-center align-content-center">
                     <img width="40" class="ek-phone-img lozad"
                         data-src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}"  alt="" />
                 </a>

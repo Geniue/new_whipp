@@ -59,25 +59,16 @@ Whippdigital | Home
                     aria-label="HomePage_Header_Texts Resize 1920 x 950" style="display: none">
                     <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
                 </video> --}}
-                <video autoplay="" muted="" loop="" id="" playsinline=""
-                    aria-label="Header_Mobile" class="lozad">
-                    <source media="(orientation: landscape)" data-src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
-                sizes="(min-width: 60rem) 80vw,
-                (min-width: 40rem) 90vw,
-                100vw"
-                type="video/mp4">
-            <source media="(orientation: portrait)" 
-                data-src="{{ asset('assets/imgs/new_whippintro.mp4')  }}"
-                sizes="(min-width: 60rem) 80vw,
-                (min-width: 40rem) 90vw,
-                100vw"
-                type="video/webm">
-                    {{-- <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" /> --}}
+              
+                <video autoplay="" muted="" loop="" class="lozad"  playsinline=""
+                    aria-label="Header_Mobile">
+                    <source class="lozad" data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}" type="video/mp4" />
+                </video>
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
                         <h3 class="" >Excited about experiencing rapid expansion? Ready to connect?</h3>
-                        <button class="iwantgrow_btn topbanner_anotherside-link fs-5">I'm ready</button>
+                        <button class="iwantgrow_btn topbanner_anotherside-link fs-5 mx-f-16px">I'm ready</button>
                     </div>
                 </div>
             </div>
@@ -90,14 +81,18 @@ Whippdigital | Home
         <div class="container pt-5 custom-text">
            
             <div class="d-flex flex-column flex-lg-row gap-3 pt-4 justify-content-center">
-                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex align-items-center">
+                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-center">
                     <div>
-
-                        <h2 class="fs-1 fw-bold min-lg-text-nowrap position-relative z-9 p-2 " >
-                            Your Search for Digital Marketing
-                            <br>
+                        <div>
+                            <h2 class=" fw-bold min-lg-text-nowrap position-relative z-9 p-2  animate-charcter font-42px" >
+                                Your Search for Digital Marketing
+                            
+                        </h2>
+                            <h2 class="pt-0 fw-bold min-lg-text-nowrap position-relative z-9 p-2  animate-charcter font-42px" >
+                        
                             Excellence Ends Here.
                         </h2>
+                            </div>
                         <h3 class="fs-2 fw-medium pt-4">
                             Achieve Results-Driven Marketing Today
          
@@ -106,10 +101,10 @@ Whippdigital | Home
                              <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex ">
                                  <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
                              </div>
-                        <p class="fs-4">
+                        <p class="fs-4 z-9 position-relative">
                             Ready to make your mark? Look no further for an all-inclusive digital marketing service.                        </p>
                         <div class="d-flex  py-4">
-                            <button class=" iwantgrow_btn lettalkbtn_hasarrow px-3 cta-btn-btn col-6 fs-5 col-md-8  col-xl-6  d-flex justify-content-center align-items-center gap-2 py-2  rounded-5 text-uppercase fw-bold">Let's talk 
+                            <button class=" iwantgrow_btn lettalkbtn_hasarrow px-3 cta-btn-btn col-8 col-sm-6 fs-5 col-md-8  col-xl-4  d-flex justify-content-center align-items-center gap-2 py-2  rounded-5 text-uppercase fw-bold">Let's talk 
                                 <svg id="arrow" fill="#ffffff" height="20" width="20" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.21 -51.21 614.51 614.51" xml:space="preserve" stroke="#ffffff" stroke-width="23.044230000000002"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M263.641,248.4L18.308,3.067c-4.16-4.053-10.987-3.947-15.04,0.32c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 L3.268,493.733c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 L263.641,263.44C267.801,259.28,267.801,252.56,263.641,248.4z"></path> <path d="M508.974,248.4L263.641,3.067c-4.267-4.053-10.987-3.947-15.04,0.213c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 l-237.76,237.867c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 L508.974,263.44C513.135,259.28,513.135,252.56,508.974,248.4z"></path> </g> </g> </g> </g></svg>
                         </div>
                     </div>
@@ -128,13 +123,16 @@ Whippdigital | Home
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-10 px-3 px-lg-0  mx-auto">
 
-                <h2 class="max-he-mv text-center mb-4  p-2" style="background: #d3e0ffc7;">
+                <h2 class="max-he-mv text-center mb-4  p-2" >
                     
                     Why Choose WhippDigital For Your
+ 
                     <br>
-<b>
-    Digital Marketing Agency?
-</b>
+ <span class="animate-charcter">
+     <b>
+         Digital Marketing Agency?
+        </b>
+    </span>
 
 </h2>
 <p class="mt-2">
@@ -146,11 +144,13 @@ Whippdigital | Home
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
-                        <h3 class="d-none d-lg-block feture-head p-2 " style="background: #d3e0ffc7;">
+                        <h3 class="d-none d-lg-block feture-head p-2 ">
                             Meet Our Team of 
-                            <strong>
-                                Digital Marketing 
-                            </strong>
+                            <span class="animate-charcter" style="text-transform: capitalize">
+                                <b>
+                                    Digital Marketing
+                                   </b>
+                               </span>
                             Specialists
 
 
@@ -171,8 +171,14 @@ Whippdigital | Home
                 </div>
                 <div
                 class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                <h3 class=" d-lg-none feture-head" style="background: #d3e0ffc7;">
-                    Meet Our Team of Digital Marketing Specialists
+                <h3 class="d-lg-none feture-head p-2 ">
+                    Meet Our Team of 
+                    <span class="animate-charcter" style="text-transform: capitalize">
+                        <b>
+                            Digital Marketing
+                           </b>
+                       </span>
+                    Specialists
 
 
                 </h3>
@@ -385,8 +391,11 @@ Whippdigital | Home
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
     <section class="py-5 px-3">
         <div class="py-5">
-            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto" style="background: #d3e0ffc7;">
-                Expertise in  <strong> Digital Marketing Expertise </strong>
+            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto" >
+                Expertise in 
+                <span style="text-transform: capitalize" class="animate-charcter">
+                        <strong> Digital Marketing Expertise </strong>
+                </span>
             </h3>
         </div>
 
