@@ -79,8 +79,8 @@ Whippdigital | Home
                 </video>
                 <div class="topbannerF_bottom">
                     <div class="topbannerF_btnText px-3">
-                        <h3 class="">Eager for a taste of hypergrowth? Let's Connect!?</h3>
-                        <button class="iwantgrow_btn topbanner_anotherside-link">I Want to grow</button>
+                        <h3 class="">Excited about experiencing rapid expansion? Ready to connect?</h3>
+                        <button class="iwantgrow_btn topbanner_anotherside-link fs-5">I'm ready</button>
                     </div>
                 </div>
             </div>
@@ -90,9 +90,9 @@ Whippdigital | Home
 
         <!-- TECH SEO SEARCH EXPERIENCE SECTION STARTS HERE -->
     <section>
-        <div class="container py-5 custom-text">
+        <div class="container pt-5 custom-text">
            
-            <div class="d-flex flex-column flex-lg-row gap-3 py-4 justify-content-center">
+            <div class="d-flex flex-column flex-lg-row gap-3 pt-4 justify-content-center">
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex align-items-center">
                     <div>
 
@@ -131,7 +131,7 @@ Whippdigital | Home
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-10 px-3 px-lg-0  mx-auto">
 
-                <h2 class="max-he-mv text-center mb-4">
+                <h2 class="max-he-mv text-center mb-4  p-2" style="background: #d3e0ffc7;">
                     
                     Why Choose WhippDigital For Your
                     <br>
@@ -149,8 +149,12 @@ Whippdigital | Home
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
                     <div class="pb-lg-3">
-                        <h3 class="d-none d-lg-block feture-head">
-                            Meet Our Team of Digital Marketing Specialists
+                        <h3 class="d-none d-lg-block feture-head p-2 " style="background: #d3e0ffc7;">
+                            Meet Our Team of 
+                            <strong>
+                                Digital Marketing 
+                            </strong>
+                            Specialists
 
 
                         </h3>
@@ -382,9 +386,9 @@ Whippdigital | Home
 
 
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
-    <section class="py-5">
+    <section class="py-5 px-3">
         <div class="py-5">
-            <h3 class="custom-text fs-1 text-center">
+            <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto" style="background: #d3e0ffc7;">
                 Expertise in  <strong> Digital Marketing Expertise </strong>
             </h3>
         </div>

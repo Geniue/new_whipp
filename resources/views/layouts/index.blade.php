@@ -127,8 +127,8 @@ if (empty(end($segments))) {
                 
                 <div class="">
                     <div class="py-4 text-center custom-text-white">
-                        <p class="fs-1 pb-0 fw-bold">Let's talk</p>
-                        <p class="custom-color-123 fs-5">Ready to experience hypergrowth?</p>
+                        <p class="fs-1 pb-0 fw-bold">Let's have a conversation</p>
+                        <p class="custom-color-123 fs-5">Learn how to explode your growth today</p>
                     </div>
                 </div>
                 {{-- form --}}

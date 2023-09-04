@@ -7,11 +7,12 @@
         <div class="box  bg-light col-12 col-md-10 col-lg-8 mx-auto ">
         <div   class="footer-contact-container position-relative  p-3 p-lg-0 ">
 
-        
+            
+
         <div class="">
             <div class="py-4 text-center">
-                <p class="fs-1 pb-0 fw-bold feture-head text-white">Let's talk</p>
-                <p class="fs-5 feture-pare text-white">Ready to experience hypergrowth?</p>
+                <p class="fs-1 pb-0 fw-bold">Let's have a conversation</p>
+                <p class="custom-color-123 fs-5">Learn how to explode your growth today</p>
             </div>
         </div>
         {{-- form --}}
