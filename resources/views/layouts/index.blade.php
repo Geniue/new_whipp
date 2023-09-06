@@ -141,6 +141,12 @@ background-repeat: repeat;
    
 }
 
+@media(min-width:1090px){
+    .mk-r--250px{
+        margin-right: -225px;
+    }
+}
+
 .circles{
     position: absolute;
     top: 0;

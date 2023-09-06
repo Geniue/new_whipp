@@ -114,8 +114,8 @@ Whippdigital | Home
                                  <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
                              </div>
                         <p class="fs-4 z-9 position-relative" style="color: #d8d8d8d6 !important;">
-                            Ready to make your mark? Look no further for an all-inclusive digital marketing service.                        </p>
-                        <div class="d-flex  py-4">
+                            Ready to make your mark? Look no further for an all-inclusive <br class="d-none d-md-inline"> digital marketing service.                        </p>
+                        <div class="d-flex  py-5">
                             <button class=" iwantgrow_btn lettalkbtn_hasarrow px-3 cta-btn-btn col-8 col-sm-6 fs-5 col-md-8  col-xl-4  d-flex justify-content-center align-items-center gap-2 py-2  rounded-5 text-uppercase fw-bold">Let's talk 
                                 <svg id="arrow" fill="#ffffff" height="20" width="20" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.21 -51.21 614.51 614.51" xml:space="preserve" stroke="#ffffff" stroke-width="23.044230000000002"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M263.641,248.4L18.308,3.067c-4.16-4.053-10.987-3.947-15.04,0.32c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 L3.268,493.733c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 L263.641,263.44C267.801,259.28,267.801,252.56,263.641,248.4z"></path> <path d="M508.974,248.4L263.641,3.067c-4.267-4.053-10.987-3.947-15.04,0.213c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 l-237.76,237.867c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 L508.974,263.44C513.135,259.28,513.135,252.56,508.974,248.4z"></path> </g> </g> </g> </g></svg>
                         </div>
@@ -123,9 +123,9 @@ Whippdigital | Home
                 </div>
                 <div
              
-                    class="bacsrpre-sp lozad  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class="bacsrpre-sp lozad pb-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     
-                <video width="600" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad"
+                <video width="375" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad mk-r--250px"
                 data-poster="{{ asset('assets/imgs/cool_video_poser.png') }}"  loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                     data-src="{{ asset('assets/imgs/cool_video_black.mp4') }}"
@@ -461,7 +461,7 @@ Whippdigital | Home
     <section class="py-5 px-3" style="background: #c2c2c26e;;">
         <div class="py-5">
             <div class="col-lg-10 mx-auto" >
-                <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto animate-charcter mx-auto w-100" >
+                <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto  mx-auto w-100" >
                     DIGITAL MARKETING EXPERTISE             
                 </h3>
             </div>
