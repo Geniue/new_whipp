@@ -143,8 +143,12 @@ background-repeat: repeat;
 
 @media(min-width:1090px){
     .mk-r--250px{
-        margin-right: -225px;
+        margin-right: -200px;
     }
+}
+
+.footer-contact-container{
+    background: #000000;
 }
 
 .circles{

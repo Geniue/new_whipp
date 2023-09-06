@@ -87,6 +87,63 @@ Whippdigital | Home
     </section>
 
 
+
+        {{-- design section --}}
+
+        <section>
+            <div class="position-relative d-flex justify-content-center align-items-center">
+                
+    
+                    <div class="context row " style="z-index: 9999">
+                        <div class="col-lg-9 mx-auto">
+    
+                            <h1>
+                                <span>
+                            <svg style="margin-bottom: 27px;"  fill="#fff" version="1.1" id="Layer_1"
+                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                             width="30" height="30" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve"
+                              transform="rotate(0)" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                              <g id="SVGRepo_iconCarrier"> <g> 
+                                <path d="M27.792,8.103v9.427c-5.957,1.364-8.811,5.091-9.185,12.032h9.185v22.336H7.813V33.531 C7.813,20.257,13.521,10.083,27.792,8.103 M27.792,4.103c-0.183,0-0.366,0.013-0.55,0.038C12.134,6.237,3.813,16.675,3.813,33.531 v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V29.562c0-2.209-1.791-4-4-4h-4.411c0.988-2.571,2.832-3.567,5.304-4.133 c1.818-0.417,3.107-2.034,3.107-3.899V8.103c0-1.156-0.501-2.257-1.373-3.017C29.687,4.448,28.751,4.103,27.792,4.103L27.792,4.103 z"></path> <path d="M62.187,18.103v9.427c-5.955,1.364-8.809,5.091-9.183,12.032h9.183v22.336H42.208V43.531 C42.208,30.257,47.917,20.083,62.187,18.103 M62.187,14.103c-0.183,0-0.366,0.013-0.55,0.038 c-15.108,2.097-23.429,12.534-23.429,29.391v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V39.562c0-2.209-1.791-4-4-4 h-4.409c0.988-2.571,2.831-3.567,5.303-4.133c1.817-0.417,3.106-2.034,3.106-3.899v-9.427c0-1.156-0.501-2.257-1.373-3.017 C64.081,14.448,63.146,14.103,62.187,14.103L62.187,14.103z"></path> <g> <path d="M24.583,45.565c-0.553,0-1-0.447-1-1V33.583h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982 v12C25.583,45.118,25.136,45.565,24.583,45.565z"></path> </g> <g> <path d="M59.583,57.565c-0.553,0-1-0.447-1-1v-2c0-0.553,0.447-1,1-1s1,0.447,1,1v2C60.583,57.118,60.136,57.565,59.583,57.565z"></path> </g> <g> <path d="M59.583,51.565c-0.553,0-1-0.447-1-1v-6.982h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982v8 C60.583,51.118,60.136,51.565,59.583,51.565z"></path> 
+                                </g> </g> </g></svg>
+                        </span>
+                        68.7% of clicks for a given query go to the top 3 
+                      
+                        <span >
+                            <br>positions on Google Search <svg style="margin-bottom: 23px;" width="30" height="30" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve" transform="rotate(180)" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M27.792,8.103v9.427c-5.957,1.364-8.811,5.091-9.185,12.032h9.185v22.336H7.813V33.531 C7.813,20.257,13.521,10.083,27.792,8.103 M27.792,4.103c-0.183,0-0.366,0.013-0.55,0.038C12.134,6.237,3.813,16.675,3.813,33.531 v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V29.562c0-2.209-1.791-4-4-4h-4.411c0.988-2.571,2.832-3.567,5.304-4.133 c1.818-0.417,3.107-2.034,3.107-3.899V8.103c0-1.156-0.501-2.257-1.373-3.017C29.687,4.448,28.751,4.103,27.792,4.103L27.792,4.103 z"></path> <path d="M62.187,18.103v9.427c-5.955,1.364-8.809,5.091-9.183,12.032h9.183v22.336H42.208V43.531 C42.208,30.257,47.917,20.083,62.187,18.103 M62.187,14.103c-0.183,0-0.366,0.013-0.55,0.038 c-15.108,2.097-23.429,12.534-23.429,29.391v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V39.562c0-2.209-1.791-4-4-4 h-4.409c0.988-2.571,2.831-3.567,5.303-4.133c1.817-0.417,3.106-2.034,3.106-3.899v-9.427c0-1.156-0.501-2.257-1.373-3.017 C64.081,14.448,63.146,14.103,62.187,14.103L62.187,14.103z"></path> <g> <path d="M24.583,45.565c-0.553,0-1-0.447-1-1V33.583h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982 v12C25.583,45.118,25.136,45.565,24.583,45.565z"></path> </g> <g> <path d="M59.583,57.565c-0.553,0-1-0.447-1-1v-2c0-0.553,0.447-1,1-1s1,0.447,1,1v2C60.583,57.118,60.136,57.565,59.583,57.565z"></path> </g> <g> <path d="M59.583,51.565c-0.553,0-1-0.447-1-1v-6.982h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982v8 C60.583,51.118,60.136,51.565,59.583,51.565z"></path> </g> </g> </g></svg>
+                        </span> 
+                        </h1>
+                        <br>
+            
+                     
+                     
+                    </div>
+                </div>
+            
+       
+            
+            <div class="area" >
+                        <ul class="circles">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                        </ul>
+                </div >
+            </div>
+        </section>
+    
+        {{-- design section ends here--}}
+
+
+
         <!-- TECH SEO SEARCH EXPERIENCE SECTION STARTS HERE -->
     <section style="background-color: #000">
         <div class="container  custom-text pt-5 pt-md-5">
@@ -95,12 +152,12 @@ Whippdigital | Home
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-center">
                     <div>
                         <div>
-                            <h2 class=" fw-bold min-lg-text-nowrap position-relative z-9 p-2   font-42px animate-charcter" >
+                            <h2 class=" fw-bold min-lg-text-nowrap position-relative z-9 p-2   font-42px "  style="color: #d8d8d8d6 !important;">
                                 Your Search for Digital Marketing
                             
                                     <br class="d-none d-md-inline">
                                     Excellence
-                                    <span style="color: #30a2ff;-webkit-text-fill-color:#30a2ff;">
+                                    <span class="animate-charcter" style="text-transform: capitalize">
                                         Ends Here.
                                     </span>
                                 </h2>
@@ -113,7 +170,7 @@ Whippdigital | Home
                              <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex ">
                                  <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
                              </div>
-                        <p class="fs-4 z-9 position-relative" style="color: #d8d8d8d6 !important;">
+                        <p class="fs-4 z-9 position-relative" style="color: #d8d8d8 !important;">
                             Ready to make your mark? Look no further for an all-inclusive <br class="d-none d-md-inline"> digital marketing service.                        </p>
                         <div class="d-flex  py-5">
                             <button class=" iwantgrow_btn lettalkbtn_hasarrow px-3 cta-btn-btn col-8 col-sm-6 fs-5 col-md-8  col-xl-4  d-flex justify-content-center align-items-center gap-2 py-2  rounded-5 text-uppercase fw-bold">Let's talk 
@@ -125,7 +182,7 @@ Whippdigital | Home
              
                     class="bacsrpre-sp lozad pb-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     
-                <video width="375" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad mk-r--250px"
+                <video width="465" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad mk-r--250px"
                 data-poster="{{ asset('assets/imgs/cool_video_poser.png') }}"  loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                     data-src="{{ asset('assets/imgs/cool_video_black.mp4') }}"
@@ -148,59 +205,7 @@ Whippdigital | Home
     </section>
 
 
-    {{-- design section --}}
 
-    <section>
-        <div class="position-relative d-flex justify-content-center align-items-center">
-            
-
-                <div class="context row " style="z-index: 9999">
-                    <div class="col-lg-9 mx-auto">
-
-                        <h1>
-                            <span>
-                        <svg style="margin-bottom: 27px;"  fill="#fff" version="1.1" id="Layer_1"
-                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-                         width="30" height="30" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve"
-                          transform="rotate(0)" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                          <g id="SVGRepo_iconCarrier"> <g> 
-                            <path d="M27.792,8.103v9.427c-5.957,1.364-8.811,5.091-9.185,12.032h9.185v22.336H7.813V33.531 C7.813,20.257,13.521,10.083,27.792,8.103 M27.792,4.103c-0.183,0-0.366,0.013-0.55,0.038C12.134,6.237,3.813,16.675,3.813,33.531 v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V29.562c0-2.209-1.791-4-4-4h-4.411c0.988-2.571,2.832-3.567,5.304-4.133 c1.818-0.417,3.107-2.034,3.107-3.899V8.103c0-1.156-0.501-2.257-1.373-3.017C29.687,4.448,28.751,4.103,27.792,4.103L27.792,4.103 z"></path> <path d="M62.187,18.103v9.427c-5.955,1.364-8.809,5.091-9.183,12.032h9.183v22.336H42.208V43.531 C42.208,30.257,47.917,20.083,62.187,18.103 M62.187,14.103c-0.183,0-0.366,0.013-0.55,0.038 c-15.108,2.097-23.429,12.534-23.429,29.391v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V39.562c0-2.209-1.791-4-4-4 h-4.409c0.988-2.571,2.831-3.567,5.303-4.133c1.817-0.417,3.106-2.034,3.106-3.899v-9.427c0-1.156-0.501-2.257-1.373-3.017 C64.081,14.448,63.146,14.103,62.187,14.103L62.187,14.103z"></path> <g> <path d="M24.583,45.565c-0.553,0-1-0.447-1-1V33.583h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982 v12C25.583,45.118,25.136,45.565,24.583,45.565z"></path> </g> <g> <path d="M59.583,57.565c-0.553,0-1-0.447-1-1v-2c0-0.553,0.447-1,1-1s1,0.447,1,1v2C60.583,57.118,60.136,57.565,59.583,57.565z"></path> </g> <g> <path d="M59.583,51.565c-0.553,0-1-0.447-1-1v-6.982h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982v8 C60.583,51.118,60.136,51.565,59.583,51.565z"></path> 
-                            </g> </g> </g></svg>
-                    </span>
-                    68.7% of clicks for a given query go to the top 3 
-                  
-                    <span >
-                        <br>positions on Google Search <svg style="margin-bottom: 23px;" width="30" height="30" fill="#fff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="64px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve" transform="rotate(180)" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M27.792,8.103v9.427c-5.957,1.364-8.811,5.091-9.185,12.032h9.185v22.336H7.813V33.531 C7.813,20.257,13.521,10.083,27.792,8.103 M27.792,4.103c-0.183,0-0.366,0.013-0.55,0.038C12.134,6.237,3.813,16.675,3.813,33.531 v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V29.562c0-2.209-1.791-4-4-4h-4.411c0.988-2.571,2.832-3.567,5.304-4.133 c1.818-0.417,3.107-2.034,3.107-3.899V8.103c0-1.156-0.501-2.257-1.373-3.017C29.687,4.448,28.751,4.103,27.792,4.103L27.792,4.103 z"></path> <path d="M62.187,18.103v9.427c-5.955,1.364-8.809,5.091-9.183,12.032h9.183v22.336H42.208V43.531 C42.208,30.257,47.917,20.083,62.187,18.103 M62.187,14.103c-0.183,0-0.366,0.013-0.55,0.038 c-15.108,2.097-23.429,12.534-23.429,29.391v18.366c0,2.209,1.791,4,4,4h19.979c2.209,0,4-1.791,4-4V39.562c0-2.209-1.791-4-4-4 h-4.409c0.988-2.571,2.831-3.567,5.303-4.133c1.817-0.417,3.106-2.034,3.106-3.899v-9.427c0-1.156-0.501-2.257-1.373-3.017 C64.081,14.448,63.146,14.103,62.187,14.103L62.187,14.103z"></path> <g> <path d="M24.583,45.565c-0.553,0-1-0.447-1-1V33.583h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982 v12C25.583,45.118,25.136,45.565,24.583,45.565z"></path> </g> <g> <path d="M59.583,57.565c-0.553,0-1-0.447-1-1v-2c0-0.553,0.447-1,1-1s1,0.447,1,1v2C60.583,57.118,60.136,57.565,59.583,57.565z"></path> </g> <g> <path d="M59.583,51.565c-0.553,0-1-0.447-1-1v-6.982h-4.654c-0.553,0-1-0.447-1-1s0.447-1,1-1h6c0.553,0,0.654,0.43,0.654,0.982v8 C60.583,51.118,60.136,51.565,59.583,51.565z"></path> </g> </g> </g></svg>
-                    </span> 
-                    </h1>
-                    <br>
-        
-                 
-                 
-                </div>
-            </div>
-        
-   
-        
-        <div class="area" >
-                    <ul class="circles">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                    </ul>
-            </div >
-        </div>
-    </section>
-
-    {{-- design section ends here--}}
 
 
 
@@ -210,13 +215,19 @@ Whippdigital | Home
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-10 px-3 px-lg-0  mx-auto">
 
-                <h2 class="max-he-mv text-md-center mb-0  p-2 animate-charcter font-40px w-100 mx-auto pb-0" >
+                <h2 class="max-he-mv text-md-center mb-4  p-2 font-40px w-100 mx-auto pb-0" >
                     
-                    Why Choose WhippDigital For Your
+                    Why Choose 
+                    <span style="color: #30a2ff">
+                        <b>
+
+                            WhippDigital 
+                        </b>
+                    </span>
+                    For Your
+                    <br>
+                    <b>Digital Marketing Agency?</b>
                 </h2>
-                <h2 class="max-he-mv text-md-center mb-4 pt-0  p-2 animate-charcter font-40px w-100 mx-auto" >
-                <b>Digital Marketing Agency?</b>
-                 </h2>
                 <p class="mt-2">
                 
                     Whipp Digital is a comprehensive digital marketing agency that has been offering a broad spectrum of services across various industries since 2005. Our suite of digital marketing solutions encompasses consulting and management for an array of online marketing strategies, such as search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. Additionally, we provide specialized web design and development services tailored for both eCommerce and B2B enterprises. Don't settle for just any digital marketing agency; choose a partner you can rely on.
@@ -228,8 +239,11 @@ Whippdigital | Home
                     <div class="pb-lg-3">
                         <div class="">
 
-                            <h3 class="d-none d-lg-block  feture-head p-2  animate-charcter font-30px fw-semibold">
-                                What Makes us Stand Out
+                            <h3 class="d-none d-lg-block  feture-head p-2   font-30px fw-semibold">
+                                What Makes us 
+                                <span style="color: #30a2ff;">
+                                    Stand Out
+                                </span>
                             </h3>
                         </div>
                                <div class="pt-4 pb-4 justify-content-start align-items-center d-none d-lg-flex">
@@ -461,7 +475,7 @@ Whippdigital | Home
     <section class="py-5 px-3" style="background: #c2c2c26e;;">
         <div class="py-5">
             <div class="col-lg-10 mx-auto" >
-                <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto  mx-auto w-100" >
+                <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto  mx-auto w-100 " >
                     DIGITAL MARKETING EXPERTISE             
                 </h3>
             </div>
