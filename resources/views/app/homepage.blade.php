@@ -89,9 +89,9 @@ Whippdigital | Home
 
         <!-- TECH SEO SEARCH EXPERIENCE SECTION STARTS HERE -->
     <section style="background-color: #000">
-        <div class="container  custom-text">
+        <div class="container  custom-text pt-5 pt-md-0">
            
-            <div class="d-flex flex-column flex-lg-row gap-3 pt-0 justify-content-center">
+            <div class="d-flex flex-column flex-lg-row gap-3 pt-0 justify-content-center pt-2 pt-md-0">
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-center">
                     <div>
                         <div>
@@ -125,7 +125,7 @@ Whippdigital | Home
              
                     class="bacsrpre-sp lozad  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     
-                <video width="520" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad"
+                <video width="600" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad"
                 data-poster="{{ asset('assets/imgs/cool_video_poser.png') }}"  loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                     data-src="{{ asset('assets/imgs/cool_video_black.mp4') }}"
@@ -458,7 +458,7 @@ Whippdigital | Home
 
 
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
-    <section class="py-5 px-3" style="background: #c2c2c233;;">
+    <section class="py-5 px-3" style="background: #c2c2c26e;;">
         <div class="py-5">
             <div class="col-lg-10 mx-auto" >
                 <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto animate-charcter mx-auto w-100" >
