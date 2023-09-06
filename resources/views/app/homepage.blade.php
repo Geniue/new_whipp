@@ -215,7 +215,7 @@ Whippdigital | Home
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-10 px-3 px-lg-0  mx-auto">
 
-                <h2 class="max-he-mv text-md-center mb-4  p-2 font-40px w-100 mx-auto pb-0" >
+                <h2 class="max-he-mv text-md-center mb-4  p-2 font-40px w-100 mx-auto pb-0 fw-bold" >
                     
                     Why Choose 
                     <span style="color: #30a2ff">
@@ -239,7 +239,7 @@ Whippdigital | Home
                     <div class="pb-lg-3">
                         <div class="">
 
-                            <h3 class="d-none d-lg-block  feture-head p-2   font-30px fw-semibold">
+                            <h3 class="d-none d-lg-block  feture-head p-2   font-30px fw-bold">
                                 What Makes us 
                                 <span style="color: #30a2ff;">
                                     Stand Out
