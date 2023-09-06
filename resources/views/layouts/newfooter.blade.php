@@ -1,8 +1,8 @@
-<div class="footer-container">
+<div class="footer-container ">
     {{-- contact us form --}}
     @if (!request()->routeIs('contact'))
     <div style="background-color: #5c5c5c !important;" class="p-lg-5 py-4 px-3 col-md-9 col-lg-12 mx-auto ">
-        <div >
+        <div class="py-lg-4">
 
         <div class="box  bg-light col-12 col-md-10 col-lg-8 mx-auto ">
         <div   class="footer-contact-container position-relative  p-3 p-lg-0 ">
