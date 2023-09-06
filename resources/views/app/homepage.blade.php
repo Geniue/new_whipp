@@ -128,7 +128,7 @@ Whippdigital | Home
                     class="bacsrpre-sp lozad  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     
                 <video width="520" style="max-width: 100%;"  preload="auto" id="mainvideo" class="lozad"
-                data-poster="{{ asset('assets/imgs/thumb.png') }}"  loop autoplay muted  >
+                data-poster="{{ asset('public/assets/imgs/cool_video_poser.png') }}"  loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                     data-src="{{ asset('assets/imgs/cool.mp4') }}"
                     sizes="(min-width: 60rem) 80vw,
@@ -178,7 +178,7 @@ Whippdigital | Home
                     <br>
         
                     <div class="text-end pe-4 ">
-                        <span> <a class="fs-2 fw-semibold text-white" href="https://ahrefs.com/blog/seo-statistics">- Ahrefs.com</a></span>
+                        <span> <a class="fs-2 fw-semibold text-white" target="_blank" href="https://ahrefs.com/blog/seo-statistics">- Ahrefs.com</a></span>
                     </div>
                  
                 </div>
