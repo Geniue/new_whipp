@@ -262,8 +262,10 @@ Whippdigital | Home
                 </div>
                 <div
                 class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
-                <h3 class="d-lg-none feture-head p-2  font-30px">
-                    What Makes us Stand Out
+                <h3 class="d-lg-none feture-head p-2 fw-bold  font-30px">
+                    What Makes us <span style="color: #30a2ff !important;">
+                        Stand Out
+                    </span>
                 </h3>
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
                         <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
