@@ -147,8 +147,47 @@ background-repeat: repeat;
     }
 }
 
+
+
+/* css for digital expertise start */
+.digital_expertise_border {
+    border-top: 1px solid #30a2ff5c;
+}
+.wp-dg-ext-gird-comp .col-lg-4 {
+    /* border-right: 1px solid #30a2ff5c; */
+    border-left: 1px solid #30a2ff5c;
+    position: relative;
+}
+.wp-dg-ext-gird-comp .col-lg-4:nth-child(3n + 1) {
+    border-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .wp-dg-ext-gird-comp .col-lg-4:last-child {
+        border-right: 1px solid #30a2ff5c;
+    }
+    .wp-dg-ext-gird-comp .col-lg-4:not(:first-child) {
+        border-right: 1px solid #30a2ff5c;
+    }
+    .wp-dg-ext-gird-comp .col-lg-4:nth-child(2) {
+        border-bottom: 1px solid #30a2ff5c;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wp-dg-ext-gird-comp .col-lg-4 {
+        border-right: 0 !important;
+        border-left: 0;
+    }
+    .wp-dg-ext-gird-comp .col-lg-4:first-child {
+        border-bottom: 1px solid #30a2ff5c;
+    }
+}
+
+
+
+
 .footer-contact-container{
-    background: #000000;
+    background: #000000 !important;
 }
 
 .circles{

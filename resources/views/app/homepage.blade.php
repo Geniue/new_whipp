@@ -239,9 +239,9 @@ Whippdigital | Home
                     <div class="pb-lg-3">
                         <div class="">
 
-                            <h3 class="d-none d-lg-block  feture-head p-2   font-30px fw-bold">
+                            <h3 class="d-none d-lg-block  fs-3 p-2   font-30px fw-bold">
                                 What Makes us 
-                                <span style="color: #30a2ff;">
+                                <span style="color: #30a2ff !important;">
                                     Stand Out
                                 </span>
                             </h3>
