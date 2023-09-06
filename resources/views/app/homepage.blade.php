@@ -89,9 +89,9 @@ Whippdigital | Home
 
         <!-- TECH SEO SEARCH EXPERIENCE SECTION STARTS HERE -->
     <section style="background-color: #000">
-        <div class="container  custom-text pt-5 pt-md-0">
+        <div class="container  custom-text pt-5 pt-md-5">
            
-            <div class="d-flex flex-column flex-lg-row gap-3 pt-0 justify-content-center pt-2 pt-md-0">
+            <div class="d-flex flex-column flex-lg-row gap-3  justify-content-center pt-2 pt-md-0">
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-center">
                     <div>
                         <div>
