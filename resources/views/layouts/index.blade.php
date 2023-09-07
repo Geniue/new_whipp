@@ -181,6 +181,9 @@ background-repeat: repeat;
     .wp-dg-ext-gird-comp .col-lg-4:first-child {
         border-bottom: 1px solid #30a2ff5c;
     }
+    .mx-t-20px{
+        top: 10px !important;
+    }
 }
 
 

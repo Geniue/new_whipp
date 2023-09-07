@@ -10,8 +10,9 @@
             
 
         <div class="">
-            <div class="py-4 text-center">
-                <p class="fs-1 pb-0 fw-bold">Let's have a conversation</p>
+            <div class="py-4 text-center px-3">
+                <p class="fs-1 pb-0 fw-bold d-none d-md-block">Let's have a conversation</p>
+                <p class="fs-2 pb-0 fw-bold  d-md-none">Let's have a conversation</p>
                 <p class="custom-color-123 fs-5">Learn how to explode your growth today</p>
             </div>
         </div>
