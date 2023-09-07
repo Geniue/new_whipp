@@ -183,11 +183,11 @@ Whippdigital | Home
                 <div
                 data-background-image="{{asset('assets/imgs/smok.png')}}"
              
-                    class="overflow-hidden max-mb-h-600px bacsrpre-sp lozad py-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class=" overflow-hidden max-mb-h-600px bacsrpre-sp lozad py-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <div class="">
 
                         <div class="overflow-hidden">
-                            <video   preload="auto" id="coolVideo" class="lozad mk-r--250px"
+                            <video   preload="auto"  class="cool-before-redner lozad mk-r--250px mxw-100"
                 data-poster="{{ asset('assets/imgs/cool_video_poser_white.png') }}"  loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                 data-src="{{ asset('assets/imgs/cool_video.webm') }}"
@@ -871,3 +871,18 @@ Whippdigital | Home
 
 @endsection
 
+
+@section('js')
+
+<script>
+    const video = document.querySelector(".cool-before-redner");
+    
+    video.addEventListener("loadstart", (e) => {
+         
+        video.classList.remove('mxw-100');
+        
+           video.setAttribute('id',"coolVideo")
+        });
+</script>
+    
+@endsection

@@ -188,7 +188,11 @@ background-repeat: repeat;
         translate: -13vw;
         width: 1130px !important;
     }
+    
 
+}
+#coolVideo poster {
+    max-width :100%;
 }
 .bacsrpre-sp{
     background-position: center;
@@ -226,6 +230,9 @@ background-repeat: repeat;
 margin-right: 50px;
 
 
+}
+.mxw-100{
+    max-width:  100%;
 }
 
     
