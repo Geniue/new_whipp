@@ -184,9 +184,50 @@ background-repeat: repeat;
     .mx-t-20px{
         top: 10px !important;
     }
+    #coolVideo{
+        translate: -10vw;
+    }
+    .max-mb-h-600px{
+        max-height: 625px !important;
+        background-size: 100% !important;
+    }
+}
+.bacsrpre-sp{
+    background-position: center;
+    background-size: 78%;
 }
 
+.cool-video-banner{
+  
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  
+  background: #fff;
+  
+  overflow: hidden;
+  clip-path: 0 0;
+  transform: translatez(0);
+}
 
+#coolVideo{
+
+    width: 1295px;
+  margin-right: 20px;
+  
+
+}
+@media(min-width:1200px){
+    #coolVideo{
+
+margin-right: 50px;
+
+
+}
+
+    
+}
 
 
 .footer-contact-container{
