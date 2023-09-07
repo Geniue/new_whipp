@@ -188,7 +188,7 @@ Whippdigital | Home
 
                         <div class="overflow-hidden">
                             <video   preload="auto"  class="cool-before-redner lozad mk-r--250px mxw-100"
-                data-poster="{{ asset('assets/imgs/cool_video_poser_white.png') }}"  loop autoplay muted  >
+                loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                 data-src="{{ asset('assets/imgs/cool_video.webm') }}"
                     sizes="(min-width: 60rem) 80vw,
