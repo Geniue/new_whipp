@@ -186,6 +186,7 @@ background-repeat: repeat;
     }
     #coolVideo{
         translate: -13vw;
+        width: 1130px !important;
     }
 
 }
