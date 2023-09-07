@@ -185,17 +185,18 @@ background-repeat: repeat;
         top: 10px !important;
     }
     #coolVideo{
-        translate: -10vw;
+        translate: -13vw;
     }
-    .max-mb-h-600px{
-        max-height: 625px !important;
-        background-size: 100% !important;
-    }
+
 }
 .bacsrpre-sp{
     background-position: center;
     background-size: 78%;
 }
+.max-mb-h-600px{
+        max-height: 625px !important;
+        background-size: 100% !important;
+    }
 
 .cool-video-banner{
   

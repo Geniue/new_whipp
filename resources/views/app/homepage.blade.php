@@ -182,12 +182,12 @@ Whippdigital | Home
                 </div>
                 <div
                 data-background-image="{{asset('assets/imgs/smok.png')}}"
-             style="max-height: 570px;"
+             
                     class="overflow-hidden max-mb-h-600px bacsrpre-sp lozad py-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <div class="">
 
                         <div class="overflow-hidden">
-                            <video width="465"   preload="auto" id="coolVideo" class="lozad mk-r--250px"
+                            <video   preload="auto" id="coolVideo" class="lozad mk-r--250px"
                 data-poster="{{ asset('assets/imgs/cool_video_poser_white.png') }}"  loop autoplay muted  >
                 <source media="(orientation: landscape)" class="lozad"
                 data-src="{{ asset('assets/imgs/cool_video.webm') }}"
