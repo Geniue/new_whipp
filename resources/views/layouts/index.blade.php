@@ -199,7 +199,7 @@ background-repeat: repeat;
     background-size: 78%;
 }
 .max-mb-h-600px{
-        max-height: 625px !important;
+        max-height: 630px !important;
         background-size: 100% !important;
     }
 
@@ -240,7 +240,7 @@ margin-right: 50px;
 
 
 .footer-contact-container{
-    background: #000000 !important;
+    background: #000000d1 !important;
 }
 
 .circles{
@@ -368,10 +368,10 @@ margin-right: 50px;
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #94a7c9 0%,
-    #3e4756 0%,
-    #94a7c9 67%,
-    #3e4756 100%
+    #30a2ff8c 0%,
+    #30a2ff 0%,
+    #30a2ff9e 67%,
+    #30a2ff 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -393,6 +393,14 @@ margin-right: 50px;
 }
 
 
+#coolVideo {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#coolVideo.fade-out {
+    opacity: 0;
+}
 
 
 .logo img {

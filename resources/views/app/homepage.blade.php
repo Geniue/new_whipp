@@ -147,14 +147,14 @@ Whippdigital | Home
 
 
         <!-- TECH SEO SEARCH EXPERIENCE SECTION STARTS HERE -->
-    <section>
+    <section id="videoSection" >
         <div class="container  custom-text pt-5 pt-md-0">
            
-            <div class="d-flex flex-column flex-lg-row gap-3  justify-content-center pt-2 pt-md-0">
+            <div class="d-flex flex-column flex-lg-row gap-3  justify-content-center py-2 pt-md-0">
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-center">
                     <div>
                         <div>
-                            <h2 class=" fw-bold min-lg-text-nowrap position-relative z-9 p-2   font-42px " >
+                            <h2 class=" fw-bold min-lg-text-nowrap position-relative z-9 py-2   font-42px " >
                                 Your Search for Digital Marketing
                             
                                     <br class="d-none d-md-inline">
@@ -183,12 +183,12 @@ Whippdigital | Home
                 <div
                 data-background-image="{{asset('assets/imgs/smok.png')}}"
              
-                    class=" overflow-hidden max-mb-h-600px bacsrpre-sp lozad py-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                    class=" overflow-hidden  max-mb-h-600px bacsrpre-sp lozad py-2  mx-auto mx-lg-0 col-12 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
                     <div class="">
 
                         <div class="overflow-hidden">
-                            <video   preload="auto"  class="cool-before-redner lozad mk-r--250px mxw-100"
-                loop autoplay muted  >
+                            <video   preload="auto" id="coolVideo"  class="cool-before-redner lozad mk-r--250px "
+                  muted  >
                 <source media="(orientation: landscape)" class="lozad"
                 data-src="{{ asset('assets/imgs/cool_video.webm') }}"
                     sizes="(min-width: 60rem) 80vw,
@@ -218,9 +218,9 @@ Whippdigital | Home
 
 
 
-    <section>
+    <section style="background: #30a2ff4d;;">
         <div  role="contentinfo"  class="container py-5 custom-text">
-            <div class="col-lg-10 px-3 px-lg-0  mx-auto">
+            <div class="col-lg-11 px-3 px-lg-0  mx-auto">
 
                 <h2 class="max-he-mv text-md-center mb-4  p-2 font-40px w-100 mx-auto pb-0 fw-bold" >
                     
@@ -240,9 +240,9 @@ Whippdigital | Home
                     Whipp Digital is a comprehensive digital marketing agency that has been offering a broad spectrum of services across various industries since 2005. Our suite of digital marketing solutions encompasses consulting and management for an array of online marketing strategies, such as search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. Additionally, we provide specialized web design and development services tailored for both eCommerce and B2B enterprises. Don't settle for just any digital marketing agency; choose a partner you can rely on.
                     </p>
                 </div>
-                `<div class="d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
+                <div class="px-5 align-items-center d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
-                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5">
+                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-3 col-md-10 col-lg-6 col-xl-6">
                     <div class="pb-lg-3">
                         <div class="">
 
@@ -269,7 +269,7 @@ Whippdigital | Home
                     </div>
                 </div>
                 <div
-                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-5 d-flex flex-column justify-content-center align-items-center">
+                class="mx-sm-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-center">
                 <div class="w-100">
 
                     <h3 class=" d-lg-none feture-head p-2 fw-bold  font-30px">
@@ -287,7 +287,7 @@ Whippdigital | Home
                 <img width="800" class="lozad" data-src="{{ asset('assets/imgs/tech_whipp.png') }}" alt="" />
             </div>
             </div>
-            <div class="row col-lg-12 mx-auto">
+            <div class="row col-lg-12 mx-auto px-lg-4">
                 
                 <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
                     <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Are Experts in Digital Marketing</span>
@@ -488,7 +488,7 @@ Whippdigital | Home
 
 
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
-    <section class="py-5 px-3" style="background: #c2c2c26e;;">
+    <section class="py-5 px-3">
         <div class="py-5">
             <div class="col-lg-10 mx-auto" >
                 <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto  mx-auto w-100 " >
@@ -875,14 +875,40 @@ Whippdigital | Home
 @section('js')
 
 <script>
-    const video = document.querySelector(".cool-before-redner");
-    
-    video.addEventListener("loadstart", (e) => {
-         
-        video.classList.remove('mxw-100');
-        
-           video.setAttribute('id',"coolVideo")
-        });
+const video = document.getElementById("coolVideo");
+const videoSection = document.getElementById("videoSection");
+
+const options = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.5, // Adjust this threshold as needed
+};
+
+video.addEventListener("ended", (event) => {
+    video.classList.add('fade-out')
+  console.log(
+    "Video stopped either because it has finished playing or no further data is available.",
+  );
+//   setTimeout(() => {
+//       video.play();
+//   }, 100);
+  setTimeout(() => {
+    video.play();
+      video.classList.remove('fade-out')
+  }, 400);
+});
+
+const videoObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            video.play();
+            observer.unobserve(entry.target);
+        }
+    });
+}, options);
+
+videoObserver.observe(videoSection);
+
 </script>
     
 @endsection
