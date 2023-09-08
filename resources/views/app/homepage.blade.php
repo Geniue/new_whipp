@@ -187,20 +187,9 @@ Whippdigital | Home
                     <div class="">
 
                         <div class="overflow-hidden">
-                            <video   preload="auto" id="coolVideo"  class="cool-before-redner lozad mk-r--250px "
+                            <video   preload="auto" id="coolVideo"  class="cool-before-redner  mk-r--250px "
                   muted  >
-                <source media="(orientation: landscape)" class="lozad"
-                data-src="{{ asset('assets/imgs/cool_video.webm') }}"
-                    sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw"
-                    type="video/mp4">
-                <source media="(orientation: portrait)" class="lozad"
-                    data-src="{{ asset('assets/imgs/cool_video.webm') }}"
-                    sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw"
-                    type="video/webm">
+          
                 Your browser does not support the video tag.
             </video>
                   
@@ -876,14 +865,26 @@ Whippdigital | Home
 
 <script>
 const video = document.getElementById("coolVideo");
-const videoSection = document.getElementById("videoSection");
 
-const options = {
-    root: null,
-    rootMargin: "0px",
-    threshold: 0.5, // Adjust this threshold as needed
-};
 
+
+document.addEventListener("DOMContentLoaded", function () {
+   video.innerHTML = `
+   <source media="(orientation: landscape)" class=""
+                src="{{ asset('assets/imgs/cool_video.webm') }}"
+                    sizes="(min-width: 60rem) 80vw,
+               (min-width: 40rem) 90vw,
+               100vw"
+                    type="video/mp4">
+                <source media="(orientation: portrait)" class=""
+                    src="{{ asset('assets/imgs/cool_video.webm') }}"
+                    sizes="(min-width: 60rem) 80vw,
+               (min-width: 40rem) 90vw,
+               100vw"
+                    type="video/webm">
+   `
+   video.play();
+});
 video.addEventListener("ended", (event) => {
     video.classList.add('fade-out')
   console.log(
@@ -898,16 +899,6 @@ video.addEventListener("ended", (event) => {
   }, 400);
 });
 
-const videoObserver = new IntersectionObserver((entries, observer) => {
-    entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            video.play();
-            observer.unobserve(entry.target);
-        }
-    });
-}, options);
-
-videoObserver.observe(videoSection);
 
 </script>
     
