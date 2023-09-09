@@ -67,7 +67,7 @@ Whippdigital | Home
                100vw"
                     type="video/mp4">
                 <source media="(orientation: portrait)" class="lozad"
-                    data-src="{{ asset('assets/imgs/new_whippintro_1.webm') }}"
+                    data-src="{{ asset('assets/imgs/new_whippintro.webm') }}"
                     sizes="(min-width: 60rem) 80vw,
                (min-width: 40rem) 90vw,
                100vw"
