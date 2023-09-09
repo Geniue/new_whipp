@@ -59,7 +59,7 @@ Whippdigital | Home
 
 
     <video preload="auto" id="mainvideo" disablePictureInPicture='true' class="lozad"
-    data-poster="{{ asset('assets/imgs/thumb.png') }}"  loop autoplay muted controls="true" playsinline >
+    data-poster="{{ asset('assets/imgs/thumb.webp') }}"  loop autoplay muted playsinline >
                 <source media="(orientation: landscape)" class="lozad"
                 data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}"
                 sizes="(min-width: 60rem) 80vw,
@@ -67,7 +67,7 @@ Whippdigital | Home
                100vw"
                     type="video/mp4">
                 <source media="(orientation: portrait)" class="lozad"
-                    data-src="{{ asset('assets/imgs/new_whippintro.webm') }}"
+                    data-src="{{ asset('assets/imgs/new_whippintro_1.webm') }}"
                     sizes="(min-width: 60rem) 80vw,
                (min-width: 40rem) 90vw,
                100vw"
