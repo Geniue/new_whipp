@@ -5,7 +5,7 @@
 
         <!-- logo -->
         <div class="d-flex">
-            <div class="logo">
+            <div class="logo px-0">
                 <a href="/" aria-label="logo" class="main-logo">
                     <img data-src="{{ asset('assets/imgs/icons/whipplogo_white.webp') }}" class="mainwhipplogo lozad " alt="">
                 </a>
@@ -13,7 +13,7 @@
         </div>
 
         <!-- links & contact -->
-        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-3">
+        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-0">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center ">
                 <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center mb-0">
@@ -366,7 +366,7 @@
                 </ul>
             </div>
             <!-- contact -->
-            <div class="d-flex gap-2 ps-0 ps-sm-4 ">
+            <div class="d-flex gap-2 ps-0 ps-sm-0 ">
                 <a href="tel:212-951-0651 " aria-label="callus"   class="d-flex justify-content-center align-content-center">
                     <img width="40" class="ek-phone-img lozad"
                         data-src="{{ asset('assets/imgs/custom-phone-icon-svg-new.svg') }}"  alt="" />

@@ -321,7 +321,11 @@
 
                             <strong>Address:</strong>
 
-                            <div id="map" class="mx-auto mt-3"></div>
+                            <div id="map" class="mx-auto mt-3 overflow-hidden">
+                                <div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9018809213894!2d-74.00421302441326!3d40.720176437115796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a30e83e23%3A0xf52f5c97442929e1!2s46%20Howard%20St%206th%20fl%2C%20New%20York%2C%20NY%2010013%2C%20United%20States!5e0!3m2!1sen!2seg!4v1694394445709!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
                         
                             <a target="_blank" href="https://goo.gl/maps/cWYhgMfHtZoW2fDw9"  class="fs-5">
                                
@@ -346,60 +350,3 @@
 @endsection
 
 
-@section('js')
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB_zev3AUlvTv9UGwZGPnUCSnM1aMsPLo"></script>
-<script type="text/javascript">
-     function initMap() {
-
-        // Specify the center location as an address, dynamically applicable
-        var centerLocation_1 = "46 Howard St 6th fl, New York, NY 10013";
-
-
-        // Create a geocoder object
-        var geocoder = new google.maps.Geocoder();
-        // var geocoder_2 = new google.maps.Geocoder();
-
-        // Convert the center location to coordinates
-        geocoder.geocode({
-            address: centerLocation_1
-        }, function(results, status) {
-            if (status === google.maps.GeocoderStatus.OK) {
-                // Retrieve the first result's geometry (location)
-                var location = results[0].geometry.location;
-
-                // Create a map object
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    center: location,
-                    zoom: 18,
-                    mapTypeControl: false, // Remove satellite view control
-                    streetViewControl: false, // Remove person (street view) control
-                    zoomControl: false // Remove zoom controls
-                });
-
-                // Create a marker for the location
-                var locationMarker = new google.maps.Marker({
-                    position: location,
-                    map: map,
-                    title: centerLocation_1
-                });
-                // Create an info window
-                var infoWindow = new google.maps.InfoWindow({
-                    content: "Pristinegreen Cleaning"
-                });
-
-                // Add click event listener to open the info window
-                locationMarker.addListener('click', function() {
-                    infoWindow.open(map, locationMarker);
-                });
-            } else {
-                // Geocoding was not successful
-                alert("Geocode was not successful for the following reason: " + status);
-            }
-        });
-
-    }
-
-    // Load the map after the Google Maps API is loaded
-    google.maps.event.addDomListener(window, 'load', initMap);
-</script>
-@endsection

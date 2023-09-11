@@ -151,21 +151,20 @@ Whippdigital | Home
         <div class="container  custom-text pt-5 pt-md-0">
            
             <div class="d-flex flex-column flex-lg-row gap-3  justify-content-center py-2 pt-md-0">
-                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-center">
-                    <div>
+                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-0 col-md-10 col-lg-6 col-xl-6 d-flex align-items-end">
+                    <div class="d-flex flex-column gap-3">
                         <div>
                             <h2 class=" fw-bold min-lg-text-nowrap position-relative z-9 py-2   font-42px " >
-                                Your Search for Digital Marketing
-                            
-                                    <br class="d-none d-md-inline">
-                                    Excellence
-                                    <span class="animate-charcter" style="text-transform: capitalize">
-                                        Ends Here.
+                                We Are Experts at 
+                                
+                                
+                                <span class="animate-charcter" style="text-transform: capitalize">
+                                    Grabbing Attention
                                     </span>
                                 </h2>
                             </div>
                         <h3 class="fs-2 fw-medium pt-4" >
-                            Achieve Results-Driven Marketing Today
+                            Our Data-Driven Strategies Convert
          
          
                          </h3>
@@ -175,7 +174,7 @@ Whippdigital | Home
                         <p class="fs-4 z-9 position-relative" >
                             Ready to make your mark? Look no further for an all-inclusive <br class="d-none d-md-inline"> digital marketing service.                        </p>
                         <div class="d-flex  position-relative mx-t-10px pt-4 py-md-5 ">
-                            <button class="iwantgrow_btn lettalkbtn_hasarrow px-3 cta-btn-btn col-8 col-sm-6 fs-5 col-md-8  col-xl-4  d-flex justify-content-center align-items-center gap-2 py-2  rounded-5 text-uppercase fw-bold">Let's talk 
+                            <button class="iwantgrow_btn lettalkbtn_hasarrow px-3 cta-btn-btn col-8 col-sm-6 fs-5 col-md-8  col-xl-4  d-flex justify-content-center align-items-center gap-2 py-2  rounded-5 text-uppercase fw-bold">Let's Go
                                 <svg id="arrow" fill="#ffffff" height="20" width="20" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-51.21 -51.21 614.51 614.51" xml:space="preserve" stroke="#ffffff" stroke-width="23.044230000000002"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <g> <path d="M263.641,248.4L18.308,3.067c-4.16-4.053-10.987-3.947-15.04,0.32c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 L3.268,493.733c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 L263.641,263.44C267.801,259.28,267.801,252.56,263.641,248.4z"></path> <path d="M508.974,248.4L263.641,3.067c-4.267-4.053-10.987-3.947-15.04,0.213c-3.947,4.16-3.947,10.667,0,14.827l237.76,237.76 l-237.76,237.867c-4.267,4.053-4.373,10.88-0.213,15.04c4.16,4.16,10.88,4.373,15.04,0.213c0.107-0.107,0.213-0.213,0.213-0.213 L508.974,263.44C513.135,259.28,513.135,252.56,508.974,248.4z"></path> </g> </g> </g> </g></svg>
                         </div>
                     </div>
@@ -207,31 +206,28 @@ Whippdigital | Home
 
 
 
-    <section style="background: #30a2ff4d;;">
+    <section style=" background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,176,235,0.5019141445640756) 50%, rgba(255,255,255,1) 100%); ">
         <div  role="contentinfo"  class="container py-5 custom-text">
             <div class="col-lg-11 px-3 px-lg-0  mx-auto">
 
                 <h2 class="max-he-mv text-md-center mb-4  p-2 font-40px w-100 mx-auto pb-0 fw-bold" >
                     
                     Why Choose 
-                    <span style="color: #30a2ff">
-                        <b>
+                
+                    
 
                             WhippDigital 
-                        </b>
-                    </span>
+                
                     For Your
                     <br class="d-none d-md-inline">
                     <b>Digital Marketing Agency?</b>
                 </h2>
-                <p class="mt-2">
-                
-                    Whipp Digital is a comprehensive digital marketing agency that has been offering a broad spectrum of services across various industries since 2005. Our suite of digital marketing solutions encompasses consulting and management for an array of online marketing strategies, such as search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. Additionally, we provide specialized web design and development services tailored for both eCommerce and B2B enterprises. Don't settle for just any digital marketing agency; choose a partner you can rely on.
-                    </p>
+              
                 </div>
                 <div class="px-5 align-items-center d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
-                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-3 col-md-10 col-lg-6 col-xl-6">
+                <div class="mx-auto mx-lg-0 col-12 px-2 px-md-3 col-md-10 col-lg-6 col-xl-6 ">
                     <div class="pb-lg-3">
                         <div class="">
 
@@ -249,9 +245,7 @@ Whippdigital | Home
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Owning a website is only the first step. If search engines aren't picking it up, it's not doing much for your business. To ensure customers discover your site, we elevate your online presence through refined website design, compelling copywriting, optimized keywords, active social media engagement, and more. With Whipp Digital, you maximize your return on marketing investment.<b>
-
-                                Here's why you should consider working with us:
+                            Whipp Digital is a comprehensive digital marketing agency that has been offering a broad spectrum of services across various industries since 2005. Our suite of digital marketing solutions encompasses consulting and management for an array of online marketing strategies, such as search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. Additionally, we provide specialized web design and development services tailored for both eCommerce and B2B enterprises. Don't settle for just any digital marketing agency; choose a partner you can rely on. 
 </b>
 
 </p>
@@ -278,9 +272,9 @@ Whippdigital | Home
             </div>
             <div class="row col-lg-12 mx-auto px-lg-4">
                 
-                <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
+                <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3 ">
                     <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Are Experts in Digital Marketing</span>
-                    <p>
+                    <p class="">
                         Choosing a digital marketing agency that truly understands the nuances of digital marketing may seem like a given, but many firms fall short. Our methods have a proven track record of success.       
                     </p>
                                      
@@ -403,7 +397,7 @@ Whippdigital | Home
     </section> --}}
     <!-- GROW BUSINESS BANNER ENDS HERE -->
 
-    <!-- LET'S TALK BANNER SECTION STARTS HERE -->
+    <!-- LET'S GOBANNER SECTION STARTS HERE -->
     {{-- <section>
         <div class="container py-5">
             <div class="text-center">
@@ -420,7 +414,7 @@ Whippdigital | Home
         </div>
     </section> --}}
 
-    <!-- LET'S TALK BANNER SECTION ENDS HERE -->
+    <!-- LET'S GOBANNER SECTION ENDS HERE -->
 
     <!-- WHY TECH SEO IMPORTANT SECTION STARTS HERE -->
     {{-- <section>
@@ -477,215 +471,320 @@ Whippdigital | Home
 
 
     <!-- DIGITAL EXPERTISE SECTION STARTS HERE -->
-    <section class="py-5 px-3">
-        <div class="py-5">
-            <div class="col-lg-10 mx-auto" >
-                <h3 class="custom-text fs-1 text-center p-2 col-lg-10 mx-auto  mx-auto w-100 " >
-                    DIGITAL MARKETING EXPERTISE             
+    <section class="pt-5 pb-5">
+        <div class="pt-5">
+            <div class="col-lg-10 mx-auto pb-5 ">
+                <h3
+                  class="custom-text font-42px text-center p-2 col-lg-10 mx-auto  mx-auto w-100 fw-bold">
+                    Digital Marketing Expertise
                 </h3>
             </div>
         </div>
 
-        <div class="digital_expertise_border">
-            <div class="container wp-dg-ext-gird-comp row mx-auto">
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-3 gap-md-0">
+        <div class="">
+            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-3 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
+                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/web_design.png')}}" width="68" class="lozad" alt="">
-        
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/web_design.png')}}"
+                              width="68" class="lozad" alt="">
+
                         </div>
 
-                        <div>
+                        <div class="text-center">
 
-                            <a href="{{route('custom_web_design')}}" class="fs-5 fw-medium custom-text">
-                                WEBSITE DESIGN & DEVELOPMENT
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
+                            <a href="{{route('custom_web_design')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                                Website Design & Development
+
                             </a>
-                            <p>
-                                In a vast online landscape teeming with countless websites, it is imperative that 
-                                your own site not only distinguishes itself but also serves as a compelling reflection of your identity, all the while playing a pivotal role in fostering your organization's expansion.
+                            <p class="mt-2">
+                                In a vast online landscape teeming with
+                                countless websites, it is imperative that
+                                your own site not only distinguishes itself but
+                                also serves as a compelling reflection of your
+                                identity, all the while playing a pivotal role
+                                in fostering your organization's expansion.
                             </p>
 
-                         
 
-                          
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-3 gap-md-0">
+                <div class=" w-100 p-2 py-4 p-md-3 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/social.png')}}" width="68" class="lozad" alt="">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/social.png')}}"
+                              width="68" class="lozad" alt="">
 
                         </div>
 
-                        <div>
-                            <a href="{{route('social_media_advertising')}}" class="fs-5 fw-medium custom-text">
-                                SOCIAL MEDIA MARKETING 
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
+                        <div class="text-center">
+                            <a href="{{route('social_media_advertising')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                                Social Media Marketing
+
                             </a>
-                            <p>
-                                Encompassing a pivotal role in maintaining a seamless connection with your audience, social media marketing operates either in tandem with your efforts or autonomously, actively engaging and nurturing your social community.
+                            <p class="mt-2">
+                                Encompassing a pivotal role in maintaining a
+                                seamless connection with your audience, social
+                                media marketing operates either in tandem with
+                                your efforts or autonomously, actively engaging
+                                and nurturing your social community.
                             </p>
-                          
+
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-3 gap-md-0">
+                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/reputation.png')}}" width="68" class="lozad" alt="">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/reputation.png')}}"
+                              width="68" class="lozad" alt="">
 
                         </div>
 
-                        <div>
+                        <div class="text-center">
 
-                            <a href="{{route('online_reputation_repair')}}" class="fs-5 fw-medium custom-text">
-                                REPUTATION MANAGEMENT
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
+                            <a href="{{route('online_reputation_repair')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                                Reputation Management
+
                             </a>
-                            <p>
-                                In the realm of the digital landscape, your reputation reigns supreme. Our proficient team of specialists is adept at safeguarding and augmenting your online standing, yielding substantial and enduring outcomes.
+                            <p class="mt-2">
+                                In the realm of the digital landscape, your
+                                reputation reigns supreme. Our proficient team
+                                of specialists is adept at safeguarding and
+                                augmenting your online standing, yielding
+                                substantial and enduring outcomes.
                             </p>
-                           
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="digital_expertise_border">
+        <div class="mt-5">
+            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-3 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
+                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
+                        <div class="col-2 col-md-3">
+                            <img
+                            data-src="{{asset('assets/imgs/icons/v1/convertion.png')}}"
+                            width="73" class="lozad" alt="">
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <a href="{{route('conversion_rate_optimization')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                              Conversion Optimization
+
+                            </a>
+                            <p class="mt-2">
+                                Transform a higher proportion of your website
+                                visitors into valuable customers! Our adept
+                                professionals employ cutting-edge Conversion
+                                Optimization methodologies to elevate the rate
+                                at which casual website browsers transition into
+                                engaged and active users.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-100 p-2 py-4 p-md-3 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
+                        <div class="col-2 col-md-3">
+                            <img
+                            data-src="{{asset('assets/imgs/icons/v1/video.png')}}"
+                            width="65" class="lozad" alt="">
+
+                        </div>
+
+                        <div class="text-center">
+                            <a href="#"
+                              class="fs-5 text-center custom-text fw-bold">
+                              Video Production
+                            </a>
+                            <p class="mt-2">
+                                No avenue holds greater potency for conveying
+                                your message than the medium of video. Captivate
+                                your audience by narrating your story and
+                                disseminating your mission.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
+                        <div class="col-2 col-md-3">
+                            <img
+                            data-src="{{asset('assets/imgs/icons/v1/amazon.png')}}"
+                            width="80" class="lozad" alt="">
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <a href="{{route('amazon_marketing')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                              Amazon Marketing
+
+                            </a>
+                            <p class="mt-2">
+                                Getting your products found on Amazon can be challenging. The competition is fierce and the marketplace is massive. But we can help you rise above the noise and get your products in front of the right buyers. We'll do this by optimizing your product listings, running targeted advertising, and helping you build a strong brand presence. 
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-5">
+            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-3 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
+                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
+                        <div class="col-2 col-md-3">
+                            <img
+                            data-src="{{asset('assets/imgs/icons/v1/seo.png')}}"
+                            width="68" class="lozad" alt="">
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <a href="{{route('se_optimization')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                              Search Engine Optimization - SEO
+                            </a>
+                            <p class="mt-2">
+                                By conducting meticulous analysis of key words
+                                and employing ethical strategies, we are
+                                equipped
+                                to assist you in attaining prominent positions
+                                within the leading search platforms.
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" w-100 p-2 py-4 p-md-3 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
+                        <div class="col-2 col-md-3">
+                            <img
+                            data-src="{{asset('assets/imgs/icons/v1/ppc.png')}}"
+                            width="72" class="lozad" alt="">
+                        </div>
+
+                        <div class="text-center">
+                            <a href="{{route('ppc_marketing')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                            Pay Per Click - PPC
+
+                            </a>
+                            <p class="mt-2">
+                                While search engine optimization (SEO) provides
+                                sustained and gradual growth, there are
+                                instances
+                                when an instant surge is necessary.
+                                Whippdigital's pay-per-click (PPC)
+                                campaign guarantees optimal utilization of your
+                                funds, delivering immediate and impactful
+                                results.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-2 rounded-3 light-white">
+                    <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center">
+                        <div class="col-2 col-md-3">
+                            <img
+                            data-src="{{asset('assets/imgs/icons/v1/content.png')}}"
+                            width="65" class="lozad" alt="">
+
+                        </div>
+
+                        <div class="text-center">
+
+                            <a href="{{route('seo_content_writing')}}"
+                              class="fs-5 text-center custom-text fw-bold">
+                              Content Writing
+
+                            </a>
+                            <p class="mt-2">
+                                Our team of content creators is well-versed in
+                                the intricacies of Search Engine Optimization
+                                (SEO), meticulously crafting marketing copy that
+                                not only imparts valuable information but also
+                                captivates, effectively propelling your business
+                                goals forward.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- <div class="digital_expertise_border">
             <div class="container wp-dg-ext-gird-comp row mx-auto">
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-3 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/convertion.png')}}" width="73" class="lozad" alt="">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/convertion.png')}}"
+                              width="73" class="lozad" alt="">
 
                         </div>
 
                         <div>
 
-                            <a href="{{route('conversion_rate_optimization')}}" class="fs-5 fw-medium custom-text">
+                            <a href="{{route('conversion_rate_optimization')}}"
+                              class="fs-5 fw-medium custom-text">
                                 CONVERSION OPTIMIZATION
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
+
                             </a>
                             <p>
-                       
-                                Transform a higher proportion of your website visitors into valuable customers! Our adept professionals employ cutting-edge Conversion Optimization methodologies to elevate the rate at which casual website browsers transition into engaged and active users.
+
+                                Transform a higher proportion of your website
+                                visitors into valuable customers! Our adept
+                                professionals employ cutting-edge Conversion
+                                Optimization methodologies to elevate the rate
+                                at which casual website browsers transition into
+                                engaged and active users.
                             </p>
-                            
-                           
+
+
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-3 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/video.png')}}" width="65" class="lozad" alt="">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/video.png')}}"
+                              width="65" class="lozad" alt="">
 
                         </div>
 
                         <div>
                             <a href="#" class="fs-5 fw-medium custom-text">
-                              VIDEO PRODUCTION
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
+                                VIDEO PRODUCTION
+
                             </a>
                             <p>
-                                No avenue holds greater potency for conveying your message than the medium of video. Captivate your audience by narrating your story and disseminating your mission.
+                                No avenue holds greater potency for conveying
+                                your message than the medium of video. Captivate
+                                your audience by narrating your story and
+                                disseminating your mission.
                             </p>
                         </div>
                     </div>
@@ -693,39 +792,30 @@ Whippdigital | Home
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-3 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/amazon.png')}}" width="80" class="lozad" alt="">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/amazon.png')}}"
+                              width="80" class="lozad" alt="">
 
                         </div>
 
                         <div>
 
-                            <a  href="{{route('amazon_marketing')}}" class="fs-5 fw-medium custom-text">
+                            <a href="{{route('amazon_marketing')}}"
+                              class="fs-5 fw-medium custom-text">
                                 AMAZON MARKETING
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
+
                             </a>
                             <p>
-                                Getting your products found on Amazon can be challenging. The competition is fierce and the marketplace is massive. But we can help you rise above the noise and get your products in front of the right buyers. We'll do this by optimizing your product listings, running targeted advertising, and helping you build a strong brand presence.
+                                Getting your products found on Amazon can be
+                                challenging. The competition is fierce and the
+                                marketplace is massive. But we can help you rise
+                                above the noise and get your products in front
+                                of the right buyers. We'll do this by optimizing
+                                your product listings, running targeted
+                                advertising, and helping you build a strong
+                                brand presence.
                             </p>
-                        
+
                         </div>
                     </div>
                 </div>
@@ -736,122 +826,87 @@ Whippdigital | Home
                 <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
                     <div class="d-flex gap-3 gap-md-0">
                         <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/seo.png')}}" width="68" class="lozad" alt="">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/seo.png')}}"
+                              width="68" class="lozad" alt="">
 
                         </div>
 
                         <div>
-                            <a href="{{route('se_optimization')}}" class="fs-5 fw-medium custom-text">
-                                
+                            <a href="{{route('se_optimization')}}"
+                              class="fs-5 fw-medium custom-text">
+
                                 SEARCH ENGINE OPTIMIZATION – SEO
-                                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                                                    viewBox="0 0 492.004 492.004"
-                                                                    style="
-                                                  margin-bottom: 3px;
-                                                  transform: scale(1.2);
-                                                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                                                "
-                                                                    xml:space="preserve" width="13px" height="13px">
-                                                                    <g>
-                                                                        <g>
-                                                                            <g>
-                                                                                <path
-                                                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                                                    fill="#576C2C"></path>
-                                                                            </g>
-                                                                        </g>
-                                                                    </g>
-                                                                </svg>
-                                                            </a>
-                                                            <p>
-                                                                By conducting meticulous analysis of keywords and employing ethical strategies, we are equipped 
-                                                                to assist you in attaining prominent positions within the leading search platforms.
-                                                            </p>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-3 gap-md-0">
-                        <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/ppc.png')}}" width="72" class="lozad" alt="">
 
-                        </div>
-
-                        <div>
-                            <a  href="{{route('ppc_marketing')}}" class="fs-5 fw-medium custom-text">
-                                PAY PER CLICK – PPC
-                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                     version="1.1" id="Layer_1" x="0px" y="0px"
-                                     viewBox="0 0 492.004 492.004"
-                                     style="
-                   margin-bottom: 3px;
-                   transform: scale(1.2);
-                   enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                 "
-                                     xml:space="preserve" width="13px" height="13px">
-                                     <g>
-                                         <g>
-                                             <g>
-                                                 <path
-                                                     d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                     data-original="#000000" class="active-path" data-old_color="#000000"
-                                                     fill="#576C2C"></path>
-                                             </g>
-                                         </g>
-                                     </g>
-                                 </svg>
-                             </a>
-                             <p>
-                                 While search engine optimization (SEO) provides sustained and gradual growth, there are instances 
-                                 when an instant surge is necessary. Whippdigital's pay-per-click (PPC)
-                                  campaign guarantees optimal utilization of your funds, delivering immediate and impactful results.
-                             </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
-                    <div class="d-flex gap-3 gap-md-0">
-                        <div class="col-2 col-md-3">
-                            <img data-src="{{asset('assets/imgs/icons/v1/content.png')}}" width="65" class="lozad" alt="">
-
-                        </div>
-
-                        <div>
-
-                       <a href="{{route('seo_content_writing')}}" class="fs-5 fw-medium custom-text">
-                                CONTENT WRITING
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    version="1.1" id="Layer_1" x="0px" y="0px"
-                                    viewBox="0 0 492.004 492.004"
-                                    style="
-                  margin-bottom: 3px;
-                  transform: scale(1.2);
-                  enable-background: new 0 0 492.004 492.004; /* stroke: blanchedalmond; */
-                "
-                                    xml:space="preserve" width="13px" height="13px">
-                                    <g>
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12    c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028    c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265    c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"
-                                                    data-original="#000000" class="active-path" data-old_color="#000000"
-                                                    fill="#576C2C"></path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
                             </a>
                             <p>
-                                Our team of content creators is well-versed in the intricacies of Search Engine Optimization (SEO), meticulously crafting marketing copy that not only imparts valuable information but also captivates, effectively propelling your business goals forward.
+                                By conducting meticulous analysis of keywords
+                                and employing ethical strategies, we are
+                                equipped
+                                to assist you in attaining prominent positions
+                                within the leading search platforms.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
+                    <div class="d-flex gap-3 gap-md-0">
+                        <div class="col-2 col-md-3">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/ppc.png')}}"
+                              width="72" class="lozad" alt="">
+
+                        </div>
+
+                        <div>
+                            <a href="{{route('ppc_marketing')}}"
+                              class="fs-5 fw-medium custom-text">
+                                PAY PER CLICK – PPC
+
+                            </a>
+                            <p>
+                                While search engine optimization (SEO) provides
+                                sustained and gradual growth, there are
+                                instances
+                                when an instant surge is necessary.
+                                Whippdigital's pay-per-click (PPC)
+                                campaign guarantees optimal utilization of your
+                                funds, delivering immediate and impactful
+                                results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 col-lg-4 p-2 py-4 p-md-4 p-xl-5">
+                    <div class="d-flex gap-3 gap-md-0">
+                        <div class="col-2 col-md-3">
+                            <img
+                              data-src="{{asset('assets/imgs/icons/v1/content.png')}}"
+                              width="65" class="lozad" alt="">
+
+                        </div>
+
+                        <div>
+
+                            <a href="{{route('seo_content_writing')}}"
+                              class="fs-5 fw-medium custom-text">
+                                CONTENT WRITING
+
+                            </a>
+                            <p>
+                                Our team of content creators is well-versed in
+                                the intricacies of Search Engine Optimization
+                                (SEO), meticulously crafting marketing copy that
+                                not only imparts valuable information but also
+                                captivates, effectively propelling your business
+                                goals forward.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </section>
     <!-- DIGITAL EXPERTISE SECTION ENDS HERE -->
 

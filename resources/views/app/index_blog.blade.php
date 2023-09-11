@@ -75,7 +75,7 @@
             
         </div>
         <div class="text-center py-4">
-            <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
+            <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Go</button>
         </div>
     </section>
     <!-- BLOG TITLE BANNER SECTION ENDS HERE -->
@@ -90,7 +90,7 @@
             <h2 id="st" class="fs-1 fw-bold custom-text text-ellipsis-4">Our Blog</h2>
             
             <div class="text-center py-4">
-                <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
+                <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Go</button>
             </div>
         </div>
    

@@ -82,7 +82,7 @@
         </h2>
          
         <div class="text-center py-4">
-            <button  class="iwantgrow_btn lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Talk</button>
+            <button  class="iwantgrow_btn lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" href="#">Let's Go</button>
         </div>
     </div>
 </section>
@@ -99,7 +99,7 @@
             </h2>
          
                  <div class="text-center py-4">
-                <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Talk</button>
+                <button  class="iwantgrow_btn  lets-talk-btn col-5 col-md-4 col-lg-2 d-inline-block py-2 fs-5 rounded-5" >Let's Go</button>
             </div>
         </div>
     </section>
@@ -226,7 +226,7 @@
                     Join us to forge genuine digital partnerships and watch your brand rise in the rankings. Embrace the art of backlinking, where quality trumps quantity, and let's sculpt your online success story together. Boost SEO. Build links. Whipp Digital – Your Path to Digital Authority.                </p>
             </div>
             <div class="d-flex  py-3">
-                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-8 fw-bold col-xl-6  d-inline-block py-2 rounded-5 text-uppercase iwantgrow_btn " href="#">TALK WITH ONE OF OUR  Link Building EXPERTS</button>
+                <button class="mx-auto  px-3 cta-btn-btn col-12 col-md-6 fw-bold col-xl-4   d-inline-block py-2 rounded-5 text-uppercase iwantgrow_btn " href="#">TALK WITH ONE OF OUR  <br> Link Building EXPERTS</button>
             </div>
         </div>
         </div>

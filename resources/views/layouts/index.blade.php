@@ -151,11 +151,11 @@ background-repeat: repeat;
 
 /* css for digital expertise start */
 .digital_expertise_border {
-    border-top: 1px solid #30a2ff5c;
+    border-top: 2px solid #30a2ff5c;
 }
 .wp-dg-ext-gird-comp .col-lg-4 {
     /* border-right: 1px solid #30a2ff5c; */
-    border-left: 1px solid #30a2ff5c;
+    border-left: 2px solid #30a2ff5c;
     position: relative;
 }
 .wp-dg-ext-gird-comp .col-lg-4:nth-child(3n + 1) {
@@ -223,6 +223,18 @@ background-repeat: repeat;
   margin-right: 20px;
   
 
+}
+.text-capitalzed{
+    text-transform: capitalize !important;
+}
+.border-2{
+    border-color: #23bce7 !important; 
+}
+.bg-newblue {
+  background-color: #23bce7 !important;
+}
+.light-white{
+    background-color: #f4f4f4;
 }
 @media(min-width:1200px){
     #coolVideo{
@@ -402,6 +414,9 @@ margin-right: 50px;
     opacity: 0;
 }
 
+.custom-text{
+    color: #262626  !important;
+}
 
 .logo img {
   float: unset !important;
@@ -449,7 +464,7 @@ if (empty(end($segments))) {
                 <div class="">
                     <div class="py-4 text-center custom-text-white">
                         <p class="fs-1 pb-0 fw-bold">Let's have a conversation</p>
-                        <p class="custom-color-123 fs-5">Learn how to explode your growth today</p>
+                      
                     </div>
                 </div>
                 {{-- form --}}
