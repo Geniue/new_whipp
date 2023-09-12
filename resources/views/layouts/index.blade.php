@@ -227,8 +227,39 @@ background-repeat: repeat;
 .text-capitalzed{
     text-transform: capitalize !important;
 }
-.border-2{
-    border-color: #23bce7 !important; 
+.border-1{
+    border-color: #23bde755 !important; 
+}
+
+.exprer-box-ico{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #23bce7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0081f34f !important;
+}
+.exprer-box-ico svg{
+    width: 58% !important;
+    max-width: 100%  !important;
+}
+p{
+    font-size: 17px;
+}
+.max-show-text-6{
+    display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+@media(min-width:1200px){
+    .max-lg-ms-100px{
+        margin-left: 100px !important; 
+    }
 }
 .bg-newblue {
   background-color: #23bce7 !important;
