@@ -235,7 +235,7 @@ background-repeat: repeat;
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    background: #23bce7;
+    background: #FE5558;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,6 +259,9 @@ p{
 @media(min-width:1200px){
     .max-lg-ms-100px{
         margin-left: 100px !important; 
+    }
+    .mx-lg-bg-right{
+        background-position: 35px;
     }
 }
 .bg-newblue {
