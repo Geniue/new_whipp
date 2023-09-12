@@ -695,7 +695,7 @@ Whippdigital | Home
                 </h2>
               
                 </div>
-                <div class="px-md-5 px-3 align-items-center d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
+                <div class="px-md-3 px-3 align-items-center d-flex flex-column-reverse flex-lg-row gap-3 py-5 justify-content-center">
    
                 <div class="mx-auto mx-lg-0 col-12 px-2 px-md-3 col-md-10 col-lg-6 col-xl-6 ">
                     <div class="pb-lg-3">
@@ -716,39 +716,66 @@ Whippdigital | Home
                 <img width="800" class="lozad" data-src="{{ asset('assets/imgs/tech_whipp.png') }}" alt="" />
             </div>
             </div>
-            <div class="row col-lg-12 mx-auto px-lg-4">
+            <div class=" col-lg-12 mx-auto px-lg-0 px-3 d-flex gap-3">
                 
-                <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3 ">
-                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Are Experts in Digital Marketing</span>
-                    <p class="">
-                        Choosing a digital marketing agency that truly understands the nuances of digital marketing may seem like a given, but many firms fall short. Our methods have a proven track record of success.       
-                    </p>
+                <div class="position-relative w-100 p-4 border border-1   d-flex flex-column gap-3  bg-white rounded-4 shadow">
+                    {{-- circle icons--}}
+                    <span class="wp-cril-ico-ic">
+                        <svg width="64px" height="64px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#fff" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><line x1="50.4" y1="24.38" x2="58.3" y2="23.14"></line><line x1="47.93" y1="17.11" x2="52.87" y2="14.2"></line><line x1="42.89" y1="11.73" x2="46.21" y2="4.51"></line><line x1="33.45" y1="10.69" x2="33.41" y2="4.96"></line><line x1="24.29" y1="12.09" x2="21.62" y2="4.51"></line><line x1="17.99" y1="17.03" x2="12.96" y2="14.29"></line><line x1="15.78" y1="23.97" x2="8.03" y2="22.66"></line><path d="M26.22,45.47c0-5.16-3.19-9.49-4.91-12.69A12.24,12.24,0,0,1,19.85,27c0-6.79,6.21-12.3,13-12.3"></path><path d="M39.48,45.47c0-5.16,3.19-9.49,4.91-12.69A12.24,12.24,0,0,0,45.85,27c0-6.79-6.21-12.3-13-12.3"></path><rect x="23.63" y="45.19" width="18.93" height="4.25" rx="2.12"></rect><rect x="24.79" y="49.43" width="16.61" height="4.25" rx="2.12"></rect><path d="M36.32,53.68v.84a3.23,3.23,0,1,1-6.44,0v-.84"></path><path d="M24.57,26.25a7.5,7.5,0,0,1,7.88-7.11"></path></g></svg>
+                    </span>
+                    <div class="ms-2 mt-4 pt-1">
+
+                        <span class="w-100 fs-4 mx-auto fw-bold rounded-2 ">We Are Experts in Digital Marketing</span>
+                        <p class="fs-5 mt-3">
+                            Choosing a digital marketing agency that truly understands the nuances of digital marketing may seem like a given, but many firms fall short. Our methods have a proven track record of success.       
+                        </p>
+                    </div>
                                      
                 </div>
-                <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white
-                     rounded-2">We Operate with Integrity & Ethics</span>
-                    <p>
-                        At Whipp Digital, we hold the principles of honesty, integrity, and client respect in high regard. We don't believe in offering services that you don't need or applying a one-size-fits-all strategy to our diverse clientele.                    </p>
-                    
+                <div class="position-relative w-100 p-4 border border-1   d-flex flex-column gap-3  bg-white rounded-4 shadow">
+                    {{-- circle icons--}}
+                    <span class="wp-cril-ico-ic">
+<img src="{{asset('assets/imgs/output-onlinepngtools(2).png')}}" alt="">
+                        {{-- <svg height="64px" width="64px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#fff;} </style> <g> <path class="st0" d="M250.172,384.856c-11.713-2.187-20.767-10.655-28.256-17.651c-3.959-3.681-9.376-8.747-12.17-9.483 c-0.364-0.108-1.036-0.214-2.208-0.214c-3.68,0-8.875,1.194-13.899,2.336c-6.603,1.515-13.449,3.08-20.438,3.08 c-6.589,0-12.406-1.45-17.366-4.309c-1.565-0.915-3.016-1.929-4.33-3.008l-50.537,109.143l62.814-1.879l39.19,49.13l53.024-114.545 l5.846-12.599c-1.879,0.372-3.83,0.564-5.846,0.564C253.988,385.42,252.037,385.228,250.172,384.856z"></path> <path class="st0" d="M356.185,358.594c-4.959,2.88-10.805,4.33-17.365,4.33c0,0,0,0-0.022,0c-6.996,0-13.814-1.565-20.416-3.08 c-5.024-1.143-10.219-2.336-13.928-2.336c-1.144,0-1.837,0.107-2.208,0.214c-2.787,0.736-8.204,5.802-12.142,9.483 c-1.864,1.736-3.815,3.559-5.866,5.352l-19.881,42.934L309.028,512l39.211-49.13l62.815,1.879l-50.559-109.171 C359.172,356.686,357.743,357.679,356.185,358.594z"></path> <path class="st0" d="M256.004,81.194c-57.398,0-103.934,46.536-103.934,103.934c0,57.398,46.535,103.934,103.934,103.934 c57.397,0,103.933-46.536,103.933-103.934C359.937,127.73,313.401,81.194,256.004,81.194z"></path> <path class="st0" d="M413.955,227.462c3.852-14.4,27.177-26.72,27.177-42.334c0-15.607-23.325-27.927-27.177-42.326 c-3.98-14.9,9.94-37.225,2.402-50.259c-7.661-13.228-34.016-12.277-44.756-23.018c-10.741-10.72-9.784-37.089-23.018-44.756 c-13.028-7.532-35.36,6.388-50.252,2.408C283.952,23.34,271.611,0,255.996,0c-15.586,0-27.927,23.34-42.327,27.177 c-14.878,3.98-37.203-9.94-50.258-2.408c-13.206,7.668-12.278,34.036-22.997,44.756c-10.733,10.741-37.11,9.79-44.756,23.018 c-7.553,13.034,6.388,35.359,2.408,50.259c-3.859,14.399-27.198,26.719-27.198,42.326c0,15.614,23.339,27.934,27.198,42.334 c3.98,14.899-9.961,37.224-2.408,50.259c7.646,13.228,34.023,12.27,44.756,23.01c4.938,4.938,7.39,13.17,9.897,21.353 c2.123,6.974,4.288,13.92,8.012,18.794c1.429,1.887,3.101,3.466,5.088,4.61c13.034,7.539,35.38-6.382,50.258-2.401 c9.204,2.45,17.558,12.842,26.456,20.052c5.024,4.066,10.248,7.124,15.871,7.124c5.631,0,10.848-3.058,15.893-7.124 c8.732-7.06,16.936-17.194,25.897-19.88c0.172-0.064,0.372-0.129,0.544-0.171c14.892-3.981,37.224,9.94,50.252,2.401 c1.993-1.144,3.688-2.744,5.116-4.631c8.096-10.633,8.789-31.029,17.901-40.126c10.74-10.741,37.096-9.783,44.756-23.01 C423.895,264.686,409.974,242.361,413.955,227.462z M255.996,308.549c-2.401,0-4.78-0.064-7.139-0.214 c-29.692-1.686-56.562-13.856-76.957-32.894c-24.211-22.539-39.325-54.646-39.325-90.313c0-68.16,55.261-123.421,123.421-123.421 c68.167,0,123.421,55.262,123.421,123.421C379.417,253.295,324.163,308.549,255.996,308.549z"></path> </g> </g></svg> --}}
+                    </span>
+                    <div class="ms-2 mt-4 pt-1">
+
+                        <span class="w-100 fs-4 mx-auto fw-bold rounded-2 ">We Operate with Integrity & Ethics</span>
+                        <p class="fs-5 mt-3">
+                            At Whipp Digital, we hold the principles of honesty, integrity, and client respect in high regard. We don't believe in offering services that you don't need or applying a one-size-fits-all strategy to our diverse clientele. 
+                        </p>
+                    </div>
+                                     
                 </div>
-            
-                <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Prioritize Our Customers</span>
-                    <p>
-                        While many agencies claim a customer-centric approach, few genuinely implement it. As a leading SEO agency, Whipp Digital stands out by actually putting our customers first.           
-                        
-                    </p>
-                        
+                <div class="position-relative w-100 p-4 border border-1   d-flex flex-column gap-3  bg-white rounded-4 shadow">
+                    {{-- circle icons--}}
+                    <span class="wp-cril-ico-ic">
+                        <svg width="66px" height="66px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M19 14C21.2091 14 23 16 23 17.5C23 18.3284 22.3284 19 21.5 19H21M17 11C18.6569 11 20 9.65685 20 8C20 6.34315 18.6569 5 17 5M5 14C2.79086 14 1 16 1 17.5C1 18.3284 1.67157 19 2.5 19H3M7 11C5.34315 11 4 9.65685 4 8C4 6.34315 5.34315 5 7 5M16.5 19H7.5C6.67157 19 6 18.3284 6 17.5C6 15 9 14 12 14C15 14 18 15 18 17.5C18 18.3284 17.3284 19 16.5 19ZM15 8C15 9.65685 13.6569 11 12 11C10.3431 11 9 9.65685 9 8C9 6.34315 10.3431 5 12 5C13.6569 5 15 6.34315 15 8Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </span>
+                    <div class="ms-2 mt-4 pt-1">
+
+                        <span class="w-100 fs-4 mx-auto fw-bold rounded-2 ">We Prioritize Our Customers</span>
+                        <p class="fs-5 mt-3">
+                            While many agencies claim a customer-centric approach, few genuinely implement it. As a leading SEO agency, Whipp Digital stands out by actually putting our customers first. 
+                        </p>
+                    </div>
+                                     
                 </div>
-                <div class="col-md-3 p-4 text-center col-12 d-flex flex-column gap-3">
-                    <span class="p-1 px-3 px-md-2 w-100 fs-5  mx-auto   fw-bold  bg-newblue text-white rounded-2">We Deliver Proven 
-                        <br>
-                        Results</span>
-                    <p>
-                        Why engage with an SEO firm that fails to deliver the outcomes you desire? Stop wasting valuable resources on a strategy that isn't yielding results.                    </p>
-                    
+                <div class="position-relative w-100 p-4 border border-1   d-flex flex-column gap-3  bg-white rounded-4 shadow">
+                    {{-- circle icons--}}
+                    <span class="wp-cril-ico-ic">
+                        <svg width="64px" height="64px" viewBox="0 0 64 64" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" fill="#fff" stroke="#fff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#fffff;}</style></defs><title></title><path class="cls-1" d="M41.78,57.13a7.12,7.12,0,0,1-4.2-1.39l-4.32-3.16a3.12,3.12,0,0,0-3.7,0l-4.32,3.16a7.14,7.14,0,0,1-11.31-6.53l.58-5.32a3.11,3.11,0,0,0-1.85-3.2L7.77,38.53a7.13,7.13,0,0,1,0-13.06l4.89-2.16a3.11,3.11,0,0,0,1.85-3.2l-.58-5.32A7.14,7.14,0,0,1,25.24,8.26l4.32,3.16a3.12,3.12,0,0,0,3.7,0l4.32-3.16A7,7,0,0,1,43,7a7.25,7.25,0,0,1,4.75,3.13,2,2,0,1,1-3.34,2.2,3.23,3.23,0,0,0-2.12-1.39,3,3,0,0,0-2.37.57l-4.32,3.16a7.13,7.13,0,0,1-8.43,0l-4.31-3.16a3.13,3.13,0,0,0-5,2.87l.58,5.31A7.11,7.11,0,0,1,14.28,27l-4.9,2.16a3.14,3.14,0,0,0,0,5.74L14.28,37a7.11,7.11,0,0,1,4.21,7.3l-.58,5.31a3.13,3.13,0,0,0,5,2.87l4.31-3.16a7.13,7.13,0,0,1,8.43,0l4.32,3.16a3.13,3.13,0,0,0,5-2.87l-.58-5.31A7.1,7.1,0,0,1,48.54,37l4.9-2.16a3.14,3.14,0,0,0,0-5.74L50.78,28a2,2,0,1,1,1.61-3.66l2.66,1.17a7.13,7.13,0,0,1,0,13.06l-4.89,2.16a3.13,3.13,0,0,0-1.86,3.2l.58,5.32a7,7,0,0,1-3.52,6.95A7.17,7.17,0,0,1,41.78,57.13Z"></path><path class="cls-2" d="M31.64,39a2,2,0,0,1-1.42-.59l-8.61-8.61A2,2,0,1,1,24.44,27l7.2,7.2L57.08,8.72a2,2,0,0,1,2.82,2.83L33.05,38.4A2,2,0,0,1,31.64,39Z"></path></g></svg>
+                    </span>
+                    <div class="ms-2 mt-4 pt-1">
+
+                        <span class="w-100 fs-4 mx-auto fw-bold rounded-2 ">We Deliver Proven Results</span>
+                        <p class="fs-5 mt-3">
+                            Why engage with an SEO firm that fails to deliver the outcomes you desire? Stop wasting valuable resources on a strategy that isn't yielding results. 
+                        </p>
+                    </div>
+                                     
                 </div>
+               
             </div>
         </div>
     </section>

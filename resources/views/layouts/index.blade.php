@@ -228,18 +228,38 @@ background-repeat: repeat;
     text-transform: capitalize !important;
 }
 .border-1{
-    border-color: #23bde755 !important; 
+    border-color: #23bde748 !important; 
 }
 
 .exprer-box-ico{
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    background: #FE5558;
+    background: tomato;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid #0081f34f !important;
+}
+
+.wp-cril-ico-ic{
+    position: absolute;
+    top: -38px;
+   
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0081f34f !important;
+}
+.wp-cril-ico-ic svg{
+    width: 65% !important;
+}
+.wp-cril-ico-ic img{
+    width: 55% !important;
 }
 .exprer-box-ico svg{
     width: 58% !important;
