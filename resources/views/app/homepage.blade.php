@@ -381,8 +381,8 @@ Whippdigital | Home
         </div>
 
         <div class="">
-            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-3 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
-                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
+            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-4 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
+                <div class="w-100 mx-auto  py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
                     <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center h-100">
                         <div class="col-2 col-md-3">
                             <span class="exprer-box-ico shadow">
@@ -449,7 +449,7 @@ Whippdigital | Home
                         </div>
                     </div>
                 </div>
-                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
+                <div class="w-100 mx-auto  py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
                     <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center h-100">
                         <div class="col-2 col-md-3">
                             <span class="exprer-box-ico shadow">
@@ -482,8 +482,8 @@ Whippdigital | Home
             </div>
         </div>
         <div class="mt-5">
-            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-3 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
-                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
+            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-4 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
+                <div class="w-100 mx-auto  py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
                     <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center h-100">
                         <div class="col-2 col-md-3">
                             <span class="exprer-box-ico shadow">
@@ -546,7 +546,7 @@ Whippdigital | Home
                         </div>
                     </div>
                 </div>
-                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
+                <div class="w-100 mx-auto  py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
                     <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center h-100">
                         <div class="col-2 col-md-3">
                             <span class="exprer-box-ico shadow">
@@ -575,8 +575,8 @@ Whippdigital | Home
             </div>
         </div>
         <div class="my-5">
-            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-3 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
-                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
+            <div class="container wp-dg-ext-gird-comp d-flex flex-column  flex-md-row px-4 px-md-0 mx-auto justify-content-between gap-5 col-lg-9 " style="max-width: 100%">
+                <div class="w-100 mx-auto  py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
                     <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center h-100">
                         <div class="col-2 col-md-3">
                             <span class="exprer-box-ico shadow">
@@ -638,7 +638,7 @@ Whippdigital | Home
                         </div>
                     </div>
                 </div>
-                <div class="w-100 p-2 py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
+                <div class="w-100 mx-auto  py-4 p-md-2 p-xl-4 border border-1 shadow rounded-5 light-white">
                     <div class="d-flex flex-column gap-2 gap-md-2 justify-content-center align-items-center h-100">
                         <div class="col-2 col-md-3">
                             <span class="exprer-box-ico shadow">
