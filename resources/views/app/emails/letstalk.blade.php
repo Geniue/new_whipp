@@ -82,14 +82,14 @@
     </style>
 </head>
 <body style="background-color: #eeee;" class="d-f-c">
-    <div class="main-div">
-        <div class="d-f-c h-100 gap-12 px-3">
+    <div class="main-div" style="20px auto;">
+        <div class="d-f-c h-100 gap-12 px-3" style="gap: 20px;">
             <div style="margin: auto;">
                 <img width="188" src="{{asset('assets/imgs/logo.png')}}" alt="">
             </div>
-            <div style="marigin-right:15px;">
-                <h1>Stuart Emmons</h1>
-                <h1 style=" font-family:'Bebas Neue Light', sans-serif !important;">Customer Support</h1>
+            <div style="margin:auto;">
+                <h1 style=" color:  #000 !important;">Stuart Emmons</h1>
+                <h1 style="color: #000 !important;font-family:'Bebas Neue Light', sans-serif;">Customer Support</h1>
                 <div>
                     <span>
                         <span class="blue-magic">w:</span>  
@@ -105,7 +105,10 @@
                     </span>
                     <br>
                     <span>
-                        <span class="blue-magic">a:</span>  46 Howard St 6th fl, New York, NY 10013 
+                        <span class="blue-magic">a:</span>
+                        <span style="color:  #000 !important;">
+                            46 Howard St 6th fl, New York, NY 10013 
+                        </span>
                     </span>
                 </div>
             </div>
