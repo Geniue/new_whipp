@@ -512,7 +512,8 @@ img {
 }
 @media (max-width: 1130px) {
     .main-service-hover-cen {
-        display: none !important;
+        left: 60px;
+        width: 895px !important;
     }
 }
 @media (min-width: 1131px) {

@@ -287,6 +287,9 @@ p{
 .bg-newblue {
   background-color: #23bce7 !important;
 }
+.colr-newblr{
+color: #30a2ff !important;
+}
 .light-white{
     background-color: #f4f4f4;
 }
@@ -478,6 +481,105 @@ margin-right: 50px;
 }
 
     </style>
+
+{{-- popup styles --}}
+
+<style>
+
+.close_btn {
+  background-color: transparent !important;
+  border: 1px solid #30a2ff;
+  color: #30a2ff !important;
+}
+
+    .pp-uap-bg{
+                background-color: rgba(0, 0, 0, 0.9);
+                z-index: 9999999999;
+        }
+        .br-s32-ds{
+            width: 38%;
+            margin: 0 auto;
+            border: 2px solid tomato;
+        }
+        .cus-ba-shadow{
+            -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        }
+        .intial-anim{
+            opacity: 0;
+            height: 0px;
+            width: 0px;
+        }
+
+        /* CSS for fade-out animation */
+        .anime-fadeout {
+            display: block;
+            -webkit-animation: fadeOut 1s;
+            animation: fadeOut 1s;
+            animation-fill-mode: forwards;
+        }
+
+        @-webkit-keyframes fadeOut {
+            0% { opacity: 1;width: 100%; height: 100%;  }
+            99% { opacity: 0.01; width: 100%; height: 100%; }
+            100% { opacity: 0; width: 0; height: 0; }
+        }
+
+        @keyframes fadeOut {
+            0% { opacity: 1;width: 100%; height: 100%;  }
+            99% { opacity: 0.01; width: 100%; height: 100%; }
+            100% { opacity: 0; width: 0; height: 0; }
+        }
+
+        /* CSS for fade-in animation */
+        .anime-fadein {
+            display: block;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+            animation-fill-mode: forwards;
+        }
+        .slide-bottom {
+                -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% { opacity: 0; width: 0; height: 0; }
+            1% { opacity: 0.01; width: 100%; height: 100%; }
+            100% { opacity: 1; width: 100%; height: 100%; }
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; width: 0; height: 0; }
+            1% { opacity: 0.01;width: 100%; height: 100%;  }
+            100% { opacity: 1; width: 100%; height: 100%; }
+        }
+        @-webkit-keyframes slide-bottom {
+            0% {
+                -webkit-transform: translateY(-100px);
+                        transform: translateY(-100px);
+            }
+            100% {
+                -webkit-transform: translateY(0px) !important;
+                        transform: translateY(0px) !important;
+            }
+            }
+        @keyframes slide-bottom {
+            0% {
+                -webkit-transform: translateY(-100px);
+                        transform: translateY(-100px);
+            }
+            100% {
+                -webkit-transform: translateY(0px) !important;
+                        transform: translateY(0px) !important;
+            }
+            }
+
+</style>
+
+
+
+
     @yield('css')
 
 </head>
@@ -506,6 +608,7 @@ if (empty(end($segments))) {
     {{-- CONTACT US BANNER STARTS HERE --}}
     @include('app.static_components.contactus_banner')
     {{-- CONTACT US BANNER ENDS HERE --}}
+    @include('app.static_components.popup')
     @include('layouts.newfooter')
 
     <div class="position-fixed w-100 h-100 bg-black  d-flex justify-content-center align-items-center top-0 d-none left-0" id="grow_modal"  style="z-index: 99999999">
@@ -604,6 +707,77 @@ if (empty(end($segments))) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js"
         integrity="sha512-21jyjW5+RJGAZ563i/Ug7e0AUkY7QiZ53LA4DWE5eNu5hvjW6KUf9LqquJ/ziLKWhecyvvojG7StycLj7bT39Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+
+        {{-- popup --}}
+
+        <script>
+                document.addEventListener("DOMContentLoaded", function () {
+            // Function to show the popup
+            function showPopup() {
+                document.body.classList.add("overflow-hidden");
+                document.getElementById("pg_popup").classList.add("anime-fadein");
+                document.getElementById("pg-ma-modal").classList.add("slide-bottom");
+            }
+
+            // Function to close the popup
+            document.getElementById("close_popup_pg").addEventListener("click", function () {
+                document.body.classList.remove("overflow-hidden");
+                document.getElementById("pg_popup").classList.remove("anime-fadein");
+                document.getElementById("pg_popup").classList.add("anime-fadeout");
+            });
+
+            document.getElementById("yes_please").addEventListener("click", function () {
+                document.getElementById("pg-ma-modal").classList.remove("slide-bottom");
+                document.getElementById("pg-ma-modal").classList.add("anime-fadeout");
+                document.getElementById("pg-ma-modal2").classList.remove("intial-anim");
+                document.getElementById("pg-ma-modal").classList.add("d-none");
+                document.getElementById("pg-ma-modal2").classList.add("slide-bottom");
+            });
+
+            document.addEventListener("mouseleave", function(event) {
+            // Check if the mouse is leaving the document's boundaries
+            if (event.clientY < 0 || event.clientX < 0 || event.clientX >= window.innerWidth || event.clientY >= window.innerHeight) {
+                // Call your function here
+            }
+            });
+     
+            // Wait for 500 milliseconds and then show the popup
+            // setTimeout(showPopup, 500);
+         
+            
+// Define the function to be called when the mouse moves outside the browser window.
+
+let isCursorOut = false;
+
+// Attach the mouseout event listener to the document.
+document.addEventListener("mouseout", mouseMoveOutside);
+
+// Check if the mouse has moved outside the browser window.
+function mouseMoveOutside(event) {
+  event = event || window.event;
+  if (event.relatedTarget === null && !isCursorOut) {
+    showPopup();
+    isCursorOut = true;
+  }
+}
+
+// Function to show the popup on small devices after 800ms
+function showPopupOnSmallDevice() {
+  setTimeout(showPopup, 3500);
+}
+
+// Check the device width and decide which function to call
+const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+if (screenWidth <= 768) { // Change 768 to the appropriate breakpoint for small devices
+  showPopupOnSmallDevice();
+}
+
+
+                })
+</script>
+
 
 
 <script>

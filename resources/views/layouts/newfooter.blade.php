@@ -322,6 +322,9 @@
                 </form> --}}
             <a href="mailto:support@whippdigital.com" class="">support@whippdigital.com</a>
             <a href="tel:212-951-0651 " class="">212-951-0651 </a>
+            <a href="https://goo.gl/maps/cWYhgMfHtZoW2fDw9" class="">46 Howard St 6th fl,
+                <br>
+                New York, NY 10013 </a>
             <div class="d-flex align-items-center mt-2">
                 <div class="footer-loc-soc-link ms-1 d-flex gap-3 gap-lg-2 gap-xl-3 ">
                     <a aria-label="fb" href="#">

@@ -13,10 +13,10 @@
         </div>
 
         <!-- links & contact -->
-        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-0">
+        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-0 overflow-hidden">
             <!-- links -->
-            <div class="wd-menu-li-co justify-content-center align-items-center ">
-                <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-lg-5 justify-content-center mb-0">
+            <div class="wd-menu-li-co justify-content-center align-items-center overflow-hidden">
+                <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-5 justify-content-center mb-0">
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
                             <a aria-label="service"     href="#">

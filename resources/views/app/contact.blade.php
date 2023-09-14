@@ -59,6 +59,7 @@
         height: 200px;
         width: 200px;
     }
+ 
     </style>
     
 @endsection
@@ -68,9 +69,7 @@
     <section class="desk-con-ti-ba-section d-none d-lg-block">
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Contact</h2>
-            <p class="custom-text-2 fs-5">
-                Fill out this form and we will contact you shortly!
-            </p>
+           
         </div>
     </section>
     <!-- CONTACT TITLE BANNER SECTION ENDS HERE -->
@@ -80,9 +79,7 @@
     <section class="con-ti-ba-section d-lg-none">
         <div class="container text-center py-4">
             <h2 class="fs-1 fw-bold custom-text">Contact</h2>
-            <p class="custom-text-2 fs-5">
-                Fill out this form and we will contact you shortly!
-            </p>
+            
         </div>
     </section>
     <!-- CONTACT TITLE BANNER SECTION ENDS HERE -->
@@ -112,8 +109,11 @@
     <section>
         <div class="container py-5">
             <div class="row gap-5 gap-lg-0 justify-content-center">
-                <!-- contact form -->
                 <div class="col-lg-8 px-4">
+                <p class="custom-text-2 fs-4 py-3">
+                    Fill out this form and we will contact you shortly!
+                </p>
+                <!-- contact form -->
                     <form class="wp-contact-form custom-bg-1 rounded-2 p-3 d-flex flex-column gap-4" action="{{ route('submit_contact_us') }}" method="POST">
                         @csrf
                         <!-- first name and last name -->
@@ -322,11 +322,16 @@
                             <strong>Address:</strong>
 
                             <div id="map" class="mx-auto mt-3 overflow-hidden">
-                                <div>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9018809213894!2d-74.00421302441326!3d40.720176437115796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a30e83e23%3A0xf52f5c97442929e1!2s46%20Howard%20St%206th%20fl%2C%20New%20York%2C%20NY%2010013%2C%20United%20States!5e0!3m2!1sen!2seg!4v1694394445709!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div class="imapgoogle">
+                                    <iframe id="working" class="lozad hello" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9018809213894!2d-74.00421302441326!3d40.720176437115796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a30e83e23%3A0xf52f5c97442929e1!2s46%20Howard%20St%206th%20fl%2C%20New%20York%2C%20NY%2010013%2C%20United%20States!5e0!3m2!1sen!2seg!4v1694394445709!5m2!1sen!2seg&parameters&disableDefaultUI=true" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade">
+                                        <p>This is some additional content below the map.</p>
+                                    </iframe>
+                                  
+                                    </iframe>
                                 </div>
                             </div>
-                        
+
+        
                             <a target="_blank" href="https://goo.gl/maps/cWYhgMfHtZoW2fDw9"  class="fs-5">
                                
                               46 Howard St 6th fl,

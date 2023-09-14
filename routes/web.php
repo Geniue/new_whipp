@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('app.homepage');
 });
 
+Route::get('/test', function () {
+    return view('app..emails.letstalk');
+});
+
 
 Route::get("/contact-us", [App\Http\Controllers\ContactController::class, 'contact_us'])->name("contact");
 Route::post("/contact-us", [App\Http\Controllers\ContactController::class, 'submit_contact_us'])->name("submit_contact_us");
