@@ -160,7 +160,7 @@ class ContactController extends Controller
 
         //EMAIL ADMIN
         Mail::send('app.emails.coupon', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-            $message->to('vinithdevadiga7@gmail.com', 'Whippdigital')
+            $message->to('stuart.emmons@gmail.com', 'Whippdigital')
                 ->cc(['support@whippdigital.com'])
                 ->subject("Coupons And Seasonal Deals Request Whippdigital");
             $message->from("support@whippdigital.com", 'Whippdigital');

@@ -914,11 +914,11 @@ observer.observe();
     showAlertSuccess("Success");
 </script>
 
-@if (session()->get('message') == 'You signed in for coupons and seasonal deals on your next services!')
+{{-- @if (session()->get('message') == 'You signed in for coupons and seasonal deals on your next services!')
     <script type="text/javascript">
         popupAnswer(true)
     </script>
-@endif
+@endif --}}
 @endif
 
 @yield('js')
