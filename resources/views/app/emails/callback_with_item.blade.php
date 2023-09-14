@@ -48,7 +48,7 @@
         </tr>
         <tr>
             <td>
-                <img src="https://pristinegreencleaning.com/assets/logo/PGUpholsteryAndCarpetCleaning.png" alt="Logo">
+                <img src="{{ asset('assets/imgs/icons/whipplogo.jpeg') }}" alt="Logo">
             </td>
         </tr>
         <tr>

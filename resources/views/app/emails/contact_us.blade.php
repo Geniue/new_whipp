@@ -49,6 +49,7 @@
         <tr>
             <td>
                 <img src="{{ asset('assets/imgs/icons/whipplogo.jpeg') }}" alt="Logo">
+
             </td>
         </tr>
         <tr>

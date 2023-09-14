@@ -127,138 +127,48 @@ class ContactController extends Controller
 
 
 
+    public function sign_up(Request $request)
+    {
+        $data = $request->all();
 
-    // public function callback_with_item(Request $request)
-    // {
-    //     $data = $request->all();
+        $validator = Validator::make($data, [
+            'phone' => 'required|numeric|digits:10|unique:coupons'
+        ], [
+            'phone.required' => 'You need to provide your correct phone number for coupons And seasonal deals.',
+            'phone.numeric' => 'You need to provide your correct phone number for coupons And seasonal deals.',
+            'phone.digits' => 'You need to provide your correct phone number for coupons And seasonal deals.',
+            'phone.unique' => 'You already signed up for coupons And seasonal deals for your next cleanings',
+        ]);
 
-    //     $validator = Validator::make($data, [
-    //         'phone' => 'required|numeric|digits:10',
-    //         'item' => 'required'
-    //     ]);
-
-    //     if ($validator->fails()) {
-    //         return redirect()->back()->withErrors($validator);
-    //     }
-
-
-    //     $view = view('app.emails.callback_with_item', ['phone' => $data['phone'], 'item' => $data['item']])->render();
-
-    //     //EMAIL ADMIN
-    //     Mail::send('app.emails.callback_with_item', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-    //         $message->to('stuart.emmons@gmail.com', 'Pristinegreencleaning')
-    //             ->cc(['sales@pristinegreencleaning.com', 'dd121412@gmail.com'])
-    //             ->subject("Pristinegreencleaning Callback Information With Item");
-    //         $message->from("sales@pristinegreencleaning.com", 'Pristingreencleaning');
-    //     });
+        if ($validator->fails()) {
+            return redirect()->back()->withErrors($validator);
+        }
 
 
-    //     $email = new EmailsModel;
-    //     $email->type = "Callback Request With Item - pristingreencleaning.com";
-    //     $email->email = $view;
-    //     $email->enc = uniqid();
-    //     $email->save();
+        $view = view('app.emails.coupon', ['phone' => $data['phone']])->render();
 
-    //     return redirect()->back()->with('message', 'We will contact you soon!');
-    // }
+        $email = new EmailsModel;
+        $email->type = "Coupons And Seasonal Deals Request - whippdigital.com";
+        $email->email = $view;
+        $email->enc = uniqid();
+        $email->save();
 
+        $coup = new CouponModel;
+        $coup->phone = $data['phone'];
+        $coup->email_id = $email->id;
+        $coup->save();
 
-    // public function free_quote()
-    // {
-    //     return view("app.request_quote");
-    // }
-
-    // public function submit_free_quote(Request $request)
-    // {
-    //     $data = $request->all();
-    //     // dd($data);
-
-    //     $validator = Validator::make($data, [
-    //         'name' => 'required',
-    //         'email' => 'required|email:rfc,dns',
-    //         'phone' => 'required|numeric|digits:10',
-    //         'zip' => ['required', 'digits:5', new ZipCodeRange],
-    //         'describe' => 'required'
-    //     ], [
-    //         'name.required' => 'Please provide your name.',
-    //         'email.required' => 'Your email is required to proceed.',
-    //         'email.email' => 'Please enter a legit email address.',
-    //         'phone.required' => 'Your phone number is required to proceed.',
-    //         'phone.numeric' => 'Your phone number must be a legit phone number.',
-    //         'phone.digits' => 'Your phone number must be a legit phone number.',
-    //         'zip.required' => 'Your zip code is required to proceed.',
-    //         'zip.digits' => 'Please enter a legit zip code.',
-    //         'describe.required' => 'Tell us what do you need to have cleaned?'
-    //     ]);
-
-    //     if ($validator->fails()) {
-    //         return redirect()->back()->withErrors($validator)->withInput();
-    //     }
-
-    //     $view = view('app.emails.free_quote_email', ['name' => $data['name'], 'email' => $data['email'], 'phone' => $data['phone'], 'zip' => $data['zip'], 'describe' => $data['describe']])->render();
-
-
-    //     //EMAIL ADMIN
-    //     Mail::send('app.emails.free_quote_email', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-    //         $message->to('stuart.emmons@gmail.com', 'Pristinegreencleaning')
-    //             ->cc(['sales@pristinegreencleaning.com', 'dd121412@gmail.com'])
-    //             ->subject("Pristinegreencleaning Quote Request Information");
-    //         $message->from("sales@pristinegreencleaning.com", 'Pristingreencleaning');
-    //     });
-
-
-    //     $email = new EmailsModel;
-    //     $email->type = "Quote Request - pristingreencleaning.com";
-    //     $email->email = $view;
-    //     $email->enc = uniqid();
-    //     $email->save();
+        //EMAIL ADMIN
+        Mail::send('app.emails.coupon', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
+            $message->to('vinithdevadiga7@gmail.com', 'Whippdigital')
+                ->cc(['support@whippdigital.com'])
+                ->subject("Coupons And Seasonal Deals Request Whippdigital");
+            $message->from("support@whippdigital.com", 'Whippdigital');
+        });
 
 
 
-    //     return redirect()->back()->with('message', 'We will get you a quote soon!');
-    // }
 
-
-    // public function sign_up(Request $request)
-    // {
-    //     $data = $request->all();
-
-    //     $validator = Validator::make($data, [
-    //         'phone' => 'required|numeric|digits:10|unique:coupons'
-    //     ], [
-    //         'phone.required' => 'You need to provide your correct phone number for coupons And seasonal deals.',
-    //         'phone.numeric' => 'You need to provide your correct phone number for coupons And seasonal deals.',
-    //         'phone.digits' => 'You need to provide your correct phone number for coupons And seasonal deals.',
-    //         'phone.unique' => 'You already signed up for coupons And seasonal deals for your next cleanings',
-    //     ]);
-
-    //     if ($validator->fails()) {
-    //         return redirect()->back()->withErrors($validator);
-    //     }
-
-
-    //     $view = view('app.emails.coupon', ['phone' => $data['phone']])->render();
-
-    //     //EMAIL ADMIN
-    //     Mail::send('app.emails.coupon', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-    //         $message->to('stuart.emmons@gmail.com', 'Pristinegreencleaning')
-    //             ->cc(['sales@pristinegreencleaning.com', 'dd121412@gmail.com'])
-    //             ->subject("Coupons And Seasonal Deals Request PristinGreen Cleaning");
-    //         $message->from("sales@pristinegreencleaning.com", 'Pristingreencleaning');
-    //     });
-
-
-    //     $email = new EmailsModel;
-    //     $email->type = "Coupons And Seasonal Deals Request - pristingreencleaning.com";
-    //     $email->email = $view;
-    //     $email->enc = uniqid();
-    //     $email->save();
-
-    //     $coup = new CouponModel;
-    //     $coup->phone = $data['phone'];
-    //     $coup->email_id = $email->id;
-    //     $coup->save();
-
-    //     return redirect()->back()->with('message', 'You signed in for coupons and seasonal deals on your next cleanings!');
-    // }
+        return redirect()->back()->with('message', 'You signed in for coupons and seasonal deals on your next services!');
+    }
 }

@@ -21,15 +21,14 @@ Route::get('/', function () {
     return view('app.homepage');
 });
 
-Route::get('/test', function () {
-    return view('app..emails.letstalk');
-});
+
 
 
 Route::get("/contact-us", [App\Http\Controllers\ContactController::class, 'contact_us'])->name("contact");
 Route::post("/contact-us", [App\Http\Controllers\ContactController::class, 'submit_contact_us'])->name("submit_contact_us");
 Route::post("/lets-talk", [App\Http\Controllers\ContactController::class, 'letstalk_form'])->name("letstalk_form");
 // Route::post("/contact-us", [App\Http\Controllers\ContactController::class, 'submit_contact_us'])->name("footer_contact_us");
+Route::post("/sign_up", [App\Http\Controllers\ContactController::class, 'sign_up'])->name("sign_up");
 
 
 

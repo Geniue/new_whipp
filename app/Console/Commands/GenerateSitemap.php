@@ -37,14 +37,14 @@ class GenerateSitemap extends Command
     public function handle()
     {
         $urls = collect(\Illuminate\Support\Facades\Route::getRoutes())
-        ->filter(function ($route) {
-            // Filter out any routes that are not public-facing
-            return !Str::startsWith($route->uri, ['admin', 'api', 'dashboard', 'check_featured','uncheck_featrued', 'login', 'register', 'home', 'password', 'blog', 'logout', 'pricing', 'get-quotes', 'sanctum', '_ignition', 'payment', 'service-areas-locations', "callback-number", "callback-item"]);
-        })
-        ->map(function ($route) {
-            // Convert the route to a URL object
-            return url($route->uri);
-        });
+            ->filter(function ($route) {
+                // Filter out any routes that are not public-facing
+                return !Str::startsWith($route->uri, ['admin', 'api', 'dashboard', 'check_featured', 'uncheck_featrued', 'login', 'register', 'home', 'password', 'blog', 'logout', 'pricing', 'get-quotes', 'sanctum', '_ignition', 'payment', 'service-areas-locations', "callback-number", "callback-item", "lets-talk", "sign_up"]);
+            })
+            ->map(function ($route) {
+                // Convert the route to a URL object
+                return url($route->uri);
+            });
 
         $urls = $urls->toArray();
 
@@ -53,16 +53,16 @@ class GenerateSitemap extends Command
 
 
 
-        $service_areas = ServiceLocationsModel::get()->toArray();
+        // $service_areas = ServiceLocationsModel::get()->toArray();
 
-        foreach($blogs as $blog) {
-            array_push($urls, config('app.url').'/blog/'.$blog['slug']);
-        }
+        // foreach($blogs as $blog) {
+        //     array_push($urls, config('app.url').'/blog/'.$blog['slug']);
+        // }
 
 
-        foreach($service_areas as $area) {
-            array_push($urls, config('app.url').'/service-areas-locations/'.$area['slug']);
-        }
+        // foreach($service_areas as $area) {
+        //     array_push($urls, config('app.url').'/service-areas-locations/'.$area['slug']);
+        // }
         // dd($urls);
 
         // SitemapGenerator::create(config('app.url'))
@@ -79,6 +79,6 @@ class GenerateSitemap extends Command
         $sitemap->add(url("/blog"));
 
         // creates sitemap with all urls in your website        
-       $sitemap->writeToFile(public_path('sitemap.xml'));
+        $sitemap->writeToFile(public_path('sitemap.xml'));
     }
 }

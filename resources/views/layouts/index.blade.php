@@ -710,76 +710,132 @@ if (empty(end($segments))) {
 
 
         {{-- popup --}}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+
 
         <script>
-                document.addEventListener("DOMContentLoaded", function () {
-            // Function to show the popup
-            function showPopup() {
-                document.body.classList.add("overflow-hidden");
-                document.getElementById("pg_popup").classList.add("anime-fadein");
-                document.getElementById("pg-ma-modal").classList.add("slide-bottom");
-            }
+                document.addEventListener("DOMContentLoaded", function() {
+                    const popup_container = document.getElementById("pg_popup"); 
+                    const popup_modal = document.getElementById("pg-ma-modal"); 
+                    const popup_modal2 = document.getElementById("pg-ma-modal2"); 
+               // Function to show the popup
+               function showPopup() {
+                   document.body.classList.add("overflow-hidden");
+                   popup_container.classList.add("anime-fadein");
+                   popup_modal.classList.add("slide-bottom");
+               }
 
-            // Function to close the popup
-            document.getElementById("close_popup_pg").addEventListener("click", function () {
-                document.body.classList.remove("overflow-hidden");
-                document.getElementById("pg_popup").classList.remove("anime-fadein");
-                document.getElementById("pg_popup").classList.add("anime-fadeout");
+               // Function to close the popup
+               document.getElementById("close_popup_pg").addEventListener("click", function() {
+                   popupAnswer(false)
+                   document.body.classList.remove("overflow-hidden");
+                   popup_container.classList.remove("anime-fadein");
+                   popup_container.classList.add("anime-fadeout");
+               });
+
+               document.getElementById("yes_please").addEventListener("click", function() {
+                   popup_modal.classList.remove("slide-bottom");
+                   popup_modal.classList.add("anime-fadeout");
+                   popup_modal2.classList.remove("intial-anim");
+                   popup_modal.classList.add("d-none");
+                   popup_modal2.classList.add("slide-bottom");
+               });
+
+               document.addEventListener("mouseleave", function(event) {
+                   // Check if the mouse is leaving the document's boundaries
+                   if (event.clientY < 0 || event.clientX < 0 || event.clientX >= window.innerWidth || event.clientY >= window.innerHeight) {
+                       // Call your function here
+                   }
+               });
+
+       
+               // Define the function to be called when the mouse moves outside the browser window.
+
+               let isCursorOut = false;
+
+               // Attach the mouseout event listener to the document.
+               document.addEventListener("mouseout", mouseMoveOutside);
+
+               // Check if the mouse has moved outside the browser window.
+               function mouseMoveOutside(event) {
+                   event = event || window.event;
+                   const cookie = Cookies.get('newUser') ? JSON.parse(Cookies.get('newUser')) : null;
+
+                if (event.relatedTarget === null && !isCursorOut && (!Cookies.get('newUser'))) {
+                    setTimeout(showPopup, 1500);
+                       isCursorOut = true;
+                   }
+               }
+
+               // Function to show the popup on small devices after 800ms
+               function showPopupOnSmallDevice() {
+                   setTimeout(showPopup, 3500);
+               }
+
+               // Check the device width and decide which function to call
+               const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+               if (screenWidth <= 768) { // Change 768 to the appropriate breakpoint for small devices
+                   showPopupOnSmallDevice();
+               }
+
+
+                
+            function popupAnswer(answer) {
+                var uniqueID = generateUniqueID();
+                var clientDetails = {
+                    id: uniqueID,
+                    browserInfo: navigator.userAgent,
+                    language: navigator.language,
+                    platform: navigator.platform,
+                    answer: answer,
+                    // add any other client details you want here
+                };
+
+
+           
+                if (answer == true) {
+                        // Set the 'newUser' cookie to 'true', expires in 365 days
+                        let newCookie =  Cookies.set('newUser', JSON.stringify(clientDetails), { expires: 365 });
+                    } else {
+                        console.log(clientDetails);
+                        // Set the 'newUser' cookie to 'true', expires in 365 days
+                        let newCookie =  Cookies.set('newUser', JSON.stringify(clientDetails), { expires: 1 });
+                    }
+                    
+                    console.log(JSON.parse(Cookies.get('newUser')));
+                }
+
+
+                function generateUniqueID() {
+                    return Math.random().toString(36).substring(2) + (new Date()).getTime().toString(36);
+                }
+
+
+                async function getCity() {
+                    let data = await fetch('https://api.ipify.org?format=json')
+                    .then(response => response.json())
+                    .then(data => fetch(`https://ipapi.co/${data.ip}/json/`))
+                    .then(response => response.json())
+                    .then(data => {
+                        return data // Output the location data
+                    });
+
+
+                    return data;
+                }
+
+
+
+
+
             });
 
-            document.getElementById("yes_please").addEventListener("click", function () {
-                document.getElementById("pg-ma-modal").classList.remove("slide-bottom");
-                document.getElementById("pg-ma-modal").classList.add("anime-fadeout");
-                document.getElementById("pg-ma-modal2").classList.remove("intial-anim");
-                document.getElementById("pg-ma-modal").classList.add("d-none");
-                document.getElementById("pg-ma-modal2").classList.add("slide-bottom");
-            });
-
-            document.addEventListener("mouseleave", function(event) {
-            // Check if the mouse is leaving the document's boundaries
-            if (event.clientY < 0 || event.clientX < 0 || event.clientX >= window.innerWidth || event.clientY >= window.innerHeight) {
-                // Call your function here
-            }
-            });
-     
-            // Wait for 500 milliseconds and then show the popup
-            // setTimeout(showPopup, 500);
-         
-            
-// Define the function to be called when the mouse moves outside the browser window.
-
-let isCursorOut = false;
-
-// Attach the mouseout event listener to the document.
-document.addEventListener("mouseout", mouseMoveOutside);
-
-// Check if the mouse has moved outside the browser window.
-function mouseMoveOutside(event) {
-  event = event || window.event;
-  if (event.relatedTarget === null && !isCursorOut) {
-    showPopup();
-    isCursorOut = true;
-  }
-}
-
-// Function to show the popup on small devices after 800ms
-function showPopupOnSmallDevice() {
-  setTimeout(showPopup, 3500);
-}
-
-// Check the device width and decide which function to call
-const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-
-if (screenWidth <= 768) { // Change 768 to the appropriate breakpoint for small devices
-  showPopupOnSmallDevice();
-}
-
-
-                })
-</script>
 
 
 
+
+    </script>
 <script>
     document.addEventListener("DOMContentLoaded", async function() {
         
@@ -851,6 +907,18 @@ observer.observe();
     </script>
 
    
+@endif
+
+@if (session()->has('message'))
+<script type="text/javascript">
+    showAlertSuccess("Success");
+</script>
+
+@if (session()->get('message') == 'You signed in for coupons and seasonal deals on your next services!')
+    <script type="text/javascript">
+        popupAnswer(true)
+    </script>
+@endif
 @endif
 
 @yield('js')
