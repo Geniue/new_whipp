@@ -510,6 +510,9 @@ margin-right: 50px;
             height: 0px;
             width: 0px;
         }
+        .wd-nav-link > a::after{
+            position: unset !important;
+        }
 
         /* CSS for fade-out animation */
         .anime-fadeout {
@@ -752,7 +755,7 @@ if (empty(end($segments))) {
                // Define the function to be called when the mouse moves outside the browser window.
 
                let isCursorOut = false;
-
+               const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
                // Attach the mouseout event listener to the document.
                document.addEventListener("mouseout", mouseMoveOutside);
 
@@ -761,23 +764,18 @@ if (empty(end($segments))) {
                    event = event || window.event;
                    const cookie = Cookies.get('newUser') ? JSON.parse(Cookies.get('newUser')) : null;
 
-                if (event.relatedTarget === null && !isCursorOut && (!Cookies.get('newUser'))) {
+                if (event.relatedTarget === null && !isCursorOut && (!Cookies.get('newUser')) && screenWidth >= 768 ) {
                     setTimeout(showPopup, 1500);
                        isCursorOut = true;
                    }
                }
 
                // Function to show the popup on small devices after 800ms
-               function showPopupOnSmallDevice() {
-                   setTimeout(showPopup, 3500);
-               }
+              
 
                // Check the device width and decide which function to call
-               const screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+              
 
-               if (screenWidth <= 768) { // Change 768 to the appropriate breakpoint for small devices
-                   showPopupOnSmallDevice();
-               }
 
 
                 
