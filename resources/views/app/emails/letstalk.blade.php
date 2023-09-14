@@ -56,7 +56,7 @@
             margin-top: 4px;
             display: inline-block;
             font-family:'Bebas Neue Light', sans-serif;
-            font-weight: 900;
+            
         }
         .blue-magic{
             color: #30a2ff;
@@ -84,10 +84,10 @@
 <body style="background-color: #eeee;" class="d-f-c">
     <div class="main-div">
         <div class="d-f-c h-100 gap-12 px-3">
-            <div>
+            <div style="margin: auto;">
                 <img width="188" src="{{asset('assets/imgs/logo.png')}}" alt="">
             </div>
-            <div>
+            <div style="marigin-right:15px;">
                 <h1>Stuart Emmons</h1>
                 <h1 style=" font-family:'Bebas Neue Light', sans-serif !important;">Customer Support</h1>
                 <div>
