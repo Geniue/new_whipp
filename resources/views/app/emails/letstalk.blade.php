@@ -82,7 +82,7 @@
     </style>
 </head>
 <body style="background-color: #eeee;" class="d-f-c">
-    <div class="main-div" style="20px auto;">
+    <div class="main-div" style="margin: 20px auto;">
         <div class="d-f-c h-100 gap-12 px-3" style="gap: 20px;">
             <div style="margin: auto;">
                 <img width="188" src="{{asset('assets/imgs/logo.png')}}" alt="">
