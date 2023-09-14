@@ -69,7 +69,7 @@ class GenerateSitemap extends Command
         // ->add($urls)
         // ->writeToFile(public_path('sitemap.xml'));
 
-        $sitemap = Sitemap::create("https://127.0.0.1:8001/");
+        $sitemap = Sitemap::create("https://whippdigital.com/");
 
 
         foreach ($urls as $url) {
