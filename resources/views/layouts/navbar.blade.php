@@ -16,7 +16,7 @@
         <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-0 overflow-hidden">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center overflow-hidden">
-                <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-5 justify-content-center mb-0">
+                <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-5 justify-content-center mb-0 ps-0">
                     <li class="nav-menu-child">
                         <div class="service-has-expand wd-nav-link position-relative">
                             <a aria-label="service"     href="#">
@@ -365,6 +365,7 @@
                     </li>
                 </ul>
             </div>
+            </div>
             <!-- contact -->
             <div class="d-flex gap-2 ps-0 ps-sm-0 ">
                 <a href="tel:212-951-0651 " aria-label="callus"   class="d-flex justify-content-center align-content-center">
@@ -401,7 +402,7 @@
                     </span>
                 </span>
             </div>
-        </div>
+      
             
     </nav>
    
