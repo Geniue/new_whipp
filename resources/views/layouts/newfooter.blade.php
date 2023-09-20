@@ -69,7 +69,7 @@
     <div class="d-flex pb-5 flex-column flex-md-row gap-2">
         {{-- sitelog --}}
         <div class="mb-4 mb-md-0 mx-auto">
-            <img width="280" class="lozad" data-src="{{asset("assets/imgs/icons/whipplogo_white_1.webp")}}" alt="whipp digital">
+            <img width="280" class="lozad" data-src="{{asset("assets/imgs/logos/whipp_logo_white.png")}}" alt="whipp digital">
         </div>
         {{-- location --}}
         {{-- <div class="mb-4 mb-md-0 d-flex flex-column flex-md-row footer-loc-wrapper gap-3 w-100 justify-content-around">

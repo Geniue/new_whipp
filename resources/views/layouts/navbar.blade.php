@@ -7,7 +7,7 @@
         <div class="d-flex">
             <div class="logo px-0">
                 <a href="/" aria-label="logo" class="main-logo">
-                    <img data-src="{{ asset('assets/imgs/icons/whipplogo_white.webp') }}" class="mainwhipplogo lozad " alt="">
+                    <img data-src="{{ asset('assets/imgs/logos/whipp_logo_white.png') }}" class="mainwhipplogo lozad " alt="">
                 </a>
             </div>
         </div>
