@@ -13,7 +13,7 @@
         </div>
 
         <!-- links & contact -->
-        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-0 overflow-hidden">
+        <div class="wd-menu-li-row d-flex align-items-center  ps-0 ps-sm-0 overflow-hidden me-lg-3">
             <!-- links -->
             <div class="wd-menu-li-co justify-content-center align-items-center overflow-hidden">
                 <ul  role="navigation" style="list-style: none" class="d-flex align-items-center gap-5 justify-content-center mb-0 ps-0">
