@@ -78,9 +78,9 @@ class RegisterController extends Controller
 
     public function register_current_view($slug)
     {
-        // $inv = InvitedUsersModel::where('email', $slug)->get()[0] ?? abort(404);
+        $inv = InvitedUsersModel::where('uniq_id', $slug)->get()[0] ?? abort(404);
 
-        return view('auth.register_invited_users');
+        return view('auth.register_invited_users', compact('inv'));
     }
 
     protected function register_current(Request $request)
@@ -89,9 +89,10 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'uniqId' => ['required']
         ]);
 
-        $inv = InvitedUsersModel::where('email', $data['email'])->get()[0] ?? abort(404);
+        $inv = InvitedUsersModel::where('uniq_id', $data['uniqId'])->get()[0] ?? abort(404);
 
 
 

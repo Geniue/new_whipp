@@ -55,12 +55,13 @@ class UserController extends Controller
 
         $customer = $this->service->createCustomer($data);
 
-        InvitedUsersModel::create([
+        $inv = InvitedUsersModel::create([
             "email" => $data['email'],
-            'stripe_id' => $customer->id
+            'stripe_id' => $customer->id,
+            'uniq_id' => uniqid(),
         ]);
 
-        Mail::to($data['email'])->send(new InviteUserEmail($data['email']));
+        Mail::to($data['email'])->send(new InviteUserEmail($inv->uniq_id));
 
         return redirect()->route('user.list');
 

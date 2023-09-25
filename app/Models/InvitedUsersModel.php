@@ -20,6 +20,7 @@ class InvitedUsersModel extends Model
         'email',
         'user_id',
         'stripe_id',
+        'uniq_id',
     ];
 
 

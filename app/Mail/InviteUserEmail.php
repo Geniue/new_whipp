@@ -18,9 +18,9 @@ class InviteUserEmail extends Mailable
      *
      * @return void
      */
-    public function __construct($email)
+    public function __construct($slug)
     {
-        $this->email = $email;
+        $this->slug = $slug;
     }
 
     /**
@@ -30,7 +30,7 @@ class InviteUserEmail extends Mailable
      */
     public function build()
     {
-        $url = route('register.current.user', ['slug' => $this->email]);
+        $url = route('register.current.user', ['slug' => $this->slug]);
 
         return $this->subject('Customer Invitation WhippDigital')
         ->markdown('user.emails.user-invite-email', ['url' => $url]);
