@@ -93,12 +93,21 @@ class RegisterController extends Controller
 
         $inv = InvitedUsersModel::where('email', $data['email'])->get()[0] ?? abort(404);
 
+
+
+
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'stripe_id' => $inv->stripe_id,
         ]);
+
+
+        foreach ($inv->invoices as $invoice) {
+            $invoice->user_id = $user->id;
+            $invoice->save();
+        }
 
         $inv->user_id = $user->id;
         $inv->save();

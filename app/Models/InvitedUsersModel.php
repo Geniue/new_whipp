@@ -21,4 +21,11 @@ class InvitedUsersModel extends Model
         'user_id',
         'stripe_id',
     ];
+
+
+
+    public function invoices()
+    {
+        return $this->hasMany(StripeInvoicesModel::class, 'inv_user_id');
+    }
 }

@@ -97,7 +97,8 @@ User Dashboard
                             <td>{{$price->type}}</td>
                             <td>{{$price->recurring->interval ?? 'one time'}}</td>
                             <td>
-                                <a href="{{route('create.invoice', $price->id)}}"> Create Invoice </a>
+                                <a href="{{route('create.invoice', $price->id)}}"> Create Invoice Exsiting Users </a>
+                                <a href="{{route('create.invoice.invited', $price->id)}}"> Create Invoice Invited Users </a>
                             </td>
                         </tr>
                         @endforeach

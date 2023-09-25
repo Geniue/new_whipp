@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Mail;
 use App\Models\ProductsModel;
 use App\Models\User;
 use App\Models\StripeInvoicesModel;
+use App\Models\InvitedUsersModel;
 
 //SERVICES
 use App\Services\StripeService;
@@ -174,14 +175,75 @@ class ProductController extends Controller
         }
 
         Mail::to($inv->user->email)->send(new SendProductEmail($inv->uniqId));
-        
-
-
-
 
         return redirect()->route('invoice.url', $inv->uniqId);
+    }
 
 
+    public function create_inv_user_invoice($slug)
+    {
+        // dd($slug);
+        $user = auth()->user();
+        $data = $this->service->retrieveProductFromPrice($slug);
+
+        $users = InvitedUsersModel::whereNull('user_id')->get();
+        // dd($product);
+
+        return view('dashboard.products.create_invoice_inv', compact('user', 'data', 'users'));
+    }
+
+    public function send_invoice_inv(Request $request, $slug)
+    {
+        $data = $request->validate([
+            'customer' => [
+                'required',
+                Rule::exists('invited_users', 'id')->where(function ($query) {
+                    $query->whereNull('user_id');
+                })
+            ]
+        ], [
+            'customer.required' => 'Please provide a required customer',
+            'customer.exists' => 'The selected customer is invalid or does not exist in our databases.'
+        ]);
+
+
+        $user = InvitedUsersModel::where('id', $data['customer'])->get()[0];
+
+        $price = $this->service->retrieveProductFromPrice($slug)['price'];
+
+        if ($price->recurring) {
+            $subscription = $this->service->createSubscription($user->stripe_id, $slug);
+            // Get the latest invoice ID from the subscription
+            $latestInvoiceId = $subscription->latest_invoice;
+            $invoice = $this->service->retrieveInvoice($latestInvoiceId);
+            // Get the hosted invoice URL
+            $hostedInvoiceUrl = $invoice->hosted_invoice_url;
+
+            $inv = StripeInvoicesModel::create([
+                "uniqId" => uniqid(),
+                "invoice_id" => $invoice->id,
+                "inv_user_id" => $user->id,
+                "stripe_id" => $slug,
+                "sub_id" => $subscription->id,
+            ]);
+
+        } else {
+            $invoice = $this->service->createInvoice($user->stripe_id, $slug);
+
+            // dd($invoice->hosted_invoice_url);
+
+
+            $inv = StripeInvoicesModel::create([
+                "uniqId" => uniqid(),
+                "invoice_id" => $invoice->id,
+                "inv_user_id" => $user->id,
+                "stripe_id" => $slug
+            ]);
+        }
+
+        // Mail::to($inv->user->email)->send(new SendProductEmail($inv->uniqId));
+
+        return redirect()->route('invoice.url', $inv->uniqId);
     }
 
 
@@ -189,8 +251,9 @@ class ProductController extends Controller
     public function invoice($slug)
     {
         $invoice = StripeInvoicesModel::where('uniqId', $slug)->get()[0] ?? abort(404);
-        
-        $user = $invoice->user;
+            
+        $user = $invoice->user ?? $invoice->inv_user;
+
 
         $data = $this->service->retrieveProductFromPrice($invoice->stripe_id);
 

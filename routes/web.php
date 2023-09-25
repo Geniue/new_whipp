@@ -128,6 +128,8 @@ Route::middleware(['auth'])->group(function () {
                 Route::post('/plan/{id}', [$main_c, 'add_plan'])->name('add.plan');
                 Route::get('/create/invoice/{slug}', [$main_c, 'create_existing_user_invoice'])->name('create.invoice');
                 Route::post('/create/invoice/{slug}', [$main_c, 'send_invoice'])->name('send.invoice');
+                Route::get('/create/invoice/invited/{slug}', [$main_c, 'create_inv_user_invoice'])->name('create.invoice.invited');
+                Route::post('/create/invoice/invited/{slug}', [$main_c, 'send_invoice_inv'])->name('send.invoice.invited');
             });
 
             

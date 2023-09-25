@@ -45,4 +45,10 @@ class StripeInvoicesModel extends Model
         $service = new StripeService();
         return $service->retrieveProductFromPrice($this->stripe_id);
     }
+
+
+    public function inv_user()
+    {
+        return $this->belongsTo(InvitedUsersModel::class, 'inv_user_id');
+    }
 }

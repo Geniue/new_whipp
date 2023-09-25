@@ -54,7 +54,7 @@
             </tr>
         </thead>
         <tbody>
-            @foreach($paymentMethods as $method)
+            @forelse($paymentMethods as $method)
                 <tr>
                     <td>
                         @if($method->card->brand == 'visa')
@@ -91,7 +91,11 @@
                     </td>
 
                 </tr>
-            @endforeach
+            @empty
+                <td>
+                    <p>You need to provide a payment method first! <a href="{{route('user.create.cards')}}"><i class="fas fa-credit-card"></i></a></p>
+                </td>
+            @endforelse
         </tbody>
     </table>
 </div>

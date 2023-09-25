@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-sm-6">
                         <h6 class="mb-3">To:</h6>
-                        <div><strong>{{ $user->name }}</strong></div>
+                        <div><strong>{{ $user->name ?? '-' }}</strong></div>
                         <div>Email: {{ $user->email }}</div>
                     </div>
                 </div>
