@@ -15,7 +15,7 @@
 
 @section('content')
 <div class="container mt-5">
-    <h2 class="mb-4">Invoice Details</h2>
+    <h2 class="mb-4">Product Details</h2>
     @if($errors->any())
 	    <div class="alert alert-danger">
 	        @foreach($errors->all() as $error)
@@ -23,13 +23,13 @@
 	        @endforeach
 	    </div>
 	@endif
-
     <table class="table table-hover table-bordered">
         <thead class="thead-dark">
             <tr>
                 <th>Name</th>
                 <th>Description</th>
                 <th>Amount</th>
+                <th>Charged</th>
             </tr>
         </thead>
         <tbody>
@@ -37,6 +37,7 @@
                 <td>{{ $invoiceDetails->name }}</td>
                 <td>{{ $invoiceDetails->description }}</td>
                 <td>${{ number_format($plan->unit_amount / 100, 2) }}</td>
+                <td>{{$plan->type == 'one_time' ? 'One Time Payment' : ($plan->recurring->interval == 'week' ? 'Weekly Payment' : ($plan->recurring->interval == 'month' ? 'Monthly Payment' : ($plan->recurring->interval == 'year' ? 'Yearly Payment' : '')))}}</td>
             </tr>
         </tbody>
     </table>

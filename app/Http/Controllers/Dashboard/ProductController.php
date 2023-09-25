@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
-
+use Illuminate\Support\Facades\Mail;
 
 //MODELS
 use App\Models\ProductsModel;
@@ -14,6 +14,10 @@ use App\Models\StripeInvoicesModel;
 
 //SERVICES
 use App\Services\StripeService;
+
+
+//MAILABLE
+use App\Mail\SendProductEmail;
 
 class ProductController extends Controller
 {
@@ -169,7 +173,7 @@ class ProductController extends Controller
             ]);
         }
 
-
+        Mail::to($inv->user->email)->send(new SendProductEmail($inv->uniqId));
         
 
 

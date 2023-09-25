@@ -375,6 +375,13 @@
                 <a href="tel:212-951-0651 " class="fs-4 wd-num-phone nav-phone-num-text" style="color: #fff">
 212-951-0651 
                 </a>
+                <div class="fs-4 wd-num-phone">
+                    <div class="wd-nav-link position-relative">
+                        <a href="{{ route('dashboard') }}">
+                            <span class=""> Login </span>
+                        </a>
+                    </div>
+                </div>
                 <span  id="menu-icon-trigger" class="menu-icon-trigger toggle-menu-mob showhide " style="cursor: pointer">
                     <span id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible">
                         <svg width="1000px" height="1000px">
@@ -401,6 +408,7 @@
                         </svg>
                     </span>
                 </span>
+                
             </div>
       
             
@@ -627,6 +635,7 @@
             <li><a href="{{ route('blog') }}"> BLOG </a></li>
             {{-- <li><a href="{{ route('faqs') }}"> FAQ's </a></li> --}}
             <li><a href="{{ route('contact') }}"> contact </a></li>
+            <li><a href="{{ route('dashboard') }}">Login </a></li>
         </ul>
     </div>
 </header>
