@@ -4,7 +4,6 @@
 @endsection
 @section('content')
     <div class="container-fluid">
-{{--<p>{{ location_lists }}</p>--}}
         <!-- Page-Title -->
         <div class="row">
             <div class="col-sm-12">

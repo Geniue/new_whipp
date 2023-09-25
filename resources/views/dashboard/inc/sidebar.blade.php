@@ -12,6 +12,10 @@
                 <li class="nav-item"><a class="nav-link" href="{{route('blog.list')}}"><i class="ti-control-record"></i>Blog List</a></li>
             </ul>
         </li>
+
+        <li><a class="nav-link" href="{{route('user.list')}}"><i class="ti-user"></i>Users List</a></li>
+
+        <li><a class="nav-link" href="{{route('products.list')}}"><i class="ti-bell"></i>Products List</a></li>
     </ul>
 </div>
 <!-- end left-sidenav-->

@@ -8,6 +8,10 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Http\Request;
+
+//MODELS
+use App\Models\InvitedUsersModel;
 
 class RegisterController extends Controller
 {
@@ -69,5 +73,37 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+
+    public function register_current_view($slug)
+    {
+        // $inv = InvitedUsersModel::where('email', $slug)->get()[0] ?? abort(404);
+
+        return view('auth.register_invited_users');
+    }
+
+    protected function register_current(Request $request)
+    {
+        $data = $request->validate([
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
+
+        $inv = InvitedUsersModel::where('email', $data['email'])->get()[0] ?? abort(404);
+
+        $user = User::create([
+            'name' => $data['name'],
+            'email' => $data['email'],
+            'password' => Hash::make($data['password']),
+            'stripe_id' => $inv->stripe_id,
+        ]);
+
+        $inv->user_id = $user->id;
+        $inv->save();
+
+
+        return redirect()->route('login');
     }
 }

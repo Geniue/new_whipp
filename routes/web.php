@@ -104,27 +104,94 @@ Route::get("/blog/{slug}", [App\Http\Controllers\ShowBlogController::class, 'blo
 // ROUTES FOR AUTHINTECATED USERS
 Route::middleware(['auth'])->group(function () {
 
-    //DASHBOARD ROUTES
-    Route::prefix('dashboard')->group(function () {
-        $main_c = App\Http\Controllers\Dashboard\DashboardController::class;
 
-        Route::get('/', [$main_c, 'index'])->name('dashboard');
+    Route::middleware(['admin'])->group(function () {
+        //DASHBOARD ROUTES
+        Route::prefix('dashboard')->group(function () {
+            $main_c = App\Http\Controllers\Dashboard\DashboardController::class;
 
-        Route::prefix('blog')->group(function () {
-            $blog_controller = App\Http\Controllers\Dashboard\BlogController::class;
+            Route::get('/', [$main_c, 'index'])->name('dashboard');
 
-            Route::get('/', [$blog_controller, 'index'])->name('blog.list');
 
-            Route::get('/create', [$blog_controller, 'create'])->name('blog.create');
-            Route::post('/create', [$blog_controller, 'store'])->name('blog.create');
+            Route::prefix('user')->group(function () {
+                $main_c = App\Http\Controllers\Dashboard\UserController::class;
+                Route::get('/', [$main_c, 'index'])->name('user.list');
+                Route::get('/create', [$main_c, 'create'])->name('user.create');
+                Route::post('/create', [$main_c, 'store'])->name('user.store');
+            });
 
-            Route::get('/edit/{id}', [$blog_controller, 'edit'])->name('blog.update');
-            Route::put('/edit/{id}', [$blog_controller, 'update'])->name('blog.update');
+            Route::prefix('products')->group(function () {
+                $main_c = App\Http\Controllers\Dashboard\ProductController::class;
+                Route::get('/', [$main_c, 'index'])->name('products.list');
+                Route::post('/', [$main_c, 'create'])->name('product.create');
+                Route::get('/product/{id}', [$main_c, 'view_plan'])->name('product.view');
+                Route::post('/plan/{id}', [$main_c, 'add_plan'])->name('add.plan');
+                Route::get('/create/invoice/{slug}', [$main_c, 'create_existing_user_invoice'])->name('create.invoice');
+                Route::post('/create/invoice/{slug}', [$main_c, 'send_invoice'])->name('send.invoice');
+            });
 
-            Route::get('/delete/{id}', [$blog_controller, 'delete'])->name('blog.delete');
+            
+            Route::prefix('blog')->group(function () {
+                $blog_controller = App\Http\Controllers\Dashboard\BlogController::class;
+
+                Route::get('/', [$blog_controller, 'index'])->name('blog.list');
+
+                Route::get('/create', [$blog_controller, 'create'])->name('blog.create');
+                Route::post('/create', [$blog_controller, 'store'])->name('blog.create');
+
+                Route::get('/edit/{id}', [$blog_controller, 'edit'])->name('blog.update');
+                Route::put('/edit/{id}', [$blog_controller, 'update'])->name('blog.update');
+
+                Route::get('/delete/{id}', [$blog_controller, 'delete'])->name('blog.delete');
+            });
         });
     });
+
+    Route::middleware(['customer', 'verified'])->group(function () {
+        Route::prefix('customer/dashboard')->group(function () {
+            $main_c = App\Http\Controllers\User\DashboardController::class;
+            Route::get('/', [$main_c, 'index'])->name('user.dashboard');
+            Route::get('/products', [$main_c, 'index_products'])->name('user.products');
+            Route::get('/products/list', [$main_c, 'listInvoices'])->name('user.products.list');
+
+        });
+
+
+        Route::prefix('customer/profile')->group(function () {
+            $main_c = App\Http\Controllers\User\ProfileController::class;
+            Route::get('/', [$main_c, 'index'])->name('user.profile');
+            Route::put('/update', [$main_c, 'update'])->name('user.profile.update');
+
+
+        });
+
+        Route::prefix('customer/cards')->group(function () {
+            $main_c = App\Http\Controllers\User\PaymentController::class;
+            Route::get('/create', [$main_c, 'index_store_cards'])->name('user.create.cards');
+            Route::post('/store', [$main_c, 'storeCard'])->name('user.store.cards');
+            Route::post('/set-default-card', [$main_c, 'setDefaultCard'])->name('set.default.card');
+            Route::get('/products/pay/{slug}', [$main_c, 'showPaymentPage'])->name('user.pay');
+            Route::post('/products/pay/{slug}', [$main_c, 'payInvoice'])->name('user.pay.invoice');
+        });
+    });
+    
+    
 });
 
 
-Auth::routes();
+Route::prefix('register/user')->group(function () {
+    $main_c = App\Http\Controllers\Auth\RegisterController::class;
+    Route::get('/{slug}', [$main_c, 'register_current_view'])->name('register.current.user');
+    Route::post('/', [$main_c, 'register_current'])->name('store.current.user');
+});
+
+Route::post('/trigger-password-reset', [App\Http\Controllers\User\ProfileController::class, 'sendResetLinkEmailAuth'])->name('trigger.password.reset');
+Route::get('/validate-email-change/{token}', [App\Http\Controllers\User\ProfileController::class, 'validateOldEmail'])->name('validate.old.email');
+Route::get('/validate-new-email/{token}', [App\Http\Controllers\User\ProfileController::class, 'validateNewEmail'])->name('validate.new.email');
+
+Route::get('/invoice/{slug}', [App\Http\Controllers\Dashboard\ProductController::class, 'invoice'])->name('invoice.url');
+
+Auth::routes(['verify' => true]);
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
