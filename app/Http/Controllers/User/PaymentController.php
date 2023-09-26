@@ -29,7 +29,7 @@ class PaymentController extends Controller
     public function index_store_cards()
     {
         $user = auth()->user();
-        $paymentMethods = $user->paymentMethods();
+        $paymentMethods = $user->stripe_id ? $user->paymentMethods() : [];
         
         return view('user.app.store_cards', ['paymentMethods' => $paymentMethods, 'user'=> $user]);
     }

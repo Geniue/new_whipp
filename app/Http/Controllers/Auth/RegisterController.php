@@ -102,6 +102,7 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'stripe_id' => $inv->stripe_id,
+            'email_verified_at' => now()->format("Y-m-d H:i:s")
         ]);
 
 

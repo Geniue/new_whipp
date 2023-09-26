@@ -5,7 +5,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-sidebar" aria-controls="mobile-sidebar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="d-flex ml-auto">
+        {{-- <div class="d-flex ml-auto">
             <div class="btn-group">
                 <button type="button" class="btn btn-dark dropdown-toggle user-dropdown" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fas fa-user-circle me-2"></i> Username
@@ -24,6 +24,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </div> --}}
     </div>
 </nav>

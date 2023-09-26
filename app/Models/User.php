@@ -24,6 +24,7 @@ class User extends Authenticatable implements MustVerifyEmail
         'email',
         'password',
         'stripe_id',
+        'email_verified_at',
     ];
 
     /**
@@ -56,5 +57,16 @@ class User extends Authenticatable implements MustVerifyEmail
     public function invoices()
     {
         return $this->hasMany(StripeInvoicesModel::class, 'user_id')->orderBy("created_at", 'DESC');
+    }
+
+
+    public function work()
+    {
+        return $this->hasMany(WorkModel::class, 'user_id');
+    }
+
+    public function work_by_id($id)
+    {
+        return $this->hasOne(WorkModel::class, 'user_id')->with('files')->where('id', $id);
     }
 }

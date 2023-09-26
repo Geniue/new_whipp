@@ -58,7 +58,9 @@ User Dashboard
                             <td>{{$user->name}}</td>
                             <td>{{$user->email}}</td>
                             <td>
-
+                                <a href="{{route('user.downloads', $user->id)}}">Downloads</a>
+                                <br>
+                                <a href="{{route('user.upload', $user->id)}}">Add Work</a>
                             </td>
                         </tr>
                         @endforeach

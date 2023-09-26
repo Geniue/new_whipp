@@ -98,4 +98,28 @@ class DashboardController extends Controller
     }
 
 
+    public function download_page($id)
+    {
+        $user = auth()->user();
+
+        $work = \App\Models\WorkModel::where('id', $id)->where('user_id', $user->id)->get()[0] ?? abort(404);
+        // dd($work);
+        $files = $work->files;
+
+        return view('user.app.downloads', compact('user', 'files', 'work'));
+    }
+
+
+
+    public function view_downloads()
+    {
+        $user = auth()->user();
+
+        $work = $user->work;
+
+
+        return view('user.app.work', compact('user', 'work'));
+    }
+
+
 }

@@ -49,7 +49,6 @@
                 <th>Card Type</th>
                 <th>Last Four</th>
                 <th>Expiry</th>
-                <th>Default</th>
                 <th>Action</th>
             </tr>
         </thead>
@@ -75,13 +74,6 @@
                     </td>
                     <td>{{ $method->card->last4 }}</td>
                     <td>{{ $method->card->exp_month }}/{{ $method->card->exp_year }}</td>
-                    <td>
-			            @if( !$defaultPaymentMethod || $defaultPaymentMethod->id !== $method->id)
-			                <span class="badge badge-warning">False</span>
-			            @else
-			                <span class="badge badge-success">Default</span>
-			            @endif
-			        </td>
                     <td>
                         <form action="{{ route('user.pay.invoice', request()->slug) }}" method="POST">
                             @csrf

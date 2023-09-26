@@ -4,7 +4,7 @@
 <div class="container mt-5">
     <h2>Your Products</h2>
     
-    <!-- Filter Form -->
+{{--  <!-- Filter Form -->
     <div class="mb-3">
         <form action="{{ route('user.products') }}" method="GET" class="form-inline">
             <label for="from_date" class="mr-2">From:</label>
@@ -25,7 +25,7 @@
             <br>
             <button type="submit" class="btn btn-primary">Search</button>
         </form>
-    </div>
+    </div> --}}
 
     <div class="table-responsive">
         <table class="table">
