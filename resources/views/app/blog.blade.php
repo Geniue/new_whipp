@@ -191,7 +191,7 @@
                                 Marketing</a></span>
                     </p>
                     {{-- leave reply --}}
-                    <div>
+                    {{-- <div>
                         <h3 class="fs-3 fw-bold">
                             Leave a Reply
                         </h3>
@@ -219,7 +219,7 @@
                             </div>
                         </form>
 
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

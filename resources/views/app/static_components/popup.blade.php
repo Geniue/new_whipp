@@ -1,7 +1,7 @@
 <div id="pg_popup" class="position-fixed  left-0 top-0 d-flex justify-content-center align-items-center pp-uap-bg intial-anim">
     <div class="container row p-0 m-0 px-md-4">
         <div class="col-lg-7 col-md-9 col-xl-6 mx-auto p-0 ">
-            <div id="pg-ma-modal" class="bg-white cus-ba-shadow p-5 mx-auto rounded-1 col-11 col-md-12">
+            <div id="pg-ma-modal" class="bg-white cus-ba-shadow p-5 mx-auto rounded-1 col-11 col-md-12 intial-anim">
 
                 <div class="text-center d-flex flex-column gap-4">
                     <p class="fs-3 colr-newblr mb-0">

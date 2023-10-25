@@ -35,7 +35,18 @@ class ContactController extends Controller
             'message_' => 'required',
             'wantemaillist' => 'required'
         ], [
+            'firstname.required' => 'Please provide your first name',
+            'lastname.required' => 'Please provide your last name',
+            'email.required' => 'Please provide your email',
+            'email.email' => 'Please provide a valid email address',
+            'phone.required' => 'Please provide your phone number',
+            'phone.numeric' => 'Please make sure your number is correct',
+            'phone.digits' => 'Please make sure your number is 10 digit number',
+            'website.required' => 'Please provide your website',
+            'company.required' => 'Please provide your company',
             'services.required' => 'You need to pick at least 1 service',
+            'message_.required' => 'Please tell us more about your requirements',
+            'wantemaillist.required' => 'Please tell us are you going join our email list or not!'
         ]);
 
         // dd($request->all());
@@ -88,7 +99,13 @@ class ContactController extends Controller
             'message_' => 'required'
 
         ], [
-            'services.required' => 'You need to pick at least 1 service',
+            'name.required' => 'Please provide your name',
+            'email.required' => 'Please provide your email',
+            'email.email' => 'Please provide a valid email address',
+            'phone.required' => 'Please provide your phone number',
+            'phone.numeric' => 'Please make sure your number is correct',
+            'phone.digits' => 'Please make sure your number is 10 digit number',
+            'message_.required' => 'Please tell us more about your requirements',
         ]);
 
         if ($validator->fails()) {

@@ -39,7 +39,7 @@ class GenerateSitemap extends Command
         $urls = collect(\Illuminate\Support\Facades\Route::getRoutes())
             ->filter(function ($route) {
                 // Filter out any routes that are not public-facing
-                return !Str::startsWith($route->uri, ['admin', 'api', 'dashboard', 'check_featured', 'uncheck_featrued', 'login', 'register', 'home', 'password', 'blog', 'logout', 'pricing', 'get-quotes', 'sanctum', '_ignition', 'payment', 'service-areas-locations', "callback-number", "callback-item", "lets-talk", "sign_up"]);
+                return !Str::startsWith($route->uri, ['invoice', 'trigger-password-reset', 'email', 'validate-new-email', 'validate-email-change', 'stripe', 'customer','admin', 'api', 'dashboard', 'check_featured', 'uncheck_featrued', 'login', 'register', 'home', 'password', 'blog', 'logout', 'pricing', 'get-quotes', 'sanctum', '_ignition', 'payment', 'service-areas-locations', "callback-number", "callback-item", "lets-talk", "sign_up"]);
             })
             ->map(function ($route) {
                 // Convert the route to a URL object
@@ -73,10 +73,12 @@ class GenerateSitemap extends Command
 
 
         foreach ($urls as $url) {
-            $sitemap->add($url);
+            $sitemap->add(Url::create($url)
+            ->setPriority(1.0));
         }
 
-        $sitemap->add(url("/blog"));
+        $sitemap->add(Url::create(url("/blog"))
+            ->setPriority(1.0));
 
         // creates sitemap with all urls in your website        
         $sitemap->writeToFile(public_path('sitemap.xml'));

@@ -58,22 +58,22 @@ Whippdigital | Home
              
 
 
-    <video preload="auto" id="mainvideo" disablePictureInPicture='true' class="lozad"
-    data-poster="{{ asset('assets/imgs/thumb.webp') }}"  loop autoplay muted playsinline >
-                <source media="(orientation: landscape)" class="lozad"
-                data-src="{{ asset('assets/imgs/new_whippintro.mp4') }}"
-                sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw"
-                    type="video/mp4">
-                <source media="(orientation: portrait)" class="lozad"
-                    data-src="{{ asset('assets/imgs/new_whippintro.webm') }}"
+                <video preload="auto" id="mainvideo" 
+                data-poster="{{ asset('assets/imgs/thumb.webp') }}"  loop autoplay muted>
+                    <source media="(orientation: landscape)"
+                    src="{{ asset('assets/imgs/new_whippintro.mp4') }}"
                     sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw"
-                    type="video/webm">
-                Your browser does not support the video tag.
-            </video>
+                   (min-width: 40rem) 90vw,
+                   100vw"
+                        type="video/mp4">
+                    <source media="(orientation: portrait)"
+                        src="{{ asset('assets/imgs/new_whippintro.webm') }}"
+                        sizes="(min-width: 60rem) 80vw,
+                   (min-width: 40rem) 90vw,
+                   100vw"
+                        type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
 
 
 

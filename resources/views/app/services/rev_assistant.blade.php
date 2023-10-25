@@ -61,11 +61,12 @@ Real Estate Virtual Assistant | Whippdigital
     }
     @media (max-width:786px){
         .feture-head{
-        font-size: 30px !important;
-        font-weight: bold;
-        line-height: 38px;
+            font-size: 30px !important;
+            font-weight: bold;
+            line-height: 38px;
+        }
     }
-    }
+    
 </style>
 @endsection
 
@@ -197,7 +198,7 @@ Real Estate Virtual Assistant | Whippdigital
                     <div class="pt-4 w-100   pb-4 justify-content-start align-items-center d-flex d-lg-none">
                         <span style="width: 28%;border-radius: 8px; display: inline-block;height: 3px;background-color: deepskyblue;"></span>
                     </div>
-                <img width="600" class="lozad" data-src="{{ asset('public/assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-2021-08-28-11-37-12-utc.jpg') }}" alt="" />
+                <img width="600" class="lozad" data-src="{{ asset('public/assets/imgs/whipp_images/Virtual Assistant Service/Virtual Personal Assistant/v1/business-customer-service-concept-.jpg') }}" alt="" />
             </div>
             </div>
         </div>

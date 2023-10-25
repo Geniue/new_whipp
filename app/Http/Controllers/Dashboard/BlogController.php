@@ -88,12 +88,13 @@ class BlogController extends Controller
             
             //$image
             if ($file_extension != "webp") {
-                $image = Image::make($image->getRealPath())->resize(1000, null, function($constraint){
-                    $constraint->aspectRatio();
-                });
-                $image->encode($file_extension, 70);
+                // $image = Image::make($image->getRealPath())->resize(1000, null, function($constraint){
+                //     $constraint->aspectRatio();
+                // });
+                // // $image->encode($file_extension, 70);
 
-                $image->save($destinationPath.'/'.$filename);
+                // $image->save($destinationPath.'/'.$filename);
+                \Storage::disk('public')->putFileAs('/blog/uploads', $image, $filename);
             } else {
                 $image->move($destinationPath.'/', $filename);
             }
@@ -188,12 +189,14 @@ class BlogController extends Controller
             // dd($file_extension);
 
             if ($file_extension != "webp") {
-                 $image = Image::make($image->getRealPath())->resize(1000, null, function($constraint){
-                    $constraint->aspectRatio();
-                });
-                $image->encode($file_extension, 70);
 
-                $image->save($destinationPath.'/'.$filename);
+                // dd($destinationPath.'/'.$filename);
+                // $image = Image::make($image->getRealPath())->resize(1000, null, function($constraint){
+                //     $constraint->aspectRatio();
+                // });
+                // $image->encode($file_extension, 70);
+                \Storage::disk('public')->putFileAs('/blog/uploads', $image, $filename);
+                // $image->save($destinationPath.'/'.$filename);
             } else {
                 $image->move($destinationPath.'/', $filename);
             }
