@@ -14,7 +14,6 @@
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.2",
-        "pbmedia/laravel-ffmpeg": "^8.3",
         "spatie/laravel-sitemap": "^6.3",
         "stripe/stripe-php": "^10.0"
     },
