@@ -11,7 +11,7 @@
                     </p>
                     <div class="br-s32-ds"></div>
                     <strong>
-                        <p class="fs-4 text-green-1 mb-0">Sign up for coupons and seasonal deals on our digital marketing services</p>
+                        <p class="fs-4 text-green-1 mb-0">Sign up for upcoming deals on our digital marketing services!</p>
                     </strong>
                      <div class="d-flex flex-column flex-md-row gap-3  justify-content-center py-2">
                         <button id="yes_please" class="w-100 px-4 shadow lettalkbtn_hasarrow px-3 cta-btn-btn  mx-auto d-flex justify-content-center align-items-center gap-2 py-2   rounded-5 text-uppercase fw-bold">Yes, Sign me up</button>
@@ -32,27 +32,21 @@
                     </p>
                     <div class="br-s32-ds"></div>
                     <strong>
-                        <p class="fs-4 text-green-1 mb-0">Where should we sign up you for coupons and seasonal deals on digital marketing services?</p>
+                        <p class="fs-4 text-green-1 mb-0">Where should we sign up for upcoming deals on our digital marketing services?</p>
                     </strong>
                      <form action="{{route('sign_up')}}" method="POST" class="d-flex flex-column gap-3 gap-md-3  justify-content-center col-lg-10 mx-lg-auto py-3">
                         @csrf
                        
                         <div class="anim-for-inp-comp mt-3">
-                            <input  aria-label="phone" style="color: #373737 !important" type="text" name="phone" autocomplete="off" required />
-                            <label for="phone" class="anime-label-wrap" >
+                            <input  aria-label="email" style="color: #373737 !important" type="text" name="email" autocomplete="off" required />
+                            <label for="email" class="anime-label-wrap" >
                               <span class="anime-label-text" style="color: #373737 !important">
-                                Your Phone Number
+                                Your Email Address
                               </span>
                             </label>
                           </div>
-                        <div class="d-flex">
-                          <input class="" type="checkbox" value=""  id="defaultCheck1" required>
-                          <label class="ms-2" for="defaultCheck1">
-                            I agree to receive marketing SMS from WhippDigital, LLC
-                          </label>
-                        </div>
 
-                        <button  id="close_popup_pg_2nd" id="yes_please" class="w-100 px-4 fs-5 shadow lettalkbtn_hasarrow px-3 cta-btn-btn  mx-auto d-flex justify-content-center align-items-center gap-2 py-2   rounded-5 text-uppercase fw-bold">Get My Coupon</button>
+                        <button  id="close_popup_pg_2nd" id="yes_please" class="w-100 px-4 fs-5 shadow lettalkbtn_hasarrow px-3 cta-btn-btn  mx-auto d-flex justify-content-center align-items-center gap-2 py-2   rounded-5 text-uppercase fw-bold">Sign Up</button>
 
 
                      </form>

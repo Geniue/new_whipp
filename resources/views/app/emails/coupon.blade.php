@@ -56,7 +56,7 @@
             <td>
                 <h3>Client Information</h3>
                 <ul>
-                    <li>Phone: {!! $phone !!}</li>
+                    <li>Email: {!! $email !!}</li>
                 </ul>
             </td>
         </tr>

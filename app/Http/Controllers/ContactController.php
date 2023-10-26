@@ -149,12 +149,10 @@ class ContactController extends Controller
         $data = $request->all();
 
         $validator = Validator::make($data, [
-            'phone' => 'required|numeric|digits:10|unique:coupons'
+            'email' => 'required|email:rfc,dns'
         ], [
-            'phone.required' => 'You need to provide your correct phone number for coupons And seasonal deals.',
-            'phone.numeric' => 'You need to provide your correct phone number for coupons And seasonal deals.',
-            'phone.digits' => 'You need to provide your correct phone number for coupons And seasonal deals.',
-            'phone.unique' => 'You already signed up for coupons And seasonal deals for your next cleanings',
+            'email.required' => 'Please provide your email',
+            'email.email' => 'Please provide a valid email address'
         ]);
 
         if ($validator->fails()) {
@@ -162,7 +160,7 @@ class ContactController extends Controller
         }
 
 
-        $view = view('app.emails.coupon', ['phone' => $data['phone']])->render();
+        $view = view('app.emails.coupon', ['email' => $data['email']])->render();
 
         $email = new EmailsModel;
         $email->type = "Coupons And Seasonal Deals Request - whippdigital.com";
@@ -171,7 +169,7 @@ class ContactController extends Controller
         $email->save();
 
         $coup = new CouponModel;
-        $coup->phone = $data['phone'];
+        $coup->phone = $data['email'];
         $coup->email_id = $email->id;
         $coup->save();
 
