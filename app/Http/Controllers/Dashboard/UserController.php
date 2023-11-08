@@ -61,10 +61,7 @@ class UserController extends Controller
             'uniq_id' => uniqid(),
         ]);
 
-        Mail::to($data['email'])->send(new InviteUserEmail($inv->uniq_id), function ($mail)
-        {
-            $mail->from("support@whippdigital.com", 'Whippdigital');
-        });
+        Mail::to($data['email'])->send(new InviteUserEmail($inv->uniq_id));
 
         return redirect()->route('user.list');
 
