@@ -45,6 +45,6 @@ class ValidateEmailChange extends Mailable
         $url = route('validate.old.email', ['token' => $this->token]);
 
         return $this->subject('Validate Email Change WhippDigital')
-        ->markdown('user.emails.validate-email-change', ['url' => $url]);
+        ->markdown('user.emails.validate-email-change', ['url' => $url])->from("support@whippdigital.com", 'Whippdigital');
     }
 }

@@ -34,7 +34,7 @@ class SendProductEmail extends Mailable
         $url = route('user.pay', $this->token);
 
         return $this->subject('Product Arrival Whipp Digital')
-        ->markdown('user.emails.product-email', ['url' => $url]);
+        ->markdown('user.emails.product-email', ['url' => $url])->from("support@whippdigital.com", 'Whippdigital');
     }
 
 
