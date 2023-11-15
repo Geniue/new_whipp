@@ -1,21 +1,21 @@
 @extends('layouts.index')
 
 @section('title')
-Amazon Seller Consulting | Whippdigital 
+Amazon Seller Consulting | {{ env("APP_NAME") }} 
 
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Amazon Seller Consulting | Whippdigital ">
+<meta name="title" content="Amazon Seller Consulting | {{ env("APP_NAME") }} ">
 <meta name="description" content="Unlock success on Amazon with expert guidance. Navigate the vast Amazon marketplace with seasoned professionals, optimize listings, boost brand presence, and unravel Amazon's algorithm. Tailored strategies for new launches or sales growth. Transform your Amazon journey today!">
 <meta name="keywords" content="Amazon marketplace, e-commerce giant, product listings, brand presence, Amazon algorithm, sales growth, tailored strategies, expert guidance, industry trends, Amazon journey">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Amazon Seller Consulting | Whippdigital">
-<meta property="og:title" content="Amazon Seller Consulting | Whippdigital">
+<meta property="og:site_name" content="Amazon Seller Consulting | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Amazon Seller Consulting | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Unlock success on Amazon with expert guidance. Navigate the vast Amazon marketplace with seasoned professionals, optimize listings, boost brand presence, and unravel Amazon's algorithm. Tailored strategies for new launches or sales growth. Transform your Amazon journey today!">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
@@ -27,20 +27,20 @@ Amazon Seller Consulting | Whippdigital
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Amazon Seller Consulting | Whippdigital">
+<meta itemprop="name" content="Amazon Seller Consulting | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Seller Consulting/v1/business-finance-accounting-investment-consultin-2023-05-09-16-41-13-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -175,7 +175,7 @@ Amazon Seller Consulting | Whippdigital
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Crafting the perfect product listing on Amazon involves more than just adding images and descriptions; it's a nuanced blend of art and science. This service ensures your product not only survives but whippdigital amidst the vast Amazon marketplace. Armed with expertise in keyword optimization, high-quality imagery, and compelling content creation, this approach guarantees that your listings are tailored to both attract buyers and rank well in Amazon's search algorithms. Tapping into this reservoir of knowledge means transforming from just another seller into a standout brand on Amazon. Dive in and let's craft listings that don't just catch the eye, but also drive conversions.
+                            Crafting the perfect product listing on Amazon involves more than just adding images and descriptions; it's a nuanced blend of art and science. This service ensures your product not only survives but {{ env("APP_NAME") }} amidst the vast Amazon marketplace. Armed with expertise in keyword optimization, high-quality imagery, and compelling content creation, this approach guarantees that your listings are tailored to both attract buyers and rank well in Amazon's search algorithms. Tapping into this reservoir of knowledge means transforming from just another seller into a standout brand on Amazon. Dive in and let's craft listings that don't just catch the eye, but also drive conversions.
                         </p>
                        
                     </div>

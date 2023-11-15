@@ -1,44 +1,44 @@
 @extends('layouts.index')
 @section('title')
-Whippdigital | Home
+{{ env("APP_NAME") }} | Home
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Home | Whippdigital ">
+<meta name="title" content="Home | {{ env("APP_NAME") }} ">
 <meta name="description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
 <meta name="keywords" content="Comprehensive Services, Online Presence, SEO Transformation, Social Media Management, Digital Landscape, Transformative Experiences, Meaningful Connections">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Home | Whippdigital">
-<meta property="og:title" content="Home | Whippdigital">
+<meta property="og:site_name" content="Home | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Home | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Whippdigital | Home">
+<meta name="twitter:title" content="{{ env("APP_NAME") }} | Home">
 <meta name="twitter:description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Home | Whippdigital">
+<meta itemprop="name" content="Home | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/tech_whipp.png') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -229,7 +229,7 @@ Whippdigital | Home
                 <div class="video text-center">
                     <video autoplay="" muted="" loop="" playsinline=""
                         style="max-width: 100%; width: 700px; border-radius: 10px">
-                        <source class="lozad" data-src="{{ asset('assets/imgs/WHIPPDIGITAL-category-leader-web-1.mp4') }}" type="video/mp4" />
+                        <source class="lozad" data-src="{{ asset('assets/imgs/{{ env("APP_NAME") }}-category-leader-web-1.mp4') }}" type="video/mp4" />
                     </video>
                 </div>
             </div>
@@ -300,7 +300,7 @@ Whippdigital | Home
     {{-- <section>
         <div class="container py-5">
             <div class="text-center d-flex flex-column  h-100">
-                <h3 class="fs-2">Choose Whippdigital and Improve Your Technical SEO</h3>
+                <h3 class="fs-2">Choose {{ env("APP_NAME") }} and Improve Your Technical SEO</h3>
                 <p class="pb-1">
                     Achieve Top Search Engine Rankings with Our Robust Technical SEO
                     Strategy
@@ -625,7 +625,7 @@ Whippdigital | Home
                                 sustained and gradual growth, there are
                                 instances
                                 when an instant surge is necessary.
-                                Whippdigital's pay-per-click (PPC)
+                                {{ env("APP_NAME") }}'s pay-per-click (PPC)
                                 campaign guarantees optimal utilization of your
                                 funds, delivering immediate and impactful
                                 results.
@@ -687,7 +687,7 @@ Whippdigital | Home
                 
                     
 
-                            WhippDigital 
+                            {{ env("APP_NAME") }} 
                 
                     For Your
                     <br class="d-none d-md-inline">

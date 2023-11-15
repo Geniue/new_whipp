@@ -1,45 +1,45 @@
 @extends('layouts.index')
 
 @section('title')
-     Website Hosting | Whippdigital 
+     Website Hosting | {{ env("APP_NAME") }} 
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Website Hosting | Whippdigital ">
+<meta name="title" content="Website Hosting | {{ env("APP_NAME") }} ">
 <meta name="description" content="Build a strong online presence with reliable website hosting. Lightning-fast load times, unbeatable uptime, and top-tier security for seamless visitor experiences. Discover how quality hosting transforms your online footprint.">
 <meta name="keywords" content="Website Hosting, online presence, reliable hosting, load times, uptime, security, visitor experiences, online footprint, digital heartbeat">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Website Hosting | Whippdigital">
-<meta property="og:title" content="Website Hosting | Whippdigital">
+<meta property="og:site_name" content="Website Hosting | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Website Hosting | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Build a strong online presence with reliable website hosting. Lightning-fast load times, unbeatable uptime, and top-tier security for seamless visitor experiences. Discover how quality hosting transforms your online footprint.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Website Hosting | Whippdigital ">
+<meta name="twitter:title" content="Website Hosting | {{ env("APP_NAME") }} ">
 <meta name="twitter:description" content="Build a strong online presence with reliable website hosting. Lightning-fast load times, unbeatable uptime, and top-tier security for seamless visitor experiences. Discover how quality hosting transforms your online footprint.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Website Hosting | Whippdigital">
+<meta itemprop="name" content="Website Hosting | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/web development/Website Hosting/v1/cloud-storage-cyberspace-protection-hosting-commun-2022-12-16-12-36-04-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -259,7 +259,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            In the ever-evolving digital landscape, the cloud signifies more than a mere buzzword—it's the future of web hosting. Our cloud web hosting services harmonize flexibility, scalability, and reliability. Imagine this: your website isn't confined to a single server, but whippdigital on an interconnected network of virtual servers, tapping into a shared resource pool. This translates to exceptional uptime, rapid load times, and the capacity to gracefully handle unexpected surges. Why choose our cloud hosting? We're not just a service provider; we empower your digital vision. As your ambitions soar, your hosting environment rises to meet them. Embark on a limitless web hosting journey with us.
+                            In the ever-evolving digital landscape, the cloud signifies more than a mere buzzword—it's the future of web hosting. Our cloud web hosting services harmonize flexibility, scalability, and reliability. Imagine this: your website isn't confined to a single server, but {{ env("APP_NAME") }} on an interconnected network of virtual servers, tapping into a shared resource pool. This translates to exceptional uptime, rapid load times, and the capacity to gracefully handle unexpected surges. Why choose our cloud hosting? We're not just a service provider; we empower your digital vision. As your ambitions soar, your hosting environment rises to meet them. Embark on a limitless web hosting journey with us.
 
                         </p>
                        

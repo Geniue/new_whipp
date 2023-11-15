@@ -1,20 +1,20 @@
 @extends('layouts.index')
 
 @section('title')
-     Shopify SEO | Whippdigital 
+     Shopify SEO | {{ env("APP_NAME") }} 
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Shopify SEO | Whippdigital ">
+<meta name="title" content="Shopify SEO | {{ env("APP_NAME") }} ">
 <meta name="description" content="Elevate your Shopify presence with effective SEO. Optimize product listings, enhance site architecture, and attract organic traffic that converts to sales. Experience the difference with Whipp Digital's tailored Shopify SEO services.">
 <meta name="keywords" content="Shopify SEO, eCommerce, digital landscape, Shopify store, product listings, site architecture, organic traffic, sales conversion, tailored SEO services">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Shopify SEO  | Whippdigital">
-<meta property="og:title" content="Shopify SEO  | Whippdigital">
+<meta property="og:site_name" content="Shopify SEO  | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Shopify SEO  | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Elevate your Shopify presence with effective SEO. Optimize product listings, enhance site architecture, and attract organic traffic that converts to sales. Experience the difference with Whipp Digital's tailored Shopify SEO services.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
@@ -26,20 +26,20 @@
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Shopify SEO  | Whippdigital">
+<meta itemprop="name" content="Shopify SEO  | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/empty-desk-laptop-and-coffee-shop-with-notebook-2022-12-08-21-41-20-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/empty-desk-laptop-and-coffee-shop-with-notebook-2022-12-08-21-41-20-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Ecommerce/Shopify SEO/v1/empty-desk-laptop-and-coffee-shop-with-notebook-2022-12-08-21-41-20-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -258,7 +258,7 @@ Elevate Your Shopify Store with Expert Store SEO
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Unveiling captivating digital spaces is merely the start for us; we plunge into the depths of e-commerce visibility through our specialized Shopify Store SEO services. Recognizing that a remarkable store's worth is measured by its drawn traffic, our team deploys cutting-edge strategies to ensure your Shopify storefront whippdigital in the vast digital marketplace. Every product title, description, and concealed meta tag is optimized to communicate directly with search engines, ushering in unprecedented organic traffic. If you're aiming to enhance your e-commerce prowess, remember that contemporary SEO extends beyond keywords; it involves seamless synergy between content, technology, and user experience. Allow Whipp Digital to be the architect behind your Shopify Store's SEO masterpiece, guaranteeing your products not only impress but are also easily discovered by enthusiastic customers.
+                            Unveiling captivating digital spaces is merely the start for us; we plunge into the depths of e-commerce visibility through our specialized Shopify Store SEO services. Recognizing that a remarkable store's worth is measured by its drawn traffic, our team deploys cutting-edge strategies to ensure your Shopify storefront {{ env("APP_NAME") }} in the vast digital marketplace. Every product title, description, and concealed meta tag is optimized to communicate directly with search engines, ushering in unprecedented organic traffic. If you're aiming to enhance your e-commerce prowess, remember that contemporary SEO extends beyond keywords; it involves seamless synergy between content, technology, and user experience. Allow Whipp Digital to be the architect behind your Shopify Store's SEO masterpiece, guaranteeing your products not only impress but are also easily discovered by enthusiastic customers.
 
                         </p>
                        

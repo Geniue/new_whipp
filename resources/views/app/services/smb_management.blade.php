@@ -1,46 +1,46 @@
 @extends('layouts.index')
 
 @section('title')
-    Social Media Brand Management | Whippdigital
+    Social Media Brand Management | {{ env("APP_NAME") }}
 @endsection
 
 
 @section('meta')
 
 
-<meta name="title" content="Social Media Brand Management | Whippdigital ">
+<meta name="title" content="Social Media Brand Management | {{ env("APP_NAME") }} ">
 <meta name="description" content="Revolutionize your brand's social media presence with dynamic narratives that resonate. Align every post, comment, and interaction with your brand's voice. Our tailored social media management delivers transformative insights for startups and enterprises alike.">
 <meta name="keywords" content="Social Media Brand Management, digital era, brand reputation, dynamic brand narratives, latest tools, business values, brand voice, digital landscape, adaptive strategies, social media management, transformative insights">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Social Media Brand Management | Whippdigital">
-<meta property="og:title" content="Social Media Brand Management | Whippdigital ">
+<meta property="og:site_name" content="Social Media Brand Management | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Social Media Brand Management | {{ env("APP_NAME") }} ">
 <meta property="og:description" content="Revolutionize your brand's social media presence with dynamic narratives that resonate. Align every post, comment, and interaction with your brand's voice. Our tailored social media management delivers transformative insights for startups and enterprises alike.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Social Media Brand Management | Whippdigital">
+<meta name="twitter:title" content="Social Media Brand Management | {{ env("APP_NAME") }}">
 <meta name="twitter:description" content="Revolutionize your brand's social media presence with dynamic narratives that resonate. Align every post, comment, and interaction with your brand's voice. Our tailored social media management delivers transformative insights for startups and enterprises alike.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Social Media Brand Management | Whippdigital ">
+<meta itemprop="name" content="Social Media Brand Management | {{ env("APP_NAME") }} ">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Social Media  Marketing/Social Media Brand Management/v1/reputation-management-2022-11-01-00-05-44-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -216,7 +216,7 @@
                 <div class="text-center">
                     <h3 class="feture-head mb-3">Maximize Your Digital Influence</h3>
                 <p class="feture-pare">
-                    Harness the power of social media! In today's digital landscape, your brand's online presence is pivotal, shaping perceptions. At Whipp Digital, we sculpt captivating brand stories that resonate deeply. Our adept team wields cutting-edge tools, aligning each interaction with your brand's essence. As the digital realm evolves, we adapt to ensure your brand doesn't just survive but whippdigital.                    <br>
+                    Harness the power of social media! In today's digital landscape, your brand's online presence is pivotal, shaping perceptions. At Whipp Digital, we sculpt captivating brand stories that resonate deeply. Our adept team wields cutting-edge tools, aligning each interaction with your brand's essence. As the digital realm evolves, we adapt to ensure your brand doesn't just survive but {{ env("APP_NAME") }}.                    <br>
                     <br>
                     Whether you're a startup or an enterprise, our tailored approach transforms your online identity. Dive into the digital sphere with Whipp Whether you're a startup or an enterprise, our tailored approach transforms your online identity. Dive into the digital sphere with Whipp Digital and see your brand narrative unfurl like never before. Take control of your digital destiny!
 

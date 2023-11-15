@@ -32,7 +32,7 @@ class InvoiceEmail extends Mailable
     public function build()
     {
         return $this->subject('Invoice Whipp Digital')
-        ->markdown('user.emails.invoice-email', ['url' => $this->url, 'title' => $this->title])->from("support@whippdigital.com", 'Whippdigital');
+        ->markdown('user.emails.invoice-email', ['url' => $this->url, 'title' => $this->title])->from("support@whippdigital.com", 'Whipp Digital');
     }
 
 }

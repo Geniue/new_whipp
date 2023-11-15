@@ -31,7 +31,7 @@ class ValidateEmailChange extends Mailable
     // public function envelope()
     // {
     //     return new Envelope(
-    //         subject: 'Validate Email Change WhippDigital',
+    //         subject: 'Validate Email Change Whipp Digital',
     //     );
     // }
 
@@ -44,7 +44,7 @@ class ValidateEmailChange extends Mailable
     {
         $url = route('validate.old.email', ['token' => $this->token]);
 
-        return $this->subject('Validate Email Change WhippDigital')
-        ->markdown('user.emails.validate-email-change', ['url' => $url])->from("support@whippdigital.com", 'Whippdigital');
+        return $this->subject('Validate Email Change Whipp Digital')
+        ->markdown('user.emails.validate-email-change', ['url' => $url])->from("support@whippdigital.com", 'Whipp Digital');
     }
 }

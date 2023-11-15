@@ -1,7 +1,7 @@
 @component('mail::message')
 # Welcome to Whippdigital!
 
-You have been invited to join Whippdigital. Please click the button below to accept the invitation and set up your account.
+You have been invited to setup an account at Whipp Digital. Please click the button below to accept the invitation and set up your account.
 
 @component('mail::button', ['url' => $url])
 Accept Invitation

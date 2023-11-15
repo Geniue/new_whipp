@@ -1,45 +1,45 @@
 @extends('layouts.index')
 
 @section('title')
-    Walmart Marketplace | Whippdigital
+    Walmart Marketplace | {{ env("APP_NAME") }}
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Walmart Marketplace | Whippdigital ">
+<meta name="title" content="Walmart Marketplace | {{ env("APP_NAME") }} ">
 <meta name="description" content="Conquer the Walmart Marketplace challenge with data-driven strategies and deep market insights. Position your brand for success on Walmart's platform with our cutting-edge tactics. Partner with us for a transformative brand journey.">
 <meta name="keywords" content="Walmart Marketplace Challenge, Walmart online marketplace, retail giant, engage customers, product visibility, data-driven strategies, market insights, cutting-edge tactics, online retail, brand presence, transformative journey">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Walmart Marketplace | Whippdigital">
-<meta property="og:title" content="Walmart Marketplace | Whippdigital">
+<meta property="og:site_name" content="Walmart Marketplace | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Walmart Marketplace | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Conquer the Walmart Marketplace challenge with data-driven strategies and deep market insights. Position your brand for success on Walmart's platform with our cutting-edge tactics. Partner with us for a transformative brand journey.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Walmart Marketplace | Whippdigital ">
+<meta name="twitter:title" content="Walmart Marketplace | {{ env("APP_NAME") }} ">
 <meta name="twitter:description" content="Conquer the Walmart Marketplace challenge with data-driven strategies and deep market insights. Position your brand for success on Walmart's platform with our cutting-edge tactics. Partner with us for a transformative brand journey.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Walmart Marketplace | Whippdigital">
+<meta itemprop="name" content="Walmart Marketplace | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Ecommerce/Walmart Marketplace/v1/ny-usa-february-29-2020-homepage-of-walmart-w-2022-11-14-15-58-51-utc-1.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -184,7 +184,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            The Walmart Marketplace is more than an e-commerce platform; it's a dynamic digital frontier where brands whippdigital or falter. Here, businesses tap into Walmart's massive audience. But success surpasses listing a product—it demands deep insights into algorithms, behavior, and strategies that set you apart. Our seasoned experts guide you to dominate. Through analytics and trend-driven insights, we craft strategies propelling your brand to the forefront. Partner with us to transform your Walmart Marketplace journey into unparalleled success.
+                            The Walmart Marketplace is more than an e-commerce platform; it's a dynamic digital frontier where brands {{ env("APP_NAME") }} or falter. Here, businesses tap into Walmart's massive audience. But success surpasses listing a product—it demands deep insights into algorithms, behavior, and strategies that set you apart. Our seasoned experts guide you to dominate. Through analytics and trend-driven insights, we craft strategies propelling your brand to the forefront. Partner with us to transform your Walmart Marketplace journey into unparalleled success.
                         </p>
                        
                     </div>
@@ -286,7 +286,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Merging e-commerce titans, Shopify-Walmart integration propels brand growth. Beyond connecting platforms, success lies in optimizing every facet. We've mastered this integration, drawing insights from both ecosystems. Your brand doesn't just exist here—it whippdigital. From inventory sync to dynamic pricing, we delve into details, ensuring powerful cohesion. Experience Shopify's design prowess with Walmart's vast reach, guided by Whipp Digital. Unlock your e-commerce journey's next chapter with us, where seamless integration fuels exponential growth.
+                            Merging e-commerce titans, Shopify-Walmart integration propels brand growth. Beyond connecting platforms, success lies in optimizing every facet. We've mastered this integration, drawing insights from both ecosystems. Your brand doesn't just exist here—it {{ env("APP_NAME") }}. From inventory sync to dynamic pricing, we delve into details, ensuring powerful cohesion. Experience Shopify's design prowess with Walmart's vast reach, guided by Whipp Digital. Unlock your e-commerce journey's next chapter with us, where seamless integration fuels exponential growth.
 
                         </p>
                        

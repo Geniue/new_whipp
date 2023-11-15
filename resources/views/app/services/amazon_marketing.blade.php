@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-     Amazon Marketing | Whippdigital 
+     Amazon Marketing | {{ env("APP_NAME") }} 
 
 @endsection
 
@@ -9,39 +9,39 @@
 @section('meta')
 
 
-<meta name="title" content="Amazon Marketing | Whippdigital ">
+<meta name="title" content="Amazon Marketing | {{ env("APP_NAME") }} ">
 <meta name="description" content="Elevate your PPC marketing with our expert team, merging data-driven insights and human ingenuity to create engaging digital narratives that convert clicks into meaningful outcomes. Join us in crafting success stories in the dynamic realm of PPC.">
 <meta name="keywords" content="PPC marketing, digital narrative, audience engagement, converting clicks, brand voice, data-driven insights, human ingenuity, tangible results, success stories, dynamic realm">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Amazon Marketing | Whippdigital">
-<meta property="og:title" content="Amazon Marketing | Whippdigital">
+<meta property="og:site_name" content="Amazon Marketing | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Amazon Marketing | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Elevate your PPC marketing with our expert team, merging data-driven insights and human ingenuity to create engaging digital narratives that convert clicks into meaningful outcomes. Join us in crafting success stories in the dynamic realm of PPC.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Amazon Marketing | Whippdigital">
+<meta name="twitter:title" content="Amazon Marketing | {{ env("APP_NAME") }}">
 <meta name="twitter:description" content="Elevate your PPC marketing with our expert team, merging data-driven insights and human ingenuity to create engaging digital narratives that convert clicks into meaningful outcomes. Join us in crafting success stories in the dynamic realm of PPC.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Amazon Marketing | Whippdigital">
+<meta itemprop="name" content="Amazon Marketing | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Amazon Marketing/Amazon Marketing/v1/marketing-agency-85-2022-10-26-06-14-31-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -178,7 +178,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Setting out on an Amazon FBA venture can be thrilling, yet even top-quality products can vanish in the marketplace without an effective marketing strategy. Specialization in Amazon FBA marketing entails understanding the unique challenges and opportunities presented by Fulfillment by Amazon. It's not just about navigating the complexities of FBA; it involves crafting compelling narratives for your products, optimizing listings for peak visibility, and launching strategic advertising campaigns to boost sales. Utilizing data analytics and keenly observing consumer trends, the aim is to ensure your FBA business doesn't merely survive but whippdigitals and leaves a lasting impact.
+                            Setting out on an Amazon FBA venture can be thrilling, yet even top-quality products can vanish in the marketplace without an effective marketing strategy. Specialization in Amazon FBA marketing entails understanding the unique challenges and opportunities presented by Fulfillment by Amazon. It's not just about navigating the complexities of FBA; it involves crafting compelling narratives for your products, optimizing listings for peak visibility, and launching strategic advertising campaigns to boost sales. Utilizing data analytics and keenly observing consumer trends, the aim is to ensure your FBA business doesn't merely survive but {{ env("APP_NAME") }}s and leaves a lasting impact.
 
                         </p>
                        

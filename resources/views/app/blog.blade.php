@@ -1,12 +1,12 @@
 @extends('layouts.index')
-@section('title') {{$blog->title}} @endsection
+@section('title') {{$blog->title}}  @endsection
 
 @section('meta')
     <meta name="title" content="{{$blog->title}}">
     <meta name="description" content="{{$blog->meta_description}}">
-    <meta name="keywords" content="{{$blog->meta_keywords}}, Whipp Digital">
+    <meta name="keywords" content="{{$blog->meta_keywords}}, {{ env("APP_NAME") }}">
     <link rel="canonical" href="{{url()->current()}}">
-    <meta property="og:site_name" content="Whipp Digital">
+    <meta property="og:site_name" content="{{ env("APP_NAME") }}">
     <meta property="og:title" content="{{$blog->title}}">
     <meta property="og:description" content="{{$blog->meta_description}}">
     <meta property="og:url" content="{{url()->current()}}">
@@ -27,13 +27,13 @@
     <link rel="image_src" href="{{Storage::disk('public')->url($blog->image)}}">
 
    
-    <meta name="abstract" content="Whipp Digital">
+    <meta name="abstract" content="{{ env("APP_NAME") }}">
     <meta name="author" content="admin">
     <meta name="classification" content="Blog">
-    <meta name="copyright" content="Whipp Digital - All rights Reserved.">
+    <meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
     <meta name="distribution" content="Global">
     <meta name="language" content="en-GB">
-    <meta name="publisher" content="Whipp Digital">
+    <meta name="publisher" content="{{ env("APP_NAME") }}">
     <meta name="rating" content="General">
     <meta name="resource-type" content="Document">
     <meta name="revisit-after" content="3">
@@ -160,10 +160,10 @@
                     {!! htmlspecialchars_decode(count(explode('/********************************/', $blog->content)) > 1 ? explode('/********************************/', $blog->content)[1] : $blog->content) !!}
                 </div>
 
-                {{-- join whipp digital today  --}}
+                {{-- join {{ env("APP_NAME") }} today  --}}
                 <div class="py-3 border-top mt-4">
                     <h2 class="fs-2 fw-bold">
-                        Join Whipp Digital Growth Insider Today
+                        Join {{ env("APP_NAME") }} Growth Insider Today
                     </h2>
                     <p>
                         That’s all for our detailed look at Google’s SGE. We expect it to be just another step in a long

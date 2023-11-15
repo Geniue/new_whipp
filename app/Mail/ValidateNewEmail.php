@@ -32,8 +32,8 @@ class ValidateNewEmail extends Mailable
     {
         $url = route('validate.new.email', ['token' => $this->token]);
 
-        return $this->subject('Validate New Email WhippDigital')
-        ->markdown('user.emails.validate-new-email', ['url' => $url])->from("support@whippdigital.com", 'Whippdigital');
+        return $this->subject('Validate New Email Whipp Digital')
+        ->markdown('user.emails.validate-new-email', ['url' => $url])->from("support@whippdigital.com", 'Whipp Digital');
     }
 
 }

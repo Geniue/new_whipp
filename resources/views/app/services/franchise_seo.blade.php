@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-     Franchise SEO | Whippdigital 
+     Franchise SEO | {{ env("APP_NAME") }} 
 
 
 @endsection
@@ -11,39 +11,39 @@
 @section('meta')
 
 
-<meta name="title" content="Franchise SEO | Whippdigital  ">
+<meta name="title" content="Franchise SEO | {{ env("APP_NAME") }}  ">
 <meta name="description" content="Elevate franchise websites with specialized SEO. Unify global brand consistency with local optimization, addressing duplicate content and refining local citations. Transform franchisee sites into digital local leaders.">
     <meta name="keywords" content="SEO for Franchise Websites, franchising, brand expansion, coherence, localized strategies, global brand consistency, local optimization, duplicate content, local citations, brand integrity">
    
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Franchise SEO | Whippdigital ">
-<meta property="og:title" content="Franchise SEO | Whippdigital ">
+<meta property="og:site_name" content="Franchise SEO | {{ env("APP_NAME") }} ">
+<meta property="og:title" content="Franchise SEO | {{ env("APP_NAME") }} ">
 <meta property="og:description" content="Elevate franchise websites with specialized SEO. Unify global brand consistency with local optimization, addressing duplicate content and refining local citations. Transform franchisee sites into digital local leaders.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Franchise SEO | Whippdigital">
+<meta name="twitter:title" content="Franchise SEO | {{ env("APP_NAME") }}">
 <meta name="twitter:description" content="Elevate franchise websites with specialized SEO. Unify global brand consistency with local optimization, addressing duplicate content and refining local citations. Transform franchisee sites into digital local leaders.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Franchise SEO | Whippdigital ">
+<meta itemprop="name" content="Franchise SEO | {{ env("APP_NAME") }} ">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/digital_marketing/Franchise SEO/v1/designer-man-drawing-a-website-outline-and-website-2023-03-28-20-03-27-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">

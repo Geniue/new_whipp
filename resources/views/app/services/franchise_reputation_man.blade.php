@@ -1,46 +1,46 @@
 @extends('layouts.index')
 
 @section('title')
-Franchise Reputation Management | Whippdigital
+Franchise Reputation Management | {{ env("APP_NAME") }}
 
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Franchise Reputation Management | Whippdigital ">
+<meta name="title" content="Franchise Reputation Management | {{ env("APP_NAME") }} ">
 <meta name="description" content="Elevate franchise trust with advanced reputation management. We craft unified brand voices, resolve issues swiftly, and promote positive experiences across diverse franchise locations. Secure impeccable online reputations for each franchisee with our cutting-edge strategies.">
 <meta name="keywords" content="Franchise Reputation Management, digital interactions, online reviews, social media mentions, issue resolution, brand image, unified brand voice, online reputations, credibility">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Franchise Reputation Management | Whippdigital">
-<meta property="og:title" content="Franchise Reputation Management | Whippdigital">
+<meta property="og:site_name" content="Franchise Reputation Management | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Franchise Reputation Management | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Elevate franchise trust with advanced reputation management. We craft unified brand voices, resolve issues swiftly, and promote positive experiences across diverse franchise locations. Secure impeccable online reputations for each franchisee with our cutting-edge strategies.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Franchise Reputation Management | Whippdigital">
+<meta name="twitter:title" content="Franchise Reputation Management | {{ env("APP_NAME") }}">
 <meta name="twitter:description" content="Elevate franchise trust with advanced reputation management. We craft unified brand voices, resolve issues swiftly, and promote positive experiences across diverse franchise locations. Secure impeccable online reputations for each franchisee with our cutting-edge strategies.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Franchise Reputation Management | Whippdigital">
+<meta itemprop="name" content="Franchise Reputation Management | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Franchise Reputation Management/happy-smile-face-emotion-and-correct-icons-on-back-2023-08-05-03-46-47-utc(1)(1).jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">

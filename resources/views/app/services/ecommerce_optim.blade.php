@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-    Ecommerce Optimization | Whippdigital 
+    Ecommerce Optimization | {{ env("APP_NAME") }} 
 
 @endsection
 
@@ -9,39 +9,39 @@
 @section('meta')
 
 
-<meta name="title" content="Ecommerce Optimization | Whippdigital  ">
+<meta name="title" content="Ecommerce Optimization | {{ env("APP_NAME") }}  ">
 <meta name="description" content="Optimize your ecommerce store for the digital age. From pixels to bytes, we fine-tune your digital storefront to captivate your audience. Data-driven strategies streamline checkout processes and cultivate engagement for loyal customers.">
 <meta name="keywords" content="Ecommerce Optimization, digital storefront, user experiences, checkout processes, engagement, data-driven strategies, loyal customers">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Ecommerce Optimization | Whippdigital ">
-<meta property="og:title" content="Ecommerce Optimization | Whippdigital ">
+<meta property="og:site_name" content="Ecommerce Optimization | {{ env("APP_NAME") }} ">
+<meta property="og:title" content="Ecommerce Optimization | {{ env("APP_NAME") }} ">
 <meta property="og:description" content="Optimize your ecommerce store for the digital age. From pixels to bytes, we fine-tune your digital storefront to captivate your audience. Data-driven strategies streamline checkout processes and cultivate engagement for loyal customers.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Ecommerce Optimization | Whippdigital ">
+<meta name="twitter:title" content="Ecommerce Optimization | {{ env("APP_NAME") }} ">
 <meta name="twitter:description" content="Optimize your ecommerce store for the digital age. From pixels to bytes, we fine-tune your digital storefront to captivate your audience. Data-driven strategies streamline checkout processes and cultivate engagement for loyal customers.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Ecommerce Optimization | Whippdigital ">
+<meta itemprop="name" content="Ecommerce Optimization | {{ env("APP_NAME") }} ">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Ecommerce/Ecommerce Optimization/v1/seo-search-engine-optimization-2022-11-01-00-05-21-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -155,7 +155,7 @@
                     </div>
                     <div>
                         <p class="feture-pare">
-                            Delving into the ecommerce landscape, we fine-tune every pixel and parse every byte to ensure your digital storefront doesn’t just exist but whippdigital in this digital age. Recognizing that every click, every scroll, and every interaction is an opportunity to captivate your audience, our data-driven strategies focus on optimizing user experiences. We streamline checkout processes and cultivate engagement to transform casual browsers into loyal customers.
+                            Delving into the ecommerce landscape, we fine-tune every pixel and parse every byte to ensure your digital storefront doesn’t just exist but {{ env("APP_NAME") }} in this digital age. Recognizing that every click, every scroll, and every interaction is an opportunity to captivate your audience, our data-driven strategies focus on optimizing user experiences. We streamline checkout processes and cultivate engagement to transform casual browsers into loyal customers.
                         </p>
                        
                     </div>

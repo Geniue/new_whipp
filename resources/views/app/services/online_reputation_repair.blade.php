@@ -1,46 +1,46 @@
 @extends('layouts.index')
 
 @section('title')
-  Online Reputation Repair | Whippdigital
+  Online Reputation Repair | {{ env("APP_NAME") }}
 @endsection
 
 
 @section('meta')
 
 
-<meta name="title" content="Online Reputation Repair | Whippdigital ">
+<meta name="title" content="Online Reputation Repair | {{ env("APP_NAME") }} ">
 <meta name="description" content="Elevate your online presence with reputation repair services. We go beyond surface fixes, navigating the digital maze to address core issues. Shield your reputation against future challenges and shape a narrative based on accomplishments and values.">
 <meta name="keywords" content="Reputation Repair, online presence, digital landscape, digital identity, unfavorable review, inaccurate article, public perception, advanced tools, human insight, digital narrative">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Online Reputation Repair | Whippdigital">
-<meta property="og:title" content="Online Reputation Repair | Whippdigital">
+<meta property="og:site_name" content="Online Reputation Repair | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Online Reputation Repair | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Reputation Repair, online presence, digital landscape, digital identity, unfavorable review, inaccurate article, public perception, advanced tools, human insight, digital narrative">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Online Reputation Repair | Whippdigital ">
+<meta name="twitter:title" content="Online Reputation Repair | {{ env("APP_NAME") }} ">
 <meta name="twitter:description" content="Reputation Repair, online presence, digital landscape, digital identity, unfavorable review, inaccurate article, public perception, advanced tools, human insight, digital narrative">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Online Reputation Repair | Whippdigital">
+<meta itemprop="name" content="Online Reputation Repair | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Online Reputation Management/Online Reputation Repair/v1/reputation-management-2022-11-01-00-05-44-utc(1).jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -237,7 +237,7 @@ Elevate Your Online Presence with Reputation Repair
                     As part of our Amazon marketing agency plan, we provide you with a complete picture of how we’ll execute your successful advertising campaign both weekly and monthly. We establish month-to-month growth percentage goals and thoroughly explain our strategy each step of the way. We also make calculated adjustments month to month to ensure we maximize ROI. Weekly and monthly reports are sent to you to keep you regularly updated.
                     <br>
                     <br>
-                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you whippdigital or not on Amazon.
+                    Following a successful Amazon sponsored products campaign is a crucial step for any prosperous Amazon seller. Ultimately, it is one of the most important steps in determining whether you {{ env("APP_NAME") }} or not on Amazon.
                 </p>
             </div>
             <div class="d-flex  py-3">

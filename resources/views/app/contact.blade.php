@@ -2,26 +2,26 @@
 
 
 @section('title')
-    Contact Us | Whippdigital  
+    Contact Us | {{ env("APP_NAME") }}  
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Contact Us | Whippdigital   ">
+<meta name="title" content="Contact Us | {{ env("APP_NAME") }}   ">
 <meta name="description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
 <meta name="keywords" content="Comprehensive Services, Online Presence, SEO Transformation, Social Media Management, Digital Landscape, Transformative Experiences, Meaningful Connections">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Contact Us | Whippdigital  ">
-<meta property="og:title" content="Contact Us | Whippdigital  ">
+<meta property="og:site_name" content="Contact Us | {{ env("APP_NAME") }}  ">
+<meta property="og:title" content="Contact Us | {{ env("APP_NAME") }}  ">
 <meta property="og:description" content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Whippdigital | Home">
+<meta name="twitter:title" content="{{ env("APP_NAME") }} | Home">
 <meta name="twitter:description"
     content="Elevate your online presence with Whipp Digital's comprehensive services. From SEO transformation to social media management, we're your partner in navigating the digital landscape. Join us for transformative experiences and meaningful connections.">
 <meta name="twitter:image"
@@ -29,20 +29,20 @@
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Contact Us | Whippdigital  ">
+<meta itemprop="name" content="Contact Us | {{ env("APP_NAME") }}  ">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/tech_whipp.png') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/tech_whipp.png') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
@@ -177,9 +177,9 @@
                             <textarea class="gform-textarea" name="message_" id="" cols="30" rows="10">{{old('message_')}}</textarea>
                             {{-- <div class="gchoice gchoice_15_35_1 py-2">
                                 <input class="gfield-choice-input" name="input_35.1" type="checkbox"
-                                    value="Were you referred to Whippdigital?" id="choice_15_35_1" tabindex="126" />
+                                    value="Were you referred to {{ env("APP_NAME") }}?" id="choice_15_35_1" tabindex="126" />
                                 <label for="choice_15_35_1" id="label_15_35_1" class="ms-1">Were you referred to
-                                    Whippdigital?</label>
+                                    {{ env("APP_NAME") }}?</label>
                             </div> --}}
                         </div>
 
@@ -220,7 +220,7 @@
                             <a title="Call Now" class="fs-5 fw-semibold" href="tel:1-212-951-0651">(212) 951-0651 </a>
                         </p>
                         <p style="margin-top: 6px">
-                            <a title="Mail Now" class="fs-5 fw-semibold" href="mailto:support@whippdigital.com">support@whippdigital.com</a>
+                            <a title="Mail Now" class="fs-5 fw-semibold" href="mailto:support@{{ env("APP_NAME") }}.com">support@{{ env("APP_NAME") }}.com</a>
                         </p>
           
                         <p style="margin-top: 6px" class="fs-5">

@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-     SEO Content Writing Serivces | Whippdigital 
+     SEO Content Writing Serivces | {{ env("APP_NAME") }} 
 
 @endsection
 
@@ -10,39 +10,39 @@
 @section('meta')
 
 
-<meta name="title" content="SEO Content Writing Serivces | Whippdigital ">
+<meta name="title" content="SEO Content Writing Serivces | {{ env("APP_NAME") }} ">
 <meta name="description" content="Transform your online presence with SEO-centric content. Elevate search rankings with captivating narratives that resonate with your audience. Join us to unite storytelling artistry with SEO science.">
 <meta name="keywords" content="Content Writing for SEO, digital expanse, precise messages, captivating narratives, search rankings, SEO tactics, storytelling artistry, SEO science">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="SEO Content Writing Serivces | Whippdigital">
-<meta property="og:title" content="SEO Content Writing Serivces | Whippdigital">
+<meta property="og:site_name" content="SEO Content Writing Serivces | {{ env("APP_NAME") }}">
+<meta property="og:title" content="SEO Content Writing Serivces | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Transform your online presence with SEO-centric content. Elevate search rankings with captivating narratives that resonate with your audience. Join us to unite storytelling artistry with SEO science.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="SEO Content Writing Serivces | Whippdigital ">
+<meta name="twitter:title" content="SEO Content Writing Serivces | {{ env("APP_NAME") }} ">
 <meta name="twitter:description" content="Transform your online presence with SEO-centric content. Elevate search rankings with captivating narratives that resonate with your audience. Join us to unite storytelling artistry with SEO science.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="SEO Content Writing Serivces | Whippdigital">
+<meta itemprop="name" content="SEO Content Writing Serivces | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/web development/SEO Content Writing Serivces/v1/write-your-story-written-on-typewriter-2021-08-26-22-29-58-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">

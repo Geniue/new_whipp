@@ -32,8 +32,8 @@ class InviteUserEmail extends Mailable
     {
         $url = route('register.current.user', ['slug' => $this->slug]);
 
-        return $this->subject('Customer Invitation WhippDigital')
-        ->markdown('user.emails.user-invite-email', ['url' => $url])->from("support@whippdigital.com", 'Whippdigital');
+        return $this->subject('Customer Invitation Whipp Digital')
+        ->markdown('user.emails.user-invite-email', ['url' => $url])->from("support@whippdigital.com", 'Whipp Digital');
     }
 
     

@@ -365,7 +365,7 @@
     {{-- footer bar --}}
     <div class="custom-boder-top custom-mx-lg-border-top-0 mt-4 mt-lg-0 py-3  ">
         <div class="d-none d-lg-flex footer-bar-desk-links">
-            <p>© All Rights Reserved</p>
+            <p>© 2023 {{ env("APP_NAME") }}. All rights reserved.</p>
             <div class="d-flex gap-3 ms-auto">
                 <a href="#" class="custom-boder-right">Privacy Policy</a>
                 <a href="#" class="">Terms Of Serivce</a>

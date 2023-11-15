@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-{{$heading}} | Whippdigital 
+{{$heading}} | {{ env("APP_NAME") }} 
 
 @endsection
 @section('pageheading')

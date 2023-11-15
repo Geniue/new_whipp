@@ -1,44 +1,44 @@
 @extends('layouts.index')
 
 @section('title')
-Real Estate Virtual Assistant | Whippdigital 
+Real Estate Virtual Assistant | {{ env("APP_NAME") }} 
 @endsection
 
 @section('meta')
 
 
-<meta name="title" content="Real Estate Virtual Assistant | Whippdigital ">
+<meta name="title" content="Real Estate Virtual Assistant | {{ env("APP_NAME") }} ">
 <meta name="description" content="Revolutionize your real estate approach with dedicated Virtual Assistants. Seamlessly manage listings, appointments, and client interactions with industry expertise and technical finesse. Forge a partnership for your real estate triumph.">
 <meta name="keywords" content="Real Estate Virtual Assistants, real estate landscape, property listing, client interaction, administrative tasks, digital tools, industry acumen, technical finesse, meaningful connections, business expansion, partnership">
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Real Estate Virtual Assistant | Whippdigital">
-<meta property="og:title" content="Real Estate Virtual Assistant | Whippdigital">
+<meta property="og:site_name" content="Real Estate Virtual Assistant | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Real Estate Virtual Assistant | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Revolutionize your real estate approach with dedicated Virtual Assistants. Seamlessly manage listings, appointments, and client interactions with industry expertise and technical finesse. Forge a partnership for your real estate triumph.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content="Real Estate Virtual Assistant | Whippdigital  ">
+<meta name="twitter:title" content="Real Estate Virtual Assistant | {{ env("APP_NAME") }}  ">
 <meta name="twitter:description" content="Revolutionize your real estate approach with dedicated Virtual Assistants. Seamlessly manage listings, appointments, and client interactions with industry expertise and technical finesse. Forge a partnership for your real estate triumph.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Real Estate Virtual Assistant | Whippdigital">
+<meta itemprop="name" content="Real Estate Virtual Assistant | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/Virtual Assistant Service/Real Estate Virtual Assistant/v1/the-receptionist-is-working-in-a-restaurant-that-i-2023-06-12-20-25-53-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">

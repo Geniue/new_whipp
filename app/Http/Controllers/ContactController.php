@@ -69,10 +69,10 @@ class ContactController extends Controller
 
         // EMAIL ADMIN
         Mail::send('app.emails.contact_us', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-            $message->to('stuart.emmons@gmail.com', 'Whippdigital')
+            $message->to('stuart.emmons@gmail.com', 'Whipp Digital')
                 ->cc(['support@whippdigital.com'])
-                ->subject("Whippdigital Contact Information");
-            $message->from("support@whippdigital.com", 'Whippdigital');
+                ->subject("Whipp Digital Contact Information");
+            $message->from("support@whippdigital.com", 'Whipp Digital');
         });
 
 
@@ -126,10 +126,10 @@ class ContactController extends Controller
 
         // //EMAIL ADMIN
         Mail::send('app.emails.letstalk', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-            $message->to('stuart.emmons@gmail.com', 'Whippdigital')
+            $message->to('stuart.emmons@gmail.com', 'Whipp Digital')
                 ->cc(['support@whippdigital.com'])
-                ->subject("Whippdigital Contact Information");
-            $message->from("support@whippdigital.com", 'Whippdigital');
+                ->subject("Whipp Digital Contact Information");
+            $message->from("support@whippdigital.com", 'Whipp Digital');
         });
 
 
@@ -175,10 +175,10 @@ class ContactController extends Controller
 
         //EMAIL ADMIN
         Mail::send('app.emails.coupon', $data, function ($message) { //stuart.emmons@gmail.com  stuart.emmons@gmail.com dd121412@gmail.com
-            $message->to('stuart.emmons@gmail.com', 'Whippdigital')
+            $message->to('stuart.emmons@gmail.com', 'Whipp Digital')
                 ->cc(['support@whippdigital.com'])
-                ->subject("Coupons And Seasonal Deals Request Whippdigital");
-            $message->from("support@whippdigital.com", 'Whippdigital');
+                ->subject("Coupons And Seasonal Deals Request Whipp Digital");
+            $message->from("support@whippdigital.com", 'Whipp Digital');
         });
 
 

@@ -1,7 +1,7 @@
 @extends('layouts.index')
 
 @section('title')
-      Search Engine Optimization | Whippdigital
+      Search Engine Optimization | {{ env("APP_NAME") }}
 
 @endsection
 
@@ -10,39 +10,39 @@
 @section('meta')
 
 
-<meta name="title" content="Search Engine Optimization | Whippdigital ">
+<meta name="title" content="Search Engine Optimization | {{ env("APP_NAME") }} ">
 <meta name="description" content="Elevate your SEO strategy with narrative mastery. Craft authentic, sustainable digital brand presence. Delve into website architecture, audience insights, and evolving search dynamics. Join us to illuminate pathways to your audience's heart.">
 <meta name="keywords" content="SEO Strategy, narrative mastery, website architecture, audience pulse, evolving search dynamics, digital brand presence, authentic SEO, sustainable SEO">
 
 <link rel="canonical" href="{{ url()->current() }}">
 
-<meta property="og:site_name" content="Search Engine Optimization | Whippdigital">
-<meta property="og:title" content="Search Engine Optimization | Whippdigital">
+<meta property="og:site_name" content="Search Engine Optimization | {{ env("APP_NAME") }}">
+<meta property="og:title" content="Search Engine Optimization | {{ env("APP_NAME") }}">
 <meta property="og:description" content="Elevate your SEO strategy with narrative mastery. Craft authentic, sustainable digital brand presence. Delve into website architecture, audience insights, and evolving search dynamics. Join us to illuminate pathways to your audience's heart.">
 <meta property="og:url" content="{{ url()->current() }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 <meta property="fb:admins" content="admin">
-<meta name="twitter:title" content=" Search Engine Optimization | Whippdigital">
+<meta name="twitter:title" content=" Search Engine Optimization | {{ env("APP_NAME") }}">
 <meta name="twitter:description" content="Elevate your SEO strategy with narrative mastery. Craft authentic, sustainable digital brand presence. Delve into website architecture, audience insights, and evolving search dynamics. Join us to illuminate pathways to your audience's heart.">
 <meta name="twitter:image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 <meta name="twitter:url" content="{{ url()->current() }}">
 <meta name="twitter:card" content="summary">
 
-<meta itemprop="name" content="Search Engine Optimization | Whippdigital">
+<meta itemprop="name" content="Search Engine Optimization | {{ env("APP_NAME") }}">
 <meta itemprop="url" content="{{ url()->current() }}">
 <meta itemprop="thumbnailUrl" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 <meta itemprop="image" content="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 <link rel="image_src"   href="{{ asset('assets/imgs/whipp_images/digital_marketing/Search Engine Optimization/v1/sticker-with-the-inscription-seo-in-female-hands-o-2022-11-15-02-44-40-utc.jpg') }}">
 
 
-<meta name="abstract" content="Whippdigital">
+<meta name="abstract" content="{{ env("APP_NAME") }}">
 <meta name="author" content="admin">
 <meta name="classification" content="Blog">
-<meta name="copyright" content="Whippdigital - All rights Reserved.">
+<meta name="copyright" content="{{ env("APP_NAME") }} - All rights Reserved.">
 <meta name="distribution" content="Global">
 <meta name="language" content="en-GB">
-<meta name="publisher" content="Whippdigital">
+<meta name="publisher" content="{{ env("APP_NAME") }}">
 <meta name="rating" content="General">
 <meta name="resource-type" content="Document">
 <meta name="revisit-after" content="3">
