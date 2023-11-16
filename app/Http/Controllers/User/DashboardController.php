@@ -9,6 +9,9 @@ use Illuminate\Pagination\LengthAwarePaginator;
 //SERVICES
 use App\Services\StripeService;
 
+//MODELS
+use App\Models\WorkModel;
+
 class DashboardController extends Controller
 {
 
@@ -19,9 +22,9 @@ class DashboardController extends Controller
 
     public function index()
     {
-        // dd("#TODO User Dashboard");
+        $subs = $this->service->getTitlesOfActiveSubscriptions(auth()->user()->stripe_id);
 
-        return view('user.app.dashboard');
+        return view('user.app.dashboard', compact('subs'));
     }
 
 
@@ -35,12 +38,13 @@ class DashboardController extends Controller
         // Get all invoices
         $invoices = $user->invoices; // collect($user->invoicesIncludingPending());
 
-
+        // dd($this->service->checkSubscriptionStatus($user->invoices[1]->sub_id));
         $invoices = $invoices->map(function ($invoice) {
             
             $inv = $invoice->stripe_invoice; // This will use your accessor
-            $plan = $invoice->stripe_price; // This will use your accessor
 
+            $plan = $invoice->stripe_price; // This will use your accessor
+            // dd($plan);
             
 
             $invoice->productName = $plan['product']->name;
@@ -94,7 +98,11 @@ class DashboardController extends Controller
             ['path' => $request->url(), 'query' => $request->query()]
         );
 
-        return view('user.app.products', compact('invoices'));
+        // dd($invoices);
+
+        $service = $this->service;
+
+        return view('user.app.products', compact('invoices', 'service'));
     }
 
 

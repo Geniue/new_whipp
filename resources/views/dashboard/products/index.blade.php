@@ -87,6 +87,8 @@ User Dashboard
                         <tr>
                             <th>Name</th>
                             <th>Description</th>
+                            <th>Interval</th>
+                            <th>Price</th>
                             <th>Action</th>
 							
                         </tr>
@@ -96,14 +98,20 @@ User Dashboard
                         <tbody>
                         @foreach($products as $key => $product)
                         @php
-                            $s = $service->retrieve_product($product->product_id)['product'];
+                            $s = $service->retrieve_product($product->product_id);
+                            $product = $s['product'];
+                            $price = $s['prices'][0];
+                            // dd($product, $price);
                         @endphp
 
                         <tr>
-                            <td>{{$s->name}}</td>
-                            <td>{{$s->description}}</td>
+                            <td>{{$product->name}}</td>
+                            <td>{{$product->description}}</td>
+                            <td>{{!$price->recurring ? 'One time payment' : ($price->recurring->interval == "week" ? "Weekly payment" : ($price->recurring->interval == "month" ? "Monthly payment" : "Yearly payment")) }}</td>
+                            <td>${{number_format($price->unit_amount / 100, 2)}}</td>
                             <td>
-                                <a href="{{route('product.view', $product->id)}}"> view plans </a>
+                                <a href="{{route('create.invoice', $price->id)}}"> Create Invoice Exsiting Users </a>
+                                <a href="{{route('create.invoice.invited', $price->id)}}"> Create Invoice Invited Users </a>
                             </td>
                         </tr>
                         @endforeach

@@ -171,9 +171,87 @@ class StripeService {
 
         return $sub;
     }
+
+
     public function payInvoiceWithPaymentMethod($invoiceId, $paymentMethodId) {
 	    return $this->client->invoices->pay($invoiceId, ['payment_method' => $paymentMethodId]);
 	}
 
+
+	/**
+     * Check the status of a subscription.
+     *
+     * @param string $subscriptionId
+     * @return array
+     */
+    public function checkSubscriptionStatus($subscriptionId) {
+        $subscription = $this->client->subscriptions->retrieve($subscriptionId);
+
+        $isSubscriptionActive = $subscription->status === 'active';
+        $isAutoRenewal = !$subscription->cancel_at_period_end;
+
+        return [
+            'is_active' => $isSubscriptionActive,
+            'auto_renew' => $isAutoRenewal,
+            'status' => $subscription->status
+        ];
+    }
+
+
+    /**
+     * Attempt to renew a subscription that is past due.
+     *
+     * @param string $subscriptionId
+     * @return \Stripe\Subscription
+     */
+    public function renewSubscription($subscriptionId) {
+        $subscription = $this->client->subscriptions->retrieve($subscriptionId);
+        // dd($subscription->status);
+        // Check if the subscription is past due
+        if ($subscription->status === 'past_due') {
+            // Attempt to pay the latest invoice on the subscription
+            $latestInvoice = $this->client->invoices->retrieve($subscription->latest_invoice);
+            // dd($latestInvoice);
+            if ($latestInvoice->status === 'open') {
+                try {
+                    $this->client->invoices->pay($latestInvoice->id, ['off_session' => true]);
+                } catch (\Stripe\Exception\ApiErrorException $e) {
+                    // Handle payment exception (e.g., require further customer action)
+                    // Additional logic to handle payment failure
+
+                    return ["error" => "redirect to payment method page"];
+                }
+            }
+        }
+
+        // Refresh and return the subscription object
+        return $this->client->subscriptions->retrieve($subscriptionId);
+    }
+
+    /**
+     * Get titles of active and paid subscriptions for a given customer.
+     *
+     * @param string $customerId
+     * @return array
+     */
+    public function getTitlesOfActiveSubscriptions($customerId) {
+        $titles = [];
+        try {
+            $subscriptions = $this->client->subscriptions->all(['customer' => $customerId, 'status' => 'active']);
+            foreach ($subscriptions->data as $subscription) {
+                // Check if the subscription is paid
+                if ($subscription->status === 'active') {
+                    foreach ($subscription->items->data as $item) {
+                        $product = $this->client->products->retrieve($item->price->product);
+                        // dd($product);
+                        $titles[] = $product->name;  // Assuming the title is stored in the product's name
+                    }
+                }
+            }
+        } catch (\Stripe\Exception\ApiErrorException $e) {
+            // Handle the exception
+        }
+        return $titles;
+    }
 
 }

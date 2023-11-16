@@ -157,8 +157,8 @@ Route::middleware(['auth'])->group(function () {
         Route::prefix('customer/dashboard')->group(function () {
             $main_c = App\Http\Controllers\User\DashboardController::class;
             Route::get('/', [$main_c, 'index'])->name('user.dashboard');
-            Route::get('/products', [$main_c, 'index_products'])->name('user.products');
-            Route::get('/products/list', [$main_c, 'listInvoices'])->name('user.products.list');
+            Route::get('/invoices', [$main_c, 'index_products'])->name('user.products');
+            Route::get('/invoices/list', [$main_c, 'listInvoices'])->name('user.products.list');
             Route::get('{id}/download', [$main_c, 'download_page'])->name('customer.downloads');
             Route::get('/work', [$main_c, 'view_downloads'])->name('customer.work');
         });
@@ -178,6 +178,7 @@ Route::middleware(['auth'])->group(function () {
             Route::post('/store', [$main_c, 'storeCard'])->name('user.store.cards');
             Route::post('/set-default-card', [$main_c, 'setDefaultCard'])->name('set.default.card');
             Route::get('/products/pay/{slug}', [$main_c, 'showPaymentPage'])->name('user.pay');
+            Route::get('/products/renew/{slug}', [$main_c, 'renewSub'])->name('user.renew');
             Route::post('/products/pay/{slug}', [$main_c, 'payInvoice'])->name('user.pay.invoice');
         });
     });

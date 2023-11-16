@@ -41,17 +41,25 @@
             </thead>
             <tbody>
                 @foreach($invoices as $invoice)
+                    @php
+                        $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
+                    @endphp
                     <tr>
                         <td>{{ $invoice->productName }}</td>
                         <td>{{ $invoice->productDescription }}</td>
                         <td>${{ number_format($invoice->unit_amount / 100, 2) }}</td>
                         <td>{{$invoice->type == 'one_time' ? 'One Time Payment' : ($invoice->type == 'week' ? 'Weekly Payment' : ($invoice->type == 'month' ? 'Monthly Payment' : ($invoice->type == 'year' ? 'Yearly Payment' : '')))}}</td>
-                        <td>{{ $invoice->inv_stat }}</td>
+                        <td>{{ str_replace("_", " ", $checkSub['status']) }}</td>
                         <td>
-                            @if($invoice->inv_stat !== 'paid')
-                                <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
+                            @if(!$checkSub['is_active'])
+                                <a href="{{ route('user.renew', $invoice->uniqId) }}" class="btn btn-primary">Renew</a>
                             @else
-                                <a href="{{ $invoice->hosted_invoice_url }}" type="_blank" class="btn btn-primary">Your Invoice</a>
+                                @if($invoice->inv_stat == "open")
+                                    <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
+                                @else
+                                    <a href="{{ $invoice->hosted_invoice_url }}" type="_blank" class="btn btn-primary">Your Invoice</a>
+                                @endif
+                                
                             @endif
                         </td>
                     </tr>

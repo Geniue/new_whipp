@@ -63,10 +63,10 @@ class PaymentController extends Controller
 
         } catch (\Stripe\Exception\CardException $e) {
             // Handle the exception for card errors
-            dd("stripe exception", $e);
+            // dd("stripe exception", $e);
             return back()->withErrors('Error with the card: ' . $e->getError()->message);
         } catch (\Exception $e) {
-            dd("normal exception", $e);
+            // dd("normal exception", $e);
             // Handle other possible exceptions
             return back()->withErrors('There was an error processing your card. Please try again.');
         }
@@ -155,6 +155,27 @@ class PaymentController extends Controller
             \Log::error('General error when trying to pay invoice: ' . $e->getMessage());
             return redirect()->back()->withErrors(['payment' => 'An error occurred. Please try again later.']);
         }
+    }
+
+
+    public function renewSub($id)
+    {
+        // dd($id);
+
+        $user = auth()->user();
+
+        $invoice = $user->invoices->where("uniqId", $id)->first() ?? abort(404);
+
+        $sub_id = $invoice->sub_id;
+        
+        $sub = $this->service->renewSubscription($sub_id);
+
+        if (isset($sub['error']) == "redirect to payment method page") {
+            return redirect()->route("user.create.cards")->withErrors('Please update your payment method!');
+        }
+
+        return back();
+
     }
 
 
