@@ -186,9 +186,20 @@
                     <div class="">
 
                         <div class="overflow-hidden">
-                            <video   preload="auto" id="coolVideo"  class="cool-before-redner  mk-r--250px "
+                            <video   loop autoplay muted id="coolVideo"  class="cool-before-redner  mk-r--250px "
                   muted  >
-          
+                        <source media="(orientation: landscape)" class=""
+                src="{{ asset('assets/imgs/cool_video.webm') }}"
+                    sizes="(min-width: 60rem) 80vw,
+               (min-width: 40rem) 90vw,
+               100vw"
+                    type="video/mp4">
+                <source media="(orientation: portrait)" class=""
+                    src="{{ asset('assets/imgs/cool_video.webm') }}"
+                    sizes="(min-width: 60rem) 80vw,
+               (min-width: 40rem) 90vw,
+               100vw"
+                    type="video/webm">
                 Your browser does not support the video tag.
             </video>
                   
@@ -791,40 +802,40 @@
 @section('js')
 
 <script>
-const video = document.getElementById("coolVideo");
+// const video = document.getElementById("coolVideo");
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
-   video.innerHTML = `
-   <source media="(orientation: landscape)" class=""
-                src="{{ asset('assets/imgs/cool_video.webm') }}"
-                    sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw"
-                    type="video/mp4">
-                <source media="(orientation: portrait)" class=""
-                    src="{{ asset('assets/imgs/cool_video.webm') }}"
-                    sizes="(min-width: 60rem) 80vw,
-               (min-width: 40rem) 90vw,
-               100vw"
-                    type="video/webm">
-   `
-   video.play();
-});
-video.addEventListener("ended", (event) => {
-    video.classList.add('fade-out')
-  console.log(
-    "Video stopped either because it has finished playing or no further data is available.",
-  );
+// document.addEventListener("DOMContentLoaded", function () {
+//    video.innerHTML = `
+//    <source media="(orientation: landscape)" class=""
+//                 src="{{ asset('assets/imgs/cool_video.webm') }}"
+//                     sizes="(min-width: 60rem) 80vw,
+//                (min-width: 40rem) 90vw,
+//                100vw"
+//                     type="video/mp4">
+//                 <source media="(orientation: portrait)" class=""
+//                     src="{{ asset('assets/imgs/cool_video.webm') }}"
+//                     sizes="(min-width: 60rem) 80vw,
+//                (min-width: 40rem) 90vw,
+//                100vw"
+//                     type="video/webm">
+//    `
+//    video.play();
+// });
+// video.addEventListener("ended", (event) => {
+//     video.classList.add('fade-out')
+//   console.log(
+//     "Video stopped either because it has finished playing or no further data is available.",
+//   );
+// //   setTimeout(() => {
+// //       video.play();
+// //   }, 100);
 //   setTimeout(() => {
-//       video.play();
-//   }, 100);
-  setTimeout(() => {
-    video.play();
-      video.classList.remove('fade-out')
-  }, 400);
-});
+//     video.play();
+//       video.classList.remove('fade-out')
+//   }, 400);
+// });
 
 
 </script>
