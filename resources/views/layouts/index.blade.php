@@ -669,7 +669,8 @@ $isError = false;
 {{-- @dd($lastSegment) --}}
 
 
-<body>
+<body style="
+    overflow-x: hidden;">
     @include('layouts.navbar')
     @yield('content')
 
