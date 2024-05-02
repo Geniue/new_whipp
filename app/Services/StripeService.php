@@ -36,11 +36,11 @@ class StripeService {
 
 
 	private function calculateOrderAmount(array $items): int {
-	    $fee = $items[0] * 2.9 / 100 + .3;
+	    // $fee = $items[0] * 2.9 / 100 + .3;
 		
 	    // dd($fee);
 
-		$items[0] = number_format($items[0] + $fee, 2,".", ""); //number_format($items[0] + $fee, 2);
+		$items[0] = number_format($items[0], 2,".", ""); //number_format($items[0] + $fee, 2);
 		
 
 
