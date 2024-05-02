@@ -47,7 +47,7 @@
 
                                 @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ dd($message) }}</strong>
+                                        <strong>{{ dd($errors->all()) }}</strong>
                                     </span>
                                 @enderror
                             </div>
