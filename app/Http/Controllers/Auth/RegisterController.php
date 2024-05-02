@@ -92,6 +92,7 @@ class RegisterController extends Controller
             'uniqId' => ['required']
         ],[
             'password.min' => 'Please use a longer password',
+            'email.unique' => 'You already registered using this email!'
         ]);
 
         $inv = InvitedUsersModel::where('uniq_id', $data['uniqId'])->get()[0] ?? abort(404);
