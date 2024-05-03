@@ -22,6 +22,9 @@ class DashboardController extends Controller
 
     public function index()
     {
+
+        return redirect()->route('user.products');
+        
         $subs = $this->service->getTitlesOfActiveSubscriptions(auth()->user()->stripe_id);
 
         return view('user.app.dashboard', compact('subs'));

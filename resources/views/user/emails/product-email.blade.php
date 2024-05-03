@@ -1,5 +1,5 @@
 @component('mail::message')
-# Hurray your Whipp Digital product is here!
+# A new product download is now available on your dashboard
 
 @component('mail::button', ['url' => $url])
 Check Invoice

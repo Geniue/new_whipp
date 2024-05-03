@@ -23,7 +23,7 @@ class WorkController extends Controller
         $validatedData = $request->validate([
             'title' => 'required|string|max:255',
             'description' => 'required|string|max:5000',
-            'files.*' => 'required|file|mimes:jpeg,png,jpg,doc,pdf,txt,docx,gif',
+            'files.*' => 'required|file|mimes:jpeg,png,jpg,doc,pdf,txt,docx,gif,rar,zip',
         ]);
 
         // dd($validatedData);

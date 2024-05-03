@@ -27,18 +27,18 @@
                             </tr>
                             </thead>
                             <tbody>
-                             @foreach($work as $key=>$data)
+                             @foreach($work as $key => $data)
                             <tr>
                                 <td>{{$key+1}}</td>
                                 <td>
                                   <a target="_blank" href="{{route('user.work', $data->id)}}" class="blog-link" title="View blog in browser">{{$data->title}}</a>
                                 </td>
                                 <td>{{$data->description}}</td>
-                                <td>
-                                     <a target="_blank" href="{{route('customer.downloads', $data->id)}}" title="View blog in browser"><i class="far fa-eye text-info mr-1"></i></a>
+                                <td style="text-align: center;">
+                                     <a target="_blank" href="{{ \Storage::disk('public')->url(str_replace('public/', '', $data->files[0]->file)) }}" download><i class="far fa-sharp fa-solid fa-download text-info mr-1"></i></a>
                                 </td>
                             </tr>
-                                @endforeach
+                            @endforeach
                             </tbody>
                         </table>
                     </div>

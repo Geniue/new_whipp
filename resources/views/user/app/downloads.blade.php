@@ -1,5 +1,5 @@
 @extends('user.layouts.index')
-@section('CSS')
+@section('css')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.11.6/viewer.min.css" integrity="sha512-za6IYQz7tR0pzniM/EAkgjV1gf1kWMlVJHBHavKIvsNoUMKWU99ZHzvL6lIobjiE2yKDAKMDSSmcMAxoiWgoWA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
     img.img-fluid {
@@ -7,9 +7,56 @@
         transition: transform .2s ease-in-out;
     }
 
-    img.img-fluid:hover {
-        transform: scale(1.1);
+    .zip-icon {
+        width: 100px;
+        height: 140px;
+        background-color: #5b6c7d;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-self: center;
     }
+
+    .zip-top {
+        width: 100%;
+        height: 20px;
+        background-color: #47525e;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .zip-body {
+        width: 100%;
+        height: 120px;
+        background-color: #5b6c7d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .zip-label {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .zip-body::before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 80px;
+        height: 100px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+    }
+
+
 </style>
 @endsection
 
@@ -25,8 +72,28 @@
                     @if(in_array($extension, ['jpg', 'jpeg', 'png', 'gif']))
                         <img data-original="{{ \Storage::disk('public')->url(str_replace('public/', '', $file->file)) }}" src="{{ \Storage::disk('public')->url(str_replace('public/', '', $file->file)) }}" alt="{{ $extension }}" class="img-fluid rounded-top">
                     @else
+
+                        @if(in_array($extension, ['rar', 'zip']))
+                            @if($extension == 'rar')
+                                <div class="zip-icon">
+                                    <div class="zip-top"></div>
+                                    <div class="zip-body">
+                                        <span class="zip-label">RAR</span>
+                                    </div>
+                                </div>
+                                
+                            @else
+                                <div class="zip-icon">
+                                    <div class="zip-top"></div>
+                                    <div class="zip-body">
+                                        <span class="zip-label">ZIP</span>
+                                    </div>
+                                </div>
+                            @endif
+                        @else
                         <!-- For non-image files, use an iframe or another viewer -->
                         <iframe src="{{ \Storage::disk('public')->url(str_replace('public/', '', $file->file)) }}" style="width:100%; height:200px;"></iframe>
+                        @endif
                     @endif
                     <div class="card-footer text-center">
                         <a href="{{ \Storage::disk('public')->url(str_replace('public/', '', $file->file)) }}" download class="btn btn-primary">Download</a>

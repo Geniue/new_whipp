@@ -1,9 +1,9 @@
 <!-- Sidebar for Desktop -->
 <nav id="desktop-sidebar" class="col-md-3 col-lg-2 d-md-block sidebar bg-dark">
     <ul class="nav flex-column">
-        <li class="nav-item">
+        {{-- <li class="nav-item">
             <a class="nav-link {{request()->routeIs('user.dashboard') ? 'active': ''}}" href="{{route('user.dashboard')}}" ><i class="fas fa-box me-2"></i> Home </a>
-        </li>
+        </li> --}}
         <li class="nav-item">
             <a class="nav-link {{request()->routeIs('user.products') ? 'active': ''}}" href="{{route('user.products')}}" ><i class="fas fa-box me-2"></i> Invoices</a>
         </li>
