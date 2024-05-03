@@ -46,6 +46,7 @@ User Dashboard
                         <tr>
                             <th>Name</th>
                             <th>Email</th>
+                            <th>Address</th>
                             <th>Action</th>
 							
                         </tr>
@@ -57,6 +58,7 @@ User Dashboard
                         <tr>
                             <td>{{$user->name}}</td>
                             <td>{{$user->email}}</td>
+                            <td>{{$user->address}}</td>
                             <td>
                                 <a href="{{route('user.downloads', $user->id)}}">Downloads</a>
                                 <br>
