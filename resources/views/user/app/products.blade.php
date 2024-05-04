@@ -42,7 +42,11 @@
             <tbody>
                 @foreach($invoices as $invoice)
                     @php
-                        $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
+                        if($invoice->sub_id)
+                            $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
+                        @else
+                            $checkSub = "open";
+                        @endif
                     @endphp
                     <tr>
                         <td>{{ $invoice->productName }}</td>
