@@ -44,9 +44,9 @@
                     @php
                         if($invoice->sub_id)
                             $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
-                        @else
+                        else
                             $checkSub = "open";
-                        @endif
+                        
                     @endphp
                     <tr>
                         <td>{{ $invoice->productName }}</td>
