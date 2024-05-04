@@ -42,7 +42,7 @@
             <tbody>
                 @foreach($invoices as $invoice)
                     @php
-                        $checkSub = $service->checkSubscriptionStatus($invoice->invoice_id);
+                        $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
                     @endphp
                     <tr>
                         <td>{{ $invoice->productName }}</td>
