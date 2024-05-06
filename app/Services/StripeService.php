@@ -40,7 +40,7 @@ class StripeService {
 		
 	    // dd($fee);
 
-		$items[0] = number_format($items[0] , 2,".", ""); //number_format($items[0] + $fee, 2);
+		//$items[0] = number_format($items[0] , 2,".", ""); //number_format($items[0] + $fee, 2);
 		
 
 
