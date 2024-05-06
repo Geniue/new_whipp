@@ -378,7 +378,7 @@
                 <div class="fs-4 wd-num-phone">
                     <div class="wd-nav-link position-relative">
                         <a href="{{ route('dashboard') }}">
-                            <span class=""> Login </span>
+                            <span class="" style="font-size: 1.5rem !important;"> Login </span>
                         </a>
                     </div>
                 </div>
