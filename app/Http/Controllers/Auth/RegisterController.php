@@ -130,6 +130,6 @@ class RegisterController extends Controller
         $inv->save();
 
 
-        return redirect()->route('login');
+        return redirect()->route('login')->with(["status" => "You are successfully registered!"]);
     }
 }
