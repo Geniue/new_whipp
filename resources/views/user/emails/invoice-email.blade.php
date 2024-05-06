@@ -1,5 +1,5 @@
 @component('mail::message')
-# Hurray your Whipp Digital Invoice is here!
+# A new invoice was added to your dashboard. Check it out here.
 
 Your invoice for <strong>{{$title}}</strong> is here !
 
