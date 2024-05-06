@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{route('user.dashboard')}}"><img src="{{asset('assets/imgs/logos/site_icon_128x128.png')}}"></a>
+        <a class="navbar-brand" href="{{route('user.dashboard')}}"><img src="{{asset('assets/imgs/logos/maximized_whipplogo_copy_1-Copy.png')}}"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-sidebar" aria-controls="mobile-sidebar">
             <span class="navbar-toggler-icon"></span>
         </button>

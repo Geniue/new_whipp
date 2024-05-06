@@ -9,6 +9,7 @@ return [
         'string'  => 'The :attribute must be at least :min characters.',
         'array'   => 'The :attribute must have at least :min items.',
     ],
+    'confirmed' => "Passwords don't match",
 
     // Add other validation rules as needed
 ];

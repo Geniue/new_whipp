@@ -21,7 +21,7 @@
         <nav class="navbar navbar-expand-md shadow-sm" style="background-color: #343a40 !important;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{asset('assets/imgs/logos/site_icon_128x128.png')}}">
+                    <img src="{{asset('assets/imgs/logos/maximized_whipplogo_copy_1-Copy.png')}}">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

@@ -61,7 +61,7 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'address' => ['required', 'string', 'max:255'],
+            'state' => ['required', 'string', 'max:255'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -79,7 +79,7 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'address' => $data['address'],
+            'state' => $data['state'],
             'password' => Hash::make($data['password']),
         ]);
     }
@@ -97,14 +97,17 @@ class RegisterController extends Controller
         $data = $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'address' => ['required', 'string', 'max:255'],
+            'state' => ['required', 'string', 'max:255'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'uniqId' => ['required']
         ],[
-            'password.min' => 'Please use a longer password',
+            'password.min' => 'Please use a longer password.',
+            'password.confirmed' => "Passwords don't match.",
             'email.unique' => 'You already registered using this email!',
-            'address' => 'You need to provide an address'
+            'state.required' => 'You need to provide your state.'
         ]);
+
+        
 
         $inv = InvitedUsersModel::where('uniq_id', $data['uniqId'])->get()[0] ?? abort(404);
 
@@ -114,12 +117,12 @@ class RegisterController extends Controller
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'address' => $data['address'],
+            'state' => $data['state'],
             'password' => Hash::make($data['password']),
             'stripe_id' => $inv->stripe_id,
             'email_verified_at' => now()->format("Y-m-d H:i:s")
         ]);
-
+        // dd($data['state']);
 
         foreach ($inv->invoices as $invoice) {
             $invoice->user_id = $user->id;

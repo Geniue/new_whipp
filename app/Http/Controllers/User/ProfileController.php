@@ -44,6 +44,10 @@ class ProfileController extends Controller
         
         // If email is not changed, update other fields
         $user->name = $request->name;
+        $user->address = $request->address;
+        $user->state = $request->state;
+        $user->city = $request->city;
+        $user->zip = $request->zip;
         $user->save();
 
         // If email is changed, start the double verification process
