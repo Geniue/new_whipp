@@ -150,10 +150,9 @@ class PaymentController extends Controller
             Log::error('Stripe API error: ' . $e->getMessage());
             return redirect()->back()->withErrors(['payment' => 'Payment gateway error. Please try again later.']);
         } catch (\Exception $e) {
-            dd($e->getMessage());
             // Catch any other errors
             \Log::error('General error when trying to pay invoice: ' . $e->getMessage());
-            return redirect()->back()->withErrors(['payment' => 'An error occurred. Please try again later.']);
+            return redirect()->back()->withErrors(['payment' => $e->getMessage()]);
         }
     }
 
