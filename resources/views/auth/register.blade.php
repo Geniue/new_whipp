@@ -1,6 +1,20 @@
 @extends('layouts.app')
 
 @section('content')
+@php
+$us_states = [
+            "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", 
+            "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", 
+            "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
+            "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", 
+            "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", 
+            "New Hampshire", "New Jersey", "New Mexico", "New York", 
+            "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", 
+            "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", 
+            "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", 
+            "West Virginia", "Wisconsin", "Wyoming"
+        ];
+@endphp
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -39,12 +53,56 @@
                             </div>
                         </div>
                         <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('State') }}</label>
+                            <label for="state" class="col-md-4 col-form-label text-md-end">{{ __('State') }}</label>
 
                             <div class="col-md-6">
-                                <input id="address" type="text" class="form-control @error('state') is-invalid @enderror" name="state" required autocomplete="state">
+                                <select id="state" type="text" class="form-control @error('state') is-invalid @enderror" name="state" required autocomplete="state">
+                                        <option disabled selected>Select your state</option>
+                                    @foreach($us_states as $state)
+                                        <option value="{{$state}}">{{ $state }}</option>
+                                    @endforeach
+                                </select>
 
                                 @error('state')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="address" class="col-md-4 col-form-label text-md-end">{{ __('Address') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="address" type="text" class="form-control @error('address') is-invalid @enderror" name="address" required autocomplete="address">
+
+                                @error('address')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="city" class="col-md-4 col-form-label text-md-end">{{ __('City') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="city" type="text" class="form-control @error('city') is-invalid @enderror" name="city" required autocomplete="city">
+
+                                @error('city')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <label for="zip" class="col-md-4 col-form-label text-md-end">{{ __('Zip') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="zip" type="text" class="form-control @error('zip') is-invalid @enderror" name="zip" required autocomplete="zip">
+
+                                @error('zip')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

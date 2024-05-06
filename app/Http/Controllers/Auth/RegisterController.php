@@ -62,6 +62,9 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'state' => ['required', 'string', 'max:255'],
+            'address' => ['string', 'max:255'],
+            'city' => ['string', 'max:255'],
+            'zip' => ['string', 'max:255'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -80,6 +83,9 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'state' => $data['state'],
+            'address' => $data['address'],
+            'city' => $data['city'],
+            'zip' => $data['zip'],
             'password' => Hash::make($data['password']),
         ]);
     }
@@ -89,7 +95,21 @@ class RegisterController extends Controller
     {
         $inv = InvitedUsersModel::where('uniq_id', $slug)->get()[0] ?? abort(404);
 
-        return view('auth.register_invited_users', compact('inv'));
+        $us_states = [
+            "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", 
+            "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", 
+            "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", 
+            "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", 
+            "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", 
+            "New Hampshire", "New Jersey", "New Mexico", "New York", 
+            "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", 
+            "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", 
+            "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", 
+            "West Virginia", "Wisconsin", "Wyoming"
+        ];
+
+
+        return view('auth.register_invited_users', compact('inv', 'us_states'));
     }
 
     protected function register_current(Request $request)
@@ -98,6 +118,9 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'state' => ['required', 'string', 'max:255'],
+            'address' => ['string', 'max:255'],
+            'city' => ['string', 'max:255'],
+            'zip' => ['string', 'max:255'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'uniqId' => ['required']
         ],[
@@ -118,6 +141,9 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'state' => $data['state'],
+            'address' => $data['address'],
+            'city' => $data['city'],
+            'zip' => $data['zip'],
             'password' => Hash::make($data['password']),
             'stripe_id' => $inv->stripe_id,
             'email_verified_at' => now()->format("Y-m-d H:i:s")
