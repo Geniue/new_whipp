@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Dashboard;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Facades\Mail;
 
 
 use App\Models\WorkModel;
@@ -14,6 +15,10 @@ use App\Models\StripeInvoicesModel;
 
 //SERVICES
 use App\Services\StripeService;
+
+
+//MAILABLE
+use App\Mail\SendProductEmail;
 
 class WorkController extends Controller
 {
