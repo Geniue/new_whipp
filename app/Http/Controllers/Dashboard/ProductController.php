@@ -19,6 +19,7 @@ use App\Services\StripeService;
 
 //MAILABLE
 use App\Mail\SendProductEmail;
+use App\Mail\InvoiceEmail;
 
 class ProductController extends Controller
 {
