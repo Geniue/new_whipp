@@ -37,9 +37,9 @@
     </div>
     <div class="offcanvas-body">
         <ul class="nav flex-column sidebar">
-            <li class="nav-item">
+            {{-- <li class="nav-item">
                 <a class="nav-link {{request()->routeIs('user.dashboard') ? 'active': ''}}" href="{{route('user.dashboard')}}"><i class="fas fa-tachometer-alt me-2"></i> Dashboard</a>
-            </li>
+            </li> --}}
             <li class="nav-item">
                 <a class="nav-link {{request()->routeIs('user.products') ? 'active': ''}}" href="{{route('user.products')}}" ><i class="fas fa-box me-2"></i> Products</a>
             </li>
@@ -58,7 +58,8 @@
             <li class="nav-item">
                 <form method="POST" action="/logout">
                     @csrf
-                    <button class="nav-link" type="submit"><i class="fas fa-sign-out-alt me-2"></i> Logout</button>
+                    <a id="logout" class="nav-link" href="#"><i class="fas fa-sign-out-alt me-2"></i> Logout</a>
+                    <button id="submitlogout" type="submit" hidden></button>
                 </form>
             </li>
 

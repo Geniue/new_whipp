@@ -116,6 +116,12 @@
             e.preventDefault();
             $("#logout-form").submit();
         })
+
+
+        $(document).on("click", "#logout", function(e) {
+            e.preventDefault();
+            $("#submitlogout").click();
+        })
     </script>
     @yield('js')
 </body>

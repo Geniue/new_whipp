@@ -62,7 +62,7 @@ User Dashboard
                             <td>
                                 <a href="{{route('user.downloads', $user->id)}}">Downloads</a>
                                 <br>
-                                <a href="{{route('user.upload', $user->id)}}">Add Work</a>
+                                <a href="{{route('user.invoices', $user->id)}}">Add Work</a>
                             </td>
                         </tr>
                         @endforeach

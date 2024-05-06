@@ -128,8 +128,10 @@ class DashboardController extends Controller
 
         $work = $user->work;
 
+        // dd($work);
+        $service = $this->service;
 
-        return view('user.app.work', compact('user', 'work'));
+        return view('user.app.work', compact('user', 'work', 'service'));
     }
 
 

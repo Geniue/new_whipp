@@ -10,6 +10,10 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Http\Request;
 
+
+//SERVICES
+use App\Services\StripeService;
+
 //MODELS
 use App\Models\InvitedUsersModel;
 
@@ -40,9 +44,10 @@ class RegisterController extends Controller
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(StripeService $service)
     {
         $this->middleware('guest');
+        $this->service = $service;
     }
 
     /**
@@ -69,6 +74,8 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+
+        $customer = $this->service->createCustomer(['name' => $data['name'], 'email' => $data['email']]);
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],

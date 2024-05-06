@@ -20,4 +20,11 @@ class WorkModel extends Model
     {
         return $this->hasMany(FilesModel::class, 'work_id');
     }
+
+
+
+    public function subscription()
+    {
+        return $this->belongsTo(StripeInvoicesModel::class, 'invoice_id');
+    }
 }

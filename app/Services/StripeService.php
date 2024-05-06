@@ -187,6 +187,8 @@ class StripeService {
     public function checkSubscriptionStatus($subscriptionId) {
         $subscription = $this->client->subscriptions->retrieve($subscriptionId);
 
+        // dd($subscription);
+
         $isSubscriptionActive = $subscription->status === 'active';
         $isAutoRenewal = !$subscription->cancel_at_period_end;
 

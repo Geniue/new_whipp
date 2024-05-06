@@ -19,6 +19,8 @@ return new class extends Migration
             $table->longText('description');
             $table->unsignedBigInteger('user_id')->nullable();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+            $table->unsignedBigInteger('invoice_id')->nullable();
+            $table->foreign('invoice_id')->references('id')->on('stripe_invoices')->onDelete('cascade');
             $table->timestamps();
         });
     }

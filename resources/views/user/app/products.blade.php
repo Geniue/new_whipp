@@ -45,7 +45,7 @@
                         if($invoice->sub_id)
                             $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
                         else
-                            $checkSub = "open";
+                            $checkSub['status'] = "open";
                         
                     @endphp
                     <tr>

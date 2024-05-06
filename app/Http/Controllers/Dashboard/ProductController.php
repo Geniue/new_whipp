@@ -138,7 +138,7 @@ class ProductController extends Controller
             'customer.required' => 'Please provide a required customer',
             'customer.exists' => 'The selected customer is invalid or does not exist in our databases.'
         ]);
-
+        // dd($user);
 
         $user = User::where('id', $data['customer'])->get()[0];
 

@@ -118,7 +118,8 @@ Route::middleware(['auth'])->group(function () {
                 Route::get('/', [$main_c, 'index'])->name('user.list');
                 Route::get('/create', [$main_c, 'create'])->name('user.create');
                 Route::post('/create', [$main_c, 'store'])->name('user.store');
-                Route::get('{id}/upload', [App\Http\Controllers\Dashboard\WorkController::class, 'index'])->name('user.upload');
+                Route::get('{id}/upload', [App\Http\Controllers\Dashboard\WorkController::class, 'upload'])->name('user.upload');
+                Route::get('{id}/invoices', [App\Http\Controllers\Dashboard\WorkController::class, 'index'])->name('user.invoices');
                 Route::post('{id}/upload', [App\Http\Controllers\Dashboard\WorkController::class, 'store'])->name('user.upload.save');
                 Route::get('{id}/work', [App\Http\Controllers\Dashboard\WorkController::class, 'view_work'])->name('user.work');
                 Route::get('{id}/downloads', [App\Http\Controllers\Dashboard\WorkController::class, 'listDownloads'])->name('user.downloads');
