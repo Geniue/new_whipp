@@ -31,7 +31,7 @@ class SendProductEmail extends Mailable
      */
     public function build()
     {
-        $url = env("APP_URL") . "customer/dashboard/work";
+        $url = env("APP_URL") . "/customer/dashboard/work";
 
         return $this->subject('Product Arrival Whipp Digital')
         ->markdown('user.emails.product-email', ['url' => $url])->from("support@whippdigital.com", 'Whipp Digital');

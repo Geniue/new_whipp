@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invoice</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
+@extends('dashboard.master')
+@section('Title')
+Invoice 
+@endsection
+@section('content')
     <div class="container mt-5">
         <div class="card">
             <div class="card-header bg-primary text-white">
@@ -21,7 +17,7 @@
                 @if($invoiceStatus !== 'paid')
                     <!-- If the invoice is not paid, display the link to the hosted invoice URL -->
                     <div class="mb-3">
-                        <a href="{{ $hostedInvoiceUrl }}" target="_blank" class="btn btn-primary">Pay Invoice</a>
+                        <storng>Un-paid</strong>
                     </div>
                 @endif
                 <div class="row mb-4">
@@ -79,5 +75,4 @@
         </div>
     </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+@endsection
