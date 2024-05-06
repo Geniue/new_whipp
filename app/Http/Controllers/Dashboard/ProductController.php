@@ -174,7 +174,10 @@ class ProductController extends Controller
             ]);
         }
 
-        Mail::to($inv->user->email)->send(new SendProductEmail($inv->uniqId));
+
+        $url = env("APP_URL") . "/customer/cards/products/pay/" . $inv->uniqId;
+        $name = $inv->stripe_price['product']->name;
+        Mail::to($inv->user->email)->send(new InvoiceEmail($url, $name));
 
         return redirect()->route('invoice.url', $inv->uniqId);
     }

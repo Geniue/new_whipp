@@ -2,7 +2,7 @@
 # A new product download is now available on your dashboard
 
 @component('mail::button', ['url' => $url])
-Check Invoice
+Check Downloads
 @endcomponent
 
 If you did not expect this invitation or believe it was sent in error, please ignore this email.

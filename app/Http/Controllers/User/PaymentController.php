@@ -130,8 +130,8 @@ class PaymentController extends Controller
             $inv = $service->payInvoiceWithPaymentMethod($invoiceId, $paymentMethodId);
             $invoice_url = $inv->hosted_invoice_url;
 
-
-            Mail::to(auth()->user()->email)->send(new InvoiceEmail($invoice_url, $invoice->stripe_price['product']->name));
+            $url = env("APP_URL") . "/customer/dashboard/invoices";
+            Mail::to(auth()->user()->email)->send(new InvoiceEmail($url, $invoice->stripe_price['product']->name));
             return redirect()->route('user.products')->with('success', 'Invoice paid successfully!');
         } catch (Stripe\Exception\CardException $e) {
             $body = $e->getJsonBody();

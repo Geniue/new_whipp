@@ -158,6 +158,9 @@ class WorkController extends Controller
             }
         }
 
+
+        Mail::to($inv->user->email)->send(new SendProductEmail($inv->uniqId));
+
         return redirect()->route('user.downloads', $work->user_id)->with('success', 'Work saved successfully!');
     }
 
