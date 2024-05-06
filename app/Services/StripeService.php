@@ -167,7 +167,7 @@ class StripeService {
             'collection_method' => 'send_invoice', // Set the collection method to send_invoice
         	'days_until_due' => 14, // This sets the number of days the customer has to pay the invoice. You can adjust as needed.
         ]);
-		// $this->finalizeInvoice($sub->latest_invoice);
+		$this->finalizeInvoice($sub->latest_invoice);
 
         return $sub;
     }
