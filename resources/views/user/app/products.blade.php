@@ -43,21 +43,18 @@
                 @foreach($invoices as $invoice)
                     @php
                         $boolInv = false;
+                        $stat = $invoice->stripe_invoice->status;
                         if($invoice->sub_id){
                             $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
                             $boolInv = true;
                         }
-                        else {
-                            $one_time_inv = $invoice->stripe_invoice->status;
-                        }
-                        
                     @endphp
                     <tr>
                         <td>{{ $invoice->productName }}</td>
                         <td>{{ $invoice->productDescription }}</td>
                         <td>${{ number_format($invoice->unit_amount / 100, 2) }}</td>
                         <td>{{$invoice->type == 'one_time' ? 'One Time Payment' : ($invoice->type == 'week' ? 'Weekly Payment' : ($invoice->type == 'month' ? 'Monthly Payment' : ($invoice->type == 'year' ? 'Yearly Payment' : '')))}}</td>
-                        <td>{{ $boolInv ? str_replace("_", " ", $checkSub['status']) : ($one_time_inv == "open" ? "Un-paid" : "Paid") }}</td>
+                        <td>{{  $stat == "open" ? "Un-paid" : "Paid" }}</td>
                         <td>
                             
                             @if($boolInv)
@@ -72,7 +69,7 @@
 
                                 @endif
                             @else
-                                @if($one_time_inv == "open")
+                                @if($stat == "open")
                                     <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
                                 @else
                                     <a href="{{ $invoice->hosted_invoice_url }}" type="_blank" class="btn btn-primary">Your Invoice</a>
