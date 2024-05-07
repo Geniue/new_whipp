@@ -44,7 +44,7 @@ class StripeService {
 		
 
 
-		// dd($items[0]);
+		
 	    // Replace this constant with a calculation of the order's amount
 	    $items[0] *= 100;
 	    
@@ -67,8 +67,8 @@ class StripeService {
 	public function create_price_for_product($product_id, $amount, $currency = 'usd', $recurring = null)
 	{
 		$amount = $this->calculateOrderAmount([$amount]);
-
-		// dd($recurring);
+		error_log("Calculated Amount: " . $amount);  // Log to check the amount
+		//dd($amount);
 
 	    $price_data = [
 	        'product' => $product_id,
@@ -110,27 +110,60 @@ class StripeService {
      * @return \Stripe\Invoice
      */
     public function createInvoice($customerId, $priceId) {
-        // Add an invoice item for the price to the customer.
-        $this->client->invoiceItems->create([
-            'customer' => $customerId,
-            'price' => $priceId,
-        ]);
+		
+		
+		// Create an invoice for the customer
+		$invoice = $this->client->invoices->create([
+			'customer' => $customerId,
+			'collection_method' => 'send_invoice',
+			'auto_advance' => true, // Auto-finalize this draft after ~1 hour,
+			'days_until_due' => 30,
+		]);
+		
+		
+		// First, add an invoice item for the price to the customer.
+		// Create an invoice item for the price to the customer.
+		$invoiceItem = $this->client->invoiceItems->create([
+			'customer' => $customerId,
+			'price' => $priceId,
+			'invoice' => $invoice->id
+			
+		]);
 
-        // Create an invoice for the customer.
-        $invoice = $this->client->invoices->create([
-            'customer' => $customerId,
-            // 'auto_advance' => true, // Auto-finalize this draft after ~1 hour
-        ]);
+		// Log for debugging
+		error_log("Invoice Item Created: " . json_encode($invoiceItem));
 
-        
+		if ($invoiceItem->amount <= 0) {
+			throw new \Exception("Failed to create a valid invoice item. Amount is zero.");
+		}
 
-        // Return the created invoice.
-        return $this->finalizeInvoice($invoice->id);
+		
+
+		// Log for debugging
+		error_log("Invoice Created: " . json_encode($invoice));
+
+		// Check if the invoice has a non-zero amount
+		if ($invoice->total > 0) {
+			return $invoice;
+		} else {
+			// Optionally, attempt to manually finalize the invoice if not auto advancing
+			return $this->finalizeInvoice($invoice->id);
+		}
     }
-
+	
+	
     private function finalizeInvoice($id)
     {
-    	return $this->client->invoices->finalizeInvoice($id);
+    	
+		$invoice = $this->client->invoices->finalizeInvoice($id, [
+			'auto_advance' => true // This will automatically finalize and attempt to collect payment
+		]);
+
+		if ($invoice->total <= 0) {
+			throw new \Exception("Invoice finalized with zero total. Invoice ID: {$invoice->id}");
+		}
+
+		return $invoice;
 
     }
 

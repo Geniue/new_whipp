@@ -42,10 +42,14 @@
             <tbody>
                 @foreach($invoices as $invoice)
                     @php
-                        if($invoice->sub_id)
+                        $boolInv = false;
+                        if($invoice->sub_id){
                             $checkSub = $service->checkSubscriptionStatus($invoice->sub_id);
-                        else
-                            $checkSub['status'] = "open";
+                            $boolInv = true;
+                        }
+                        else {
+                            $one_time_inv = $invoice->stripe_invoice->status;
+                        }
                         
                     @endphp
                     <tr>
@@ -53,17 +57,26 @@
                         <td>{{ $invoice->productDescription }}</td>
                         <td>${{ number_format($invoice->unit_amount / 100, 2) }}</td>
                         <td>{{$invoice->type == 'one_time' ? 'One Time Payment' : ($invoice->type == 'week' ? 'Weekly Payment' : ($invoice->type == 'month' ? 'Monthly Payment' : ($invoice->type == 'year' ? 'Yearly Payment' : '')))}}</td>
-                        <td>{{ str_replace("_", " ", $checkSub['status']) }}</td>
+                        <td>{{ $boolInv ? str_replace("_", " ", $checkSub['status']) : ($one_time_inv == "open" ? "Un-paid" : "Paid") }}</td>
                         <td>
-                            @if(!$checkSub['is_active'])
-                                <a href="{{ route('user.renew', $invoice->uniqId) }}" class="btn btn-primary">Renew</a>
+                            
+                            @if($boolInv)
+                                @if(!$checkSub['is_active'])
+                                    <a href="{{ route('user.renew', $invoice->uniqId) }}" class="btn btn-primary">Renew</a>
+                                @else
+                                    @if($invoice->inv_stat == "open")
+                                        <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
+                                    @else
+                                        <a href="{{ $invoice->hosted_invoice_url }}" type="_blank" class="btn btn-primary">Your Invoice</a>
+                                    @endif
+
+                                @endif
                             @else
-                                @if($invoice->inv_stat == "open")
+                                @if($one_time_inv == "open")
                                     <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
                                 @else
                                     <a href="{{ $invoice->hosted_invoice_url }}" type="_blank" class="btn btn-primary">Your Invoice</a>
                                 @endif
-                                
                             @endif
                         </td>
                     </tr>
