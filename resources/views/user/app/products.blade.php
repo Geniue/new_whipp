@@ -72,7 +72,7 @@
                                 @if($stat == "open")
                                     <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
                                 @else
-                                    <a href="{{ explode('?s=ap', $service->retrieveReceipt($invoice->stripe_invoice->payment_intent))[0] . '/pdf?s=ap' }}" type="_blank" class="btn btn-primary">Your Invoice</a>
+                                    <a href="{{ explode('?s=ap', $service->retrieveReceipt($invoice->stripe_invoice->payment_intent))[0] . '/pdf?s=ap' }}" type="_blank" class="btn btn-primary">Your Receipt</a>
                                 @endif
                             @endif
                         </td>
