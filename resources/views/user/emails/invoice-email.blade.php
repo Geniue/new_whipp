@@ -1,8 +1,6 @@
 @component('mail::message')
 # A new invoice was added to your dashboard. Check it out here.
 
-Your invoice for <strong>{{$title}}</strong> is here !
-
 @component('mail::button', ['url' => $url])
 Check Invoice
 @endcomponent

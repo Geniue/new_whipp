@@ -37,7 +37,6 @@
                 <th>Card Type</th>
                 <th>Last Four</th>
                 <th>Expiry</th>
-                <th>Default Card</th>
             </tr>
         </thead>
         <tbody>
@@ -62,7 +61,7 @@
                     </td>
                     <td>{{ $method->card->last4 }}</td>
                     <td>{{ $method->card->exp_month }}/{{ $method->card->exp_year }}</td>
-                    <td>
+                    {{-- <td>
 			            @if( !$user->defaultPaymentMethod() || $user->defaultPaymentMethod()->id !== $method->id)
 			                <form action="{{ route('set.default.card') }}" method="POST">
 			                    @csrf
@@ -72,7 +71,7 @@
 			            @else
 			                <span class="badge badge-success">Default</span>
 			            @endif
-			        </td>
+			        </td> --}}
                 </tr>
             @endforeach
         </tbody>

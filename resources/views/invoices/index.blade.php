@@ -11,15 +11,15 @@ Invoice
             <div class="card-body">
                 <!-- Display the Invoice Status -->
                 <div class="mb-3">
-                    <strong>Status:</strong> {{ $invoiceStatus }}
+                    <strong>Status:</strong> 
+                    @if($invoiceStatus !== 'paid')
+                        Unpaid
+                    @else
+                        Paid
+                    @endif
                 </div>
                 
-                @if($invoiceStatus !== 'paid')
-                    <!-- If the invoice is not paid, display the link to the hosted invoice URL -->
-                    <div class="mb-3">
-                        <storng>Un-paid</strong>
-                    </div>
-                @endif
+                
                 <div class="row mb-4">
                     <div class="col-sm-6">
                         <h6 class="mb-3">From:</h6>

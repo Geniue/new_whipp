@@ -54,7 +54,7 @@
                         <td>{{ $invoice->productDescription }}</td>
                         <td>${{ number_format($invoice->unit_amount / 100, 2) }}</td>
                         <td>{{$invoice->type == 'one_time' ? 'One Time Payment' : ($invoice->type == 'week' ? 'Weekly Payment' : ($invoice->type == 'month' ? 'Monthly Payment' : ($invoice->type == 'year' ? 'Yearly Payment' : '')))}}</td>
-                        <td>{{  $stat == "open" ? "Un-paid" : "Paid" }}</td>
+                        <td>{{  $stat == "open" ? "Unpaid" : "Paid" }}</td>
                         <td>
                             
                             @if($boolInv)
