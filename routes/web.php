@@ -158,6 +158,7 @@ Route::middleware(['auth'])->group(function () {
         Route::prefix('customer/dashboard')->group(function () {
             $main_c = App\Http\Controllers\User\DashboardController::class;
             Route::get('/', [$main_c, 'index'])->name('user.dashboard');
+            Route::get('/receipt/{slug}', [$main_c, 'view_receipt'])->name('receipt');
             Route::get('/invoices', [$main_c, 'index_products'])->name('user.products');
             Route::get('/invoices/list', [$main_c, 'listInvoices'])->name('user.products.list');
             Route::get('{id}/download', [$main_c, 'download_page'])->name('customer.downloads');

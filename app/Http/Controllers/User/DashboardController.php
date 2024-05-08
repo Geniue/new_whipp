@@ -11,6 +11,7 @@ use App\Services\StripeService;
 
 //MODELS
 use App\Models\WorkModel;
+use App\Models\StripeInvoicesModel;
 
 class DashboardController extends Controller
 {
@@ -132,6 +133,18 @@ class DashboardController extends Controller
         $service = $this->service;
 
         return view('user.app.work', compact('user', 'work', 'service'));
+    }
+
+
+    public function view_receipt($slug)
+    {
+        $server_invoice = StripeInvoicesModel::where('uniqId', $slug)->get()[0] ?? abort(404);
+
+        $receiptURL = $this->service->retrieveReceipt($server_invoice->stripe_invoice->payment_intent);
+
+
+        return view('user.app.receipt', compact('receiptURL'));
+
     }
 
 
