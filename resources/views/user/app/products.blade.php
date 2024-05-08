@@ -64,7 +64,7 @@
                                     @if($invoice->inv_stat == "open")
                                         <a href="{{ route('user.pay', $invoice->uniqId) }}" class="btn btn-primary">Pay Now</a>
                                     @else
-                                        <a href="{{ $invoice->hosted_invoice_url }}" type="_blank" class="btn btn-primary">Your Invoice</a>
+                                        <a href="{{ $service->retrieveReceipt($invoice->stripe_invoice->payment_intent) }}" type="_blank" class="btn btn-primary">Your Receipt</a>
                                     @endif
 
                                 @endif

@@ -289,4 +289,24 @@ class StripeService {
         return $titles;
     }
 
+    public function retrieveReceipt($paymentIntentId)
+	{
+	    try {
+	        // Retrieve the payment intent
+	        $paymentIntent = $this->client->paymentIntents->retrieve($paymentIntentId);
+
+	        // Check if there is a receipt URL available
+	        if (!empty($paymentIntent->charges->data[0]->receipt_url)) {
+	            return $paymentIntent->charges->data[0]->receipt_url;
+	        } else {
+	            return 'No receipt URL available';
+	        }
+	    } catch (\Stripe\Exception\ApiErrorException $e) {
+	        // Handle API error (e.g., payment intent not found)
+	        error_log('Error retrieving payment intent: ' . $e->getMessage());
+	        return null;
+	    }
+	}
+
+
 }
