@@ -137,10 +137,8 @@ class WorkController extends Controller
             'files.*' => 'required|file|mimes:jpeg,png,jpg,doc,pdf,txt,docx,gif,rar,zip',
         ]);
 
-        // dd($validatedData);
-
-        $inv = StripeInvoicesModel::where('uniqId', $id)->get()[0] ?? abort(404);
-
+        // Retrieve the invoice or abort if not found
+        $inv = StripeInvoicesModel::where('uniqId', $id)->firstOrFail();
 
         $user_id = $inv->user_id;
         $invoice_id = $inv->id;
@@ -154,7 +152,12 @@ class WorkController extends Controller
 
         if ($request->hasFile('files')) {
             foreach ($request->file('files') as $file) {
-                $path = $file->store('public/uploads');
+                // Preserve the original file name securely
+                $originalName = $file->getClientOriginalName();
+                $safeFilename = pathinfo($originalName, PATHINFO_FILENAME);
+                $extension = $file->getClientOriginalExtension();
+                $storedFilename = $safeFilename . '_' . time() . '.' . $extension;
+                $path = $file->storeAs('public/uploads', $storedFilename);
 
                 $fileModel = new FilesModel();
                 $fileModel->file = $path;
@@ -162,7 +165,6 @@ class WorkController extends Controller
                 $fileModel->save();
             }
         }
-
 
         Mail::to($inv->user->email)->send(new SendProductEmail($inv->uniqId));
 
