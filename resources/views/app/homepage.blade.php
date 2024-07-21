@@ -715,7 +715,7 @@
                     </div>
                     <div>
                         <p class="feture-pare fs-5">
-                            Whipp Digital is a comprehensive digital marketing agency that has been offering a broad spectrum of services across various industries since 2005. Our suite of digital marketing solutions encompasses consulting and management for an array of online marketing strategies, such as search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. Additionally, we provide specialized web design and development services tailored for both eCommerce and B2B enterprises. Don't settle for just any digital marketing agency; choose a partner you can rely on. 
+                            Whipp Digital is a comprehensive digital marketing agency that has been offering a broad spectrum of services across various industries since 2020. Our suite of digital marketing solutions encompasses consulting and management for an array of online marketing strategies, such as search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store optimization, copywriting, conversion rate optimization (CRO), and more. Additionally, we provide specialized web design and development services tailored for both eCommerce and B2B enterprises. Don't settle for just any digital marketing agency; choose a partner you can rely on. 
                             </b>
 
                          </p>
