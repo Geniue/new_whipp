@@ -151,7 +151,22 @@ Route::middleware(['auth'])->group(function () {
 
                 Route::get('/delete/{id}', [$blog_controller, 'delete'])->name('blog.delete');
             });
+
+
+            // PAYMENT ROUTES 
+            Route::prefix('payment')->group(function () {
+
+                //Main controller
+                $c = App\Http\Controllers\Dashboard\StripePaymentsController::class;
+
+                //Index for services
+                Route::get('/', [$c, 'index'])->name('payment');
+                Route::post('/', [$c, 'presubmit'])->name('presubmit');
+                Route::get('/success', [$c, 'success'])->name('success');
+            });
         });
+
+
     });
 
     Route::middleware(['customer', 'verified'])->group(function () {

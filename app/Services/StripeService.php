@@ -9,7 +9,7 @@ class StripeService {
 	function __construct()
 	{
 
-		$this->client = new \Stripe\StripeClient(env('STRIPE_SECRET'));
+		$this->client = new \Stripe\StripeClient(env('STRIPE_LIVE_SECRET'));
 
 	}
 
