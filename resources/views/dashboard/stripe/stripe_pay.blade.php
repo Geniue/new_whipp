@@ -12,7 +12,7 @@
     <input id="amount" value="{{$amount}}" hidden>
     <input id="secret" value="{{$client_secret}}" hidden>
     <input id="uniqid" value="{{$uniq}}" hidden>
-    <input id="keykey" value="{{env('STRIPE_LIVE')}}" hidden>
+    <input id="keykey" value="{{env('STRIPE_KEY')}}" hidden>
     <script type="text/javascript">
       const value = $("#amount").val();
       const secret = $("#secret").val();
