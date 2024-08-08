@@ -164,6 +164,15 @@ Route::middleware(['auth'])->group(function () {
                 Route::post('/', [$c, 'presubmit'])->name('presubmit');
                 Route::get('/success', [$c, 'success'])->name('success');
             });
+
+
+            Route::prefix('payments')->group(function () {
+                $payment_controller = App\Http\Controllers\Dashboard\PaymentsController::class;
+
+                Route::get('/', [$payment_controller, 'index'])->name('payments.list');
+
+                Route::get('/{slug}', [$payment_controller, 'payment'])->name('dashboard.payment');
+            });
         });
 
 
